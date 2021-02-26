@@ -12,7 +12,7 @@ public class CharacterAbilities : MonoBehaviour
 
     public Dictionary<string, Func<Character, int>> AbilityDictionary = new Dictionary<string, Func<Character, int>>();
 
-    void Awake()
+    protected virtual void Awake()
     {
         _characterEvents = GetComponent<CharacterEvents>();
 
@@ -20,26 +20,26 @@ public class CharacterAbilities : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         
     }
 
-    public void SelectTarget(Character target)
+    public virtual void SelectTarget(Character target)
     {
         _currentTarget = target;
     }
 
-    public int NormalAttack(Character target)
+    public virtual int NormalAttack(Character target)
     {
         _characterEvents.NormalAttack();
-        Debug.Log(target.name + "GGGGG");
+        Debug.Log(target._health + "<- health");
         return 0;
     }
 }

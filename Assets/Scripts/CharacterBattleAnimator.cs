@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterAnimator : MonoBehaviour
+public class CharacterBattleAnimator : MonoBehaviour
 {
     const string NORMAL_ATTACK_TRIGGER = "NormalAttackTrigger";
 

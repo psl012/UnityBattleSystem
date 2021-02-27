@@ -10,6 +10,7 @@ public class CharacterPanel : MonoBehaviour
     Character[] _playerTargetChars;
     Character[] _enemyTargetChars;
 
+
     void Awake()
     {
         _playerTargetChars = FindObjectsOfType<Player>();
@@ -33,6 +34,7 @@ public class CharacterPanel : MonoBehaviour
     public void FightButton()
     {
         _targetManager.SetAbility(nameof(_characterAbilities.NormalAttack), BattleEnums.TargetType.Enemy);
+        BattleEvents._battleEvents.FightButtonPress();
     }
 
     public void ChangeTargetButton(string direction)

@@ -6,7 +6,7 @@ using UnityEngine;
 public enum BattleState {PlayerTurn, EnemyTurn, Win, Lose}
 public class BattleSystem : MonoBehaviour
 {
-    BattleEvents _battleEvents;
+  //  BattleEvents _battleEvents;
     Player[] _players;
     Enemy[] _enemies;
     Character[] _battleOrder;
@@ -22,19 +22,16 @@ public class BattleSystem : MonoBehaviour
 
     void Awake()
     {
-        _battleEvents = GetComponent<BattleEvents>();
         _players = FindObjectsOfType<Player>();
-        _enemies = FindObjectsOfType<Enemy>();
-        
-        _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed); 
-
-        _battleEvents.onEndTurn += NextCharacter;       
+        _enemies = FindObjectsOfType<Enemy>();       
     }
 
     // Start is called before the first frame update
     void Start()
     {
-       SetUpStateMachine();
+        BattleEvents._battleEvents.onEndTurn += NextCharacter;
+        _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);       
+        SetUpStateMachine();
     }
 
     // Update is called once per frame
@@ -59,7 +56,7 @@ public class BattleSystem : MonoBehaviour
     void SetUpStateMachine()
     {
         currentCharacter = _battleOrder[0];
-        var _statePlayerTurn = new State_PlayerTurn(_battleEvents, currentCharacter);
+        var _statePlayerTurn = new State_PlayerTurn(BattleEvents._battleEvents, currentCharacter);
         var _stateEnemyTurn = new State_EnemyTurn();
         var _stateWin = new State_Win();
         var _stateLose = new State_Lose();
@@ -108,7 +105,7 @@ public class BattleSystem : MonoBehaviour
 
     void OnDestroy()
     {
-        _battleEvents.onEndTurn -= NextCharacter;   
+        BattleEvents._battleEvents.onEndTurn -= NextCharacter;   
     }
     
 }

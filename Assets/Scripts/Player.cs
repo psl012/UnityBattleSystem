@@ -9,9 +9,7 @@ public class Player : Character
     public override void Awake()
     {
         base.Awake();
-        _maxHealth = _health;
-        _maxMana = _mana;
-        _specialPoints = 0;
+
     }
 
     // Start is called before the first frame update

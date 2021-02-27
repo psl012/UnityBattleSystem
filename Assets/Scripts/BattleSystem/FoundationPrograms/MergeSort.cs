@@ -84,8 +84,8 @@ class MergeSort
                             break;
 
                         case SortType.Eva:
-                            leftArgument = left[indexLeft]._evasionPower; 
-                            rightArgument = right[indexRight]._evasionPower; 
+                            leftArgument = left[indexLeft]._dexterity; 
+                            rightArgument = right[indexRight]._dexterity; 
                             break;
 
                         case SortType.Health:

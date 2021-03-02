@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class State_PlayerTurn : IState
 {
-    BattleEvents _battleEvents;
+    BattleSystem _battleSystem;
     Character _player;
 
-    public State_PlayerTurn(BattleEvents battleEvents, Character player)
+    public State_PlayerTurn(BattleSystem battleSystem, Character player)
     {
-        _battleEvents = battleEvents;
+        _battleSystem = battleSystem;
     }
     // Start is called before the first frame update
     public void Tick()
@@ -19,7 +19,8 @@ public class State_PlayerTurn : IState
 
     public void OnEnter()
     {
-        _battleEvents.PlayerTurn();
+        _battleSystem.PlayerTurn();
+        Debug.Log("GGG");
     }
 
     public void OnExit()

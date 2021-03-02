@@ -1,22 +1,21 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-
-    CharacterEvents _characterEvents;
-
     Character _currentTarget;
 
-    public Dictionary<string, Func<Character, int>> AbilityDictionary = new Dictionary<string, Func<Character, int>>();
+    public event Action onDefaultAttack = delegate{};
+
+    public Dictionary<string, Func<Character, int>> SingleTargetAbilityDict = new Dictionary<string, Func<Character, int>>();
+
+    public Dictionary<string, Func<List<Character>, int>> MultiTargetAbilityDict = new Dictionary<string, Func<List<Character>, int>>();
 
     protected virtual void Awake()
-    {
-        _characterEvents = GetComponent<CharacterEvents>();
-
-        AbilityDictionary.Add(nameof(NormalAttack), NormalAttack);
+    {     
+        SingleTargetAbilityDict.Add(nameof(DefaultAttack), DefaultAttack);
     }
 
     // Start is called before the first frame update
@@ -36,9 +35,10 @@ public class CharacterAbilities : MonoBehaviour
         _currentTarget = target;
     }
 
-    public virtual int NormalAttack(Character target)
+    public virtual int DefaultAttack(Character target)
     {
-        _characterEvents.NormalAttack();
+        onDefaultAttack();
+        Debug.Log("sd");
         Debug.Log(target._health + "<- health");
         return 0;
     }

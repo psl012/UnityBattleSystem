@@ -5,7 +5,7 @@ using UnityEngine;
 public class UIPanelChanger : MonoBehaviour
 {
 
-
+    BattleSystem _battleSystem;
     [SerializeField] GameObject _mainPanel;
     [SerializeField] GameObject _magicPanel;
     [SerializeField] GameObject _itemPanel;
@@ -16,17 +16,15 @@ public class UIPanelChanger : MonoBehaviour
 
     void Awake()
     {
-
-
-
+        _battleSystem = GetComponentInParent<BattleSystem>();
+        _battleSystem.onPlayerTurn += ActivateMainPanel;
+        _battleSystem.onEnemyTurn += ActivateDisablePanel;
+        _battleSystem.onTargetMode += ActivateTargetPanel;
     }
 
     void Start()
     {
-        BattleEvents._battleEvents.onPlayerTurn += ActivateMainPanel;
-        BattleEvents._battleEvents.onEnemyTurn += ActivateDisablePanel;
 
-        BattleEvents._battleEvents.onFightButtonPress += ActivateTargetPanel;
     }
 
     public void ActivateMainPanel()
@@ -97,9 +95,9 @@ public class UIPanelChanger : MonoBehaviour
 
     void OnDestroy()
     {
-        BattleEvents._battleEvents.onPlayerTurn -= ActivateMainPanel;
-        BattleEvents._battleEvents.onEnemyTurn -= ActivateDisablePanel;
-        BattleEvents._battleEvents.onFightButtonPress -= ActivateTargetPanel;
+        _battleSystem.onPlayerTurn -= ActivateMainPanel;
+        _battleSystem.onEnemyTurn -= ActivateDisablePanel;
+        _battleSystem.onTargetMode -= ActivateTargetPanel;
     }
 
 }

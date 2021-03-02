@@ -7,6 +7,11 @@ public enum BattleState {PlayerTurn, EnemyTurn, Win, Lose}
 public class BattleSystem : MonoBehaviour
 {
   //  BattleEvents _battleEvents;
+    public event Action onPlayerTurn = delegate{};
+    public event Action onEnemyTurn = delegate{};
+    public event Action onTargetMode = delegate{};
+    public event Action onEndTurn = delegate{};
+
     Player[] _players;
     Enemy[] _enemies;
     Character[] _battleOrder;
@@ -16,20 +21,21 @@ public class BattleSystem : MonoBehaviour
     State_EnemyTurn _stateEnemyTurn;
     State_Win _stateWin;
     State_Lose _stateLose;
-
     Character currentCharacter;
     int currentCharacterIndex = 0;
+
+    
 
     void Awake()
     {
         _players = FindObjectsOfType<Player>();
-        _enemies = FindObjectsOfType<Enemy>();       
+        _enemies = FindObjectsOfType<Enemy>();    
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        BattleEvents._battleEvents.onEndTurn += NextCharacter;
+        onEndTurn += NextCharacter;   
         _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);       
         SetUpStateMachine();
     }
@@ -56,7 +62,7 @@ public class BattleSystem : MonoBehaviour
     void SetUpStateMachine()
     {
         currentCharacter = _battleOrder[0];
-        var _statePlayerTurn = new State_PlayerTurn(BattleEvents._battleEvents, currentCharacter);
+        var _statePlayerTurn = new State_PlayerTurn(this, currentCharacter);
         var _stateEnemyTurn = new State_EnemyTurn();
         var _stateWin = new State_Win();
         var _stateLose = new State_Lose();
@@ -103,9 +109,30 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+
+    public void PlayerTurn()
+    {
+        onPlayerTurn();
+    }
+
+    public void EnemyTurn()
+    {
+        onEnemyTurn();
+    }
+
+    public void EndTurn()
+    {
+        onEndTurn();
+    }
+
+    public void TargetMode()
+    {
+        onTargetMode();
+    }
+
     void OnDestroy()
     {
-        BattleEvents._battleEvents.onEndTurn -= NextCharacter;   
+        onEndTurn -= NextCharacter;   
     }
     
 }

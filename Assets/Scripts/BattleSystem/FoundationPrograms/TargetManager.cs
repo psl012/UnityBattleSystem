@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TargetManager
 {   
     BattleEnums.TargetType _targetType;
-    [SerializeField] CharacterAbilities _characterAbilities;
+    CharacterAbilities _characterAbilities;
     List<Character> _playerTargets = new List<Character>();    
     List<Character> _enemyTargets = new List<Character>();
     List<Character> _targetGroup = new List<Character>()    ;
@@ -43,7 +43,7 @@ public class TargetManager
 
     public void ChangeTarget(string direction)
     {             
-        if(direction == "right" && _targetIndex < _targetGroup.Count)
+        if(direction == "right" && _targetIndex < _targetGroup.Count - 1)
         {
             _targetIndex += 1;
         }
@@ -58,8 +58,8 @@ public class TargetManager
     public void TargetInteract()
     {
         Debug.Log("Target Index: " + _targetIndex);
-        Debug.Log(_targetGroup[_targetIndex]._health);        
-        _characterAbilities.AbilityDictionary[_actionSelected](_targetGroup[_targetIndex]);
+        Debug.Log(_targetGroup[_targetIndex]._health);     
+        _characterAbilities.SingleTargetAbilityDict[_actionSelected](_targetGroup[_targetIndex]);
     }
 
 

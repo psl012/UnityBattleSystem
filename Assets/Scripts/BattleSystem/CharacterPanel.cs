@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterPanel : MonoBehaviour
 {
+    BattleSystem _battleSystem;
     TargetManager _targetManager;
     [SerializeField] Character _characterOwner;
     [SerializeField] CharacterAbilities _characterAbilities;
@@ -13,6 +15,7 @@ public class CharacterPanel : MonoBehaviour
 
     void Awake()
     {
+        _battleSystem = GetComponentInParent<BattleSystem>();
         _playerTargetChars = FindObjectsOfType<Player>();
         _enemyTargetChars = FindObjectsOfType<Enemy>();
 
@@ -23,6 +26,7 @@ public class CharacterPanel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -33,8 +37,8 @@ public class CharacterPanel : MonoBehaviour
 
     public void FightButton()
     {
-        _targetManager.SetAbility(nameof(_characterAbilities.NormalAttack), BattleEnums.TargetType.Enemy);
-        BattleEvents._battleEvents.FightButtonPress();
+        _targetManager.SetAbility(nameof(_characterAbilities.DefaultAttack), BattleEnums.TargetType.Enemy);
+        _battleSystem.TargetMode();
     }
 
     public void ChangeTargetButton(string direction)
@@ -46,4 +50,6 @@ public class CharacterPanel : MonoBehaviour
     {
         _targetManager.TargetInteract();
     }
+
+
 }

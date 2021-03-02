@@ -35,7 +35,6 @@ public class BattleSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        onEndTurn += NextCharacter;   
         _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);       
         SetUpStateMachine();
     }
@@ -52,11 +51,6 @@ public class BattleSystem : MonoBehaviour
         Character[] sortedEnemies = MergeSort.charactermergeSort(enemies, false, sortType);
 
         return MergeSort.charactermerge(sortedPlayers, sortedEnemies, false, sortType); 
-    }
-
-    public void SelectTarget()
-    {
-        
     }
 
     void SetUpStateMachine()
@@ -122,6 +116,7 @@ public class BattleSystem : MonoBehaviour
 
     public void EndTurn()
     {
+        NextCharacter();
         onEndTurn();
     }
 
@@ -132,7 +127,7 @@ public class BattleSystem : MonoBehaviour
 
     void OnDestroy()
     {
-        onEndTurn -= NextCharacter;   
+
     }
     
 }

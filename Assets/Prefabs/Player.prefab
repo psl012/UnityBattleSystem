@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8219564590536434502}
   - component: {fileID: 2351566555647899429}
   - component: {fileID: 8313904747173867816}
+  - component: {fileID: 557464902}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -101,6 +102,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &557464902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7803876219699821298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bed4782771fdd4045b0a35e0b39df846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8313904748932700607
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,8 +124,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8313904748932700606}
   - component: {fileID: 8313904748932700601}
-  - component: {fileID: 62418500}
-  - component: {fileID: 62418501}
   - component: {fileID: 2276865151647987230}
   m_Layer: 0
   m_Name: Player
@@ -148,36 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17654be9eaac9eb4598168f76e316c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 75
-  _mana: 25
-  _attackPower: 12
-  _defensePower: 13
-  _evasionPower: 5
-  _speed: 10
---- !u!114 &62418500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8313904748932700607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e833ebf8bff2094eb4716b37655450e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &62418501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8313904748932700607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d10a4dca967cdb4faf167437135694c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
 --- !u!114 &2276865151647987230
 MonoBehaviour:
   m_ObjectHideFlags: 0

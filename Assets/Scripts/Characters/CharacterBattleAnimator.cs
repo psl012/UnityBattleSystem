@@ -5,15 +5,15 @@ using UnityEngine;
 public class CharacterBattleAnimator : MonoBehaviour
 {
     protected const string NORMAL_ATTACK_TRIGGER = "NormalAttackTrigger";
-
-    // Start is called before the first frame update
     protected CharacterAbilities _characterAbilities;
     protected Animator _animator;
+    protected BattleSystem _battleSystem;
 
     protected virtual void Awake()
     {
-        _characterAbilities = GetComponent<CharacterAbilities>();
-        _animator = GetComponentInChildren<Animator>();
+        _battleSystem = FindObjectOfType<BattleSystem>();
+        _characterAbilities = GetComponentInParent<CharacterAbilities>();
+        _animator = GetComponent<Animator>();
         _characterAbilities.onDefaultAttack += DefaultAttackAnimation;
     }
     protected virtual void Start()
@@ -36,4 +36,16 @@ public class CharacterBattleAnimator : MonoBehaviour
     {
        _characterAbilities.onDefaultAttack -= DefaultAttackAnimation;
     }
+
+    
+    public void DealDamage()
+    {
+        _characterAbilities.DealDamage();
+    }
+
+    public void EndTurn()
+    {
+        _battleSystem.EndTurn();
+    }
+
 }

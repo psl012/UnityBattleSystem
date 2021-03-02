@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BanditBattleAnimator : CharacterBattleAnimator
+public class MageBattleAnimator : CharacterBattleAnimator
 {
     protected const string BLINK_SLASH_TRIGGER = "trigBlinkSlash";
-
-    BanditAbilities _banditAbilites;
-
+    MageAbilities _mageAbilites;
     protected override void Awake()
     {
         base.Awake();
-        _banditAbilites = GetComponentInParent<BanditAbilities>();
-        _banditAbilites.onBlinkSlash += BlinkSlashAnimation;
+        _mageAbilites = GetComponentInParent<MageAbilities>();
+        _mageAbilites.onBlinkSlash += BlinkSlashTrigger;
     }
 
     // Start is called before the first frame update
@@ -27,8 +25,10 @@ public class BanditBattleAnimator : CharacterBattleAnimator
         base.Update();
     }
 
-    protected virtual void BlinkSlashAnimation()
+    protected virtual void BlinkSlashTrigger()
     {
         _animator.SetTrigger(BLINK_SLASH_TRIGGER);
     }
+
+    
 }

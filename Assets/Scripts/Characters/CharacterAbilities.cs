@@ -6,7 +6,8 @@ using UnityEngine;
 public class CharacterAbilities : MonoBehaviour
 {
     Character _currentTarget;
-
+    Character _character;
+    float _damageHolder = 0;
     public event Action onDefaultAttack = delegate{};
 
     public Dictionary<string, Func<Character, int>> SingleTargetAbilityDict = new Dictionary<string, Func<Character, int>>();
@@ -16,6 +17,8 @@ public class CharacterAbilities : MonoBehaviour
     protected virtual void Awake()
     {     
         SingleTargetAbilityDict.Add(nameof(DefaultAttack), DefaultAttack);
+        _character = GetComponent<Character>();
+        _damageHolder = _character._attackPower;
     }
 
     // Start is called before the first frame update
@@ -30,16 +33,23 @@ public class CharacterAbilities : MonoBehaviour
         
     }
 
-    public virtual void SelectTarget(Character target)
-    {
-        _currentTarget = target;
-    }
-
     public virtual int DefaultAttack(Character target)
     {
+        _currentTarget = target;
         onDefaultAttack();
         Debug.Log("sd");
-        Debug.Log(target._health + "<- health");
+        
+        _damageHolder = _character._attackPower;
         return 0;
+    }
+
+    public virtual void DealDamage() // Will deal damage using animator event 
+    {
+        Debug.Log(_currentTarget._health + "<- health" + "I hit " + _damageHolder);
+    }
+
+    public virtual void HealDamage()
+    {
+        Debug.Log("heal damage");
     }
 }

@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class CharacterPanel : MonoBehaviour
 {
-    BattleSystem _battleSystem;
-    TargetManager _targetManager;
-    [SerializeField] Character _characterOwner;
-    [SerializeField] CharacterAbilities _characterAbilities;
-    Character[] _playerTargetChars;
-    Character[] _enemyTargetChars;
+    protected BattleSystem _battleSystem;
+    protected TargetManager _targetManager;
+    [SerializeField] protected Character _characterOwner;
+    [SerializeField] protected CharacterAbilities _characterAbilities;
+    protected Character[] _playerTargetChars;
+    protected Character[] _enemyTargetChars;
 
 
-    void Awake()
+    protected virtual void Awake()
     {
         _battleSystem = GetComponentInParent<BattleSystem>();
         _playerTargetChars = FindObjectsOfType<Player>();
@@ -24,23 +24,26 @@ public class CharacterPanel : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
 
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         
     }
 
-    public void FightButton()
+    public virtual void FightButton()
     {
         _targetManager.SetAbility(nameof(_characterAbilities.DefaultAttack), BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();
     }
-
+    public virtual void SkillButton1()
+    {
+        
+    }
     public void ChangeTargetButton(string direction)
     {
         _targetManager.ChangeTarget(direction);

@@ -10,7 +10,7 @@ public class TargetManager
     CharacterAbilities _characterAbilities;
     List<Character> _playerTargets = new List<Character>();    
     List<Character> _enemyTargets = new List<Character>();
-    List<Character> _targetGroup = new List<Character>()    ;
+    List<Character> _targetGroup = new List<Character>();
     Character _currentTarget;
 
     string _actionSelected;
@@ -36,33 +36,7 @@ public class TargetManager
         _actionSelected = abilitySelected;
         _targetType = targetType;
         SetTarget(targetType);
-        Debug.Log(_targetGroup.Count);
-        Debug.Log(_targetGroup[0]._health);
-        Debug.Log(_targetGroup[1]._health);
     }
-
-    public void ChangeTarget(string direction)
-    {             
-        if(direction == "right" && _targetIndex < _targetGroup.Count - 1)
-        {
-            _targetIndex += 1;
-        }
-        else if(direction  == "left" && _targetIndex > 0)
-        {
-            _targetIndex -= 1;
-        }
-        
-
-    }
-
-    public void TargetInteract()
-    {
-        Debug.Log("Target Index: " + _targetIndex);
-        Debug.Log(_targetGroup[_targetIndex]._health);     
-        _characterAbilities.SingleTargetAbilityDict[_actionSelected](_targetGroup[_targetIndex]);
-    }
-
-
     void SetTarget(BattleEnums.TargetType targetType)
     {
         if (_targetType == BattleEnums.TargetType.Friend)
@@ -76,6 +50,24 @@ public class TargetManager
             _currentTarget = _enemyTargets[0];
         }
     }
+    public void ChangeTarget(string direction)
+    {             
+        if(direction == "right" && _targetIndex < _targetGroup.Count - 1)
+        {
+            _targetIndex += 1;
+        }
+        else if(direction  == "left" && _targetIndex > 0)
+        {
+            _targetIndex -= 1;
+        }
+    }
+
+    public void TargetInteract()
+    {
+        _characterAbilities.AbilityDictionary[_actionSelected](_targetGroup, _targetIndex);
+    }
+
+
 
 
 

@@ -5,18 +5,19 @@ using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-    Character _currentTarget;
+    List<Character> _currentTarget;
+    int _targetIndex;
     Character _character;
     float _damageHolder = 0;
     public event Action onDefaultAttack = delegate{};
 
-    public Dictionary<string, Func<Character, int>> SingleTargetAbilityDict = new Dictionary<string, Func<Character, int>>();
+    public Dictionary<string, Func<List<Character>, int, int>> AbilityDictionary = new Dictionary<string, Func<List<Character>, int, int>>();
 
     public Dictionary<string, Func<List<Character>, int>> MultiTargetAbilityDict = new Dictionary<string, Func<List<Character>, int>>();
 
     protected virtual void Awake()
     {     
-        SingleTargetAbilityDict.Add(nameof(DefaultAttack), DefaultAttack);
+        AbilityDictionary.Add(nameof(DefaultAttack), DefaultAttack);
         _character = GetComponent<Character>();
         _damageHolder = _character._attackPower;
     }
@@ -33,9 +34,10 @@ public class CharacterAbilities : MonoBehaviour
         
     }
 
-    public virtual int DefaultAttack(Character target)
+    public virtual int DefaultAttack(List<Character> target, int targetIndex)
     {
         _currentTarget = target;
+        _targetIndex = targetIndex;
         onDefaultAttack();
         Debug.Log("sd");
         
@@ -45,7 +47,7 @@ public class CharacterAbilities : MonoBehaviour
 
     public virtual void DealDamage() // Will deal damage using animator event 
     {
-        Debug.Log(_currentTarget._health + "<- health" + "I hit " + _damageHolder);
+        Debug.Log(_currentTarget[_targetIndex]._health + "<- health" + "I hit " + _damageHolder);
     }
 
     public virtual void HealDamage()

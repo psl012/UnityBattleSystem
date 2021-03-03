@@ -11,6 +11,7 @@ public class MageAbilities : CharacterAbilities
     protected override void Awake()
     {
         base.Awake();
+        AbilityDictionary.Add(DictionarySkillStrings.SKILL_1, (2, BlinkSlash));
     }
 
     protected override void Start()
@@ -23,30 +24,11 @@ public class MageAbilities : CharacterAbilities
         base.Update();
     }
 
-    public int BlinkSlash(List<Character> targets)
+    public int BlinkSlash(List<Character> targets, List<int> targetIndex)
     {
-        List<Character> targetList = new List<Character>();
-        int targetCount = 3;
-        targetCount = Mathf.Min(targetCount, targets.Count);
-
-        if (targets.Count<=1)
-        {   
-            targetList.Add(targets[0]);
-        }
-        else
-        {
-            for (int i = 0; i < targetCount; i++)
-            {
-                int targetIndex = UnityEngine.Random.Range(0, targets.Count);   
-                targetList.Add(targets[targetIndex]);
-                targets.RemoveAt(targetIndex);
-            }     
-        }
-        foreach(Character ch in targetList)
-        {
-            Debug.Log(ch.name + "attack enemy");
-        }
-
+        List<Character> targetList = targets;
+        _targetIndex = targetIndex;
+        _damageHolder = _character._attackPower;
         onBlinkSlash();
         return 0;
     }

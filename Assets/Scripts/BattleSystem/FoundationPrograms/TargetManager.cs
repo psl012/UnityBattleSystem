@@ -15,6 +15,10 @@ public class TargetManager
 
     string _actionSelected;
     int _targetIndex = 0;
+    int _currentlytargettedGroup;
+    int _skillTargetAvailable = 0;
+
+    List<int> _listTargetIndex = new List<int>();
     
     public TargetManager(Character[] playerTarget, Character[] enemyTarget, CharacterAbilities characterAbilities)
     {
@@ -35,6 +39,7 @@ public class TargetManager
     {
         _actionSelected = abilitySelected;
         _targetType = targetType;
+        _skillTargetAvailable = _characterAbilities.AbilityDictionary[_actionSelected].Item1;
         SetTarget(targetType);
     }
     void SetTarget(BattleEnums.TargetType targetType)
@@ -55,16 +60,51 @@ public class TargetManager
         if(direction == "right" && _targetIndex < _targetGroup.Count - 1)
         {
             _targetIndex += 1;
+
+            int forceMoveCount = 0;
+            while(_listTargetIndex.Contains(_targetIndex) && (_targetIndex < _targetGroup.Count))
+            {
+                _targetIndex += 1;
+                forceMoveCount += 1;
+            }
+            if (_targetIndex == _targetGroup.Count)
+            {
+                _targetIndex -= forceMoveCount;
+            }
         }
         else if(direction  == "left" && _targetIndex > 0)
         {
             _targetIndex -= 1;
+
+            int forceMoveCount = 0;
+            while(_listTargetIndex.Contains(_targetIndex) && (_targetIndex > -1))
+            {
+                _targetIndex -= 1;
+                forceMoveCount += 1;
+            }
+            if (_targetIndex == -1)
+            {
+                _targetIndex += forceMoveCount;
+            }
         }
     }
 
     public void TargetInteract()
     {
-        _characterAbilities.AbilityDictionary[_actionSelected](_targetGroup, _targetIndex);
+        (int, Func<List<Character>, List<int>, int>) skillSelected = _characterAbilities.AbilityDictionary[_actionSelected];
+        List<Character> targetGroup = _targetGroup;
+
+        if(_skillTargetAvailable > 0)
+        {
+            _listTargetIndex.Add(_targetIndex);
+            _skillTargetAvailable -= 1;
+        }
+
+        if(_skillTargetAvailable == 0)
+        {
+            skillSelected.Item2(_targetGroup, _listTargetIndex);
+        }
+
     }
 
 

@@ -835,6 +835,41 @@ PrefabInstance:
       propertyPath: _characterAbilities
       value: 
       objectReference: {fileID: 109720758}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1957437348}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkillButton1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112555592136572, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_text
+      value: BlinkStrike
+      objectReference: {fileID: 0}
     - target: {fileID: 9220112555617468275, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}
       propertyPath: m_Pivot.x

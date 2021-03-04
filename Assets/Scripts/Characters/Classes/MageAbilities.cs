@@ -26,8 +26,8 @@ public class MageAbilities : CharacterAbilities
 
     public int BlinkSlash(List<Character> targets, List<int> targetIndex)
     {
-        List<Character> targetList = targets;
-        _targetIndex = targetIndex;
+        _listOfCurrentTargets = targets;
+        _listOfTargetIndex = targetIndex;
         _damageHolder = _character._attackPower;
         onBlinkSlash();
         return 0;

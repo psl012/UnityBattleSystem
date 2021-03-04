@@ -21,6 +21,7 @@ public class BattleSystem : MonoBehaviour
     State_EnemyTurn _stateEnemyTurn;
     State_Win _stateWin;
     State_Lose _stateLose;
+    TargetIcon _targetIcon;
     Character currentCharacter;
     int currentCharacterIndex = 0;
 
@@ -30,6 +31,7 @@ public class BattleSystem : MonoBehaviour
     {
         _players = FindObjectsOfType<Player>();
         _enemies = FindObjectsOfType<Enemy>();    
+        _targetIcon = GetComponentInChildren<TargetIcon>();
     }
 
     // Start is called before the first frame update

@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-    protected List<Character> _currentTarget;
-    protected List<int> _targetIndex;
+    protected List<Character> _listOfCurrentTargets;
+    protected List<int> _listOfTargetIndex;
     protected Character _character;
     protected float _damageHolder = 0;
     public event Action onDefaultAttack = delegate{};
@@ -36,8 +36,8 @@ public class CharacterAbilities : MonoBehaviour
 
     public virtual int DefaultAttack(List<Character> target, List<int> targetIndex)
     {
-        _currentTarget = target;
-        _targetIndex = targetIndex;
+        _listOfCurrentTargets = target;
+        _listOfTargetIndex = targetIndex;
         onDefaultAttack();
         Debug.Log("sd");
         
@@ -47,9 +47,15 @@ public class CharacterAbilities : MonoBehaviour
 
     public virtual void DealDamage() // Will deal damage using animator event 
     {
-        foreach(int index in _targetIndex)
+        if (_listOfTargetIndex.Count > 0)
         {
-            Debug.Log(_currentTarget[index]._health + "<- health" + "I hit " + _damageHolder);
+            int targetIndex = _listOfTargetIndex[0];
+            Debug.Log(_listOfCurrentTargets[targetIndex]._health + "<- health" + "I hit " + _damageHolder);
+            _listOfTargetIndex.RemoveAt(0);
+        }
+        else
+        {
+            Debug.Log("No Targets left");
         }
     }
 

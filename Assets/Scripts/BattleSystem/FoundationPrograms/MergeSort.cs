@@ -6,7 +6,7 @@ using Object = System.Object;
 
 class MergeSort
     {
-        public enum SortType{Health, Mana, Atk, Def, Eva, Speed};
+        public enum SortType{Health, Mana, Atk, Def, Eva, Speed, BattlePosition};
    
         public static Character[] charactermergeSort(Character[] array, bool isAscending, SortType sortType)
         {
@@ -96,6 +96,11 @@ class MergeSort
                         case SortType.Speed:
                             leftArgument = left[indexLeft]._speed; 
                             rightArgument = right[indexRight]._speed; 
+                            break;
+                        
+                        case SortType.BattlePosition:
+                            leftArgument = left[indexLeft]._battlePosition; 
+                            rightArgument = right[indexRight]._battlePosition; 
                             break;
                         
                         default:

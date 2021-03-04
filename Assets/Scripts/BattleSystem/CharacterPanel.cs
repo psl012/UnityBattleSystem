@@ -11,15 +11,17 @@ public class CharacterPanel : MonoBehaviour
     [SerializeField] protected CharacterAbilities _characterAbilities;
     protected Character[] _playerTargetChars;
     protected Character[] _enemyTargetChars;
-
+    protected TargetIcon _targetIcon;
+    UIPanelChanger _uiPanelChanger;
 
     protected virtual void Awake()
     {
         _battleSystem = GetComponentInParent<BattleSystem>();
         _playerTargetChars = FindObjectsOfType<Player>();
         _enemyTargetChars = FindObjectsOfType<Enemy>();
-
-        _targetManager = new TargetManager(_playerTargetChars, _enemyTargetChars, _characterAbilities);
+        _targetIcon = GetComponentInChildren<TargetIcon>();
+        _targetManager = new TargetManager(_playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
+        _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 
 
@@ -52,7 +54,10 @@ public class CharacterPanel : MonoBehaviour
 
     public void TargetInteractButton()
     {
-        _targetManager.TargetInteract();
+        if(_targetManager.TargetInteract())
+        {
+            _uiPanelChanger.ActivateMainPanel();
+        }
     }
 
 

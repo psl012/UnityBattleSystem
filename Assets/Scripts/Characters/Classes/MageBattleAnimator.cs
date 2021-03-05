@@ -1,16 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MageBattleAnimator : CharacterBattleAnimator
 {
     protected const string BLINK_SLASH_TRIGGER = "trigBlinkSlash";
+   
     MageAbilities _mageAbilites;
     protected override void Awake()
     {
         base.Awake();
         _mageAbilites = GetComponentInParent<MageAbilities>();
-        _mageAbilites.onBlinkSlash += BlinkSlashTrigger;
+    //    _mageAbilites.onBlinkSlash += BlinkSlashTrigger;
     }
 
     // Start is called before the first frame update
@@ -25,9 +27,10 @@ public class MageBattleAnimator : CharacterBattleAnimator
         base.Update();
     }
 
-    protected virtual void BlinkSlashTrigger()
+    protected virtual int BlinkSlashTrigger()
     {
         _animator.SetTrigger(BLINK_SLASH_TRIGGER);
+        return 0;
     }
 
     

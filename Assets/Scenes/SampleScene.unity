@@ -438,6 +438,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d68f610ae063054896275ee88996f7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _listOfCurrentTargets: []
+  _listOfTargetIndex: 
+  _character: {fileID: 0}
+  _damageHolder: 0
+  _baseSkill: {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}
 --- !u!1 &482642694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,6 +1074,23 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2276865151647987230, guid: e361ee29773204a4594f7cc0249d65b0,
+        type: 3}
+      propertyPath: _baseSkill
+      value: 
+      objectReference: {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832,
+        type: 2}
+    - target: {fileID: 2276865151647987230, guid: e361ee29773204a4594f7cc0249d65b0,
+        type: 3}
+      propertyPath: _mageSkills.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276865151647987230, guid: e361ee29773204a4594f7cc0249d65b0,
+        type: 3}
+      propertyPath: _mageSkills.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4cc96612a1530a04981a3763ea675cf2,
+        type: 2}
     - target: {fileID: 8313904748932700601, guid: e361ee29773204a4594f7cc0249d65b0,
         type: 3}
       propertyPath: _targetIcon
@@ -1163,6 +1185,11 @@ PrefabInstance:
       propertyPath: _characterAbilities
       value: 
       objectReference: {fileID: 109720758}
+    - target: {fileID: 9220112554384401384, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Skill_Button0
+      objectReference: {fileID: 0}
     - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1186,12 +1213,22 @@ PrefabInstance:
     - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SkillButton1
+      value: SkillButton0
       objectReference: {fileID: 0}
     - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930039, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Skill_Button1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112555010500938, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_Name
+      value: Skill_Button2
       objectReference: {fileID: 0}
     - target: {fileID: 9220112555592136572, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}

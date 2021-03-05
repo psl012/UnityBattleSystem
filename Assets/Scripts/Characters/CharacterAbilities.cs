@@ -5,27 +5,37 @@ using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-    protected List<Character> _listOfCurrentTargets;
-    protected List<int> _listOfTargetIndex;
-    protected Character _character;
-    protected float _damageHolder = 0;
+    public List<Character> _listOfCurrentTargets;
+    public List<int> _listOfTargetIndex;
+    public Character _character;
+    public float _damageHolder = 0;
     public event Action onDefaultAttack = delegate{};
+    public Skill _baseSkill;
 
     public Dictionary<string, (int, Func<List<Character>, List<int>, int>)> AbilityDictionary = new Dictionary<string,(int, Func<List<Character>, List<int>, int>)>();
 
     public Dictionary<string, Func<List<Character>, int>> MultiTargetAbilityDict = new Dictionary<string, Func<List<Character>, int>>();
 
+    public Dictionary<string, Skill> SkillDictionary = new Dictionary<string, Skill>();
+    public CharacterBattleAnimator _characterBattleAnimator {get; private set;} // i need this to pass onto the Skill Objects
+
     protected virtual void Awake()
     {     
+        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();
         AbilityDictionary.Add(nameof(DefaultAttack),(1, DefaultAttack));
+
+        SkillDictionary.Add(DictionarySkillStrings.BASE_SKILL, _baseSkill);
+
         _character = GetComponent<Character>();
         _damageHolder = _character._attackPower;
+
+        
     }
 
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        
+
     }
 
     // Update is called once per frame

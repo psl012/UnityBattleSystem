@@ -24,3 +24,5 @@ MonoBehaviour:
   _dexterity: 5
   _intelligence: 3
   _speed: 5
+  _skills:
+  - {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}

@@ -44,7 +44,8 @@ public class TargetManager
     {
         _actionSelected = abilitySelected;
         _targetType = targetType;
-        _skillTargetAvailable = _characterAbilities.AbilityDictionary[_actionSelected].Item1;
+     //   _skillTargetAvailable = _characterAbilities.AbilityDictionary[_actionSelected].Item1;
+        _skillTargetAvailable = _characterAbilities.SkillDictionary[abilitySelected].numberOfTargets;
         SetTarget(targetType);
     }
     void SetTarget(BattleEnums.TargetType targetType)
@@ -99,7 +100,8 @@ public class TargetManager
 
     public bool TargetInteract()
     {
-        (int, Func<List<Character>, List<int>, int>) skillSelected = _characterAbilities.AbilityDictionary[_actionSelected];
+   //     (int, Func<List<Character>, List<int>, int>) skillSelected = _characterAbilities.AbilityDictionary[_actionSelected];
+        Skill skillSelected = _characterAbilities.SkillDictionary[_actionSelected];
         List<Character> targetGroup = _targetGroup;
 
         if(_skillTargetAvailable > 0)
@@ -125,8 +127,9 @@ public class TargetManager
                 _targetGroup[ind]._targetMark.DeactivateIcon();
             }
             _targetIcon.MoveToTarget(new Vector3(-500, -270, 0));
-            skillSelected.Item2(_targetGroup, _listTargetIndex);
-
+           // skillSelected.Item2(_targetGroup, _listTargetIndex);
+           Func<int> animationCall = _characterAbilities._characterBattleAnimator._animationDictionary[_actionSelected];
+            skillSelected.UseSkill(_characterAbilities, animationCall, _targetGroup, _listTargetIndex);
             return true;
         }
         else

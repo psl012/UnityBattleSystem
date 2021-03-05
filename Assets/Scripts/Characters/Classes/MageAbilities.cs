@@ -7,11 +7,14 @@ public class MageAbilities : CharacterAbilities
 {
     const string BLINK_SLASH_TRIGGER = "trigBlinkSlash";
     public event Action onBlinkSlash = delegate{};
+    public List<Skill> _mageSkills;
+
     // Start is called before the first frame update
     protected override void Awake()
     {
         base.Awake();
-        AbilityDictionary.Add(DictionarySkillStrings.SKILL_1, (2, BlinkSlash));
+        AbilityDictionary.Add(DictionarySkillStrings.SKILL_0, (2, BlinkSlash));
+        SkillDictionary.Add(DictionarySkillStrings.SKILL_0,_mageSkills[0]);
     }
 
     protected override void Start()

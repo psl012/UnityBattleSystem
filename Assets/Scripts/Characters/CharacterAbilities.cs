@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-    public Character _character;
+  
     public event Action<string> onUseSkill = delegate{};
-    public Skill[] _classSkills;
     public Dictionary<string, Skill> SkillDictionary = new Dictionary<string, Skill>();
-    
-    public CharacterBattleAnimator _characterBattleAnimator {get; private set;} // i need this to pass onto the Skill Objects
 
+    [SerializeField] Skill[] _classSkills;
+    CharacterBattleAnimator _characterBattleAnimator; // i need this to pass onto the Skill Objects
+    Character _character;
     DamageDealer _damageDealer;
 
     protected virtual void Awake()
     {     
-        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();
         SkillDictionary.Add(DictionarySkillKeys.SKILL_0, _classSkills[0]);
         SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
-       
+
+        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
         _characterBattleAnimator.onDealDamage += DealDamage;
     }
 
@@ -47,7 +47,6 @@ public class CharacterAbilities : MonoBehaviour
     public virtual void DealDamage() // Will deal damage using animator event 
     {
         _damageDealer.DealDamage();
-
     }
 
     public virtual void HealDamage()

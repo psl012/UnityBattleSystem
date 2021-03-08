@@ -44,7 +44,6 @@ public class TargetManager
     {
         _actionSelected = abilitySelected;
         _targetType = targetType;
-     //   _skillTargetAvailable = _characterAbilities.AbilityDictionary[_actionSelected].Item1;
         _skillTargetAvailable = _characterAbilities.SkillDictionary[abilitySelected].numberOfTargets;
         SetTarget(targetType);
     }
@@ -127,9 +126,10 @@ public class TargetManager
                 _targetGroup[ind]._targetMark.DeactivateIcon();
             }
             _targetIcon.MoveToTarget(new Vector3(-500, -270, 0));
-           // skillSelected.Item2(_targetGroup, _listTargetIndex);
+
            Func<int> animationCall = _characterAbilities._characterBattleAnimator._animationDictionary[_actionSelected];
-            skillSelected.UseSkill(_characterAbilities, animationCall, _targetGroup, _listTargetIndex);
+         //   skillSelected.UseSkill(_characterAbilities, animationCall, _targetGroup, _listTargetIndex);
+            _characterAbilities.UseSkill(_actionSelected, _targetGroup, _listTargetIndex);
             return true;
         }
         else

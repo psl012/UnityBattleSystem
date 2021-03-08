@@ -13,7 +13,6 @@ public class MageAbilities : CharacterAbilities
     protected override void Awake()
     {
         base.Awake();
-        AbilityDictionary.Add(DictionarySkillStrings.SKILL_0, (2, BlinkSlash));
         SkillDictionary.Add(DictionarySkillStrings.SKILL_0,_mageSkills[0]);
     }
 
@@ -27,12 +26,4 @@ public class MageAbilities : CharacterAbilities
         base.Update();
     }
 
-    public int BlinkSlash(List<Character> targets, List<int> targetIndex)
-    {
-        _listOfCurrentTargets = targets;
-        _listOfTargetIndex = targetIndex;
-        _damageHolder = _character._attackPower;
-        onBlinkSlash();
-        return 0;
-    }
 }

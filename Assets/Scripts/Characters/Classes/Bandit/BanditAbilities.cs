@@ -11,7 +11,6 @@ public class BanditAbilities : CharacterAbilities
     protected override void Awake()
     {
         base.Awake();
-        MultiTargetAbilityDict.Add(nameof(BlinkSlash), BlinkSlash);
     }
 
     protected override void Start()

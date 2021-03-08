@@ -15,7 +15,6 @@ public class TargetManager
     TargetIcon _targetIcon;
     string _actionSelected;
     int _targetIndex = 0;
-    int _currentlytargettedGroup;
     int _skillTargetAvailable = 0;
 
     List<int> _listTargetIndex = new List<int>();
@@ -28,12 +27,10 @@ public class TargetManager
         Character[] playersByBattlePostions = MergeSort.charactermergeSort(playerTarget, true, MergeSort.SortType.BattlePosition);
         Character[] enemiesByBattlePostions = MergeSort.charactermergeSort(enemyTarget, true, MergeSort.SortType.BattlePosition);
 
-
         foreach (Character ch in playersByBattlePostions)
         {
             _playerTargets.Add(ch);
-        }
-        
+        }        
         foreach (Character ch in enemiesByBattlePostions)
         {
             _enemyTargets.Add(ch);
@@ -62,53 +59,42 @@ public class TargetManager
         _targetIcon.MoveToTarget(_currentTarget._targetMark.transform.position);
     
     }
-    public void ChangeTarget(string direction)
-    {             
-        if(direction == "right" && _targetIndex < _targetGroup.Count)
-        {
-            _targetIndex += 1;
 
-            int forceMoveCount = 1;
-            while(_listTargetIndex.Contains(_targetIndex) && (_targetIndex < _targetGroup.Count))
+    public void ChangeTarget(string direction)
+    {
+        void TargetMove(int i)
+        {
+             _targetIndex += i;
+             
+            int forceMoveCount = i;
+            while(_listTargetIndex.Contains(_targetIndex) && ((_targetIndex < _targetGroup.Count) || (_targetIndex > -1)))
             {
-                _targetIndex += 1;
-                forceMoveCount += 1;
+                _targetIndex += i;
+                forceMoveCount += i;
             }
-            if (_targetIndex == _targetGroup.Count)
+            if (_targetIndex == _targetGroup.Count || _targetIndex == -1) // overflowed
             {
                 _targetIndex -= forceMoveCount;
-            }
+            }                   
         }
-        else if(direction  == "left" && _targetIndex > 0)
-        {
-            _targetIndex -= 1;
 
-            int forceMoveCount = 1;
-            while(_listTargetIndex.Contains(_targetIndex) && (_targetIndex > -1))
-            {
-                _targetIndex -= 1;
-                forceMoveCount += 1;
-            }
-            if (_targetIndex == -1)
-            {
-                _targetIndex += forceMoveCount;
-            }
-        }
+        if(direction == "right" && _targetIndex < _targetGroup.Count){TargetMove(1);}
+        else if (direction  == "left" && _targetIndex > 0){TargetMove(-1);}
+
         _targetIcon.MoveToTarget(_targetGroup[_targetIndex]._targetMark.transform.position);
     }
 
     public bool TargetInteract()
     {
         Skill skillSelected = _characterAbilities.SkillDictionary[_actionSelected];
-        List<Character> targetGroup = _targetGroup;
-
+ 
         if(_skillTargetAvailable > 0)
         {
             _listTargetIndex.Add(_targetIndex);
             _skillTargetAvailable -= 1;
-            targetGroup[_targetIndex]._targetMark.ActivateIcon();
+            _targetGroup[_targetIndex]._targetMark.ActivateIcon();
             
-            if(_targetIndex == targetGroup.Count - 1)
+            if(_targetIndex == _targetGroup.Count - 1)
             {
                 ChangeTarget("left");
             }

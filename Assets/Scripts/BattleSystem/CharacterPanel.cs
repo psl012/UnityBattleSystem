@@ -7,7 +7,6 @@ public class CharacterPanel : MonoBehaviour
 {
     protected BattleSystem _battleSystem;
     protected TargetManager _targetManager;
-    [SerializeField] protected Character _characterOwner;
     [SerializeField] protected CharacterAbilities _characterAbilities;
     protected Character[] _playerTargetChars;
     protected Character[] _enemyTargetChars;
@@ -39,7 +38,6 @@ public class CharacterPanel : MonoBehaviour
 
     public virtual void FightButton()
     {
-       // _targetManager.SetAbility(nameof(_characterAbilities.DefaultAttack), BattleEnums.TargetType.Enemy);
         _targetManager.SetAbility(DictionarySkillKeys.SKILL_0, BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();
     }

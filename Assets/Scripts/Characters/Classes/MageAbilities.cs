@@ -13,7 +13,7 @@ public class MageAbilities : CharacterAbilities
     protected override void Awake()
     {
         base.Awake();
-        SkillDictionary.Add(DictionarySkillStrings.SKILL_0,_mageSkills[0]);
+        SkillDictionary.Add(DictionarySkillKeys.SKILL_0,_mageSkills[0]);
     }
 
     protected override void Start()

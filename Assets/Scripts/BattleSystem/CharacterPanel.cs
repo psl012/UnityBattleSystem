@@ -40,12 +40,12 @@ public class CharacterPanel : MonoBehaviour
     public virtual void FightButton()
     {
        // _targetManager.SetAbility(nameof(_characterAbilities.DefaultAttack), BattleEnums.TargetType.Enemy);
-        _targetManager.SetAbility(DictionarySkillStrings.BASE_SKILL, BattleEnums.TargetType.Enemy);
+        _targetManager.SetAbility(DictionarySkillKeys.SKILL_0, BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();
     }
-    public virtual void SkillButton0()
+    public virtual void SkillButton1()
     {
-        _targetManager.SetAbility(DictionarySkillStrings.SKILL_0, BattleEnums.TargetType.Enemy);
+        _targetManager.SetAbility(DictionarySkillKeys.SKILL_1, BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();
     }
     public void ChangeTargetButton(string direction)

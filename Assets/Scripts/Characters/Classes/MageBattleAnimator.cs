@@ -12,7 +12,6 @@ public class MageBattleAnimator : CharacterBattleAnimator
     {
         base.Awake();
         _mageAbilites = GetComponentInParent<MageAbilities>();
-    //    _mageAbilites.onBlinkSlash += BlinkSlashTrigger;
     }
 
     // Start is called before the first frame update

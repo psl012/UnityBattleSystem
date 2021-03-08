@@ -99,7 +99,6 @@ public class TargetManager
 
     public bool TargetInteract()
     {
-   //     (int, Func<List<Character>, List<int>, int>) skillSelected = _characterAbilities.AbilityDictionary[_actionSelected];
         Skill skillSelected = _characterAbilities.SkillDictionary[_actionSelected];
         List<Character> targetGroup = _targetGroup;
 
@@ -127,8 +126,6 @@ public class TargetManager
             }
             _targetIcon.MoveToTarget(new Vector3(-500, -270, 0));
 
-           Func<int> animationCall = _characterAbilities._characterBattleAnimator._animationDictionary[_actionSelected];
-         //   skillSelected.UseSkill(_characterAbilities, animationCall, _targetGroup, _listTargetIndex);
             _characterAbilities.UseSkill(_actionSelected, _targetGroup, _listTargetIndex);
             return true;
         }

@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class CharacterAbilities : MonoBehaviour
 {
-    public List<Character> _listOfCurrentTargets;
-    public List<int> _listOfTargetIndex;
     public Character _character;
-    public event Action onDefaultAttack = delegate{};
-    public Skill _baseSkill;
+    public event Action<string> onUseSkill = delegate{};
+    public Skill[] _classSkills;
     public Dictionary<string, Skill> SkillDictionary = new Dictionary<string, Skill>();
+    
     public CharacterBattleAnimator _characterBattleAnimator {get; private set;} // i need this to pass onto the Skill Objects
 
     DamageDealer _damageDealer;
@@ -18,8 +17,10 @@ public class CharacterAbilities : MonoBehaviour
     protected virtual void Awake()
     {     
         _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();
-
-        SkillDictionary.Add(DictionarySkillStrings.BASE_SKILL, _baseSkill);
+        SkillDictionary.Add(DictionarySkillKeys.SKILL_0, _classSkills[0]);
+        SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
+       
+        _characterBattleAnimator.onDealDamage += DealDamage;
     }
 
     // Start is called before the first frame update
@@ -36,33 +37,27 @@ public class CharacterAbilities : MonoBehaviour
         
     }
 
-    public int UseSkill(string skillKey, List<Character> targets, List<int> index)
+    public void UseSkill(string skillKey, List<Character> targets, List<int> index)
     {
         _damageDealer.SetUpTargets(targets, index);
-        _characterBattleAnimator._animationDictionary[skillKey].Invoke();        
-        return 0;
+        _characterBattleAnimator.SkillAnimation(skillKey);       
     }
     
 
     public virtual void DealDamage() // Will deal damage using animator event 
     {
         _damageDealer.DealDamage();
-        /**
-        if (_listOfTargetIndex.Count > 0)
-        {
-            int targetIndex = _listOfTargetIndex[0];
-            Debug.Log(_listOfCurrentTargets[targetIndex]._health + "<- health" + "I hit " + _damageHolder);
-            _listOfTargetIndex.RemoveAt(0);
-        }
-        else
-        {
-            Debug.Log("No Targets left");
-        }*/
+
     }
 
     public virtual void HealDamage()
     {
         Debug.Log("heal damage");
+    }
+
+    void onDestroy()
+    {
+        _characterBattleAnimator.onDealDamage -= DealDamage;
     }
 }
 

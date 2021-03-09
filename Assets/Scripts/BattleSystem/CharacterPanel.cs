@@ -46,6 +46,13 @@ public class CharacterPanel : MonoBehaviour
         _targetManager.SetAbility(DictionarySkillKeys.SKILL_1, BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();
     }
+
+    public virtual void SkillButton2()
+    {
+        _targetManager.SetAbility(DictionarySkillKeys.SKILL_2, BattleEnums.TargetType.Enemy);
+        _battleSystem.TargetMode();       
+    }
+
     public void ChangeTargetButton(string direction)
     {
         _targetManager.ChangeTarget(direction);

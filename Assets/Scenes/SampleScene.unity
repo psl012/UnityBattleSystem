@@ -427,9 +427,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _classSkills:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}
+  - {fileID: 11400000, guid: 4cc96612a1530a04981a3763ea675cf2, type: 2}
+  - {fileID: 11400000, guid: c2c65e0085c4d3644bb9eca9c5aad604, type: 2}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &482642694
@@ -1045,6 +1045,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 335640938}
     m_Modifications:
+    - target: {fileID: 2074288957, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
+      propertyPath: _classSkills.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: c2c65e0085c4d3644bb9eca9c5aad604,
+        type: 2}
     - target: {fileID: 8313904748932700606, guid: e361ee29773204a4594f7cc0249d65b0,
         type: 3}
       propertyPath: m_RootOrder
@@ -1160,6 +1165,36 @@ PrefabInstance:
       value: SkillButton1
       objectReference: {fileID: 0}
     - target: {fileID: 9220112554384401390, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1957437348}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkillButton2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9220112554981930037, guid: 6c0dcee0fa276a34aba00f1d4bf4da1f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine

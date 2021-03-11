@@ -62,7 +62,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: explodeTrig
+    m_ConditionEvent: damageAnimTrig
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4529535140359425739}
@@ -87,7 +87,7 @@ AnimatorController:
   m_Name: FireBall
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: explodeTrig
+  - m_Name: damageAnimTrig
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0

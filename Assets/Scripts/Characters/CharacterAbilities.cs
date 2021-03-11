@@ -40,22 +40,29 @@ public class CharacterAbilities : MonoBehaviour
     public void UseSkill(string skillKey, List<Character> targets, List<int> index)
     {
         Skill selectedSkill = SkillDictionary[skillKey];
+       
         if (selectedSkill._skillType == Skill.SkillType.Melee)
         {
-            _damageDealer.SetUpTargets(targets, index);
-            _characterBattleAnimator.SkillAnimation(skillKey);
+                Debug.Log("target: "+ targets[0]);
+                 Debug.Log("index: "+ index[0]);
+               
+                _damageDealer.SetUpTargets(targets, index);
+                _characterBattleAnimator.SkillAnimation(skillKey);
         }
         else if (selectedSkill._skillType == Skill.SkillType.Projectile)
         {
             (int, GameObject) projectileTuple = selectedSkill.GetProjectile();
             GameObject[] projectiles = new GameObject[projectileTuple.Item1]; 
+          
+            Debug.Log("target: "+ targets[0]);
+            Debug.Log("index: "+ index[0]);
 
             for(int i=0; i < projectileTuple.Item1; i++)
             {
                 projectiles[i] = Instantiate(projectileTuple.Item2, transform.position, Quaternion.identity);
-                projectiles[i].GetComponent<FireBall>().Activate(targets, index);
+                projectiles[i].GetComponent<Projectile>().Activate(targets, index);
             }            
-        }       
+        }    
     }
     
     public virtual void DealDamage() // Will deal damage using animator event 

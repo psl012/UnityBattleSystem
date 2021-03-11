@@ -7,14 +7,12 @@ public class CharacterBattleAnimator : MonoBehaviour
 {
     public event Action onDealDamage = delegate{};
     public Dictionary<string, string> _animationDictionary = new Dictionary<string, string>();
-    protected CharacterAbilities _characterAbilities;
     protected Animator _animator;
     protected BattleSystem _battleSystem;
 
     protected virtual void Awake()
     {
         _battleSystem = FindObjectOfType<BattleSystem>();
-        _characterAbilities = GetComponentInParent<CharacterAbilities>();
         _animator = GetComponent<Animator>();
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);

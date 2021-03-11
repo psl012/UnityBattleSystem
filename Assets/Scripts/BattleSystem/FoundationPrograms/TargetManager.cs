@@ -112,7 +112,23 @@ public class TargetManager
             }
             _targetIcon.MoveToTarget(new Vector3(-500, -270, 0));
 
-            _characterAbilities.UseSkill(_actionSelected, _targetGroup, _listTargetIndex);
+            List<Character> targetGroupClone = new List<Character>();
+            foreach (Character target in _targetGroup)
+            {
+                targetGroupClone.Add(target);
+            }
+
+            List<int> listTargetIndexClone = new List<int>();
+            foreach(int tgIndex in _listTargetIndex)
+            {
+                listTargetIndexClone.Add(tgIndex);
+            }
+
+            _characterAbilities.UseSkill(_actionSelected, targetGroupClone, listTargetIndexClone);
+            
+            _targetIndex = 0;
+            _listTargetIndex.Clear();
+
             return true;
         }
         else

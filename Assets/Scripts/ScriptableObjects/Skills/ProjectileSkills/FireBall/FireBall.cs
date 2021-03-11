@@ -3,53 +3,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBall : MonoBehaviour
+public class FireBall : Projectile
 {
-    Animator _animator;
-    Rigidbody2D _rigidBody;
-    List<Character> _listOftarget;
-    List<int> _listOfIndex;
-    bool _isCasted = false;
-    bool _isFinishedMoving = false;
-
-    void Awake()
+    protected override void Awake()
     {
-        _animator = GetComponent<Animator>();
-        _rigidBody = GetComponent<Rigidbody2D>();
+        base.Awake();
     }
 
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
-
+        base.Start();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        if(!_isCasted || _isFinishedMoving) 
-        {
-            return;
-        }
-        MoveToTarget();
-   
+        base.Update();
     }
 
-    public void Activate(List<Character> target, List<int> index)
+    public override void Activate(List<Character> target, List<int> index)
     {
-        _listOftarget = target;
-        _listOfIndex = index;
-        _isCasted = true;
+        base.Activate(target, index);
     }
 
-    public void MoveToTarget()
-    {
-        if(Vector2.Distance(transform.position, _listOftarget[_listOfIndex[0]].transform.position) < 0.05f)
-        {
-            Debug.Log("Moving finished");
-            _isFinishedMoving = true;
-        }
 
-         transform.position = Vector2.MoveTowards(transform.position, _listOftarget[_listOfIndex[0]].transform.position, 5f*Time.deltaTime);
+    public override void MoveToTarget()
+    {
+        base.MoveToTarget();
+    }
+
+
+    public override void DamageTarget()
+    {
+        base.DamageTarget();
+    }
+
+    public override void EndTurn()
+    {
+        base.EndTurn();
     }
 }

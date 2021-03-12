@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &10372969
 Transform:
   m_ObjectHideFlags: 0
@@ -429,7 +429,7 @@ MonoBehaviour:
   _classSkills:
   - {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}
   - {fileID: 11400000, guid: 4cc96612a1530a04981a3763ea675cf2, type: 2}
-  - {fileID: 11400000, guid: c2c65e0085c4d3644bb9eca9c5aad604, type: 2}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!1 &482642694
@@ -1045,6 +1045,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 335640938}
     m_Modifications:
+    - target: {fileID: 2074288957, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
+      propertyPath: _classSkills.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: aeac04c28e83ecb4fb5dfd9733aa2f2e,
+        type: 2}
+    - target: {fileID: 2074288957, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
+      propertyPath: _classSkills.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 86dd5ddd273f78740a81b0b45b306fd5,
+        type: 2}
     - target: {fileID: 2074288957, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
       propertyPath: _classSkills.Array.data[2]
       value: 

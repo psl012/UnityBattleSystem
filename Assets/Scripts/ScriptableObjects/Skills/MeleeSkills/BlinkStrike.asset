@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a12aa303a9d76a44ea18cba998a109de, type: 3}
+  m_Script: {fileID: 11500000, guid: b41581ca31ebb0547aa5d11b4d91f77e, type: 3}
   m_Name: BlinkStrike
   m_EditorClassIdentifier: 
   _skillName: BlinkStrike

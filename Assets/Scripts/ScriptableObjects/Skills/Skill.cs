@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Skill Object", menuName = "Skills/Melee")]
+
 public class Skill : ScriptableObject
 {
     public enum SkillType {Melee, Invocation ,Summon, Buff, Debuff}

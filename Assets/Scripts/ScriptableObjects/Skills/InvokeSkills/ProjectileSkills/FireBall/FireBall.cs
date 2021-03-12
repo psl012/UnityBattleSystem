@@ -22,17 +22,15 @@ public class FireBall : Projectile
         base.Update();
     }
 
-    public override void Activate(List<Character> target, List<int> index)
+    public override void Activate(CharacterAbilities user, List<Character> target, List<int> index)
     {
-        base.Activate(target, index);
+        base.Activate(user, target, index);
     }
-
 
     public override void MoveToTarget()
     {
         base.MoveToTarget();
     }
-
 
     public override void DamageTarget()
     {

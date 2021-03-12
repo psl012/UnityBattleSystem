@@ -61,7 +61,7 @@ public class CharacterAbilities : MonoBehaviour
             for(int i=0; i < projectileTuple.Item1; i++)
             {
                 projectiles[i] = Instantiate(projectileTuple.Item2, transform.position, Quaternion.identity);
-                projectiles[i].GetComponent<Projectile>().Activate(targets, index);
+                projectiles[i].GetComponent<Invocation>().Activate(this, targets, index);
             }            
         }
         else if (selectedSkill._skillType == Skill.SkillType.Invocation)
@@ -77,7 +77,7 @@ public class CharacterAbilities : MonoBehaviour
             {
                 Character tg = targets[index[indexCounter]];
                 invocations[i] = Instantiate(invokeTuple.Item2, tg.transform.position , Quaternion.identity);
-                invocations[i].GetComponent<Invocation>().Activate(targets, index);
+                invocations[i].GetComponent<Invocation>().Activate(this, targets, index);
                 indexCounter += 1;
             }
         }    

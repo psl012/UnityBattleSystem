@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 789160769151351923}
   - component: {fileID: 5620824934423373316}
   - component: {fileID: 7939498523650807712}
-  - component: {fileID: 7670178781100634709}
+  - component: {fileID: -5124224609463204852}
   m_Layer: 0
   m_Name: LightningInvoke
   m_TagString: Untagged
@@ -102,7 +102,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7670178781100634709
+--- !u!114 &-5124224609463204852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,6 +111,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7629489140477429789}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 771e0c9b69f0bcd4bbe57bdcd94ec97c, type: 3}
+  m_Script: {fileID: 11500000, guid: cfd005534ac943a4dbeb7b19552e419b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

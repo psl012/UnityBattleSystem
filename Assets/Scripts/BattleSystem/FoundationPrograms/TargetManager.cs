@@ -16,6 +16,7 @@ public class TargetManager
     string _actionSelected;
     int _targetIndex = 0;
     int _skillTargetAvailable = 0;
+    int _numberOfTargetsLeft = 0;
 
     List<int> _listTargetIndex = new List<int>();
     
@@ -56,6 +57,7 @@ public class TargetManager
             _targetGroup = _enemyTargets;
             _currentTarget = _enemyTargets[0];
         }
+        _numberOfTargetsLeft = _targetGroup.Count;
         _targetIcon.MoveToTarget(_currentTarget._targetMark.transform.position);
     
     }
@@ -88,10 +90,11 @@ public class TargetManager
     {
         Skill skillSelected = _characterAbilities.SkillDictionary[_actionSelected];
  
-        if(_skillTargetAvailable > 0)
+        if(_skillTargetAvailable > 0 && _numberOfTargetsLeft > 0)
         {
             _listTargetIndex.Add(_targetIndex);
             _skillTargetAvailable -= 1;
+            _numberOfTargetsLeft -= 1;
             _targetGroup[_targetIndex]._targetMark.ActivateIcon();
             
             if(_targetIndex == _targetGroup.Count - 1)
@@ -104,7 +107,7 @@ public class TargetManager
             }
         }
 
-        if(_skillTargetAvailable == 0)
+        if(_skillTargetAvailable == 0 || _numberOfTargetsLeft == 0)
         {
             foreach(int ind in _listTargetIndex)
             {

@@ -53,6 +53,12 @@ public class CharacterPanel : MonoBehaviour
         _battleSystem.TargetMode();       
     }
 
+    public virtual void SkillButton3()
+    {
+        _targetManager.SetAbility(DictionarySkillKeys.SKILL_3, BattleEnums.TargetType.Enemy);
+        _battleSystem.TargetMode();       
+    }
+
     public void ChangeTargetButton(string direction)
     {
         _targetManager.ChangeTarget(direction);
@@ -63,6 +69,7 @@ public class CharacterPanel : MonoBehaviour
         if(_targetManager.TargetInteract())
         {
             _uiPanelChanger.ActivateMainPanel();
+            // _uiPanelChanger.ActivateDisablePanel();
         }
     }
 

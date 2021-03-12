@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +9,7 @@ public class ProjectileSkill : Skill
     public int _numberOfProjectiles;
     public GameObject _projectile;
 
-    public override (int, GameObject) GetProjectile()
+    public override (int, GameObject) GetSkillObject()
     {
         return (_numberOfProjectiles, _projectile);
     }

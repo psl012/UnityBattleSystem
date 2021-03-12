@@ -42,7 +42,7 @@ public class CharacterAbilities : MonoBehaviour
     {
         Skill selectedSkill = SkillDictionary[skillKey];
        
-        if (selectedSkill._skillType == Skill.SkillType.Melee)
+        if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {
                 Debug.Log("target: "+ targets[0]);
                  Debug.Log("index: "+ index[0]);
@@ -50,7 +50,7 @@ public class CharacterAbilities : MonoBehaviour
                 _damageDealer.SetUpTargets(targets, index);
                 _characterBattleAnimator.SkillAnimation(skillKey);
         }
-        else if (selectedSkill._skillType == Skill.SkillType.Projectile)
+        else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
             (int, GameObject) projectileTuple = selectedSkill.GetSkillObject();
             GameObject[] projectiles = new GameObject[projectileTuple.Item1]; 
@@ -63,24 +63,7 @@ public class CharacterAbilities : MonoBehaviour
                 projectiles[i] = Instantiate(projectileTuple.Item2, transform.position, Quaternion.identity);
                 projectiles[i].GetComponent<Invocation>().Activate(this, targets, index);
             }            
-        }
-        else if (selectedSkill._skillType == Skill.SkillType.Invocation)
-        {
-            (int, GameObject) invokeTuple = selectedSkill.GetSkillObject();
-            GameObject[] invocations = new GameObject[invokeTuple.Item1];
-
-            Debug.Log("target: "+ targets[0]);
-            Debug.Log("index: "+ index[0]);      
-
-            int indexCounter = 0;
-            for(int i=0; i<invokeTuple.Item1; i++)
-            {
-                Character tg = targets[index[indexCounter]];
-                invocations[i] = Instantiate(invokeTuple.Item2, tg.transform.position , Quaternion.identity);
-                invocations[i].GetComponent<Invocation>().Activate(this, targets, index);
-                indexCounter += 1;
-            }
-        }    
+        }   
     }
     
     public virtual void DealDamage() // Will deal damage using animator event 

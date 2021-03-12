@@ -12,4 +12,9 @@ public class InvokeSkill : Skill
     {
         return (_numberOfInvokes, _invoke);
     }
+
+    public override SkillType GetSkillType()
+    {
+        return SkillType.Invocation;
+    }
 }

@@ -6,8 +6,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Skill Object", menuName = "Skills/Melee")]
 public class Skill : ScriptableObject
 {
-    public enum SkillType {Melee, Projectile, Invocation ,Summon, Buff, Debuff}
-    public SkillType _skillType;
+    public enum SkillType {Melee, Invocation ,Summon, Buff, Debuff}
+
     public string _skillName;
     public int numberOfTargets;
 
@@ -19,6 +19,11 @@ public class Skill : ScriptableObject
     public virtual (int, GameObject) GetSkillObject()
     {
         return (0, null);
+    }
+
+    public virtual SkillType GetSkillType()
+    {
+        return SkillType.Melee;
     }
     
 }

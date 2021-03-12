@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112683268918dd74b92c951859658c54, type: 3}
   m_Name: Lightning
   m_EditorClassIdentifier: 
-  _skillType: 2
   _skillName: Lightning
   numberOfTargets: 1
   _numberOfInvokes: 1

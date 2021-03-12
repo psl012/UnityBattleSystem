@@ -13,4 +13,9 @@ public class ProjectileSkill : Skill
     {
         return (_numberOfProjectiles, _projectile);
     }
+
+    public override SkillType GetSkillType()
+    {
+        return SkillType.Invocation;
+    }
 }

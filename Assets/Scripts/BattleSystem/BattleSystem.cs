@@ -6,53 +6,36 @@ using UnityEngine;
 public enum BattleState {PlayerTurn, EnemyTurn, EndTurn, Win, Lose}
 public class BattleSystem : MonoBehaviour
 {
-  //  BattleEvents _battleEvents;
     public event Action onPlayerTurn = delegate{};
     public event Action onEnemyTurn = delegate{};
     public event Action onTargetMode = delegate{};
     public event Action onEndTurn = delegate{};
 
-    Player[] _players;
-    Enemy[] _enemies;
+    public BattleState _battleState{get; set;}
     public Character[] _battleOrder{get; private set;}
+    public Character _currentCharacter{get; set;}
+    public int _currentCharacterIndex{get; set;} = 0;
+    public UIPanelChanger[] _characterUIPanels{get; private set;}
+
+
     StateMachine _stateMachine;
-    public BattleState _battleState;
+
     State_PlayerTurn _statePlayerTurn;
     State_EnemyTurn _stateEnemyTurn;
     State_Win _stateWin;
     State_Lose _stateLose;
     State_EndTurn _stateEndTurn;
-    //TargetIcon _targetIcon;
-    public Character _currentCharacter{get; set;}
-    public int _currentCharacterIndex{get; set;} = 0;
-    public UIPanelChanger[] _characterUIPanels{get; private set;}
-
-    BattleAI[] _battleAI;
-    
 
     void Awake()
-    {
-        _players = FindObjectsOfType<Player>();
-
-        _enemies = FindObjectsOfType<Enemy>();   
-        _battleAI = FindObjectsOfType<BattleAI>();
-
-      //  _targetIcon = GetComponentInChildren<TargetIcon>();
+    { 
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
-
+        _battleOrder = FindObjectsOfType<Character>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-      /**  _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);   
-
-        Character[] test1 = FindObjectsOfType<Character>();
-        test1 = MergeSort.charactermergeSort(test1, false, MergeSort.SortType.Speed);*/
-        _battleOrder = FindObjectsOfType<Character>();
         _battleOrder = MergeSort.charactermergeSort(_battleOrder, false, MergeSort.SortType.Speed);
-
-        Debug.Log(_battleOrder.Length);
         SetUpStateMachine();
     }
 
@@ -78,7 +61,6 @@ public class BattleSystem : MonoBehaviour
         var _stateEndTurn = new State_EndTurn(this);
         var _stateWin = new State_Win();
         var _stateLose = new State_Lose();
-
 
         _stateMachine = new StateMachine();
 
@@ -131,13 +113,8 @@ public class BattleSystem : MonoBehaviour
 
     public void TargetMode()
     {
-        _characterUIPanels[0].ActivateTargetPanel();
+        _characterUIPanels[_currentCharacter._battlePosition].ActivateTargetPanel();
         onTargetMode();
     }
-
-    void OnDestroy()
-    {
-
-    }
-    
+ 
 }

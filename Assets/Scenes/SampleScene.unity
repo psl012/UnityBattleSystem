@@ -217,10 +217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5296f35c0afe6604e90bc003af1b350a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
+  _characterClass: {fileID: 11400000, guid: ef4c61891c8fcce4385df120b4156ca5, type: 2}
   _targetMark: {fileID: 482642697}
   _battlePosition: 1
-  _battleAI: {fileID: 0}
 --- !u!114 &10372972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,7 +399,6 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: 4fbb1167cec38ab4999108f13123f83e, type: 2}
   _targetMark: {fileID: 1178519512}
   _battlePosition: 0
-  _battleAI: {fileID: 0}
 --- !u!4 &409325074
 Transform:
   m_ObjectHideFlags: 0

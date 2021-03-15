@@ -20,7 +20,7 @@ public class State_PlayerTurn : IState
 
     public void OnEnter()
     {
-        _index = _battleSystem._currentCharacterIndex;
+        _index = _battleSystem._currentCharacter._battlePosition;
         _battleSystem._characterUIPanels[_index].ActivateMainPanel();
         _battleSystem.PlayerTurn();
     }

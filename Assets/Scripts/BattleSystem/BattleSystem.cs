@@ -39,12 +39,20 @@ public class BattleSystem : MonoBehaviour
 
       //  _targetIcon = GetComponentInChildren<TargetIcon>();
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
+
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);       
+      /**  _battleOrder = SetBattleOrder(_players, _enemies, MergeSort.SortType.Speed);   
+
+        Character[] test1 = FindObjectsOfType<Character>();
+        test1 = MergeSort.charactermergeSort(test1, false, MergeSort.SortType.Speed);*/
+        _battleOrder = FindObjectsOfType<Character>();
+        _battleOrder = MergeSort.charactermergeSort(_battleOrder, false, MergeSort.SortType.Speed);
+
+        Debug.Log(_battleOrder.Length);
         SetUpStateMachine();
     }
 
@@ -85,6 +93,8 @@ public class BattleSystem : MonoBehaviour
         
         At(_statePlayerTurn, _stateWin, IsWin());
         At(_stateEnemyTurn, _stateWin, IsWin());
+
+        Debug.Log(_battleOrder[0].name + "TURN");
 
         if (_battleOrder[0].tag == "Enemy")
         { 

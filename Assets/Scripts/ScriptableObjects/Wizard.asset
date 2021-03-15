@@ -23,7 +23,4 @@ MonoBehaviour:
   _strenght: 15
   _dexterity: 13
   _intelligence: 20
-  _speed: 12
-  _skills:
-  - {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}
-  - {fileID: 11400000, guid: 4cc96612a1530a04981a3763ea675cf2, type: 2}
+  _speed: 7

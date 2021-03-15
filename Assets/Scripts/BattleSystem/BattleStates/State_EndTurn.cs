@@ -37,7 +37,6 @@ public class State_EndTurn : IState
 
         _battleSystem._currentCharacter = _battleSystem._battleOrder[_battleSystem._currentCharacterIndex];
         Debug.Log(_battleSystem._currentCharacter.name + "TURN");
-        
         if(_battleSystem._currentCharacter.tag == "Player")
         {
             _battleSystem._battleState = BattleState.PlayerTurn;

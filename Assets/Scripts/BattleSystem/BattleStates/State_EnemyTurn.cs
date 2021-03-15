@@ -20,7 +20,6 @@ public class State_EnemyTurn : IState
 
     public void OnEnter()
     {
-        Debug.Log("dfdf");
         _battleSystem.EnemyTurn();
         _battleSystem._currentCharacter._battleAI.DefaultAttack();
     }

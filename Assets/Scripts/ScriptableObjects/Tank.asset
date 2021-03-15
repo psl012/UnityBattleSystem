@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4849dabf3092145459059e79adf4b459, type: 3}
-  m_Name: Bandit
+  m_Name: Tank
   m_EditorClassIdentifier: 
-  _className: Bandit
-  _description: A common baddie
-  _health: 10
-  _mana: 0
-  _attackPower: 3
-  _magicPower: 0
-  _defensePower: 2
-  _magicDefensePower: 0
-  _strenght: 7
-  _dexterity: 5
-  _intelligence: 3
-  _speed: 10
+  _className: 
+  _description: 
+  _health: 100
+  _mana: 1
+  _attackPower: 1
+  _magicPower: 1
+  _defensePower: 1
+  _magicDefensePower: 1
+  _strenght: 25
+  _dexterity: 1
+  _intelligence: 1
+  _speed: 4

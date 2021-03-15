@@ -21,6 +21,8 @@ public class Character : MonoBehaviour
 
     public float _specialPoints{get; set;}
 
+    public BattleAI _battleAI{get; set;}
+
     public virtual void Awake()
     {
         _health = _characterClass._health;
@@ -40,6 +42,8 @@ public class Character : MonoBehaviour
         _characterStats.Add(nameof(_defensePower), _defensePower);
         _characterStats.Add(nameof(_dexterity), _dexterity);
         _characterStats.Add(nameof(_speed), _speed);
+
+        _battleAI = GetComponent<BattleAI>();
     }
 
 }

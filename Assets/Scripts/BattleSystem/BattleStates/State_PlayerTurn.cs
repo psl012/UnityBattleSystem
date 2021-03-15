@@ -6,6 +6,7 @@ public class State_PlayerTurn : IState
 {
     BattleSystem _battleSystem;
     Character _player;
+    int _index;
 
     public State_PlayerTurn(BattleSystem battleSystem, Character player)
     {
@@ -19,12 +20,13 @@ public class State_PlayerTurn : IState
 
     public void OnEnter()
     {
+        _index = _battleSystem._currentCharacterIndex;
+        _battleSystem._characterUIPanels[_index].ActivateMainPanel();
         _battleSystem.PlayerTurn();
-        Debug.Log("GGG");
     }
 
     public void OnExit()
     {
-        
+        _battleSystem._characterUIPanels[_index].ActivateDisablePanel();     
     }
 }

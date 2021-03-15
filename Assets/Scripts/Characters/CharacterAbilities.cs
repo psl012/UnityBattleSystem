@@ -44,8 +44,8 @@ public class CharacterAbilities : MonoBehaviour
        
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {
-                Debug.Log("target: "+ targets[0]);
-                 Debug.Log("index: "+ index[0]);
+            //    Debug.Log("target: "+ targets[0]);
+               //  Debug.Log("index: "+ index[0]);
                
                 _damageDealer.SetUpTargets(targets, index);
                 _characterBattleAnimator.SkillAnimation(skillKey);
@@ -55,8 +55,8 @@ public class CharacterAbilities : MonoBehaviour
             (int, GameObject) projectileTuple = selectedSkill.GetSkillObject();
             GameObject[] projectiles = new GameObject[projectileTuple.Item1]; 
           
-            Debug.Log("target: "+ targets[0]);
-            Debug.Log("index: "+ index[0]);
+        //    Debug.Log("target: "+ targets[0]);
+          //  Debug.Log("index: "+ index[0]);
 
             for(int i=0; i < projectileTuple.Item1; i++)
             {

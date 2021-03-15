@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 10372969}
   - component: {fileID: 10372971}
+  - component: {fileID: 10372972}
   - component: {fileID: 10372970}
   m_Layer: 0
   m_Name: Enemy (1)
@@ -219,6 +220,19 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
   _targetMark: {fileID: 482642697}
   _battlePosition: 1
+  _battleAI: {fileID: 0}
+--- !u!114 &10372972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10372968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6f32562cb62984ba645861b8b82ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &31377006
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +400,7 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: 4fbb1167cec38ab4999108f13123f83e, type: 2}
   _targetMark: {fileID: 1178519512}
   _battlePosition: 0
+  _battleAI: {fileID: 0}
 --- !u!4 &409325074
 Transform:
   m_ObjectHideFlags: 0
@@ -427,8 +442,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _classSkills:
-  - {fileID: 11400000, guid: af7f886761f49af499f733dbe600c832, type: 2}
-  - {fileID: 11400000, guid: 4cc96612a1530a04981a3763ea675cf2, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

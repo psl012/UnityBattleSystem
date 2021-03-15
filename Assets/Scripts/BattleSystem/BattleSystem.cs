@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BattleState {PlayerTurn, EnemyTurn, Win, Lose}
+public enum BattleState {PlayerTurn, EnemyTurn, EndTurn, Win, Lose}
 public class BattleSystem : MonoBehaviour
 {
   //  BattleEvents _battleEvents;
@@ -14,24 +14,31 @@ public class BattleSystem : MonoBehaviour
 
     Player[] _players;
     Enemy[] _enemies;
-    Character[] _battleOrder;
+    public Character[] _battleOrder{get; private set;}
     StateMachine _stateMachine;
     public BattleState _battleState;
     State_PlayerTurn _statePlayerTurn;
     State_EnemyTurn _stateEnemyTurn;
     State_Win _stateWin;
     State_Lose _stateLose;
-    TargetIcon _targetIcon;
-    Character currentCharacter;
-    int currentCharacterIndex = 0;
+    State_EndTurn _stateEndTurn;
+    //TargetIcon _targetIcon;
+    public Character _currentCharacter{get; set;}
+    public int _currentCharacterIndex{get; set;} = 0;
+    public UIPanelChanger[] _characterUIPanels{get; private set;}
 
+    BattleAI[] _battleAI;
     
 
     void Awake()
     {
         _players = FindObjectsOfType<Player>();
-        _enemies = FindObjectsOfType<Enemy>();    
-        _targetIcon = GetComponentInChildren<TargetIcon>();
+
+        _enemies = FindObjectsOfType<Enemy>();   
+        _battleAI = FindObjectsOfType<BattleAI>();
+
+      //  _targetIcon = GetComponentInChildren<TargetIcon>();
+        _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
     }
 
     // Start is called before the first frame update
@@ -57,16 +64,21 @@ public class BattleSystem : MonoBehaviour
 
     void SetUpStateMachine()
     {
-        currentCharacter = _battleOrder[0];
-        var _statePlayerTurn = new State_PlayerTurn(this, currentCharacter);
-        var _stateEnemyTurn = new State_EnemyTurn();
+        _currentCharacter = _battleOrder[0];
+        var _statePlayerTurn = new State_PlayerTurn(this, _currentCharacter);
+        var _stateEnemyTurn = new State_EnemyTurn(this);
+        var _stateEndTurn = new State_EndTurn(this);
         var _stateWin = new State_Win();
         var _stateLose = new State_Lose();
 
+
         _stateMachine = new StateMachine();
 
-        At(_statePlayerTurn, _stateEnemyTurn, IsEnemyTurn());
-        At(_stateEnemyTurn, _statePlayerTurn, IsPlayerTurn());
+        At(_statePlayerTurn, _stateEndTurn, IsEndTurn());
+        At(_stateEnemyTurn, _stateEndTurn, IsEndTurn());
+
+        At(_stateEndTurn, _statePlayerTurn, IsPlayerTurn());
+        At(_stateEndTurn, _stateEnemyTurn, IsEnemyTurn());
 
         At(_statePlayerTurn, _stateLose, IsLose());
         At(_stateEnemyTurn, _stateLose, IsLose());
@@ -88,23 +100,8 @@ public class BattleSystem : MonoBehaviour
         Func<bool> IsEnemyTurn() => () => _battleState == BattleState.EnemyTurn;
         Func<bool> IsWin() => () => _battleState == BattleState.Win;
         Func<bool> IsLose() => () => _battleState == BattleState.Lose;
+        Func<bool> IsEndTurn() => () => _battleState == BattleState.EndTurn;
     }
-
-    void NextCharacter()
-    {
-        currentCharacterIndex += 1;
-        currentCharacter = _battleOrder[currentCharacterIndex];
-
-        if(currentCharacter.tag == "Player")
-        {
-            _battleState = BattleState.PlayerTurn;
-        }
-        else if (currentCharacter.tag == "Enemy")
-        {
-            _battleState = BattleState.EnemyTurn;
-        }
-    }
-
 
     public void PlayerTurn()
     {
@@ -118,12 +115,13 @@ public class BattleSystem : MonoBehaviour
 
     public void EndTurn()
     {
-        NextCharacter();
+        _battleState = BattleState.EndTurn;
         onEndTurn();
     }
 
     public void TargetMode()
     {
+        _characterUIPanels[0].ActivateTargetPanel();
         onTargetMode();
     }
 

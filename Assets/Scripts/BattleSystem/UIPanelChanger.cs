@@ -13,20 +13,6 @@ public class UIPanelChanger : MonoBehaviour
     [SerializeField] GameObject _disablePanel;
     [SerializeField] GameObject _targetPanel;
  
-
-    void Awake()
-    {
-        _battleSystem = GetComponentInParent<BattleSystem>();
-        _battleSystem.onPlayerTurn += ActivateMainPanel;
-        _battleSystem.onEnemyTurn += ActivateDisablePanel;
-        _battleSystem.onTargetMode += ActivateTargetPanel;
-    }
-
-    void Start()
-    {
-
-    }
-
     public void ActivateMainPanel()
     {
         _mainPanel.SetActive(true);
@@ -95,9 +81,7 @@ public class UIPanelChanger : MonoBehaviour
 
     void OnDestroy()
     {
-        _battleSystem.onPlayerTurn -= ActivateMainPanel;
-        _battleSystem.onEnemyTurn -= ActivateDisablePanel;
-        _battleSystem.onTargetMode -= ActivateTargetPanel;
+
     }
 
 }

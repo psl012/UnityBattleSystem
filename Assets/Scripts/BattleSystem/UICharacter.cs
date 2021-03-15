@@ -10,14 +10,27 @@ public class UICharacter : MonoBehaviour
     const string MP_TXT = "MP: ";
     const string SP_TXT = "SP: ";
 
-    [SerializeField] Character _character;
+    Character _character;
+    [SerializeField] int _characterPanelNumber;
     [SerializeField] TextMeshProUGUI _hpText;
     [SerializeField] TextMeshProUGUI _mpText;
     [SerializeField] TextMeshProUGUI _specialText;
     
     void Awake()
     {
+        InitializeCharacterPanel();
+    }
 
+    public void InitializeCharacterPanel()
+    {
+        Character[] players = FindObjectsOfType<Character>();
+        foreach(Character ch in players)
+        {
+            if(ch._battlePosition == _characterPanelNumber)
+            {
+                _character = ch;
+            }
+        }
     }
 
     void Start()

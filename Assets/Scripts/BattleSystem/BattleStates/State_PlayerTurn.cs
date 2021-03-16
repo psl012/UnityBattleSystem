@@ -21,6 +21,7 @@ public class State_PlayerTurn : IState
     public void OnEnter()
     {
         _index = _battleSystem._currentCharacter._battlePosition;
+        _battleSystem._characterPanelManager.ActivateCharacterPanel(_index);
         _battleSystem._characterUIPanels[_index].ActivateMainPanel();
         _battleSystem.PlayerTurn();
     }

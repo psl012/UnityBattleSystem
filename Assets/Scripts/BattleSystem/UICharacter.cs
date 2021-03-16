@@ -4,37 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[RequireComponent(typeof(CharacterPanel))]
 public class UICharacter : MonoBehaviour
 {
     const string HP_TXT = "HP: ";
     const string MP_TXT = "MP: ";
     const string SP_TXT = "SP: ";
 
+    CharacterPanel _characterPanel;
     Character _character;
-    [SerializeField] int _characterPanelNumber;
+    int _characterPanelNumber;
     [SerializeField] TextMeshProUGUI _hpText;
     [SerializeField] TextMeshProUGUI _mpText;
     [SerializeField] TextMeshProUGUI _specialText;
     
     void Awake()
     {
-        InitializeCharacterPanel();
+        _characterPanel = GetComponent<CharacterPanel>();
+        _characterPanelNumber = _characterPanel._characterPanelNumber;
     }
 
-    public void InitializeCharacterPanel()
-    {
-        Character[] players = FindObjectsOfType<Character>();
-        foreach(Character ch in players)
-        {
-            if(ch._battlePosition == _characterPanelNumber)
-            {
-                _character = ch;
-            }
-        }
-    }
 
     void Start()
     {
+        _character = _characterPanel._myCharacter;
         UpdateHPText();  // Cannot put in Awake (It is where we assing max health) 
         UpdateMPText();
         UpdateSpecialText();

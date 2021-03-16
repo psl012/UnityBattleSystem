@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class CharacterPanel : MonoBehaviour
 {
+    public int _characterPanelNumber;
+    public Character _myCharacter;
+
     protected BattleSystem _battleSystem;
     protected TargetManager _targetManager;
-    [SerializeField] protected CharacterAbilities _characterAbilities;
+    protected CharacterAbilities _characterAbilities;
     protected Character[] _playerTargetChars;
     protected Character[] _enemyTargetChars;
     protected TargetIcon _targetIcon;
@@ -19,6 +22,16 @@ public class CharacterPanel : MonoBehaviour
         _playerTargetChars = FindObjectsOfType<Player>();
         _enemyTargetChars = FindObjectsOfType<Enemy>();
         _targetIcon = GetComponentInChildren<TargetIcon>();
+
+        foreach (Character ch in _playerTargetChars)
+        {
+            if (ch._battlePosition == _characterPanelNumber)
+            {
+                _myCharacter = ch;
+            }
+        }
+        _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
+
         _targetManager = new TargetManager(_playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }

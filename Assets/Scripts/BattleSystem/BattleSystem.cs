@@ -16,9 +16,10 @@ public class BattleSystem : MonoBehaviour
     public Character _currentCharacter{get; set;}
     public int _currentCharacterIndex{get; set;} = 0;
     public UIPanelChanger[] _characterUIPanels{get; private set;}
-
+    public CharacterPanelManager _characterPanelManager { get; set; }
 
     StateMachine _stateMachine;
+
 
     State_PlayerTurn _statePlayerTurn;
     State_EnemyTurn _stateEnemyTurn;
@@ -29,6 +30,7 @@ public class BattleSystem : MonoBehaviour
     void Awake()
     { 
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
+        _characterPanelManager = GetComponent<CharacterPanelManager>();
         _battleOrder = FindObjectsOfType<Character>();
     }
 

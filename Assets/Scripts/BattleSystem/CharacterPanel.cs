@@ -8,6 +8,7 @@ public class CharacterPanel : MonoBehaviour
     public int _characterPanelNumber;
     public Character _myCharacter { get; private set; }
 
+    protected CharacterIcon _characterIcon;
     protected BattleSystem _battleSystem;
     protected TargetManager _targetManager;
     protected CharacterAbilities _characterAbilities;
@@ -30,12 +31,24 @@ public class CharacterPanel : MonoBehaviour
                 _myCharacter = ch;
             }
         }
+
+        _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
+
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
         _targetManager = new TargetManager(_playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 
+    private void OnEnable()
+    {
+        _characterIcon.gameObject.SetActive(true);
+    }
+
+    private void OnDisable()
+    {
+        _characterIcon.gameObject.SetActive(false);
+    }
 
     // Start is called before the first frame update
     protected virtual void Start()

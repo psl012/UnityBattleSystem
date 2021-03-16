@@ -6,7 +6,7 @@ using UnityEngine;
 public class CharacterPanel : MonoBehaviour
 {
     public int _characterPanelNumber;
-    public Character _myCharacter;
+    public Character _myCharacter { get; private set; }
 
     protected BattleSystem _battleSystem;
     protected TargetManager _targetManager;
@@ -21,7 +21,7 @@ public class CharacterPanel : MonoBehaviour
         _battleSystem = GetComponentInParent<BattleSystem>();
         _playerTargetChars = FindObjectsOfType<Player>();
         _enemyTargetChars = FindObjectsOfType<Enemy>();
-        _targetIcon = GetComponentInChildren<TargetIcon>();
+        _targetIcon = FindObjectOfType<TargetIcon>();
 
         foreach (Character ch in _playerTargetChars)
         {

@@ -20,7 +20,7 @@ public class BattleAI : MonoBehaviour
     {
         _character = GetComponent<Character>();
         _characterAbilities = GetComponent<CharacterAbilities>();
-        _targetIcon = GetComponentInChildren<TargetIcon>();
+        _targetIcon = FindObjectOfType<TargetIcon>();
         _battleSystem = FindObjectOfType<BattleSystem>();
     }
 

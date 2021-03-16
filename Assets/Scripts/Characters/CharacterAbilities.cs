@@ -103,7 +103,7 @@ public class DamageDealer
         if (_listOfTargetIndex.Count > 0)
         {
             int targetIndex = _listOfTargetIndex[0];
-            Debug.Log(_listOfTargets[targetIndex]._health + "<- health" + "I hit " + _damageHolder);
+            Debug.Log(_listOfTargets[targetIndex]._health + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _damageHolder);
             _listOfTargetIndex.RemoveAt(0);
         }
         else

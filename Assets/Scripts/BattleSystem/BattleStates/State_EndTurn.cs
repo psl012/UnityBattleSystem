@@ -18,7 +18,6 @@ public class State_EndTurn : IState
 
     public void OnEnter()
     {
-        Debug.Log("hllo");
         NextCharacter();
     }
 

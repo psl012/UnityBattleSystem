@@ -28,6 +28,7 @@ public class State_PlayerTurn : IState
 
     public void OnExit()
     {
-        _battleSystem._characterUIPanels[_index].ActivateDisablePanel();     
+    //    _battleSystem._characterUIPanels[_index].ActivateDisablePanel();
+        _battleSystem._characterPanelManager.ActivateNeutralPanel();
     }
 }

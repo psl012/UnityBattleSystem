@@ -6,6 +6,8 @@ public class CharacterPanelManager : MonoBehaviour
 {
     [SerializeField] CharacterPanel[] _characterPanels;
 
+    [SerializeField] GameObject _neutralPanel;
+
     public void ActivateCharacterPanel(int panelNumber)
     {
         for(int i = 0; i < _characterPanels.Length; i++)
@@ -19,5 +21,15 @@ public class CharacterPanelManager : MonoBehaviour
                 _characterPanels[i].gameObject.SetActive(false);
             }
         }
+        _neutralPanel.SetActive(false);
+    }
+
+    public void ActivateNeutralPanel()
+    {
+        foreach(CharacterPanel panel in _characterPanels)
+        {
+            panel.gameObject.SetActive(false);
+        }
+        _neutralPanel.SetActive(true);
     }
 }

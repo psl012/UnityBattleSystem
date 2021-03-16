@@ -81,8 +81,9 @@ public class CharacterPanel : MonoBehaviour
     {
         if(_targetManager.TargetInteract())
         {
-            _uiPanelChanger.ActivateMainPanel();
+            // _uiPanelChanger.ActivateMainPanel();
             // _uiPanelChanger.ActivateDisablePanel();
+            _battleSystem._characterPanelManager.ActivateNeutralPanel();
         }
     }
 

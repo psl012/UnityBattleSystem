@@ -10,7 +10,7 @@ public class UIPanelChanger : MonoBehaviour
     [SerializeField] GameObject _magicPanel;
     [SerializeField] GameObject _itemPanel;
     [SerializeField] GameObject _specialPanel;
-    [SerializeField] GameObject _disablePanel;
+   // [SerializeField] GameObject _disablePanel;
     [SerializeField] GameObject _targetPanel;
  
     public void ActivateMainPanel()
@@ -21,7 +21,7 @@ public class UIPanelChanger : MonoBehaviour
         _itemPanel.SetActive(false);
         _specialPanel.SetActive(false);
         _targetPanel.SetActive(false);        
-        _disablePanel.SetActive(false);
+     //   _disablePanel.SetActive(false);
     }
 
     public void ActivateMagicPanel()
@@ -32,7 +32,7 @@ public class UIPanelChanger : MonoBehaviour
         _itemPanel.SetActive(false);
         _specialPanel.SetActive(false);
         _targetPanel.SetActive(false);
-        _disablePanel.SetActive(false);
+      //  _disablePanel.SetActive(false);
     }
     public void ActivateItemPanel()
     {
@@ -42,7 +42,7 @@ public class UIPanelChanger : MonoBehaviour
         _magicPanel.SetActive(false);
         _specialPanel.SetActive(false);
         _targetPanel.SetActive(false);
-        _disablePanel.SetActive(false);
+     //   _disablePanel.SetActive(false);
     }
 
     public void ActivateSpecialPanel()
@@ -53,9 +53,9 @@ public class UIPanelChanger : MonoBehaviour
         _mainPanel.SetActive(false);
         _magicPanel.SetActive(false);
         _targetPanel.SetActive(false);
-        _disablePanel.SetActive(false);
+    //    _disablePanel.SetActive(false);
     }
-
+    /**
     public void ActivateDisablePanel()
     {
         _disablePanel.SetActive(true);
@@ -66,7 +66,7 @@ public class UIPanelChanger : MonoBehaviour
         _specialPanel.SetActive(false);
         _targetPanel.SetActive(false);
     }
-
+    */
 
     public void ActivateTargetPanel()
     {
@@ -76,7 +76,7 @@ public class UIPanelChanger : MonoBehaviour
         _magicPanel.SetActive(false);
         _itemPanel.SetActive(false);
         _specialPanel.SetActive(false);
-        _disablePanel.SetActive(false);
+      //  _disablePanel.SetActive(false);
     }
 
     void OnDestroy()

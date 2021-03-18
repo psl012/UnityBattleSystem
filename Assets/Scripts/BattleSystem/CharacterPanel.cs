@@ -40,14 +40,16 @@ public class CharacterPanel : MonoBehaviour
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 
-    private void OnEnable()
+    public void TriggerCharacterIcon(bool isOff)
     {
-        _characterIcon.gameObject.SetActive(true);
-    }
-
-    private void OnDisable()
-    {
-        _characterIcon.gameObject.SetActive(false);
+        if (isOff)
+        {
+            _characterIcon.gameObject.SetActive(true);
+        }
+        else
+        {
+            _characterIcon.gameObject.SetActive(false);
+        }
     }
 
     // Start is called before the first frame update

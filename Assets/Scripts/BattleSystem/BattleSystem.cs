@@ -19,6 +19,7 @@ public class BattleSystem : MonoBehaviour
     public CharacterPanelManager _characterPanelManager { get; set; }
 
     StateMachine _stateMachine;
+    BattleField _battleField;
 
 
     State_PlayerTurn _statePlayerTurn;
@@ -29,8 +30,11 @@ public class BattleSystem : MonoBehaviour
 
     void Awake()
     { 
-        _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
+        _battleField = FindObjectOfType<BattleField>();
+        _battleField.InitializeBattlePlacements();
         _characterPanelManager = GetComponent<CharacterPanelManager>();
+        _characterPanelManager.InitializeCharacterPanels();
+        _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
         _battleOrder = FindObjectsOfType<Character>();
     }
 

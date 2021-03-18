@@ -46,4 +46,9 @@ public class Character : MonoBehaviour
         _battleAI = GetComponent<BattleAI>();
     }
 
+    public virtual void TemporaryFixSetBattlePosition(int pos)
+    {
+        _battlePosition = pos;
+    }
+
 }

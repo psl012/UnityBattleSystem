@@ -20,13 +20,14 @@ public class UICharacter : MonoBehaviour
     
     void Awake()
     {
-        _characterPanel = GetComponent<CharacterPanel>();
-        _characterPanelNumber = _characterPanel._characterPanelNumber;
+
     }
 
 
     void Start()
     {
+        _characterPanel = GetComponent<CharacterPanel>();
+        _characterPanelNumber = _characterPanel._characterPanelNumber;
         _character = _characterPanel._myCharacter;
         UpdateHPText();  // Cannot put in Awake (It is where we assing max health) 
         UpdateMPText();

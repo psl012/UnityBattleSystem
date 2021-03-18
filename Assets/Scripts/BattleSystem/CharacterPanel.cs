@@ -15,24 +15,31 @@ public class CharacterPanel : MonoBehaviour
     protected Character[] _playerTargetChars;
     protected Character[] _enemyTargetChars;
     protected TargetIcon _targetIcon;
+    protected BattleField _battleField;
     UIPanelChanger _uiPanelChanger;
 
     protected virtual void Awake()
     {
+
+    }
+
+    public void InitializeCharacterPanel()
+    {
         _battleSystem = GetComponentInParent<BattleSystem>();
+        _battleField = FindObjectOfType<BattleField>();
         _playerTargetChars = FindObjectsOfType<Player>();
         _enemyTargetChars = FindObjectsOfType<Enemy>();
         _targetIcon = FindObjectOfType<TargetIcon>();
 
-        foreach (Character ch in _playerTargetChars)
+        foreach (PlayerBattlePlacement pb in _battleField._playerBattlePlacement)
         {
-            if (ch._battlePosition == _characterPanelNumber)
+            if (pb._battlePosition == _characterPanelNumber)
             {
-                _myCharacter = ch;
+                _myCharacter = pb._mycharacterBattler;
             }
         }
 
-        _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
+     //   _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
 
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
@@ -40,7 +47,7 @@ public class CharacterPanel : MonoBehaviour
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 
-    public void TriggerCharacterIcon(bool isOff)
+   /** public void TriggerCharacterIcon(bool isOff)
     {
         if (isOff)
         {
@@ -50,7 +57,7 @@ public class CharacterPanel : MonoBehaviour
         {
             _characterIcon.gameObject.SetActive(false);
         }
-    }
+    }*/
 
     // Start is called before the first frame update
     protected virtual void Start()

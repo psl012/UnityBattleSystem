@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class BattlePlacement : MonoBehaviour
 {
+    public int _battlePosition;
     public Transform enemyFoothold;
     Character _placedCharacter;
 
-    void Awake()
+    protected virtual void Awake()
     {
         _placedCharacter = GetComponentInChildren<Character>();
     }
     // Start is called before the first frame update
-    void Start()
+    protected virtual void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         
     }

@@ -14,9 +14,16 @@ public class CharacterBattleAnimator : MonoBehaviour
     protected Animator _animator;
     protected BattleSystem _battleSystem;
 
+    public Transform test;
+
+    List<int> _indexRef;
+
+    protected BattleField _battleField;
+
     protected virtual void Awake()
     {
         _battleSystem = FindObjectOfType<BattleSystem>();
+        _battleField = FindObjectOfType<BattleField>();
         _animator = GetComponent<Animator>();
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);
@@ -35,15 +42,31 @@ public class CharacterBattleAnimator : MonoBehaviour
     public virtual int SkillAnimation(string skillKey)
     {
         _animator.SetTrigger(_animationDictionary[skillKey]);
+        TeleportToBattlePlacement();
         return 0;
     }
-    
-    public virtual void TeleportToBattlePlacement(Vector3 battlePlacement)
+
+    public virtual void SetBattlePlacements(List<int> index)
     {
-        transform.position = battlePlacement;
+        _indexRef = index;
+        currentLeftBattlePlacement = _battleField._enemyBattlePlacement[index[0]].frontBattlePlacement.transform.position;
+    }
+
+    public virtual void TeleportToBattlePlacement()
+    {
+        StartCoroutine(MoveToBattlePlacement(_battleField._enemyBattlePlacement[_indexRef[0]].frontBattlePlacement.transform.position));
+    }
+
+    public IEnumerator MoveToBattlePlacement(Vector3 target)
+    {
+        while(Vector3.Distance(transform.position, target) > 1f)
+        {
+            Debug.Log("hello");
+            transform.position = Vector3.MoveTowards(transform.position, target , 1000f*Time.deltaTime);
+            yield return null;
+        }
     }
     
-
 
     public void DealDamage()
     {

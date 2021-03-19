@@ -11,6 +11,9 @@ public class BattleAI : MonoBehaviour
     Character[] _enemyTargets;
     
     BattleSystem _battleSystem;
+
+    BattleField _battleField;
+
     TargetManager _targetManager;
     TargetIcon _targetIcon;
 
@@ -20,6 +23,7 @@ public class BattleAI : MonoBehaviour
     {
         _character = GetComponent<Character>();
         _characterAbilities = GetComponent<CharacterAbilities>();
+        _battleField = FindObjectOfType<BattleField>();
         _targetIcon = FindObjectOfType<TargetIcon>();
         _battleSystem = FindObjectOfType<BattleSystem>();
     }
@@ -29,7 +33,7 @@ public class BattleAI : MonoBehaviour
     {
         _attackPower = _character._attackPower;
         FindTargets();
-        _targetManager = new TargetManager(_allyTargets, _enemyTargets, _characterAbilities, _targetIcon);
+        _targetManager = new TargetManager(_battleField._enemyBattlePlacement, _battleField._playerBattlePlacement, _allyTargets, _enemyTargets, _characterAbilities, _targetIcon);
     }
 
     // Update is called once per frame

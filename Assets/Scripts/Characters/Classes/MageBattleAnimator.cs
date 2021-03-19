@@ -32,5 +32,12 @@ public class MageBattleAnimator : CharacterBattleAnimator
         return 0;
     }
 
+    public override void TeleportToBattlePlacement()
+    {
+        base.TeleportToBattlePlacement();
+    }
+
+
+
     
 }

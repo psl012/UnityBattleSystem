@@ -302,6 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed4782771fdd4045b0a35e0b39df846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentLeftBattlePlacement: {x: 0, y: 0, z: 0}
+  currentRightBattlePlacement: {x: 0, y: 0, z: 0}
 --- !u!1 &8313904748932700607
 GameObject:
   m_ObjectHideFlags: 0

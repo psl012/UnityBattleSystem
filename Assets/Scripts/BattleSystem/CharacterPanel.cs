@@ -43,7 +43,7 @@ public class CharacterPanel : MonoBehaviour
 
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
-        _targetManager = new TargetManager(_playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
+        _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 

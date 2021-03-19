@@ -20,13 +20,23 @@ public class TargetManager
 
     List<int> _listTargetIndex = new List<int>();
     
-    public TargetManager(Character[] playerTarget, Character[] enemyTarget, CharacterAbilities characterAbilities, TargetIcon targetIcon)
+    public TargetManager(BattlePlacement[] playerBattlePlacements, BattlePlacement[] enemyBattlePlacements,  Character[] playerTarget, Character[] enemyTarget, CharacterAbilities characterAbilities, TargetIcon targetIcon)
     {
         _characterAbilities = characterAbilities;
         _targetIcon = targetIcon;
+        
+        Character[] playersByBattlePostions = new Character[playerBattlePlacements.Length];
+        Character[] enemiesByBattlePostions = new Character[enemyBattlePlacements.Length];
 
-        Character[] playersByBattlePostions = MergeSort.charactermergeSort(playerTarget, true, MergeSort.SortType.BattlePosition);
-        Character[] enemiesByBattlePostions = MergeSort.charactermergeSort(enemyTarget, true, MergeSort.SortType.BattlePosition);
+        for(int i = 0; i < playerBattlePlacements.Length; i++)
+        {
+            playersByBattlePostions[i] = playerBattlePlacements[i]._mycharacterBattler;
+        }
+
+        for(int i = 0; i < playerBattlePlacements.Length; i++)
+        {
+            enemiesByBattlePostions[i] = enemyBattlePlacements[i]._mycharacterBattler;
+        }
 
         foreach (Character ch in playersByBattlePostions)
         {
@@ -126,7 +136,6 @@ public class TargetManager
             {
                 listTargetIndexClone.Add(tgIndex);
             }
-
             _characterAbilities.UseSkill(_actionSelected, targetGroupClone, listTargetIndexClone);
             
             _targetIndex = 0;

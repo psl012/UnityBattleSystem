@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BattleField : MonoBehaviour
 {
-    public BattlePlacement[] _battlePlacement;
     public PlayerBattlePlacement[] _playerBattlePlacement;
+    public EnemyBattlePlacement[] _enemyBattlePlacement;
     
     // Start is called before the first frame update
     void Start()
@@ -19,18 +19,39 @@ public class BattleField : MonoBehaviour
         
     }
 
-    public void InitializeBattlePlacements()
+    public void SetupBattleField(GameObject[] players, GameObject[] enemies)
     {
-        _battlePlacement = GetComponentsInChildren<BattlePlacement>();
-        _playerBattlePlacement = GetComponentsInChildren<PlayerBattlePlacement>();
+        int fieldPlayerSize = _playerBattlePlacement.Length;
+        int fieldEnemySize = _enemyBattlePlacement.Length;
+
+        for(int i = 0; i < fieldPlayerSize; i++)
+        {
+            {
+                _playerBattlePlacement[i]._placedCharacterObject = players[i];
+            }
+        }
+
+        for(int i = 0; i < fieldEnemySize; i++)
+        {
+            {
+                _enemyBattlePlacement[i]._placedCharacterObject = enemies[i];
+            }
+        }
+
         CreateBattlers();
+
     }
 
-    void CreateBattlers()
+    public void CreateBattlers()
     {
-        foreach(BattlePlacement _bp in _battlePlacement)
+        foreach(PlayerBattlePlacement _pbp in _playerBattlePlacement)
         {
-            _bp.CreateBattler();
+            _pbp.CreateBattler();
+        }
+
+        foreach(EnemyBattlePlacement _ebp in _enemyBattlePlacement)
+        {
+            _ebp.CreateBattler();
         }
     }
 

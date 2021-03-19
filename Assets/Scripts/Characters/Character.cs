@@ -31,7 +31,6 @@ public class Character : MonoBehaviour
         _defensePower = _characterClass._defensePower;
         _dexterity = _characterClass._dexterity;
         _speed = _characterClass._speed;
-
         _maxHealth = _health;
         _maxMana = _mana;
         _specialPoints = 0;

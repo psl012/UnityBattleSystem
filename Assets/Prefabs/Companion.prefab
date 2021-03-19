@@ -43,8 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17654be9eaac9eb4598168f76e316c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 50
-  _mana: 15
-  _attackPower: 5
-  _defensePower: 7
-  _evasionPower: 5
+  _characterClass: {fileID: 0}
+  _targetMark: {fileID: 0}
+  _battlePosition: 1

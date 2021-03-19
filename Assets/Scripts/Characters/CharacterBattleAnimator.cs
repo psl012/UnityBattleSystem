@@ -6,6 +6,10 @@ using UnityEngine;
 public class CharacterBattleAnimator : MonoBehaviour
 {
     public event Action onDealDamage = delegate{};
+    
+    public Vector3 currentLeftBattlePlacement;
+    public Vector3 currentRightBattlePlacement;
+
     public Dictionary<string, string> _animationDictionary = new Dictionary<string, string>();
     protected Animator _animator;
     protected BattleSystem _battleSystem;
@@ -34,6 +38,13 @@ public class CharacterBattleAnimator : MonoBehaviour
         return 0;
     }
     
+    public virtual void TeleportToBattlePlacement(Vector3 battlePlacement)
+    {
+        transform.position = battlePlacement;
+    }
+    
+
+
     public void DealDamage()
     {
         onDealDamage();

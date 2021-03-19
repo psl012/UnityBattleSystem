@@ -5,7 +5,8 @@ using UnityEngine;
 public class BattlePlacement : MonoBehaviour
 {
     public int _battlePosition;
-    public Transform enemyFoothold;
+    public Transform frontBattlePlacement;
+    public Transform backBattlePlacement;
     public GameObject _placedCharacterObject;
 
     public Character _mycharacterBattler;

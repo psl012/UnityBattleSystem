@@ -20,7 +20,7 @@ public class BattleSystem : MonoBehaviour
 
     StateMachine _stateMachine;
     BattleField _battleField;
-
+    BattleEnterer _battleEnterer;
 
     State_PlayerTurn _statePlayerTurn;
     State_EnemyTurn _stateEnemyTurn;
@@ -31,7 +31,9 @@ public class BattleSystem : MonoBehaviour
     void Awake()
     { 
         _battleField = FindObjectOfType<BattleField>();
-        _battleField.InitializeBattlePlacements();
+        _battleEnterer = FindObjectOfType<BattleEnterer>();
+        _battleEnterer.Initialize();
+
         _characterPanelManager = GetComponent<CharacterPanelManager>();
         _characterPanelManager.InitializeCharacterPanels();
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();

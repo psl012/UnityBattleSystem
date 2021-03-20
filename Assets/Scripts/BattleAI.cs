@@ -7,8 +7,8 @@ public class BattleAI : MonoBehaviour
     Character _character;
     CharacterAbilities _characterAbilities;
 
-    Character[] _allyTargets;
-    Character[] _enemyTargets;
+    BattlePlacement[] _allyTargets;
+    BattlePlacement[] _enemyTargets;
     
     BattleSystem _battleSystem;
 
@@ -33,7 +33,7 @@ public class BattleAI : MonoBehaviour
     {
         _attackPower = _character._attackPower;
         FindTargets();
-        _targetManager = new TargetManager(_battleField._enemyBattlePlacement, _battleField._playerBattlePlacement, _allyTargets, _enemyTargets, _characterAbilities, _targetIcon);
+        _targetManager = new TargetManager(_allyTargets, _battleField._playerBattlePlacement, _characterAbilities, _targetIcon);
     }
 
     // Update is called once per frame
@@ -52,13 +52,13 @@ public class BattleAI : MonoBehaviour
     {
         if(tag=="Enemy")
         {
-            _allyTargets = FindObjectsOfType<Enemy>();
-            _enemyTargets = FindObjectsOfType<Player>();
+            _allyTargets = FindObjectsOfType<EnemyBattlePlacement>();
+            _enemyTargets = FindObjectsOfType<PlayerBattlePlacement>();
         }
         else
         {
-            _allyTargets = FindObjectsOfType<Player>();
-            _enemyTargets = FindObjectsOfType<Enemy>();    
+            _allyTargets = FindObjectsOfType<PlayerBattlePlacement>();
+            _enemyTargets = FindObjectsOfType<EnemyBattlePlacement>();    
         }
     }
 

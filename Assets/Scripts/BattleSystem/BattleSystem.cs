@@ -20,6 +20,7 @@ public class BattleSystem : MonoBehaviour
 
     StateMachine _stateMachine;
     BattleField _battleField;
+    public BattlePlacement[] _battlePlacementOrder;
     BattleEnterer _battleEnterer;
 
     State_PlayerTurn _statePlayerTurn;
@@ -44,6 +45,14 @@ public class BattleSystem : MonoBehaviour
     void Start()
     {
         _battleOrder = MergeSort.charactermergeSort(_battleOrder, false, MergeSort.SortType.Speed);
+
+        _battlePlacementOrder = new BattlePlacement[_battleOrder.Length];
+
+        for(int i = 0; i < _battleOrder.Length; i++)
+        {
+            _battlePlacementOrder[i] = _battleOrder[i].GetComponentInParent<BattlePlacement>();
+        }
+
         SetUpStateMachine();
     }
 
@@ -123,6 +132,14 @@ public class BattleSystem : MonoBehaviour
     {
         _characterUIPanels[_currentCharacter._battlePosition].ActivateTargetPanel();
         onTargetMode();
+    }
+
+    public void ResetTargets()
+    {
+        foreach(CharacterPanel cp in _characterPanelManager._characterPanels)
+        {
+            cp._targetManager.ResetTargets();
+        }
     }
  
 }

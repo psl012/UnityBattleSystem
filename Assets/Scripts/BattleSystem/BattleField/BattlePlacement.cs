@@ -10,7 +10,8 @@ public class BattlePlacement : MonoBehaviour
     public GameObject _placedCharacterObject;
 
     public Character _mycharacterBattler;
-
+    public bool _isOccupied = false;
+    
     protected virtual void Awake()
     {
         
@@ -29,6 +30,7 @@ public class BattlePlacement : MonoBehaviour
 
     public virtual void CreateBattler()
     {
+        _isOccupied = true;
         if(_placedCharacterObject == null) return;
         _mycharacterBattler = Instantiate(_placedCharacterObject, transform.position, Quaternion.identity, this.transform).GetComponent<Character>();
         _mycharacterBattler.TemporaryFixSetBattlePosition(_battlePosition);

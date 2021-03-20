@@ -14,11 +14,9 @@ public class CharacterAbilities : MonoBehaviour
     Character _character;
     DamageDealer _damageDealer;
 
-    BattleField _battleField;
 
     protected virtual void Awake()
     {     
-        _battleField = FindObjectOfType<BattleField>();
         SkillDictionary.Add(DictionarySkillKeys.SKILL_0, _classSkills[0]);
         SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
         if (_classSkills[2] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_2, _classSkills[2]);
@@ -44,13 +42,9 @@ public class CharacterAbilities : MonoBehaviour
     public void UseSkill(string skillKey, List<Character> targets, List<int> index)
     {
         Skill selectedSkill = SkillDictionary[skillKey];
-        Debug.Log(_battleField._enemyBattlePlacement[index[0]].name);
-
+     
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
-        {
-            //    Debug.Log("target: "+ targets[0]);
-               //  Debug.Log("index: "+ index[0]);
-               
+        {           
                 _damageDealer.SetUpTargets(targets, index);
                 _characterBattleAnimator.SetBattlePlacements(index);
                 _characterBattleAnimator.SkillAnimation(skillKey);
@@ -59,10 +53,7 @@ public class CharacterAbilities : MonoBehaviour
         {
             (int, GameObject) projectileTuple = selectedSkill.GetSkillObject();
             GameObject[] projectiles = new GameObject[projectileTuple.Item1]; 
-          
-        //    Debug.Log("target: "+ targets[0]);
-          //  Debug.Log("index: "+ index[0]);
-
+ 
             for(int i=0; i < projectileTuple.Item1; i++)
             {
                 projectiles[i] = Instantiate(projectileTuple.Item2, transform.position, Quaternion.identity);

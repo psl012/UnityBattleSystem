@@ -29,10 +29,23 @@ public class State_EndTurn : IState
     public void NextCharacter()
     {
         _battleSystem._currentCharacterIndex += 1;
+        
+
+
         if(_battleSystem._currentCharacterIndex >= _battleSystem._battleOrder.Length)
         {
             _battleSystem._currentCharacterIndex = 0;
         }
+
+        if(!_battleSystem._battlePlacementOrder[_battleSystem._currentCharacterIndex]._isOccupied)
+        {
+            _battleSystem._currentCharacterIndex += 1;
+        }
+
+        if(_battleSystem._currentCharacterIndex >= _battleSystem._battleOrder.Length)
+        {
+            _battleSystem._currentCharacterIndex = 0;
+        } 
 
         _battleSystem._currentCharacter = _battleSystem._battleOrder[_battleSystem._currentCharacterIndex];
         Debug.Log(_battleSystem._currentCharacter.name + "TURN");

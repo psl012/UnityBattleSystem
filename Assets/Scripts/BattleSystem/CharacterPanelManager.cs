@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterPanelManager : MonoBehaviour
 {
-    [SerializeField] CharacterPanel[] _characterPanels;
+    public CharacterPanel[] _characterPanels;
 
     [SerializeField] GameObject _neutralPanel;
 

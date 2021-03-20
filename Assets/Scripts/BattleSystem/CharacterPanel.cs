@@ -10,10 +10,8 @@ public class CharacterPanel : MonoBehaviour
 
     protected CharacterIcon _characterIcon;
     protected BattleSystem _battleSystem;
-    protected TargetManager _targetManager;
+    public TargetManager _targetManager;
     protected CharacterAbilities _characterAbilities;
-    protected Character[] _playerTargetChars;
-    protected Character[] _enemyTargetChars;
     protected TargetIcon _targetIcon;
     protected BattleField _battleField;
     UIPanelChanger _uiPanelChanger;
@@ -27,8 +25,6 @@ public class CharacterPanel : MonoBehaviour
     {
         _battleSystem = GetComponentInParent<BattleSystem>();
         _battleField = FindObjectOfType<BattleField>();
-        _playerTargetChars = FindObjectsOfType<Player>();
-        _enemyTargetChars = FindObjectsOfType<Enemy>();
         _targetIcon = FindObjectOfType<TargetIcon>();
 
         foreach (PlayerBattlePlacement pb in _battleField._playerBattlePlacement)
@@ -43,7 +39,7 @@ public class CharacterPanel : MonoBehaviour
 
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
-        _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _playerTargetChars, _enemyTargetChars, _characterAbilities, _targetIcon);
+        _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 

@@ -8,6 +8,8 @@ public class TargetManager
 {   
     BattleEnums.TargetType _targetType;
     CharacterAbilities _characterAbilities;
+    BattlePlacement[] _allyBattlePlacements;
+    BattlePlacement[] _enemyBattlePlacements;
     List<Character> _playerTargets = new List<Character>();    
     List<Character> _enemyTargets = new List<Character>();
     List<Character> _targetGroup = new List<Character>();
@@ -20,31 +22,35 @@ public class TargetManager
 
     List<int> _listTargetIndex = new List<int>();
     
-    public TargetManager(BattlePlacement[] playerBattlePlacements, BattlePlacement[] enemyBattlePlacements,  Character[] playerTarget, Character[] enemyTarget, CharacterAbilities characterAbilities, TargetIcon targetIcon)
+    public TargetManager(BattlePlacement[] allyBattlePlacements, BattlePlacement[] enemyBattlePlacements, CharacterAbilities characterAbilities, TargetIcon targetIcon)
     {
         _characterAbilities = characterAbilities;
         _targetIcon = targetIcon;
+
+        _allyBattlePlacements = allyBattlePlacements;
+        _enemyBattlePlacements = enemyBattlePlacements;
         
-        Character[] playersByBattlePostions = new Character[playerBattlePlacements.Length];
-        Character[] enemiesByBattlePostions = new Character[enemyBattlePlacements.Length];
+        ResetTargets();
+    }
 
-        for(int i = 0; i < playerBattlePlacements.Length; i++)
+    public void ResetTargets()
+    {
+        _playerTargets.Clear();
+        for(int i = 0; i < _allyBattlePlacements.Length; i++)
         {
-            playersByBattlePostions[i] = playerBattlePlacements[i]._mycharacterBattler;
+            if (_allyBattlePlacements[i]._isOccupied)
+            {
+                _playerTargets.Add(_allyBattlePlacements[i]._mycharacterBattler);
+            }
         }
 
-        for(int i = 0; i < playerBattlePlacements.Length; i++)
+        _enemyTargets.Clear();
+        for(int i = 0; i < _enemyBattlePlacements.Length; i++)
         {
-            enemiesByBattlePostions[i] = enemyBattlePlacements[i]._mycharacterBattler;
-        }
-
-        foreach (Character ch in playersByBattlePostions)
-        {
-            _playerTargets.Add(ch);
-        }        
-        foreach (Character ch in enemiesByBattlePostions)
-        {
-            _enemyTargets.Add(ch);
+            if(_enemyBattlePlacements[i]._isOccupied)
+            {
+                _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
+            }
         }
     }
 
@@ -74,13 +80,34 @@ public class TargetManager
 
     public void ChangeTarget(string direction)
     {
+        bool CheckBattlePlacementEmpty()
+        {
+            if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count)
+            {
+                return false;
+            }
+
+            else
+            {
+                return (!_enemyBattlePlacements[_targetIndex]._isOccupied);
+            }
+
+        }
+
         void TargetMove(int i)
         {
              _targetIndex += i;
              
             int forceMoveCount = i;
-            while(_listTargetIndex.Contains(_targetIndex) && ((_targetIndex < _targetGroup.Count) || (_targetIndex > -1)))
+            int infiniteLoopCounter = 0;
+            while((_listTargetIndex.Contains(_targetIndex) || CheckBattlePlacementEmpty())  && ((_targetIndex < _targetGroup.Count) || (_targetIndex > -1)))
             {
+                infiniteLoopCounter += 1;
+                if(infiniteLoopCounter > 100)
+                {
+                    break;
+                }
+                Debug.Log(_targetIndex);
                 _targetIndex += i;
                 forceMoveCount += i;
             }
@@ -90,7 +117,7 @@ public class TargetManager
             }                   
         }
 
-        if(direction == "right" && _targetIndex < _targetGroup.Count){TargetMove(1);}
+        if(direction == "right" && _targetIndex < _targetGroup.Count - 1){TargetMove(1);}
         else if (direction  == "left" && _targetIndex > 0){TargetMove(-1);}
 
         _targetIcon.MoveToTarget(_targetGroup[_targetIndex]._targetMark.transform.position);

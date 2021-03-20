@@ -42,7 +42,6 @@ public class CharacterBattleAnimator : MonoBehaviour
     public virtual int SkillAnimation(string skillKey)
     {
         _animator.SetTrigger(_animationDictionary[skillKey]);
-        TeleportToBattlePlacement();
         return 0;
     }
 
@@ -61,7 +60,6 @@ public class CharacterBattleAnimator : MonoBehaviour
     {
         while(Vector3.Distance(transform.position, target) > 1f)
         {
-            Debug.Log("hello");
             transform.position = Vector3.MoveTowards(transform.position, target , 1000f*Time.deltaTime);
             yield return null;
         }

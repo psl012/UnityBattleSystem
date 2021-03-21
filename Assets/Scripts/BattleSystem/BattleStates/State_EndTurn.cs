@@ -30,24 +30,56 @@ public class State_EndTurn : IState
     {
         _battleSystem._currentCharacterIndex += 1;
         
+        bool IsBattlePlacementEmpty()
+        {
+            if (_battleSystem._battlePlacementOrder[_battleSystem._currentCharacterIndex]._isOccupied)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        bool IsCharacterIndexOverflow()
+        {
+            if(_battleSystem._currentCharacterIndex >= _battleSystem._battleOrder.Length)
+            {
+                return true;
+            }
+            else
+            {
+                return false;   
+            }
+        }
 
 
-        if(_battleSystem._currentCharacterIndex >= _battleSystem._battleOrder.Length)
+        if(IsCharacterIndexOverflow())
         {
             _battleSystem._currentCharacterIndex = 0;
         }
 
-        if(!_battleSystem._battlePlacementOrder[_battleSystem._currentCharacterIndex]._isOccupied)
+        int infiniteLoopDef = 0;
+        while(IsBattlePlacementEmpty() && !IsCharacterIndexOverflow())
         {
+            infiniteLoopDef += 1;
             _battleSystem._currentCharacterIndex += 1;
+
+            if(infiniteLoopDef >= 100) 
+            {
+                Debug.LogWarning("Potential Infinite Loop Found!");
+                break;
+            }
         }
 
-        if(_battleSystem._currentCharacterIndex >= _battleSystem._battleOrder.Length)
+        if(IsCharacterIndexOverflow())
         {
             _battleSystem._currentCharacterIndex = 0;
         } 
 
         _battleSystem._currentCharacter = _battleSystem._battleOrder[_battleSystem._currentCharacterIndex];
+        
         Debug.Log(_battleSystem._currentCharacter.name + "TURN");
         if(_battleSystem._currentCharacter.tag == "Player")
         {

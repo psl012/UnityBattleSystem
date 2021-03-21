@@ -15,11 +15,10 @@ public class CharacterPanelManager : MonoBehaviour
             if(i == panelNumber)
             {
                 _characterPanels[i].gameObject.SetActive(true);
-           //     _characterPanels[i].TriggerCharacterIcon(true);
+                _characterPanels[i].TriggerCharacterIcon(true);
             }
             else
             {
-            //    _characterPanels[i].TriggerCharacterIcon(false);
                 _characterPanels[i].gameObject.SetActive(false);
             }
         }

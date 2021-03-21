@@ -38,19 +38,13 @@ public class TargetManager
         _playerTargets.Clear();
         for(int i = 0; i < _allyBattlePlacements.Length; i++)
         {
-            if (_allyBattlePlacements[i]._isOccupied)
-            {
-                _playerTargets.Add(_allyBattlePlacements[i]._mycharacterBattler);
-            }
+            if (_allyBattlePlacements[i]._isOccupied){_playerTargets.Add(_allyBattlePlacements[i]._mycharacterBattler);}
         }
 
         _enemyTargets.Clear();
         for(int i = 0; i < _enemyBattlePlacements.Length; i++)
         {
-            if(_enemyBattlePlacements[i]._isOccupied)
-            {
-                _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
-            }
+            if(_enemyBattlePlacements[i]._isOccupied){_enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);}
         }
     }
 
@@ -66,32 +60,24 @@ public class TargetManager
         if (_targetType == BattleEnums.TargetType.Friend)
         {
             _targetGroup = _playerTargets;
-            _currentTarget = _playerTargets[0];
         }
         else
         {
             _targetGroup = _enemyTargets;
-            _currentTarget = _enemyTargets[0];
         }
+
+        _currentTarget = _targetGroup[0];
         _numberOfTargetsLeft = _targetGroup.Count;
         _targetIcon.MoveToTarget(_currentTarget._targetMark.transform.position);
-    
     }
 
     public void ChangeTarget(string direction)
     {
         bool CheckBattlePlacementEmpty()
         {
-            if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count)
-            {
-                return false;
-            }
+            if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count) {return false;}
 
-            else
-            {
-                return (!_enemyBattlePlacements[_targetIndex]._isOccupied);
-            }
-
+            return (!_enemyBattlePlacements[_targetIndex]._isOccupied);
         }
 
         void TargetMove(int i)
@@ -103,11 +89,7 @@ public class TargetManager
             while((_listTargetIndex.Contains(_targetIndex) || CheckBattlePlacementEmpty())  && ((_targetIndex < _targetGroup.Count) || (_targetIndex > -1)))
             {
                 infiniteLoopCounter += 1;
-                if(infiniteLoopCounter > 100)
-                {
-                    break;
-                }
-                Debug.Log(_targetIndex);
+                if(infiniteLoopCounter > 100){break;}
                 _targetIndex += i;
                 forceMoveCount += i;
             }
@@ -134,35 +116,21 @@ public class TargetManager
             _numberOfTargetsLeft -= 1;
             _targetGroup[_targetIndex]._targetMark.ActivateIcon();
             
-            if(_targetIndex == _targetGroup.Count - 1)
-            {
-                ChangeTarget("left");
-            }
-            else
-            {
-                ChangeTarget("right");
-            }
+            if(_targetIndex == _targetGroup.Count - 1){ChangeTarget("left");}
+            else{ChangeTarget("right");}
         }
 
         if(_skillTargetAvailable == 0 || _numberOfTargetsLeft == 0)
         {
-            foreach(int ind in _listTargetIndex)
-            {
-                _targetGroup[ind]._targetMark.DeactivateIcon();
-            }
+            foreach(int ind in _listTargetIndex){_targetGroup[ind]._targetMark.DeactivateIcon();}
             _targetIcon.MoveToTarget(new Vector3(-500, -270, 0));
 
             List<Character> targetGroupClone = new List<Character>();
-            foreach (Character target in _targetGroup)
-            {
-                targetGroupClone.Add(target);
-            }
+            foreach (Character target in _targetGroup){targetGroupClone.Add(target);}
 
             List<int> listTargetIndexClone = new List<int>();
-            foreach(int tgIndex in _listTargetIndex)
-            {
-                listTargetIndexClone.Add(tgIndex);
-            }
+            foreach(int tgIndex in _listTargetIndex){listTargetIndexClone.Add(tgIndex);}
+
             _characterAbilities.UseSkill(_actionSelected, targetGroupClone, listTargetIndexClone);
             
             _targetIndex = 0;
@@ -175,12 +143,6 @@ public class TargetManager
             return false;
         }
     }
-
-
-
-
-
-
 
 
 }

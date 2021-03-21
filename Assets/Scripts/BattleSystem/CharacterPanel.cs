@@ -35,7 +35,7 @@ public class CharacterPanel : MonoBehaviour
             }
         }
 
-     //   _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
+        _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
 
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
@@ -43,7 +43,7 @@ public class CharacterPanel : MonoBehaviour
         _uiPanelChanger = GetComponent<UIPanelChanger>();
     }
 
-   /** public void TriggerCharacterIcon(bool isOff)
+    public void TriggerCharacterIcon(bool isOff)
     {
         if (isOff)
         {
@@ -53,7 +53,7 @@ public class CharacterPanel : MonoBehaviour
         {
             _characterIcon.gameObject.SetActive(false);
         }
-    }*/
+    }
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -99,8 +99,7 @@ public class CharacterPanel : MonoBehaviour
     {
         if(_targetManager.TargetInteract())
         {
-            // _uiPanelChanger.ActivateMainPanel();
-            // _uiPanelChanger.ActivateDisablePanel();
+            TriggerCharacterIcon(false);
             _battleSystem._characterPanelManager.ActivateNeutralPanel();
         }
     }

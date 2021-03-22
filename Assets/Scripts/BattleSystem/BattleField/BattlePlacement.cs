@@ -34,5 +34,8 @@ public class BattlePlacement : MonoBehaviour
         if(_placedCharacterObject == null) return;
         _mycharacterBattler = Instantiate(_placedCharacterObject, transform.position, Quaternion.identity, this.transform).GetComponent<Character>();
         _mycharacterBattler.TemporaryFixSetBattlePosition(_battlePosition);
+        
+        // For AI characters
+        _mycharacterBattler._battleAI?.InitializeBattleAI();
     }
 }

@@ -26,14 +26,24 @@ public class BattleAI : MonoBehaviour
         _battleField = FindObjectOfType<BattleField>();
         _targetIcon = FindObjectOfType<TargetIcon>();
         _battleSystem = FindObjectOfType<BattleSystem>();
+      
     }
 
     // Start is called before the first frame update
     void Start()
     {
+
+      //  InitializeTargets();   
+    }
+
+    public void InitializeBattleAI()
+    {
         _attackPower = _character._attackPower;
-        FindTargets();
-        _targetManager = new TargetManager(_allyTargets, _battleField._playerBattlePlacement, _characterAbilities, _targetIcon);
+        if(_targetManager == null)
+        {
+            FindTargets();
+           _targetManager = new TargetManager(_allyTargets, _battleField._playerBattlePlacement, _characterAbilities, _targetIcon);
+        }
     }
 
     // Update is called once per frame
@@ -44,6 +54,7 @@ public class BattleAI : MonoBehaviour
 
     public void DefaultAttack()
     {
+     //   InitializeTargets();
         FightButton();
         TargetInteractButton();
     }

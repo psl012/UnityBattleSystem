@@ -23,6 +23,8 @@ public class Character : MonoBehaviour
 
     public BattleAI _battleAI{get; set;}
 
+    CharacterAbilities _characterAbilities;
+
     public virtual void Awake()
     {
         _health = _characterClass._health;
@@ -43,6 +45,9 @@ public class Character : MonoBehaviour
         _characterStats.Add(nameof(_speed), _speed);
 
         _battleAI = GetComponent<BattleAI>();
+        
+        _characterAbilities = GetComponent<CharacterAbilities>();
+        _characterAbilities?.InitializeCharacterAbilities();
     }
 
     public virtual void TemporaryFixSetBattlePosition(int pos)

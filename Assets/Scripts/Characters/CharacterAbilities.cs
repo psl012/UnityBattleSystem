@@ -17,18 +17,24 @@ public class CharacterAbilities : MonoBehaviour
 
     protected virtual void Awake()
     {     
-        if (_classSkills[0] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_0, _classSkills[0]);
-        if (_classSkills[1] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
-        if (_classSkills[2] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_2, _classSkills[2]);
-        if (_classSkills[3] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_3, _classSkills[3]);
-        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
-        _characterBattleAnimator.onDealDamage += DealDamage;
+
     }
 
     // Start is called before the first frame update
     protected virtual void Start()
     {   
         // It referenes from a foundation class so this must be not on awake
+
+    }
+
+    public void InitializeCharacterAbilities()
+    {
+        if (_classSkills[0] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_0, _classSkills[0]);
+        if (_classSkills[1] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
+        if (_classSkills[2] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_2, _classSkills[2]);
+        if (_classSkills[3] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_3, _classSkills[3]);
+        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
+        _characterBattleAnimator.onDealDamage += DealDamage;
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._attackPower);
     }

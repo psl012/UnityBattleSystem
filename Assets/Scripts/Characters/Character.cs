@@ -23,6 +23,8 @@ public class Character : MonoBehaviour
 
     public BattleAI _battleAI{get; set;}
 
+    public CharacterCamera _characterCamera{get; set;}
+
     CharacterAbilities _characterAbilities;
 
     public virtual void Awake()
@@ -48,6 +50,8 @@ public class Character : MonoBehaviour
         
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();
+
+        _characterCamera = GetComponentInChildren<CharacterCamera>();
     }
 
     public virtual void TemporaryFixSetBattlePosition(int pos)

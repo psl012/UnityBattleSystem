@@ -23,12 +23,13 @@ public class State_PlayerTurn : IState
         _index = _battleSystem._currentCharacter._battlePosition;
         _battleSystem._characterPanelManager.ActivateCharacterPanel(_index);
         _battleSystem._characterUIPanels[_index].ActivateMainPanel();
-    
+        _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
         _battleSystem.PlayerTurn();
     }
 
     public void OnExit()
     {
+        _battleSystem._currentCharacter._characterCamera.SetActionCameraOff();
         _battleSystem._characterPanelManager.ActivateNeutralPanel();
     }
 }

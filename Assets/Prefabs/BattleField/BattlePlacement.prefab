@@ -80,6 +80,7 @@ MonoBehaviour:
   backBattlePlacement: {fileID: 3378582001245295663}
   _placedCharacterObject: {fileID: 0}
   _mycharacterBattler: {fileID: 0}
+  _isOccupied: 0
 --- !u!1 &2387372377868267643
 GameObject:
   m_ObjectHideFlags: 0

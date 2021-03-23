@@ -12,7 +12,6 @@ public class CharacterPanelManager : MonoBehaviour
     {
         for(int i = 0; i < _characterPanels.Length; i++)
         {
-            Debug.Log(i + " <- Panel Number");
             if(i == panelNumber)
             {
                 _characterPanels[i].gameObject.SetActive(true);

@@ -35,7 +35,7 @@ public class CharacterPanel : MonoBehaviour
             }
         }
 
-        if (_myCharacter == null) return;
+        if (_myCharacter == null) return; /// Stop the Initialization
 
         _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
@@ -48,11 +48,11 @@ public class CharacterPanel : MonoBehaviour
     {
         if (isOff)
         {
-            _characterIcon.gameObject.SetActive(true);
+            _characterIcon?.gameObject.SetActive(true);
         }
         else
         {
-            _characterIcon.gameObject.SetActive(false);
+            _characterIcon?.gameObject.SetActive(false);
         }
     }
 

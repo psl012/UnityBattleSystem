@@ -20,6 +20,8 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     protected BattleField _battleField;
 
+    Vector3 _initialPosition;
+
     protected virtual void Awake()
     {
         _battleSystem = FindObjectOfType<BattleSystem>();
@@ -27,6 +29,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         _animator = GetComponent<Animator>();
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);
+        _initialPosition = _animator.transform.position;
     }
     protected virtual void Start()
     {
@@ -39,10 +42,18 @@ public class CharacterBattleAnimator : MonoBehaviour
         
     }
 
-    public virtual int SkillAnimation(string skillKey)
+    public virtual int SkillAnimation(string skillKey, bool isUniqueSkillAnim)
     {
-        _animator.SetTrigger(_animationDictionary[skillKey]);
-        return 0;
+        if(isUniqueSkillAnim)
+        {
+            return 0;
+        }
+        else
+        {
+            _animator.SetTrigger("prepGenSkillTrig");
+            _animator.SetTrigger(_animationDictionary[skillKey]);
+            return 0;
+        }
     }
 
     public virtual void SetBattlePlacements(List<int> index)
@@ -53,17 +64,24 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     public virtual void TeleportToBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_battleField._enemyBattlePlacement[_indexRef[0]].frontBattlePlacement.transform.position));
+        StartCoroutine(MoveToBattlePlacement(_battleField._enemyBattlePlacement[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
     }
 
-    public IEnumerator MoveToBattlePlacement(Vector3 target)
+    public virtual void TeleportBackToInitialPos()
+    {
+        Debug.Log("hello");
+        StartCoroutine(MoveToBattlePlacement(_initialPosition, 1000f));
+    }
+
+    public IEnumerator MoveToBattlePlacement(Vector3 target, float speed)
     {
         while(Vector3.Distance(transform.position, target) > 1f)
         {
-            transform.position = Vector3.MoveTowards(transform.position, target , 1000f*Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target , speed*Time.deltaTime);
             yield return null;
         }
     }
+
     
 
     public void DealDamage()

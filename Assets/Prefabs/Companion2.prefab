@@ -94,6 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4923cf0f770eb2468e95a7ef93cdf3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _followCharacter: {fileID: 6078287871336762047}
+  _offset: {x: 0, y: 1, z: 0}
 --- !u!1 &2759484941268703070
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentLeftBattlePlacement: {x: 0, y: 0, z: 0}
   currentRightBattlePlacement: {x: 0, y: 0, z: 0}
+  test: {fileID: 0}
 --- !u!1 &6137074503115305030
 GameObject:
   m_ObjectHideFlags: 0

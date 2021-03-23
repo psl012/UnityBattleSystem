@@ -38,7 +38,6 @@ public class CharacterPanel : MonoBehaviour
         if (_myCharacter == null) return;
 
         _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
-
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();
 
         _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _characterAbilities, _targetIcon);

@@ -35,6 +35,8 @@ public class CharacterPanel : MonoBehaviour
             }
         }
 
+        if (_myCharacter == null) return;
+
         _characterIcon = _myCharacter.GetComponentInChildren<CharacterIcon>();
 
         _characterAbilities = _myCharacter.GetComponent<CharacterAbilities>();

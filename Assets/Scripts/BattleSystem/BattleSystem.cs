@@ -37,6 +37,7 @@ public class BattleSystem : MonoBehaviour
 
         _characterPanelManager = GetComponent<CharacterPanelManager>();
         _characterPanelManager.InitializeCharacterPanels();
+        
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
         _battleOrder = FindObjectsOfType<Character>();
     }

@@ -42,7 +42,7 @@ public class BattleAI : MonoBehaviour
         if(_targetManager == null)
         {
             FindTargets();
-           _targetManager = new TargetManager(_allyTargets, _battleField._playerBattlePlacement, _characterAbilities, _targetIcon);
+           _targetManager = new TargetManager(_allyTargets, _enemyTargets, _characterAbilities, _targetIcon);
         }
     }
 
@@ -63,8 +63,8 @@ public class BattleAI : MonoBehaviour
     {
         if(tag=="Enemy")
         {
-            _allyTargets = FindObjectsOfType<EnemyBattlePlacement>();
-            _enemyTargets = FindObjectsOfType<PlayerBattlePlacement>();
+            _allyTargets = _battleField._enemyBattlePlacement;
+            _enemyTargets = _battleField._playerBattlePlacement;
         }
         else
         {

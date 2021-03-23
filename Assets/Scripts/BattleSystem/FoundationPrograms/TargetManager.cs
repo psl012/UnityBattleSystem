@@ -10,7 +10,7 @@ public class TargetManager
     CharacterAbilities _characterAbilities;
     BattlePlacement[] _allyBattlePlacements;
     BattlePlacement[] _enemyBattlePlacements;
-    List<Character> _playerTargets = new List<Character>();    
+    List<Character> _allyTargets = new List<Character>();    
     List<Character> _enemyTargets = new List<Character>();
     List<Character> _targetGroup = new List<Character>();
     Character _currentTarget;
@@ -28,23 +28,25 @@ public class TargetManager
         _targetIcon = targetIcon;
 
         _allyBattlePlacements = allyBattlePlacements;
-        _enemyBattlePlacements = enemyBattlePlacements;
-        
+        _enemyBattlePlacements = enemyBattlePlacements; 
         ResetTargets();
     }
 
     public void ResetTargets()
     {
-        _playerTargets.Clear();
+        _allyTargets.Clear();
         for(int i = 0; i < _allyBattlePlacements.Length; i++)
         {
-            if (_allyBattlePlacements[i]._isOccupied){_playerTargets.Add(_allyBattlePlacements[i]._mycharacterBattler);}
+            if (_allyBattlePlacements[i]._isOccupied){_allyTargets.Add(_allyBattlePlacements[i]._mycharacterBattler); }
         }
 
         _enemyTargets.Clear();
         for(int i = 0; i < _enemyBattlePlacements.Length; i++)
         {
-            if(_enemyBattlePlacements[i]._isOccupied){_enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);}
+            if(_enemyBattlePlacements[i]._isOccupied)
+            {
+                _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
+            }
         }
     }
 
@@ -59,12 +61,13 @@ public class TargetManager
     {
         if (_targetType == BattleEnums.TargetType.Friend)
         {
-            _targetGroup = _playerTargets;
+            _targetGroup = _allyTargets;
         }
         else
         {
             _targetGroup = _enemyTargets;
         }
+        Debug.Log(_targetGroup[0]);
 
         _currentTarget = _targetGroup[0];
         _numberOfTargetsLeft = _targetGroup.Count;
@@ -93,7 +96,8 @@ public class TargetManager
                 _targetIndex += i;
                 forceMoveCount += i;
             }
-            if (_targetIndex == _targetGroup.Count || _targetIndex == -1) // overflowed
+            Debug.Log(_targetGroup.Count);
+            if (_targetIndex >= _targetGroup.Count || _targetIndex <= -1) // overflowed
             {
                 _targetIndex -= forceMoveCount;
             }                   

@@ -6,6 +6,8 @@ public class BattleField : MonoBehaviour
 {
     public PlayerBattlePlacement[] _playerBattlePlacement;
     public EnemyBattlePlacement[] _enemyBattlePlacement;
+    int _fieldPlayerSize;
+    int _fieldEnemySize;
     
     // Start is called before the first frame update
     void Start()
@@ -21,37 +23,32 @@ public class BattleField : MonoBehaviour
 
     public void SetupBattleField(GameObject[] players, GameObject[] enemies)
     {
-        int fieldPlayerSize = _playerBattlePlacement.Length;
-        int fieldEnemySize = _enemyBattlePlacement.Length;
+        _fieldPlayerSize = Mathf.Min(_playerBattlePlacement.Length, players.Length);
+        _fieldEnemySize = Mathf.Min(_enemyBattlePlacement.Length, enemies.Length);
 
-        for(int i = 0; i < fieldPlayerSize; i++)
+        for(int i = 0; i < _fieldPlayerSize; i++)
         {
-            {
-                _playerBattlePlacement[i]._placedCharacterObject = players[i];
-            }
+            _playerBattlePlacement[i]._placedCharacterObject = players[i];   
         }
 
-        for(int i = 0; i < fieldEnemySize; i++)
+        for(int i = 0; i < _fieldEnemySize; i++)
         {
-            {
-                _enemyBattlePlacement[i]._placedCharacterObject = enemies[i];
-            }
+            _enemyBattlePlacement[i]._placedCharacterObject = enemies[i];   
         }
 
         CreateBattlers();
-
     }
 
     public void CreateBattlers()
     {
-        foreach(PlayerBattlePlacement _pbp in _playerBattlePlacement)
+        for(int i = 0; i < _fieldPlayerSize; i++)
         {
-            _pbp.CreateBattler();
+            _playerBattlePlacement[i].CreateBattler();  
         }
 
-        foreach(EnemyBattlePlacement _ebp in _enemyBattlePlacement)
+        for(int i = 0; i < _fieldEnemySize; i++)
         {
-            _ebp.CreateBattler();
+            _enemyBattlePlacement[i].CreateBattler(); 
         }
     }
 

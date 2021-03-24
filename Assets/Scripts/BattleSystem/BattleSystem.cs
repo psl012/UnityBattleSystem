@@ -137,10 +137,7 @@ public class BattleSystem : MonoBehaviour
 
     public void ResetTargets()
     {
-        foreach(CharacterPanel cp in _characterPanelManager._characterPanels)
-        {
-            cp._targetManager.ResetTargets();
-        }
+      //  _characterPanelManager.ResetCharacterPanelTargets();
     }
  
 }

@@ -10,6 +10,7 @@ public class TargetManager
     CharacterAbilities _characterAbilities;
     BattlePlacement[] _allyBattlePlacements;
     BattlePlacement[] _enemyBattlePlacements;
+    BattlePlacement[] _targetBattlePlacements;
     List<Character> _allyTargets = new List<Character>();    
     List<Character> _enemyTargets = new List<Character>();
     List<Character> _targetGroup = new List<Character>();
@@ -37,13 +38,16 @@ public class TargetManager
         _allyTargets.Clear();
         for(int i = 0; i < _allyBattlePlacements.Length; i++)
         {
-            if (_allyBattlePlacements[i]._isOccupied){_allyTargets.Add(_allyBattlePlacements[i]._mycharacterBattler); }
+            if (_allyBattlePlacements[i]._isOccupied && !_allyBattlePlacements[i]._mycharacterBattler._isDead)
+            {
+                _allyTargets.Add(_allyBattlePlacements[i]._mycharacterBattler); 
+            }
         }
 
         _enemyTargets.Clear();
         for(int i = 0; i < _enemyBattlePlacements.Length; i++)
         {
-            if(_enemyBattlePlacements[i]._isOccupied)
+            if(_enemyBattlePlacements[i]._isOccupied && !_enemyBattlePlacements[i]._mycharacterBattler._isDead)
             {
                 _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
             }
@@ -62,15 +66,18 @@ public class TargetManager
         if (_targetType == BattleEnums.TargetType.Friend)
         {
             _targetGroup = _allyTargets;
+            _targetBattlePlacements = _allyBattlePlacements;
         }
         else
         {
             _targetGroup = _enemyTargets;
+            _targetBattlePlacements = _enemyBattlePlacements; 
         }
-        Debug.Log(_targetGroup[0]);
-
-        _currentTarget = _targetGroup[0];
         _numberOfTargetsLeft = _targetGroup.Count;
+
+        if(_targetGroup[_targetIndex]._isDead) ChangeTarget("right");
+        _currentTarget = _targetGroup[_targetIndex];
+
         _targetIcon.MoveToTarget(_currentTarget._targetMark.transform.position);
     }
 
@@ -80,7 +87,7 @@ public class TargetManager
         {
             if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count) {return false;}
 
-            return (!_enemyBattlePlacements[_targetIndex]._isOccupied);
+            return (!_enemyBattlePlacements[_targetIndex]._isOccupied || _targetGroup[_targetIndex]._isDead);
         }
 
         void TargetMove(int i)
@@ -135,7 +142,7 @@ public class TargetManager
             List<int> listTargetIndexClone = new List<int>();
             foreach(int tgIndex in _listTargetIndex){listTargetIndexClone.Add(tgIndex);}
 
-            _characterAbilities.UseSkill(_actionSelected, targetGroupClone, listTargetIndexClone);
+            _characterAbilities.UseSkill(_actionSelected, targetGroupClone, listTargetIndexClone, _targetBattlePlacements);
             
             _targetIndex = 0;
             _listTargetIndex.Clear();

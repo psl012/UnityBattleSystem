@@ -32,6 +32,7 @@ public class State_EndTurn : IState
         
         bool IsBattlePlacementEmpty()
         {
+            Debug.Log(_battleSystem._currentCharacterIndex + "error below");
             if (_battleSystem._battlePlacementOrder[_battleSystem._currentCharacterIndex]._isOccupied)
             {
                 return false;

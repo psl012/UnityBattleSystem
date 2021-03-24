@@ -421,8 +421,8 @@ MonoBehaviour:
   - {fileID: 8313904748932700607, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
   - {fileID: 6137074503115305030, guid: b8c80eb49eabed3459dc9bd8f33e7d92, type: 3}
   _enemies:
-  - {fileID: 4445146975052588828, guid: 15621e330b1acd3468e10f4d42eb467c, type: 3}
   - {fileID: 6567815824456875895, guid: e201d058e39eb1043ba33b0b56cb363d, type: 3}
+  - {fileID: 4445146975052588828, guid: 15621e330b1acd3468e10f4d42eb467c, type: 3}
   - {fileID: 4445146975052588828, guid: 15621e330b1acd3468e10f4d42eb467c, type: 3}
 --- !u!4 &272268403
 Transform:

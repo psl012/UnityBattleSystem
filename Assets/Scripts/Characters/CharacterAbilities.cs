@@ -45,14 +45,14 @@ public class CharacterAbilities : MonoBehaviour
         
     }
 
-    public void UseSkill(string skillKey, List<Character> targets, List<int> index)
+    public void UseSkill(string skillKey, List<Character> targets, List<int> index, BattlePlacement[] targetPlacements)
     {
         Skill selectedSkill = SkillDictionary[skillKey];
      
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {           
                 _damageDealer.SetUpTargets(targets, index);
-                _characterBattleAnimator.SetBattlePlacements(index);
+                _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
                 _characterBattleAnimator.SkillAnimation(skillKey, false); // !!! Replace me
         }
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)

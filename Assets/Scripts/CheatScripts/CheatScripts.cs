@@ -7,10 +7,16 @@ public class CheatScripts : MonoBehaviour
     BattlePlacement _battlePlacement;
     BattleSystem _battleSystem;
 
+    SpriteRenderer _spriteRenderer;
+
+    Character _character;
+
     void Awake()
     {
         _battlePlacement = GetComponentInParent<BattlePlacement>();
         _battleSystem = FindObjectOfType<BattleSystem>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _character = GetComponent<Character>();
     }
 
     // Start is called before the first frame update
@@ -25,8 +31,9 @@ public class CheatScripts : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.J))
         {
             Debug.Log("Kill ME!");
-            _battlePlacement._isOccupied = false;
-            Destroy(gameObject);
+            _character._isDead = true;
+            _battleSystem.ResetTargets();
+            //_spriteRenderer.enabled = false;
         }
     }
 }

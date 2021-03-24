@@ -6,6 +6,7 @@ using UnityEngine;
 public class CharacterPanel : MonoBehaviour
 {
     public int _characterPanelNumber;
+    public bool _isInitialized;
     public Character _myCharacter { get; private set; }
 
     protected CharacterIcon _characterIcon;
@@ -42,6 +43,8 @@ public class CharacterPanel : MonoBehaviour
 
         _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
+
+        _isInitialized = true;
     }
 
     public void TriggerCharacterIcon(bool isOff)
@@ -103,6 +106,11 @@ public class CharacterPanel : MonoBehaviour
             TriggerCharacterIcon(false);
             _battleSystem._characterPanelManager.ActivateNeutralPanel();
         }
+    }
+
+    public void ResetTargets()
+    {
+        _targetManager.ResetTargets();
     }
 
 

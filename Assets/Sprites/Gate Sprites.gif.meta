@@ -1,0 +1,4652 @@
+fileFormatVersion: 2
+guid: 22d4ebd29e767df44a2f3ac030364d32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1449582219671760341
+    second: Gate Sprites_0
+  - first:
+      213: 8265770774982816123
+    second: Gate Sprites_1
+  - first:
+      213: -4766026269552357886
+    second: Gate Sprites_2
+  - first:
+      213: 2508305003767962310
+    second: Gate Sprites_3
+  - first:
+      213: -4613934667424180361
+    second: Gate Sprites_4
+  - first:
+      213: -7039873507977527422
+    second: Gate Sprites_5
+  - first:
+      213: 6974453881572264030
+    second: Gate Sprites_6
+  - first:
+      213: 1783765952888506508
+    second: Gate Sprites_7
+  - first:
+      213: -7658822800584024717
+    second: Gate Sprites_8
+  - first:
+      213: 7423602497285158530
+    second: Gate Sprites_9
+  - first:
+      213: -5905951419476195859
+    second: Gate Sprites_10
+  - first:
+      213: 4305557283066225919
+    second: Gate Sprites_11
+  - first:
+      213: -782590149184810591
+    second: Gate Sprites_12
+  - first:
+      213: 4985507156087690748
+    second: Gate Sprites_13
+  - first:
+      213: -3460623513059768650
+    second: Gate Sprites_14
+  - first:
+      213: 5154570665833071717
+    second: Gate Sprites_15
+  - first:
+      213: -1449350329838780335
+    second: Gate Sprites_16
+  - first:
+      213: -7111512307934293165
+    second: Gate Sprites_17
+  - first:
+      213: -2929204658029391326
+    second: Gate Sprites_18
+  - first:
+      213: 1197560221359322241
+    second: Gate Sprites_19
+  - first:
+      213: -2015247182872103655
+    second: Gate Sprites_20
+  - first:
+      213: -8666092664839310069
+    second: Gate Sprites_21
+  - first:
+      213: -3677889260820328271
+    second: Gate Sprites_22
+  - first:
+      213: 889045725907819382
+    second: Gate Sprites_23
+  - first:
+      213: -2328816356947317849
+    second: Gate Sprites_24
+  - first:
+      213: 3347763593733317040
+    second: Gate Sprites_25
+  - first:
+      213: -2620100679907414296
+    second: Gate Sprites_26
+  - first:
+      213: 7265685000347222242
+    second: Gate Sprites_27
+  - first:
+      213: -6113350045215863374
+    second: Gate Sprites_28
+  - first:
+      213: 9028104085023563971
+    second: Gate Sprites_29
+  - first:
+      213: 7152522840619285298
+    second: Gate Sprites_30
+  - first:
+      213: -3286448735542950954
+    second: Gate Sprites_31
+  - first:
+      213: 2572250523090906207
+    second: Gate Sprites_32
+  - first:
+      213: -4412087185354902237
+    second: Gate Sprites_33
+  - first:
+      213: -902238993200622780
+    second: Gate Sprites_34
+  - first:
+      213: -4574267726455170817
+    second: Gate Sprites_35
+  - first:
+      213: -3589326206826746725
+    second: Gate Sprites_36
+  - first:
+      213: 2940787894191087231
+    second: Gate Sprites_37
+  - first:
+      213: -1363547692259057600
+    second: Gate Sprites_38
+  - first:
+      213: 9220597756985610411
+    second: Gate Sprites_39
+  - first:
+      213: 3289487716139101135
+    second: Gate Sprites_40
+  - first:
+      213: -3025262994013798082
+    second: Gate Sprites_41
+  - first:
+      213: 8499171783378780108
+    second: Gate Sprites_42
+  - first:
+      213: 3934538299680776923
+    second: Gate Sprites_43
+  - first:
+      213: 1600611026081922115
+    second: Gate Sprites_44
+  - first:
+      213: 903573129238505022
+    second: Gate Sprites_45
+  - first:
+      213: -9024820995148728238
+    second: Gate Sprites_46
+  - first:
+      213: -3794089977491110910
+    second: Gate Sprites_47
+  - first:
+      213: -524356490225712378
+    second: Gate Sprites_48
+  - first:
+      213: 3600174882741387968
+    second: Gate Sprites_49
+  - first:
+      213: 905479498614924861
+    second: Gate Sprites_50
+  - first:
+      213: 2953622399832208890
+    second: Gate Sprites_51
+  - first:
+      213: -9172884657034940240
+    second: Gate Sprites_52
+  - first:
+      213: -5413699920324658395
+    second: Gate Sprites_53
+  - first:
+      213: 5373372784705235892
+    second: Gate Sprites_54
+  - first:
+      213: 6890560592657181242
+    second: Gate Sprites_55
+  - first:
+      213: 5415161849827570159
+    second: Gate Sprites_56
+  - first:
+      213: -3291454420365633263
+    second: Gate Sprites_57
+  - first:
+      213: 3838956481072078443
+    second: Gate Sprites_58
+  - first:
+      213: 1069623932784258291
+    second: Gate Sprites_59
+  - first:
+      213: 7354196683286569886
+    second: Gate Sprites_60
+  - first:
+      213: 1586137897594592703
+    second: Gate Sprites_61
+  - first:
+      213: -7760185879404339543
+    second: Gate Sprites_62
+  - first:
+      213: 5645628872242299214
+    second: Gate Sprites_63
+  - first:
+      213: 5964436018874147679
+    second: Gate Sprites_64
+  - first:
+      213: 4005875586763613513
+    second: Gate Sprites_65
+  - first:
+      213: 6939781012897265284
+    second: Gate Sprites_66
+  - first:
+      213: 6052051922459603672
+    second: Gate Sprites_67
+  - first:
+      213: -1642047861160159788
+    second: Gate Sprites_68
+  - first:
+      213: 6769753315007533630
+    second: Gate Sprites_69
+  - first:
+      213: -2702445103642674526
+    second: Gate Sprites_70
+  - first:
+      213: -1336594817321940269
+    second: Gate Sprites_71
+  - first:
+      213: -7464501260981210537
+    second: Gate Sprites_72
+  - first:
+      213: -5027913627759267537
+    second: Gate Sprites_73
+  - first:
+      213: 2486139555334834133
+    second: Gate Sprites_74
+  - first:
+      213: 225356941153564211
+    second: Gate Sprites_75
+  - first:
+      213: -547447361197696183
+    second: Gate Sprites_76
+  - first:
+      213: -2865373184576824195
+    second: Gate Sprites_77
+  - first:
+      213: 6191935775242123494
+    second: Gate Sprites_78
+  - first:
+      213: 7323918474280500305
+    second: Gate Sprites_79
+  - first:
+      213: -78470554398887828
+    second: Gate Sprites_80
+  - first:
+      213: -4685229474210875832
+    second: Gate Sprites_81
+  - first:
+      213: -5773492276669348631
+    second: Gate Sprites_82
+  - first:
+      213: 353402976825439870
+    second: Gate Sprites_83
+  - first:
+      213: 5384446063885146724
+    second: Gate Sprites_84
+  - first:
+      213: 2530102495149720642
+    second: Gate Sprites_85
+  - first:
+      213: 1740598902259744965
+    second: Gate Sprites_86
+  - first:
+      213: -8227069074467652328
+    second: Gate Sprites_87
+  - first:
+      213: 2445514150751693805
+    second: Gate Sprites_88
+  - first:
+      213: 4626927944217886823
+    second: Gate Sprites_89
+  - first:
+      213: -3250916791921005057
+    second: Gate Sprites_90
+  - first:
+      213: 7909439257994644278
+    second: Gate Sprites_91
+  - first:
+      213: -1050873041863740510
+    second: Gate Sprites_92
+  - first:
+      213: -4960890894449261006
+    second: Gate Sprites_93
+  - first:
+      213: -5973397059381525597
+    second: Gate Sprites_94
+  - first:
+      213: 3170807185326024473
+    second: Gate Sprites_95
+  - first:
+      213: -4984955789094816964
+    second: Gate Sprites_96
+  - first:
+      213: 6421627639856850569
+    second: Gate Sprites_97
+  - first:
+      213: -7716156518274605465
+    second: Gate Sprites_98
+  - first:
+      213: 2806808892778134552
+    second: Gate Sprites_99
+  - first:
+      213: 3713957460469550039
+    second: Gate Sprites_100
+  - first:
+      213: -7749132113681189099
+    second: Gate Sprites_101
+  - first:
+      213: -5914968665094713597
+    second: Gate Sprites_102
+  - first:
+      213: 3499777657787193868
+    second: Gate Sprites_103
+  - first:
+      213: -2086381833861299583
+    second: Gate Sprites_104
+  - first:
+      213: 8115307551309062711
+    second: Gate Sprites_105
+  - first:
+      213: 4395119073019091020
+    second: Gate Sprites_106
+  - first:
+      213: 8841933838750841293
+    second: Gate Sprites_107
+  - first:
+      213: 4394948220815288663
+    second: Gate Sprites_108
+  - first:
+      213: 765119713581030047
+    second: Gate Sprites_109
+  - first:
+      213: 1003591541157254431
+    second: Gate Sprites_110
+  - first:
+      213: -4753282038243137621
+    second: Gate Sprites_111
+  - first:
+      213: -868120347064876104
+    second: Gate Sprites_112
+  - first:
+      213: 1730987814549396927
+    second: Gate Sprites_113
+  - first:
+      213: -7726890358156621057
+    second: Gate Sprites_114
+  - first:
+      213: -8785155191132777012
+    second: Gate Sprites_115
+  - first:
+      213: 4570167587188536412
+    second: Gate Sprites_116
+  - first:
+      213: -3323527097400040287
+    second: Gate Sprites_117
+  - first:
+      213: 8800320204533664814
+    second: Gate Sprites_118
+  - first:
+      213: 617557354596085206
+    second: Gate Sprites_119
+  - first:
+      213: -6585486244188242125
+    second: Gate Sprites_120
+  - first:
+      213: 767112413481310872
+    second: Gate Sprites_121
+  - first:
+      213: -3383700403545499019
+    second: Gate Sprites_122
+  - first:
+      213: -8657748592151111231
+    second: Gate Sprites_123
+  - first:
+      213: 5863729860863728173
+    second: Gate Sprites_124
+  - first:
+      213: -8576942988369904611
+    second: Gate Sprites_125
+  - first:
+      213: 7384795759188239858
+    second: Gate Sprites_126
+  - first:
+      213: 6771070965169597435
+    second: Gate Sprites_127
+  - first:
+      213: -5708584839078650442
+    second: Gate Sprites_128
+  - first:
+      213: -4848350640489882121
+    second: Gate Sprites_129
+  - first:
+      213: 9130282088989038570
+    second: Gate Sprites_130
+  - first:
+      213: 4693199378887237465
+    second: Gate Sprites_131
+  - first:
+      213: 7174554491272511153
+    second: Gate Sprites_132
+  - first:
+      213: -6969377866902239965
+    second: Gate Sprites_133
+  - first:
+      213: -8694020888853048964
+    second: Gate Sprites_134
+  - first:
+      213: 286504192645757145
+    second: Gate Sprites_135
+  - first:
+      213: -7595599181256000789
+    second: Gate Sprites_136
+  - first:
+      213: -7460427420170188064
+    second: Gate Sprites_137
+  - first:
+      213: -2650297157102535897
+    second: Gate Sprites_138
+  - first:
+      213: -6170545279917728820
+    second: Gate Sprites_139
+  - first:
+      213: -3554509834907113597
+    second: Gate Sprites_140
+  - first:
+      213: 5411084549571821562
+    second: Gate Sprites_141
+  - first:
+      213: -3247218063340765981
+    second: Gate Sprites_142
+  - first:
+      213: 8976771010700450041
+    second: Gate Sprites_143
+  - first:
+      213: 3174588421992304548
+    second: Gate Sprites_144
+  - first:
+      213: 3647081803501999559
+    second: Gate Sprites_145
+  - first:
+      213: 4471679969299367719
+    second: Gate Sprites_146
+  - first:
+      213: -4031082876353326108
+    second: Gate Sprites_147
+  - first:
+      213: -1960398541472498183
+    second: Gate Sprites_148
+  - first:
+      213: -6673528058600340375
+    second: Gate Sprites_149
+  - first:
+      213: 3300948885843333707
+    second: Gate Sprites_150
+  - first:
+      213: -5547073760197671643
+    second: Gate Sprites_151
+  - first:
+      213: -4385184951782605983
+    second: Gate Sprites_152
+  - first:
+      213: 8657565174334408461
+    second: Gate Sprites_153
+  - first:
+      213: 5906468232345777256
+    second: Gate Sprites_154
+  - first:
+      213: 8977338580093231042
+    second: Gate Sprites_155
+  - first:
+      213: 7235503584493288358
+    second: Gate Sprites_156
+  - first:
+      213: -2508187082490332659
+    second: Gate Sprites_157
+  - first:
+      213: 3897248733244429123
+    second: Gate Sprites_158
+  - first:
+      213: -3643250472236420433
+    second: Gate Sprites_159
+  - first:
+      213: -8768309372160302021
+    second: Gate Sprites_160
+  - first:
+      213: -1920178643794202058
+    second: Gate Sprites_161
+  - first:
+      213: 8136488519466536703
+    second: Gate Sprites_162
+  - first:
+      213: -4620307824653002901
+    second: Gate Sprites_163
+  - first:
+      213: -7373742028790313057
+    second: Gate Sprites_164
+  - first:
+      213: -947935903617897167
+    second: Gate Sprites_165
+  - first:
+      213: -2645869775604039011
+    second: Gate Sprites_166
+  - first:
+      213: 5890937409522168224
+    second: Gate Sprites_167
+  - first:
+      213: -4465070116855953541
+    second: Gate Sprites_168
+  - first:
+      213: 8569441985533021190
+    second: Gate Sprites_169
+  - first:
+      213: -7550836873132045761
+    second: Gate Sprites_170
+  - first:
+      213: -5286132471764565296
+    second: Gate Sprites_171
+  - first:
+      213: 4455298335821228378
+    second: Gate Sprites_172
+  - first:
+      213: 195560366307561876
+    second: Gate Sprites_173
+  - first:
+      213: 2962986602192812594
+    second: Gate Sprites_174
+  - first:
+      213: -1400151229362091578
+    second: Gate Sprites_175
+  - first:
+      213: 6069573396937111750
+    second: Gate Sprites_176
+  - first:
+      213: 6302719718387814804
+    second: Gate Sprites_177
+  - first:
+      213: -2940168448020048244
+    second: Gate Sprites_178
+  - first:
+      213: 4209099574883690195
+    second: Gate Sprites_179
+  - first:
+      213: -1612997177022597850
+    second: Gate Sprites_180
+  - first:
+      213: 825475094048613694
+    second: Gate Sprites_181
+  - first:
+      213: -5708318442385795154
+    second: Gate Sprites_182
+  - first:
+      213: -3978935892764623419
+    second: Gate Sprites_183
+  - first:
+      213: -2912538020688507803
+    second: Gate Sprites_184
+  - first:
+      213: -3191984387523276222
+    second: Gate Sprites_185
+  - first:
+      213: -6064617973366017761
+    second: Gate Sprites_186
+  - first:
+      213: 8402056606106310943
+    second: Gate Sprites_187
+  - first:
+      213: 9104719223476670047
+    second: Gate Sprites_188
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gate Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 486
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b221eb3c6ac02ebe0800000000000000
+      internalID: -1449582219671760341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 486
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f7a5d9bae5b270800000000000000
+      internalID: 8265770774982816123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 479
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ec62dfb5cabddb0800000000000000
+      internalID: -4766026269552357886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 478
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca9ce18c1a4fc220800000000000000
+      internalID: 2508305003767962310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 477
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777525b9dd208ffb0800000000000000
+      internalID: -4613934667424180361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 476
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ff055e7585d4e90800000000000000
+      internalID: -7039873507977527422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 451
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5885716adc3ac060800000000000000
+      internalID: 6974453881572264030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 467
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880b50fea531c810800000000000000
+      internalID: 1783765952888506508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 468
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dd685bd3566b590800000000000000
+      internalID: -7658822800584024717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 468
+        width: 102
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286726ca32fe50760800000000000000
+      internalID: 7423602497285158530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 465
+        width: 101
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5486d9978d90ea0800000000000000
+      internalID: -5905951419476195859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 473
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff42241898960cb30800000000000000
+      internalID: 4305557283066225919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 463
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a19e19d76ea325f0800000000000000
+      internalID: -782590149184810591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 435
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf556c71854103540800000000000000
+      internalID: 4985507156087690748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 439
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b645b2004569ffc0800000000000000
+      internalID: -3460623513059768650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 442
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56401a2e5b6b88740800000000000000
+      internalID: 5154570665833071717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 434
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1504dd2dd8fd2ebe0800000000000000
+      internalID: -1449350329838780335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 434
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35312cdfb35de4d90800000000000000
+      internalID: -7111512307934293165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 436
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2221db312ef5957d0800000000000000
+      internalID: -2929204658029391326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 436
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184b2472da69e9010800000000000000
+      internalID: 1197560221359322241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 438
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9153d4a4d576804e0800000000000000
+      internalID: -2015247182872103655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 421
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0572a1e2aadbb780800000000000000
+      internalID: -8666092664839310069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 428
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0949d143385fcc0800000000000000
+      internalID: -3677889260820328271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 430
+        width: 71
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b90d99066865c00800000000000000
+      internalID: 889045725907819382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 385
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab2909acd16eafd0800000000000000
+      internalID: -2328816356947317849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 389
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a5745045a57e20800000000000000
+      internalID: 3347763593733317040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 400
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eeeb52405883abd0800000000000000
+      internalID: -2620100679907414296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 397
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e084973306e4d460800000000000000
+      internalID: 7265685000347222242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 393
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4a471684092ba0800000000000000
+      internalID: -6113350045215863374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 373
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0251715d44a4d70800000000000000
+      internalID: 9028104085023563971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 393
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bfafab0add24360800000000000000
+      internalID: 7152522840619285298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 398
+        width: 70
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d34e6199403462d0800000000000000
+      internalID: -3286448735542950954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 379
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c652ee83872b320800000000000000
+      internalID: 2572250523090906207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 373
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3253ed6c41e15c2c0800000000000000
+      internalID: -4412087185354902237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 373
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44355cb7a6a9a73f0800000000000000
+      internalID: -902238993200622780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 373
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff81b110dbfe480c0800000000000000
+      internalID: -4574267726455170817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 301
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c671bf4d6203ec0800000000000000
+      internalID: -3589326206826746725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 302
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e57014207cfc820800000000000000
+      internalID: 2940787894191087231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 301
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04068982994b31de0800000000000000
+      internalID: -1363547692259057600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 302
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba014e1aec426ff70800000000000000
+      internalID: 9220597756985610411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 302
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb6b7d36ab96ad20800000000000000
+      internalID: 3289487716139101135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 303
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e314ca1e55b1406d0800000000000000
+      internalID: -3025262994013798082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 298
+        width: 35
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb059d4bf13f570800000000000000
+      internalID: 8499171783378780108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 305
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd264abccb94a9630800000000000000
+      internalID: 3934538299680776923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 304
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cbf217f33863610800000000000000
+      internalID: 1600611026081922115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 305
+        width: 27
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3669d449f22a8c00800000000000000
+      internalID: 903573129238505022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 310
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2583ca6de1561c280800000000000000
+      internalID: -9024820995148728238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 219
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204c5c5744fa85bc0800000000000000
+      internalID: -3794089977491110910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 214
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6030d60ec8c19b8f0800000000000000
+      internalID: -524356490225712378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 211
+        width: 91
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c285173bf366f130800000000000000
+      internalID: 3600174882741387968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36675a7ec8e09c00800000000000000
+      internalID: 905479498614924861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5b2a67cef5df820800000000000000
+      internalID: 2953622399832208890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b03dc3210e53b080800000000000000
+      internalID: -9172884657034940240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bfc700b9caed4b0800000000000000
+      internalID: -5413699920324658395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 231
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb6b1e041e029a40800000000000000
+      internalID: 5373372784705235892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 236
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ae2ace95030af50800000000000000
+      internalID: 6890560592657181242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 235
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1383cf205862b40800000000000000
+      internalID: 5415161849827570159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 236
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11997bfb4a76252d0800000000000000
+      internalID: -3291454420365633263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 237
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e1c727496b64530800000000000000
+      internalID: 3838956481072078443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcacdcbc4118de00800000000000000
+      internalID: 1069623932784258291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e6a35bea5f0660800000000000000
+      internalID: 7354196683286569886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 209
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd19ee9308130610800000000000000
+      internalID: 1586137897594592703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 210
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae1a13de084e4490800000000000000
+      internalID: -7760185879404339543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 147
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4101b72c8d495e40800000000000000
+      internalID: 5645628872242299214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 107
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53e98e45fee5c250800000000000000
+      internalID: 5964436018874147679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 146
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94564734f9ab79730800000000000000
+      internalID: 4005875586763613513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 163
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486fdbc001e0f4060800000000000000
+      internalID: 6939781012897265284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 170
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2bc6888253df350800000000000000
+      internalID: 6052051922459603672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 169
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5db539b264639e0800000000000000
+      internalID: -1642047861160159788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 170
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e321c06b5cef2fd50800000000000000
+      internalID: 6769753315007533630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 171
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa72641f7cfe7ad0800000000000000
+      internalID: -2702445103642674526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 152
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac5e06816737de0800000000000000
+      internalID: -1336594817321940269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 149
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75272c9d6a3c86890800000000000000
+      internalID: -7464501260981210537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 159
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f213010d133493ab0800000000000000
+      internalID: -5027913627759267537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7c7c1e0ca808220800000000000000
+      internalID: 2486139555334834133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3367029a1f0a02300800000000000000
+      internalID: 225356941153564211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b169686831768f0800000000000000
+      internalID: -547447361197696183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 149
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c5e5025462c38d0800000000000000
+      internalID: -2865373184576824195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 109
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f65308cc2ee550800000000000000
+      internalID: 6191935775242123494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 108
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cf86f6c09c3a560800000000000000
+      internalID: 7323918474280500305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 109
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f9bf427739eef0800000000000000
+      internalID: -78470554398887828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 110
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846787add98bafeb0800000000000000
+      internalID: -4685229474210875832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 75
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e489a71d5f60efa0800000000000000
+      internalID: -5773492276669348631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 75
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76fe30922a87e400800000000000000
+      internalID: 353402976825439870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 73
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46adf16ca2569ba40800000000000000
+      internalID: 5384446063885146724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 75
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2448ab470dabc1320800000000000000
+      internalID: 2530102495149720642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 75
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c080a1ca79d72810800000000000000
+      internalID: 1740598902259744965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 75
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81df0c1044493dd80800000000000000
+      internalID: -8227069074467652328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debeeb8c92630f120800000000000000
+      internalID: 2445514150751693805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7608f646376263040800000000000000
+      internalID: 4626927944217886823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 75
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd223fd66c62e2d0800000000000000
+      internalID: -3250916791921005057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bcc416919f3cd60800000000000000
+      internalID: 7909439257994644278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a37da3498c8a61f0800000000000000
+      internalID: -1050873041863740510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 75
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236c1e2f300672bb0800000000000000
+      internalID: -4960890894449261006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 23
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3833dd50b3a1da0800000000000000
+      internalID: -5973397059381525597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 9
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9172d9cd558f00c20800000000000000
+      internalID: 3170807185326024473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 21
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33f9f90f11e1dab0800000000000000
+      internalID: -4984955789094816964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 21
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9866f71b0543e1950800000000000000
+      internalID: 6421627639856850569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 69
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e5de05784bae490800000000000000
+      internalID: -7716156518274605465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_99
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cb27e11d9c3f620800000000000000
+      internalID: 2806808892778134552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_100
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 69
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db033602a0aa8330800000000000000
+      internalID: 3713957460469550039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_101
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 20
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517f576366d857490800000000000000
+      internalID: -7749132113681189099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_102
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 18
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f8673865fc9eda0800000000000000
+      internalID: -5914968665094713597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_103
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 69
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a1145bc35b19030800000000000000
+      internalID: 3499777657787193868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_104
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 69
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1828ed6b6ceab03e0800000000000000
+      internalID: -2086381833861299583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 69
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73262de983d5f9070800000000000000
+      internalID: 8115307551309062711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48d8d4b2899efc30800000000000000
+      internalID: 4395119073019091020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9ff32dafbd4ba70800000000000000
+      internalID: 8841933838750841293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 61
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7592ee31f1efdfc30800000000000000
+      internalID: 4394948220815288663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 59
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a55a263504e9a00800000000000000
+      internalID: 765119713581030047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d34e70397ded00800000000000000
+      internalID: 1003591541157254431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7e5419b23f80eb0800000000000000
+      internalID: -4753282038243137621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_112
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3c8e2d421d3f3f0800000000000000
+      internalID: -868120347064876104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_113
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 61
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd1fb40f34b50810800000000000000
+      internalID: 1730987814549396927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_114
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa0fa7782294c490800000000000000
+      internalID: -7726890358156621057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_115
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 61
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc51adf36ebd41680800000000000000
+      internalID: -8785155191132777012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_116
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54706ee43f7c6f30800000000000000
+      internalID: 4570167587188536412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_117
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4e516b6b570e1d0800000000000000
+      internalID: -3323527097400040287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c0ce49994012a70800000000000000
+      internalID: 8800320204533664814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 61
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd212d5421029800800000000000000
+      internalID: 617557354596085206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_120
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 61
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f30fdf627ab94a0800000000000000
+      internalID: -6585486244188242125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_121
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 55
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a985cfca455aa00800000000000000
+      internalID: 767112413481310872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_122
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 55
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a135c196eaa01d0800000000000000
+      internalID: -3383700403545499019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_123
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 55
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9d132b68f79d780800000000000000
+      internalID: -8657748592151111231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_124
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 55
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a12a7bd37206150800000000000000
+      internalID: 5863729860863728173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_125
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 53
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c3f6f6bc398f880800000000000000
+      internalID: -8576942988369904611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 55
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5e93ddd901c7660800000000000000
+      internalID: 7384795759188239858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb25eb0b2da7fd50800000000000000
+      internalID: 6771070965169597435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd5980955807c0b0800000000000000
+      internalID: -5708584839078650442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd1017b7c237bcb0800000000000000
+      internalID: -4848350640489882121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae79d458f2745be70800000000000000
+      internalID: 9130282088989038570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 45
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f58ae28f7912140800000000000000
+      internalID: 4693199378887237465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_132
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 47
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be3bf12c43219360800000000000000
+      internalID: 7174554491272511153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_133
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32582d161cbc74f90800000000000000
+      internalID: -6969377866902239965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7196128012a85780800000000000000
+      internalID: -8694020888853048964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_135
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87f459b0ed9f300800000000000000
+      internalID: 286504192645757145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_136
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beafcf0b9c2079690800000000000000
+      internalID: -7595599181256000789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_137
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea0c24d9cc377890800000000000000
+      internalID: -7460427420170188064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bfca907c0483bd0800000000000000
+      internalID: -2650297157102535897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb5a08c2c1dd5aa0800000000000000
+      internalID: -6170545279917728820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_140
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387aab34328dbaec0800000000000000
+      internalID: -3554509834907113597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_141
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 47
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff35da8ab8081b40800000000000000
+      internalID: 5411084549571821562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_142
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec775a30609fe2d0800000000000000
+      internalID: -3247218063340765981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_143
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 47
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f813da5ca5e39c70800000000000000
+      internalID: 8976771010700450041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_144
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af4be0a9576e0c20800000000000000
+      internalID: 3174588421992304548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_145
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 41
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c51784c3990d9230800000000000000
+      internalID: 3647081803501999559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 41
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72781577d399e0e30800000000000000
+      internalID: 4471679969299367719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 41
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3dcc64b77be08c0800000000000000
+      internalID: -4031082876353326108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 39
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd7655c9e34bc4e0800000000000000
+      internalID: -1960398541472498183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 39
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964468ca69dd263a0800000000000000
+      internalID: -6673528058600340375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 41
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42d962c5835fcd20800000000000000
+      internalID: 3300948885843333707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 39
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52507840ec5d403b0800000000000000
+      internalID: -5547073760197671643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 33
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bfb922581b423c0800000000000000
+      internalID: -4385184951782605983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07cef308a9d52870800000000000000
+      internalID: 8657565174334408461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 33
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8647912409df7f150800000000000000
+      internalID: 5906468232345777256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfddd6efd9e59c70800000000000000
+      internalID: 8977338580093231042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb9ccbc2ca96460800000000000000
+      internalID: 7235503584493288358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_157
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab0fd2321213dd0800000000000000
+      internalID: -2508187082490332659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_158
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343106a031fc51630800000000000000
+      internalID: 3897248733244429123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_159
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f29e8ff2907dc0800000000000000
+      internalID: -3643250472236420433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_160
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3428af1515b05680800000000000000
+      internalID: -8768309372160302021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_161
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 33
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632fa5f62b72a55e0800000000000000
+      internalID: -1920178643794202058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_162
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 33
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffec8d1133d9ae070800000000000000
+      internalID: 8136488519466536703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_163
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67999e438e51efb0800000000000000
+      internalID: -4620307824653002901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_164
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 33
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc59c41b43ba990800000000000000
+      internalID: -7373742028790313057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_165
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d240b615148d2f0800000000000000
+      internalID: -947935903617897167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_166
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92cd2f157bf74bd0800000000000000
+      internalID: -2645869775604039011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_167
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1f0a8cc50d0c150800000000000000
+      internalID: 5890937409522168224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_168
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 33
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77c69bb262e802c0800000000000000
+      internalID: -4465070116855953541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_169
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 33
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c830f3516cce670800000000000000
+      internalID: 8569441985533021190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_170
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a0b04bed9063790800000000000000
+      internalID: -7550836873132045761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_171
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2c0d82682e3a6b0800000000000000
+      internalID: -5286132471764565296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_172
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5963033b3664dd30800000000000000
+      internalID: 4455298335821228378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 25
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49158e5fd15c6b200800000000000000
+      internalID: 195560366307561876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 27
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ab1f9bd94ae1920800000000000000
+      internalID: 2962986602192812594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 25
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9cb0e00e9a19ce0800000000000000
+      internalID: -1400151229362091578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 27
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8f896b8d47b3450800000000000000
+      internalID: 6069573396937111750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911b5dc032c77750800000000000000
+      internalID: 6302719718387814804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8614fbcf5c6237d0800000000000000
+      internalID: -2940168448020048244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 19
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6a03933c9b96a30800000000000000
+      internalID: 4209099574883690195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6253cdf0d9b7d99e0800000000000000
+      internalID: -1612997177022597850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_181
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 19
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3523b7793da47b00800000000000000
+      internalID: 825475094048613694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_182
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 9
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea798c0ee9af7c0b0800000000000000
+      internalID: -5708318442385795154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_183
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 9
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd76b703eaf7c8c0800000000000000
+      internalID: -3978935892764623419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_184
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 7
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cca0af9169497d0800000000000000
+      internalID: -2912538020688507803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_185
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 9
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24215158c1bc3b3d0800000000000000
+      internalID: -3191984387523276222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_186
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 9
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11b11fb51626dba0800000000000000
+      internalID: -6064617973366017761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_187
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 9
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19d0bd97f91a9470800000000000000
+      internalID: 8402056606106310943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gate Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 9
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e4ff615e57a5e70800000000000000
+      internalID: 9104719223476670047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

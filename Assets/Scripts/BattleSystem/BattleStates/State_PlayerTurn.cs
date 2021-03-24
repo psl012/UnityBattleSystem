@@ -20,11 +20,18 @@ public class State_PlayerTurn : IState
 
     public void OnEnter()
     {
-        _index = _battleSystem._currentCharacter._battlePosition;
-        _battleSystem._characterPanelManager.ActivateCharacterPanel(_index);
-        _battleSystem._characterUIPanels[_index].ActivateMainPanel();
-        _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
-        _battleSystem.PlayerTurn();
+        if(_battleSystem._currentCharacter._isDead)
+        {
+            _battleSystem._battleState = BattleState.EndTurn;
+        }
+        else
+        {
+            _index = _battleSystem._currentCharacter._battlePosition;
+            _battleSystem._characterPanelManager.ActivateCharacterPanel(_index);
+            _battleSystem._characterUIPanels[_index].ActivateMainPanel();
+            _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
+            _battleSystem.PlayerTurn();
+        }
     }
 
     public void OnExit()

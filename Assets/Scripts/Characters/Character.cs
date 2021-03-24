@@ -7,6 +7,7 @@ public class Character : MonoBehaviour
     public CharacterClass _characterClass;
     public TargetMark _targetMark;
     public int _battlePosition;
+    public bool _isDead;
     public float _health { get; private set; }
     public float _mana { get; private set; }
     public float _attackPower { get; private set; }

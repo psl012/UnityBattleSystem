@@ -20,6 +20,8 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     protected BattleField _battleField;
 
+    BattlePlacement[] _targetBattlePlacements;
+
     Vector3 _initialPosition;
 
     protected virtual void Awake()
@@ -56,15 +58,16 @@ public class CharacterBattleAnimator : MonoBehaviour
         }
     }
 
-    public virtual void SetBattlePlacements(List<int> index)
+    public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements)
     {
-        _indexRef = index;
-        currentLeftBattlePlacement = _battleField._enemyBattlePlacement[index[0]].frontBattlePlacement.transform.position;
+            _indexRef = index;
+            _targetBattlePlacements = targetBattlePlacements;
+      //      currentLeftBattlePlacement = _battleField._enemyBattlePlacement[index[0]].frontBattlePlacement.transform.position;
     }
 
     public virtual void TeleportToBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_battleField._enemyBattlePlacement[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
     }
 
     public virtual void TeleportBackToInitialPos()

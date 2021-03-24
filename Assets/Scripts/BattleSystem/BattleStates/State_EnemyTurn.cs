@@ -20,10 +20,18 @@ public class State_EnemyTurn : IState
 
     public void OnEnter()
     {
-        _battleSystem.EnemyTurn();
-        _battleSystem._characterPanelManager.ActivateNeutralPanel();      
-        //  _battleSystem._characterUIPanels[0].ActivateDisablePanel();
-        _battleSystem._currentCharacter._battleAI.DefaultAttack();
+        if(_battleSystem._currentCharacter._isDead)
+        {
+            _battleSystem._battleState = BattleState.EndTurn;
+        }
+
+        else
+        {
+            _battleSystem.EnemyTurn();
+            _battleSystem._characterPanelManager.ActivateNeutralPanel();      
+            //  _battleSystem._characterUIPanels[0].ActivateDisablePanel();
+            _battleSystem._currentCharacter._battleAI.DefaultAttack();
+        }
     }
 
     public void OnExit()

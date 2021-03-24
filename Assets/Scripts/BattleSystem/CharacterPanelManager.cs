@@ -42,4 +42,15 @@ public class CharacterPanelManager : MonoBehaviour
             panel.InitializeCharacterPanel();
         }
     }
+
+    public void ResetCharacterPanelTargets()
+    {
+        foreach(CharacterPanel panel in _characterPanels)
+        {
+            if (panel._isInitialized)
+            {
+                panel.ResetTargets();
+            }
+        }
+    }
 }

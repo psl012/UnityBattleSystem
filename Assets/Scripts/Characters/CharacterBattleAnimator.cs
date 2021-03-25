@@ -44,7 +44,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         
     }
 
-    public virtual int SkillAnimation(string skillKey, bool isUniqueSkillAnim)
+    public virtual int SkillAnimation(string skillKey, int numOfTargets, bool isUniqueSkillAnim)
     {
         if(isUniqueSkillAnim)
         {
@@ -54,6 +54,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         {
             _animator.SetTrigger("prepGenSkillTrig");
             _animator.SetTrigger(_animationDictionary[skillKey]);
+            _animator.SetInteger("numOfTargetsLocked", numOfTargets);
             return 0;
         }
     }

@@ -137,7 +137,7 @@ public class BattleSystem : MonoBehaviour
 
     public void ResetTargets()
     {
-      //  _characterPanelManager.ResetCharacterPanelTargets();
+        _characterPanelManager.ResetCharacterPanelTargets();
     }
  
 }

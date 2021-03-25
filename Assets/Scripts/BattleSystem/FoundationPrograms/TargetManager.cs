@@ -52,6 +52,7 @@ public class TargetManager
                 _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
             }
         }
+        Debug.Log(_enemyTargets.Count);
     }
 
     public void SetAbility(string abilitySelected, BattleEnums.TargetType targetType)
@@ -66,12 +67,12 @@ public class TargetManager
         if (_targetType == BattleEnums.TargetType.Friend)
         {
             _targetGroup = _allyTargets;
-            _targetBattlePlacements = _allyBattlePlacements;
+            SetTargetBattlePlacement(_allyBattlePlacements, _targetGroup.Count);
         }
         else
         {
             _targetGroup = _enemyTargets;
-            _targetBattlePlacements = _enemyBattlePlacements; 
+            SetTargetBattlePlacement(_enemyBattlePlacements, _targetGroup.Count); 
         }
         _numberOfTargetsLeft = _targetGroup.Count;
 
@@ -81,13 +82,37 @@ public class TargetManager
         _targetIcon.MoveToTarget(_currentTarget._targetMark.transform.position);
     }
 
+    void SetTargetBattlePlacement(BattlePlacement[] battlePlacements, int targetLength)
+    {
+        _targetBattlePlacements = new BattlePlacement[targetLength];
+
+        int j = 0;
+        for(int i = 0; i < battlePlacements.Length; i++)
+        {
+            if (battlePlacements[i]._isOccupied && !battlePlacements[i]._mycharacterBattler._isDead) 
+            {
+                Debug.Log(j);
+                _targetBattlePlacements[j] = battlePlacements[i];
+                j++;
+            }       
+        }
+    }
+
     public void ChangeTarget(string direction)
     {
         bool CheckBattlePlacementEmpty()
         {
-            if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count) {return false;}
+            if(_targetIndex < 0 || _targetIndex >= _targetGroup.Count) 
+            {
+                return false;
+            }
+            else
+            {
+                bool isBattlePlacementEmpty = (!_enemyBattlePlacements[_targetIndex]._isOccupied || _targetGroup[_targetIndex]._isDead);
+                bool isIndexInTargetList = _listTargetIndex.Contains(_targetIndex);
 
-            return (!_enemyBattlePlacements[_targetIndex]._isOccupied || _targetGroup[_targetIndex]._isDead);
+                return isBattlePlacementEmpty || isIndexInTargetList;
+            }
         }
 
         void TargetMove(int i)
@@ -96,7 +121,8 @@ public class TargetManager
              
             int forceMoveCount = i;
             int infiniteLoopCounter = 0;
-            while((_listTargetIndex.Contains(_targetIndex) || CheckBattlePlacementEmpty())  && ((_targetIndex < _targetGroup.Count) || (_targetIndex > -1)))
+            
+            while(CheckBattlePlacementEmpty())
             {
                 infiniteLoopCounter += 1;
                 if(infiniteLoopCounter > 100){break;}
@@ -155,5 +181,8 @@ public class TargetManager
         }
     }
 
-
+    public void DecrementNumberOfTargets()
+    {
+        _numberOfTargetsLeft -= 1;
+    }
 }

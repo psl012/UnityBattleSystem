@@ -53,7 +53,7 @@ public class CharacterAbilities : MonoBehaviour
         {           
                 _damageDealer.SetUpTargets(targets, index);
                 _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
-                _characterBattleAnimator.SkillAnimation(skillKey, false); // !!! Replace me
+                _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, false); // !!! Replace me
         }
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {

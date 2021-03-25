@@ -108,15 +108,4 @@ public class CharacterPanel : MonoBehaviour
         }
     }
 
-    public void ResetTargets()
-    {
-        _targetManager.ResetTargets();
-    }
-
-    public void DecrementNumberOfTargets()
-    {
-        _targetManager.DecrementNumberOfTargets();
-    }
-
-
 }

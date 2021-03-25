@@ -181,8 +181,4 @@ public class TargetManager
         }
     }
 
-    public void DecrementNumberOfTargets()
-    {
-        _numberOfTargetsLeft -= 1;
-    }
 }

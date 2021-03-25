@@ -49,7 +49,7 @@ public class CharacterPanelManager : MonoBehaviour
         {
             if (panel._isInitialized)
             {
-                panel.ResetTargets();
+                panel._targetManager.ResetTargets();
             }
         }
     }

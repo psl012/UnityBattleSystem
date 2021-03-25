@@ -33,7 +33,6 @@ public class CheatScripts : MonoBehaviour
             Debug.Log("Kill ME!");
             _character._isDead = true;
             _battleSystem.ResetTargets();
-            //_spriteRenderer.enabled = false;
         }
     }
 }

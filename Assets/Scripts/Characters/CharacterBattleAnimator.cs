@@ -7,14 +7,9 @@ public class CharacterBattleAnimator : MonoBehaviour
 {
     public event Action onDealDamage = delegate{};
     
-    public Vector3 currentLeftBattlePlacement;
-    public Vector3 currentRightBattlePlacement;
-
     public Dictionary<string, string> _animationDictionary = new Dictionary<string, string>();
     protected Animator _animator;
     protected BattleSystem _battleSystem;
-
-    public Transform test;
 
     List<int> _indexRef;
 
@@ -63,7 +58,6 @@ public class CharacterBattleAnimator : MonoBehaviour
     {
             _indexRef = index;
             _targetBattlePlacements = targetBattlePlacements;
-      //      currentLeftBattlePlacement = _battleField._enemyBattlePlacement[index[0]].frontBattlePlacement.transform.position;
     }
 
     public virtual void TeleportToBattlePlacement()
@@ -73,7 +67,6 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     public virtual void TeleportBackToInitialPos()
     {
-        Debug.Log("hello");
         StartCoroutine(MoveToBattlePlacement(_initialPosition, 1000f));
     }
 

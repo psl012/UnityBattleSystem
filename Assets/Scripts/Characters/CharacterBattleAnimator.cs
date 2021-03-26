@@ -7,17 +7,27 @@ public class CharacterBattleAnimator : MonoBehaviour
 {
     public event Action onDealDamage = delegate{};
     
+    public enum SkillAnimationType{Generic, Unique}
+
+    
     public Dictionary<string, string> _animationDictionary = new Dictionary<string, string>();
     protected Animator _animator;
     protected BattleSystem _battleSystem;
 
+    List<Character> _listOfTargets = new List<Character>();
+    List <int> _listOfTargetIndex = new List<int>(); 
+
     List<int> _indexRef;
+
+    int _invokeCounter = 0;
 
     protected BattleField _battleField;
 
     BattlePlacement[] _targetBattlePlacements;
 
     Vector3 _initialPosition;
+    GameObject[] _arrayOfInvokedObjects;
+
 
     protected virtual void Awake()
     {
@@ -39,19 +49,54 @@ public class CharacterBattleAnimator : MonoBehaviour
         
     }
 
-    public virtual int SkillAnimation(string skillKey, int numOfTargets, bool isUniqueSkillAnim)
+    public virtual int SkillAnimation(string skillKey, int numOfTargets, SkillAnimationType skillAnimationType)
     {
-        if(isUniqueSkillAnim)
+        if(skillAnimationType == SkillAnimationType.Unique)
         {
             return 0;
         }
-        else
+        else if (skillAnimationType == SkillAnimationType.Generic)
         {
             _animator.SetTrigger("prepGenSkillTrig");
             _animator.SetTrigger(_animationDictionary[skillKey]);
             _animator.SetInteger("numOfTargetsLocked", numOfTargets);
+            return 0;        
+        }
+        else
+        {
             return 0;
         }
+    }
+
+    public virtual int SetUpInvocation(GameObject[] arrayOfInvokedObjects, List<Character> listOfTargets, List<int> listOfTargetIndex)
+    {
+        _arrayOfInvokedObjects = arrayOfInvokedObjects;
+        _listOfTargets = listOfTargets;
+        _listOfTargetIndex = listOfTargetIndex;
+        _invokeCounter = 0;
+        return 0;
+    }
+
+    public virtual int InvokeObject()
+    {
+        int invokeObjectCounter = _invokeCounter;
+        if (invokeObjectCounter >= _arrayOfInvokedObjects.Length)
+        {
+            invokeObjectCounter = 0;
+        }
+
+        if(_invokeCounter < _listOfTargets.Count)
+        {
+            GameObject invokedObject = Instantiate(_arrayOfInvokedObjects[invokeObjectCounter], transform.position, Quaternion.identity);
+            invokedObject.GetComponent<Invocation>().Activate(this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
+        }
+        else
+        {
+            Debug.LogWarning("Maximum target for this skill is reached!");
+        }
+
+        _invokeCounter++;
+        return 0;
     }
 
     public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements)

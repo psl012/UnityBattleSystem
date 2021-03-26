@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Invocation : MonoBehaviour
+public class ChainInvocation : MonoBehaviour
 {  
     protected const string DAMAGE_ANIM_TRIG = "damageAnimTrig";
     protected Animator _animator;
     protected Rigidbody2D _rigidBody;
-    protected Character _target;
+    protected List<Character> _listOftarget;
+    protected List<int> _listOfIndex;
     protected int _indexCounter = 0;
     protected bool _isCasted = false;
     protected bool _isFinishedMoving = false;
@@ -33,16 +34,18 @@ public class Invocation : MonoBehaviour
 
     }
 
-    public virtual void Activate(CharacterBattleAnimator user, Character target)
+    public virtual void Activate(CharacterBattleAnimator user, List<Character> target, List<int> index)
     {
         _user = user;
-        _target = target;
+        _listOftarget = target;
+        _listOfIndex = index;
         _isCasted = true;
     }
 
     public virtual void DamageTarget()
     {
-        Debug.Log(_target.name);
+        Debug.Log(_listOftarget[_listOfIndex[_indexCounter]].name);
+        _indexCounter++;
     }
 
     public virtual void DestroyMe()

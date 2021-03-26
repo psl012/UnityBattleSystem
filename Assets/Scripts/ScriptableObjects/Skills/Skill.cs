@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class Skill : ScriptableObject
 {
-    public enum SkillType {Melee, Invocation ,Summon, Buff, Debuff}
 
+    public enum SkillType {Melee, Invocation ,Summon, Buff, Debuff}
     public string _skillName;
     public int numberOfTargets;
 
@@ -16,7 +17,7 @@ public class Skill : ScriptableObject
 
     }
 
-    public virtual (int, GameObject) GetSkillObject()
+    public virtual (int, GameObject[]) GetSkillObject()
     {
         return (0, null);
     }

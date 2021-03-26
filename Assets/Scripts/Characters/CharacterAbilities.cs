@@ -53,18 +53,13 @@ public class CharacterAbilities : MonoBehaviour
         {           
                 _damageDealer.SetUpTargets(targets, index);
                 _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
-                _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, false); // !!! Replace me
+                _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic); // !!! Replace me
         }
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
-            (int, GameObject) projectileTuple = selectedSkill.GetSkillObject();
-            GameObject[] projectiles = new GameObject[projectileTuple.Item1]; 
- 
-            for(int i=0; i < projectileTuple.Item1; i++)
-            {
-                projectiles[i] = Instantiate(projectileTuple.Item2, transform.position, Quaternion.identity);
-                projectiles[i].GetComponent<Invocation>().Activate(this, targets, index);
-            }            
+            (int, GameObject[]) projectileTuple = selectedSkill.GetSkillObject();
+            _characterBattleAnimator.SetUpInvocation(projectileTuple.Item2, targets, index);
+            _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic);         
         }   
     }
     

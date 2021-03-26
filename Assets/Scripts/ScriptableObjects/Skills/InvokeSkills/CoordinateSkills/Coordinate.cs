@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coordinate : Invocation
+public class Coordinate : ChainInvocation
 {
-    public override void Activate(CharacterAbilities user, List<Character> target, List<int> index)
+  /**  public override void Activate(CharacterBattleAnimator user, List<Character> target, List<int> index)
     {
         base.Activate(user, target, index);
         transform.position = target[index[0]].transform.position;
-    }
+    }*/
 }

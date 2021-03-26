@@ -14,21 +14,21 @@ public class Projectile : Invocation
         MoveToTarget();
     }
 
-    public override void Activate(CharacterAbilities user, List<Character> target, List<int> index)
+    public override void Activate(CharacterBattleAnimator user, Character target)
     {
-        base.Activate(user, target, index);
+        base.Activate(user, target);
         transform.position = user.transform.position;
     }
 
     public virtual void MoveToTarget()
     {
-        if(Vector2.Distance(transform.position, _listOftarget[_listOfIndex[0]].transform.position) < 0.05f)
+        if(Vector2.Distance(transform.position, _target.transform.position) < 0.05f)
         {
             Debug.Log("Moving finished");
             _animator.SetTrigger(DAMAGE_ANIM_TRIG);
             _isFinishedMoving = true;
         }
 
-         transform.position = Vector2.MoveTowards(transform.position, _listOftarget[_listOfIndex[0]].transform.position, 5f*Time.deltaTime);
+         transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, 5f*Time.deltaTime);
     }
 }

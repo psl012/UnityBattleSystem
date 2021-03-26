@@ -6,9 +6,9 @@ using UnityEngine;
 public class InvokeSkill : Skill
 {
     public int _numberOfInvokes;
-    public GameObject _invoke;
+    public GameObject[] _invoke;
 
-    public override (int, GameObject) GetSkillObject()
+    public override (int, GameObject[]) GetSkillObject()
     {
         return (_numberOfInvokes, _invoke);
     }

@@ -1,0 +1,6692 @@
+fileFormatVersion: 2
+guid: 62a32944a9a07194b9180d4ae20472f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7478099377277986298
+    second: x4sheet3fourthtest_0
+  - first:
+      213: -2402841218311149883
+    second: x4sheet3fourthtest_1
+  - first:
+      213: -4056525247087186974
+    second: x4sheet3fourthtest_2
+  - first:
+      213: -4923048430133322871
+    second: x4sheet3fourthtest_3
+  - first:
+      213: -6693336644660726006
+    second: x4sheet3fourthtest_4
+  - first:
+      213: -2404688332576420665
+    second: x4sheet3fourthtest_5
+  - first:
+      213: 7819535171864060366
+    second: x4sheet3fourthtest_6
+  - first:
+      213: 1576703038805056234
+    second: x4sheet3fourthtest_7
+  - first:
+      213: -1903060684899645901
+    second: x4sheet3fourthtest_8
+  - first:
+      213: -7248128963604278328
+    second: x4sheet3fourthtest_9
+  - first:
+      213: 1638197528037628946
+    second: x4sheet3fourthtest_10
+  - first:
+      213: -6778524112599974885
+    second: x4sheet3fourthtest_11
+  - first:
+      213: -2778384162192416114
+    second: x4sheet3fourthtest_12
+  - first:
+      213: -2960803657034695413
+    second: x4sheet3fourthtest_13
+  - first:
+      213: -5056150813639075578
+    second: x4sheet3fourthtest_14
+  - first:
+      213: -7412940416304454327
+    second: x4sheet3fourthtest_15
+  - first:
+      213: 1681273498919860108
+    second: x4sheet3fourthtest_16
+  - first:
+      213: -1746143201164206696
+    second: x4sheet3fourthtest_17
+  - first:
+      213: 7094161546387088337
+    second: x4sheet3fourthtest_18
+  - first:
+      213: -9191956673763645187
+    second: x4sheet3fourthtest_19
+  - first:
+      213: -423918631469899580
+    second: x4sheet3fourthtest_20
+  - first:
+      213: 6874675415396283885
+    second: x4sheet3fourthtest_21
+  - first:
+      213: 2941554806039176315
+    second: x4sheet3fourthtest_22
+  - first:
+      213: 6471464286263307682
+    second: x4sheet3fourthtest_23
+  - first:
+      213: 1092298560749414005
+    second: x4sheet3fourthtest_24
+  - first:
+      213: 8814567851012879477
+    second: x4sheet3fourthtest_25
+  - first:
+      213: 4766133163562854573
+    second: x4sheet3fourthtest_26
+  - first:
+      213: -6848654210478404546
+    second: x4sheet3fourthtest_27
+  - first:
+      213: -6701077754043507565
+    second: x4sheet3fourthtest_28
+  - first:
+      213: 1505495250430582936
+    second: x4sheet3fourthtest_29
+  - first:
+      213: 4077543753597385173
+    second: x4sheet3fourthtest_30
+  - first:
+      213: 2170772848089014123
+    second: x4sheet3fourthtest_31
+  - first:
+      213: -4450648148697629643
+    second: x4sheet3fourthtest_32
+  - first:
+      213: 3845833033734989415
+    second: x4sheet3fourthtest_33
+  - first:
+      213: -7821185290699659534
+    second: x4sheet3fourthtest_34
+  - first:
+      213: -709725393291237797
+    second: x4sheet3fourthtest_35
+  - first:
+      213: 4315199816724224197
+    second: x4sheet3fourthtest_36
+  - first:
+      213: 8407838516638833223
+    second: x4sheet3fourthtest_37
+  - first:
+      213: 2606667450665178855
+    second: x4sheet3fourthtest_38
+  - first:
+      213: -5942476706589783583
+    second: x4sheet3fourthtest_39
+  - first:
+      213: 5664840134428383976
+    second: x4sheet3fourthtest_40
+  - first:
+      213: -1381930102502107264
+    second: x4sheet3fourthtest_41
+  - first:
+      213: 8741190786607481545
+    second: x4sheet3fourthtest_42
+  - first:
+      213: -6214779157556982566
+    second: x4sheet3fourthtest_43
+  - first:
+      213: 4747285320208739816
+    second: x4sheet3fourthtest_44
+  - first:
+      213: -8723046033412089507
+    second: x4sheet3fourthtest_45
+  - first:
+      213: 6565018014144342905
+    second: x4sheet3fourthtest_46
+  - first:
+      213: 8055048808314672247
+    second: x4sheet3fourthtest_47
+  - first:
+      213: 3537935389141976369
+    second: x4sheet3fourthtest_48
+  - first:
+      213: -5272592272518924696
+    second: x4sheet3fourthtest_49
+  - first:
+      213: 9048304084242085368
+    second: x4sheet3fourthtest_50
+  - first:
+      213: -3924996273464073893
+    second: x4sheet3fourthtest_51
+  - first:
+      213: 4289084002698038612
+    second: x4sheet3fourthtest_52
+  - first:
+      213: 518526877152133646
+    second: x4sheet3fourthtest_53
+  - first:
+      213: -7761730111861817834
+    second: x4sheet3fourthtest_54
+  - first:
+      213: -866637755905989289
+    second: x4sheet3fourthtest_55
+  - first:
+      213: -7157575408904145140
+    second: x4sheet3fourthtest_56
+  - first:
+      213: -6181547574092953939
+    second: x4sheet3fourthtest_57
+  - first:
+      213: -4911398027197725052
+    second: x4sheet3fourthtest_58
+  - first:
+      213: 8517386363973277026
+    second: x4sheet3fourthtest_59
+  - first:
+      213: -8746031692587114774
+    second: x4sheet3fourthtest_60
+  - first:
+      213: 8853403557380186755
+    second: x4sheet3fourthtest_61
+  - first:
+      213: -6893262532722357060
+    second: x4sheet3fourthtest_62
+  - first:
+      213: 8472537884353652937
+    second: x4sheet3fourthtest_63
+  - first:
+      213: -3473086852793219942
+    second: x4sheet3fourthtest_64
+  - first:
+      213: 845486493048606993
+    second: x4sheet3fourthtest_65
+  - first:
+      213: -6861876670869523252
+    second: x4sheet3fourthtest_66
+  - first:
+      213: 6536734031349253420
+    second: x4sheet3fourthtest_67
+  - first:
+      213: -5384794791672169966
+    second: x4sheet3fourthtest_68
+  - first:
+      213: -1095042229843016567
+    second: x4sheet3fourthtest_69
+  - first:
+      213: 2588555428978372945
+    second: x4sheet3fourthtest_70
+  - first:
+      213: 8468000718650365258
+    second: x4sheet3fourthtest_71
+  - first:
+      213: -3726194352968632330
+    second: x4sheet3fourthtest_72
+  - first:
+      213: 7682361620010644233
+    second: x4sheet3fourthtest_73
+  - first:
+      213: -7107722955515467583
+    second: x4sheet3fourthtest_74
+  - first:
+      213: 6580780389715226307
+    second: x4sheet3fourthtest_75
+  - first:
+      213: 8465936074870299474
+    second: x4sheet3fourthtest_76
+  - first:
+      213: 2863918027743365065
+    second: x4sheet3fourthtest_77
+  - first:
+      213: -4808613491585430896
+    second: x4sheet3fourthtest_78
+  - first:
+      213: -900662419876971233
+    second: x4sheet3fourthtest_79
+  - first:
+      213: -3887194479399376175
+    second: x4sheet3fourthtest_80
+  - first:
+      213: 5908342598798597572
+    second: x4sheet3fourthtest_81
+  - first:
+      213: -502249713543790462
+    second: x4sheet3fourthtest_82
+  - first:
+      213: -7667867120192768453
+    second: x4sheet3fourthtest_83
+  - first:
+      213: -979238576958800699
+    second: x4sheet3fourthtest_84
+  - first:
+      213: 8100722253192463108
+    second: x4sheet3fourthtest_85
+  - first:
+      213: 5657542853067912223
+    second: x4sheet3fourthtest_86
+  - first:
+      213: 2342388555918127941
+    second: x4sheet3fourthtest_87
+  - first:
+      213: 7812952008530054749
+    second: x4sheet3fourthtest_88
+  - first:
+      213: 7669792755801774583
+    second: x4sheet3fourthtest_89
+  - first:
+      213: 4339461722617528153
+    second: x4sheet3fourthtest_90
+  - first:
+      213: 2242621803461151723
+    second: x4sheet3fourthtest_91
+  - first:
+      213: -3197196341355073503
+    second: x4sheet3fourthtest_92
+  - first:
+      213: 1447351842251514599
+    second: x4sheet3fourthtest_93
+  - first:
+      213: -3447503780780519896
+    second: x4sheet3fourthtest_94
+  - first:
+      213: 6533909400694580706
+    second: x4sheet3fourthtest_95
+  - first:
+      213: 6044627358396889438
+    second: x4sheet3fourthtest_96
+  - first:
+      213: -190304543057151446
+    second: x4sheet3fourthtest_97
+  - first:
+      213: -804638676286862662
+    second: x4sheet3fourthtest_98
+  - first:
+      213: -3995717211945944233
+    second: x4sheet3fourthtest_99
+  - first:
+      213: 3260841203539084753
+    second: x4sheet3fourthtest_100
+  - first:
+      213: -7786177195195778808
+    second: x4sheet3fourthtest_101
+  - first:
+      213: 8630012134265716336
+    second: x4sheet3fourthtest_102
+  - first:
+      213: 6915982866855424784
+    second: x4sheet3fourthtest_103
+  - first:
+      213: -3929791353609588527
+    second: x4sheet3fourthtest_104
+  - first:
+      213: -7813757186380293773
+    second: x4sheet3fourthtest_105
+  - first:
+      213: 2964003253713414127
+    second: x4sheet3fourthtest_106
+  - first:
+      213: 7246398653001509939
+    second: x4sheet3fourthtest_107
+  - first:
+      213: 2524121705674311819
+    second: x4sheet3fourthtest_108
+  - first:
+      213: -2429848543204641520
+    second: x4sheet3fourthtest_109
+  - first:
+      213: 7197658322203661614
+    second: x4sheet3fourthtest_110
+  - first:
+      213: 3297465627058194737
+    second: x4sheet3fourthtest_111
+  - first:
+      213: -519398213106704452
+    second: x4sheet3fourthtest_112
+  - first:
+      213: 7096147348712705626
+    second: x4sheet3fourthtest_113
+  - first:
+      213: 8558280468481784135
+    second: x4sheet3fourthtest_114
+  - first:
+      213: -6783121743902515159
+    second: x4sheet3fourthtest_115
+  - first:
+      213: 5022138329362975331
+    second: x4sheet3fourthtest_116
+  - first:
+      213: 5994794494230692115
+    second: x4sheet3fourthtest_117
+  - first:
+      213: 1954206198429282713
+    second: x4sheet3fourthtest_118
+  - first:
+      213: -486496600362174461
+    second: x4sheet3fourthtest_119
+  - first:
+      213: -7900459986838222137
+    second: x4sheet3fourthtest_120
+  - first:
+      213: -2343254370749873884
+    second: x4sheet3fourthtest_121
+  - first:
+      213: 8922043491740740055
+    second: x4sheet3fourthtest_122
+  - first:
+      213: 7673215733846763938
+    second: x4sheet3fourthtest_123
+  - first:
+      213: 8772870585159979118
+    second: x4sheet3fourthtest_124
+  - first:
+      213: -7311195498478905330
+    second: x4sheet3fourthtest_125
+  - first:
+      213: -5115199193842936395
+    second: x4sheet3fourthtest_126
+  - first:
+      213: 1464709830462251465
+    second: x4sheet3fourthtest_127
+  - first:
+      213: 5432436142746227837
+    second: x4sheet3fourthtest_128
+  - first:
+      213: -8648532436162170868
+    second: x4sheet3fourthtest_129
+  - first:
+      213: -5699580559015598779
+    second: x4sheet3fourthtest_130
+  - first:
+      213: 7364793237458542246
+    second: x4sheet3fourthtest_131
+  - first:
+      213: 4003805296102771891
+    second: x4sheet3fourthtest_132
+  - first:
+      213: 7728768351612828314
+    second: x4sheet3fourthtest_133
+  - first:
+      213: 8487968979978014234
+    second: x4sheet3fourthtest_134
+  - first:
+      213: 6095062147831134089
+    second: x4sheet3fourthtest_135
+  - first:
+      213: 423537910668173267
+    second: x4sheet3fourthtest_136
+  - first:
+      213: -1966111310332170781
+    second: x4sheet3fourthtest_137
+  - first:
+      213: -3377801591121456595
+    second: x4sheet3fourthtest_138
+  - first:
+      213: 6866710085524737983
+    second: x4sheet3fourthtest_139
+  - first:
+      213: -2075538346490490975
+    second: x4sheet3fourthtest_140
+  - first:
+      213: 2130016748670279147
+    second: x4sheet3fourthtest_141
+  - first:
+      213: -3804236243907758812
+    second: x4sheet3fourthtest_142
+  - first:
+      213: 7635261671028204693
+    second: x4sheet3fourthtest_143
+  - first:
+      213: -5825162603761816874
+    second: x4sheet3fourthtest_144
+  - first:
+      213: 5582120407907231052
+    second: x4sheet3fourthtest_145
+  - first:
+      213: -8527600640242763185
+    second: x4sheet3fourthtest_146
+  - first:
+      213: 4544172886348299351
+    second: x4sheet3fourthtest_147
+  - first:
+      213: -366040970140060138
+    second: x4sheet3fourthtest_148
+  - first:
+      213: 6628893020518398837
+    second: x4sheet3fourthtest_149
+  - first:
+      213: 4006156274474237054
+    second: x4sheet3fourthtest_150
+  - first:
+      213: -8537072318641031312
+    second: x4sheet3fourthtest_151
+  - first:
+      213: -5691787281206533262
+    second: x4sheet3fourthtest_152
+  - first:
+      213: -736836349386634639
+    second: x4sheet3fourthtest_153
+  - first:
+      213: -5692671949149594910
+    second: x4sheet3fourthtest_154
+  - first:
+      213: -3958665567426390391
+    second: x4sheet3fourthtest_155
+  - first:
+      213: -6963840016242363878
+    second: x4sheet3fourthtest_156
+  - first:
+      213: 5856738826951387184
+    second: x4sheet3fourthtest_157
+  - first:
+      213: -4208519461981619787
+    second: x4sheet3fourthtest_158
+  - first:
+      213: -286143318872296227
+    second: x4sheet3fourthtest_159
+  - first:
+      213: 3258728311413290968
+    second: x4sheet3fourthtest_160
+  - first:
+      213: 8912529015351614087
+    second: x4sheet3fourthtest_161
+  - first:
+      213: -604571838894602731
+    second: x4sheet3fourthtest_162
+  - first:
+      213: -1648075228781974954
+    second: x4sheet3fourthtest_163
+  - first:
+      213: -8705140375680772866
+    second: x4sheet3fourthtest_164
+  - first:
+      213: -1934706697503200948
+    second: x4sheet3fourthtest_165
+  - first:
+      213: -4667870226000536549
+    second: x4sheet3fourthtest_166
+  - first:
+      213: 2298058427289283091
+    second: x4sheet3fourthtest_167
+  - first:
+      213: 7949903359643371066
+    second: x4sheet3fourthtest_168
+  - first:
+      213: -1652650081029015735
+    second: x4sheet3fourthtest_169
+  - first:
+      213: 155387720203357001
+    second: x4sheet3fourthtest_170
+  - first:
+      213: -8431841260776470609
+    second: x4sheet3fourthtest_171
+  - first:
+      213: -9015309643179387987
+    second: x4sheet3fourthtest_172
+  - first:
+      213: -6726741349231384976
+    second: x4sheet3fourthtest_173
+  - first:
+      213: 3551118147727869627
+    second: x4sheet3fourthtest_174
+  - first:
+      213: 2562143512783635885
+    second: x4sheet3fourthtest_175
+  - first:
+      213: -1985431267121000684
+    second: x4sheet3fourthtest_176
+  - first:
+      213: 7371105309768208033
+    second: x4sheet3fourthtest_177
+  - first:
+      213: -2673222326290925427
+    second: x4sheet3fourthtest_178
+  - first:
+      213: 2936902854775301591
+    second: x4sheet3fourthtest_179
+  - first:
+      213: 8955375613873467700
+    second: x4sheet3fourthtest_180
+  - first:
+      213: 5019289431469981830
+    second: x4sheet3fourthtest_181
+  - first:
+      213: -7345928403873372754
+    second: x4sheet3fourthtest_182
+  - first:
+      213: 2740898450470248332
+    second: x4sheet3fourthtest_183
+  - first:
+      213: -7992730500511334737
+    second: x4sheet3fourthtest_184
+  - first:
+      213: 993995504232167087
+    second: x4sheet3fourthtest_185
+  - first:
+      213: 4895410508187958337
+    second: x4sheet3fourthtest_186
+  - first:
+      213: -4066100451580649598
+    second: x4sheet3fourthtest_187
+  - first:
+      213: 8273009234255605927
+    second: x4sheet3fourthtest_188
+  - first:
+      213: 7089338229347173979
+    second: x4sheet3fourthtest_189
+  - first:
+      213: 617763004709359282
+    second: x4sheet3fourthtest_190
+  - first:
+      213: -2940817503371581209
+    second: x4sheet3fourthtest_191
+  - first:
+      213: 2745153502753457241
+    second: x4sheet3fourthtest_192
+  - first:
+      213: 8013628847787720690
+    second: x4sheet3fourthtest_193
+  - first:
+      213: 4791244279619846667
+    second: x4sheet3fourthtest_194
+  - first:
+      213: 1239252862835993944
+    second: x4sheet3fourthtest_195
+  - first:
+      213: -3839585684393954292
+    second: x4sheet3fourthtest_196
+  - first:
+      213: -5322237404464949730
+    second: x4sheet3fourthtest_197
+  - first:
+      213: 7050399527123936617
+    second: x4sheet3fourthtest_198
+  - first:
+      213: -4672977786086062379
+    second: x4sheet3fourthtest_199
+  - first:
+      213: -2906453082980125853
+    second: x4sheet3fourthtest_200
+  - first:
+      213: -6120581616879657108
+    second: x4sheet3fourthtest_201
+  - first:
+      213: 4699218336700432914
+    second: x4sheet3fourthtest_202
+  - first:
+      213: -3974735689711648076
+    second: x4sheet3fourthtest_203
+  - first:
+      213: 189963829929500412
+    second: x4sheet3fourthtest_204
+  - first:
+      213: -1861766200861570244
+    second: x4sheet3fourthtest_205
+  - first:
+      213: 4649480946760809057
+    second: x4sheet3fourthtest_206
+  - first:
+      213: 8382411103921032602
+    second: x4sheet3fourthtest_207
+  - first:
+      213: -6154477791532136465
+    second: x4sheet3fourthtest_208
+  - first:
+      213: -4212591100458174836
+    second: x4sheet3fourthtest_209
+  - first:
+      213: -8661409649553056790
+    second: x4sheet3fourthtest_210
+  - first:
+      213: -1832153580267578102
+    second: x4sheet3fourthtest_211
+  - first:
+      213: 580122340361563391
+    second: x4sheet3fourthtest_212
+  - first:
+      213: -5955272050762625599
+    second: x4sheet3fourthtest_213
+  - first:
+      213: 7164425357991037284
+    second: x4sheet3fourthtest_214
+  - first:
+      213: 8695959932486267624
+    second: x4sheet3fourthtest_215
+  - first:
+      213: -8463018062535241149
+    second: x4sheet3fourthtest_216
+  - first:
+      213: -8617252123921222108
+    second: x4sheet3fourthtest_217
+  - first:
+      213: -1350847935456037565
+    second: x4sheet3fourthtest_218
+  - first:
+      213: 1927418817451422044
+    second: x4sheet3fourthtest_219
+  - first:
+      213: 7074595582494152174
+    second: x4sheet3fourthtest_220
+  - first:
+      213: -1106942689447700729
+    second: x4sheet3fourthtest_221
+  - first:
+      213: -8332397470312369016
+    second: x4sheet3fourthtest_222
+  - first:
+      213: -4047686763687456209
+    second: x4sheet3fourthtest_223
+  - first:
+      213: -6735828709635807233
+    second: x4sheet3fourthtest_224
+  - first:
+      213: 265533249533706388
+    second: x4sheet3fourthtest_225
+  - first:
+      213: -6232474374979683084
+    second: x4sheet3fourthtest_226
+  - first:
+      213: 2042636445743089234
+    second: x4sheet3fourthtest_227
+  - first:
+      213: 5226220425131779166
+    second: x4sheet3fourthtest_228
+  - first:
+      213: -3094852521542308354
+    second: x4sheet3fourthtest_229
+  - first:
+      213: 7558064376118341768
+    second: x4sheet3fourthtest_230
+  - first:
+      213: -8139732108199578802
+    second: x4sheet3fourthtest_231
+  - first:
+      213: -4854690331382527385
+    second: x4sheet3fourthtest_232
+  - first:
+      213: -8590383493726348570
+    second: x4sheet3fourthtest_233
+  - first:
+      213: -4074236140128772047
+    second: x4sheet3fourthtest_234
+  - first:
+      213: 4304580240416064154
+    second: x4sheet3fourthtest_235
+  - first:
+      213: 1866772281967020646
+    second: x4sheet3fourthtest_236
+  - first:
+      213: -4086413161482446252
+    second: x4sheet3fourthtest_237
+  - first:
+      213: -1845084523837863825
+    second: x4sheet3fourthtest_238
+  - first:
+      213: -2929351803932957541
+    second: x4sheet3fourthtest_239
+  - first:
+      213: 2463941306714318641
+    second: x4sheet3fourthtest_240
+  - first:
+      213: -1639127443637047418
+    second: x4sheet3fourthtest_241
+  - first:
+      213: -2485678960176658732
+    second: x4sheet3fourthtest_242
+  - first:
+      213: 6899542437388898347
+    second: x4sheet3fourthtest_243
+  - first:
+      213: -3845284485668501779
+    second: x4sheet3fourthtest_244
+  - first:
+      213: 7106669430855307845
+    second: x4sheet3fourthtest_245
+  - first:
+      213: -4295248072462456548
+    second: x4sheet3fourthtest_246
+  - first:
+      213: -5884422899519187244
+    second: x4sheet3fourthtest_247
+  - first:
+      213: -1414173421926931880
+    second: x4sheet3fourthtest_248
+  - first:
+      213: -6482461049050112278
+    second: x4sheet3fourthtest_249
+  - first:
+      213: 3850636277564804250
+    second: x4sheet3fourthtest_250
+  - first:
+      213: 6507931145980308850
+    second: x4sheet3fourthtest_251
+  - first:
+      213: -7389604201807428646
+    second: x4sheet3fourthtest_252
+  - first:
+      213: 988987373894838119
+    second: x4sheet3fourthtest_253
+  - first:
+      213: -8365355854722945375
+    second: x4sheet3fourthtest_254
+  - first:
+      213: 6489155824125763792
+    second: x4sheet3fourthtest_255
+  - first:
+      213: -4416477296527179132
+    second: x4sheet3fourthtest_256
+  - first:
+      213: 2375080785103878152
+    second: x4sheet3fourthtest_257
+  - first:
+      213: 8019357477488164126
+    second: x4sheet3fourthtest_258
+  - first:
+      213: 2809200662844178297
+    second: x4sheet3fourthtest_259
+  - first:
+      213: -2527883227144697058
+    second: x4sheet3fourthtest_260
+  - first:
+      213: -1952902161766946154
+    second: x4sheet3fourthtest_261
+  - first:
+      213: 4270082811446476149
+    second: x4sheet3fourthtest_262
+  - first:
+      213: 8263448640441243175
+    second: x4sheet3fourthtest_263
+  - first:
+      213: -5061510128126298021
+    second: x4sheet3fourthtest_264
+  - first:
+      213: 3228086820332786357
+    second: x4sheet3fourthtest_265
+  - first:
+      213: 2041402298033990551
+    second: x4sheet3fourthtest_266
+  - first:
+      213: -4166887557802551306
+    second: x4sheet3fourthtest_267
+  - first:
+      213: -8746621815516399060
+    second: x4sheet3fourthtest_268
+  - first:
+      213: -5283975281890092685
+    second: x4sheet3fourthtest_269
+  - first:
+      213: -1661327556820300432
+    second: x4sheet3fourthtest_270
+  - first:
+      213: -3559385632403647577
+    second: x4sheet3fourthtest_271
+  - first:
+      213: -3559626254946730226
+    second: x4sheet3fourthtest_272
+  - first:
+      213: 2115388211615536069
+    second: x4sheet3fourthtest_273
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1833
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af569b153cb87c760800000000000000
+      internalID: 7478099377277986298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1833
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6a5ea84a467aed0800000000000000
+      internalID: -2402841218311149883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1834
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebe6f8b7c354b7c0800000000000000
+      internalID: -4056525247087186974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1834
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bdbd54981ddabb0800000000000000
+      internalID: -4923048430133322871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_4
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1834
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0774e4d8cd7c13a0800000000000000
+      internalID: -6693336644660726006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1834
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc814db3b4d0aed0800000000000000
+      internalID: -2404688332576420665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1834
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec161a32fc1948c60800000000000000
+      internalID: 7819535171864060366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1769
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea11406f0391e510800000000000000
+      internalID: 1576703038805056234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1770
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3368b82d368f695e0800000000000000
+      internalID: -1903060684899645901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1772
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3952e1c19796b90800000000000000
+      internalID: -7248128963604278328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1769
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c1b92e8fb0cb610800000000000000
+      internalID: 1638197528037628946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1770
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cfe07db38dde1a0800000000000000
+      internalID: -6778524112599974885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1769
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8223f233523179d0800000000000000
+      internalID: -2778384162192416114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1769
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0df4ccc2cc19e6d0800000000000000
+      internalID: -2960803657034695413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_14
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1769
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6099d36af91f4d9b0800000000000000
+      internalID: -5056150813639075578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1770
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945690187f1ff1990800000000000000
+      internalID: -7412940416304454327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1769
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c877569e655155710800000000000000
+      internalID: 1681273498919860108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1768
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dd4af820474c7e0800000000000000
+      internalID: -1746143201164206696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_18
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1709
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d363a70756837260800000000000000
+      internalID: 7094161546387088337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1709
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df869853b1c9f6080800000000000000
+      internalID: -9191956673763645187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_20
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1709
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0219d2040fd1af0800000000000000
+      internalID: -423918631469899580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1709
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de57ec0edd0c76f50800000000000000
+      internalID: 6874675415396283885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_22
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1709
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74ee45d28082d820800000000000000
+      internalID: 2941554806039176315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1709
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ade9572b724fc950800000000000000
+      internalID: 6471464286263307682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_24
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1709
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576a326f0cf982f00800000000000000
+      internalID: 1092298560749414005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_25
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1686
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574733842c2a35a70800000000000000
+      internalID: 8814567851012879477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1709
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da86f563cd4b42240800000000000000
+      internalID: 4766133163562854573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1630
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c83f20841b4f0a0800000000000000
+      internalID: -6848654210478404546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_28
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1630
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd6f9594df003a0800000000000000
+      internalID: -6701077754043507565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_29
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1628
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890e3fc24f794e410800000000000000
+      internalID: 1505495250430582936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_30
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1625
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9f84da078569830800000000000000
+      internalID: 4077543753597385173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_31
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1624
+        width: 41
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f98627762202e10800000000000000
+      internalID: 2170772848089014123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_32
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1623
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb0acd61f1c32c0800000000000000
+      internalID: -4450648148697629643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_33
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1565
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766ac31a4c42f5530800000000000000
+      internalID: 3845833033734989415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1565
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f62651aa61957390800000000000000
+      internalID: -7821185290699659534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1566
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b562dccd38c8626f0800000000000000
+      internalID: -709725393291237797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1567
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c89da2de5ba2eb30800000000000000
+      internalID: 4315199816724224197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1567
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ada119594aea470800000000000000
+      internalID: 8407838516638833223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1566
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e698745c3ebc2420800000000000000
+      internalID: 2606667450665178855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_39
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1566
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9cea18be4188da0800000000000000
+      internalID: -5942476706589783583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_40
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1566
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eadaf1b61e8d9e40800000000000000
+      internalID: 5664840134428383976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1504
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08751ffb4e562dce0800000000000000
+      internalID: -1381930102502107264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_42
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1505
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c208a525b2fe4970800000000000000
+      internalID: 8741190786607481545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_43
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1504
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc8054984ba0c9a0800000000000000
+      internalID: -6214779157556982566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_44
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1504
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ede776b8deb1e140800000000000000
+      internalID: 4747285320208739816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_45
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1503
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59971b69d381f680800000000000000
+      internalID: -8723046033412089507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_46
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1503
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b2d15d911ab1b50800000000000000
+      internalID: 6565018014144342905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_47
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1503
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7749704b63849cf60800000000000000
+      internalID: 8055048808314672247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_48
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1503
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135471cdd75491130800000000000000
+      internalID: 3537935389141976369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_49
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1446
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8663a07734df3d6b0800000000000000
+      internalID: -5272592272518924696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1445
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f537f8ef98029d70800000000000000
+      internalID: 9048304084242085368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1445
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51217f4fac9789c0800000000000000
+      internalID: -3924996273464073893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1445
+        width: 57
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d80a80d23e58b30800000000000000
+      internalID: 4289084002698038612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_53
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1445
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02452f827d223700800000000000000
+      internalID: 518526877152133646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_54
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1445
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ef500369bc84490800000000000000
+      internalID: -7761730111861817834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_55
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1445
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755284a7d8519f3f0800000000000000
+      internalID: -866637755905989289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1445
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07723b861f2bac90800000000000000
+      internalID: -7157575408904145140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1377
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6030c8b3bb63aa0800000000000000
+      internalID: -6181547574092953939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_58
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1379
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864356148537dbb0800000000000000
+      internalID: -4911398027197725052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_59
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1381
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265126f55c5d33670800000000000000
+      internalID: 8517386363973277026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1373
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee5909938adf9680800000000000000
+      internalID: -8746031692587114774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1375
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38263dac0ab9dda70800000000000000
+      internalID: 8853403557380186755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_62
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1376
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc0391af363650a0800000000000000
+      internalID: -6893262532722357060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_63
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1371
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c860fef050849570800000000000000
+      internalID: 8472537884353652937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_64
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1373
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a944e2998ed1dcfc0800000000000000
+      internalID: -3473086852793219942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_65
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1376
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1119d806c75cbbb00800000000000000
+      internalID: 845486493048606993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1316
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4384c0687b5c0a0800000000000000
+      internalID: -6861876670869523252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_67
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1317
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2587c9e7f427ba50800000000000000
+      internalID: 6536734031349253420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_68
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1317
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ab106baad5545b0800000000000000
+      internalID: -5384794791672169966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_69
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1315
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984c72cc4e0adc0f0800000000000000
+      internalID: -1095042229843016567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_70
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1317
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1513aa9a2756ce320800000000000000
+      internalID: 2588555428978372945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_71
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1317
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4558e8c9c1648570800000000000000
+      internalID: 8468000718650365258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_72
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7fc3b6af5e94cc0800000000000000
+      internalID: -3726194352968632330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_73
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1323
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90334d4c03b3d9a60800000000000000
+      internalID: 7682361620010644233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1190
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86c9a51ab4c5d90800000000000000
+      internalID: -7107722955515467583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1264
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce25d1e5e0a35b50800000000000000
+      internalID: 6580780389715226307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1186
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1fc1710c0d7570800000000000000
+      internalID: 8465936074870299474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1266
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c70b75c54eaeb720800000000000000
+      internalID: 2863918027743365065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_78
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1183
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a46eba18f544db0800000000000000
+      internalID: -4808613491585430896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_79
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1264
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d70b01d443083f0800000000000000
+      internalID: -900662419876971233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_80
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1264
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da6a8a5739ed0ac0800000000000000
+      internalID: -3887194479399376175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_81
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1182
+        width: 53
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdd2b43a46aef150800000000000000
+      internalID: 5908342598798597572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_82
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1266
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2804eabeb86a709f0800000000000000
+      internalID: -502249713543790462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_83
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1246
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b363304fa73469590800000000000000
+      internalID: -7667867120192768453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_84
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1197
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccf206d3bb0962f0800000000000000
+      internalID: -979238576958800699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_85
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1181
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40383a548fb8b6070800000000000000
+      internalID: 8100722253192463108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_86
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1201
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14b9aaff31a38e40800000000000000
+      internalID: 5657542853067912223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_87
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1201
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543b0792bf5d18020800000000000000
+      internalID: 2342388555918127941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_88
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1201
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ecb9bf47e2d6c60800000000000000
+      internalID: 7812952008530054749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_89
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1122
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9dd6600e3907a60800000000000000
+      internalID: 7669792755801774583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_90
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1122
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fb50df17dd83c30800000000000000
+      internalID: 4339461722617528153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_91
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1119
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb09d8f5a46f1f10800000000000000
+      internalID: 2242621803461151723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_92
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1119
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1203a54fdd641a3d0800000000000000
+      internalID: -3197196341355073503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_93
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1117
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2a86605d6061410800000000000000
+      internalID: 1447351842251514599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_94
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1117
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ec2c8b3910820d0800000000000000
+      internalID: -3447503780780519896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_95
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1116
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e56cf65bfb1daa50800000000000000
+      internalID: 6533909400694580706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_96
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1116
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59bad08e84d2e350800000000000000
+      internalID: 6044627358396889438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_97
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1118
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a7fefb607eb5df0800000000000000
+      internalID: -190304543057151446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_98
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1118
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba8167136955d4f0800000000000000
+      internalID: -804638676286862662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_99
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1120
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b3c0fad5c5c88c0800000000000000
+      internalID: -3995717211945944233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_100
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1120
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d587e54cc5d04d20800000000000000
+      internalID: 3260841203539084753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_101
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1056
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809bb1a0811f1f390800000000000000
+      internalID: -7786177195195778808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_102
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1056
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ef736ff46f3c770800000000000000
+      internalID: 8630012134265716336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_103
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1054
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013fa9366c18aff50800000000000000
+      internalID: 6915982866855424784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_104
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1055
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f2b6b5939679c0800000000000000
+      internalID: -3929791353609588527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_105
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1057
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37995a0fc35ff8390800000000000000
+      internalID: -7813757186380293773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_106
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1057
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7a0ba5141422920800000000000000
+      internalID: 2964003253713414127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_107
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1056
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c260d8e21609460800000000000000
+      internalID: 7246398653001509939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_108
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1056
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b880294615b770320800000000000000
+      internalID: 2524121705674311819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_109
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1056
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0157944bf91774ed0800000000000000
+      internalID: -2429848543204641520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_110
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1056
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e255595fb1833e360800000000000000
+      internalID: 7197658322203661614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_111
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1000
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1394ddf5483f2cd20800000000000000
+      internalID: 3297465627058194737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_112
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1000
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf5dcab31abac8f0800000000000000
+      internalID: -519398213106704452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_113
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 998
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ec9d9aa649a7260800000000000000
+      internalID: 7096147348712705626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_114
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 998
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749350c0ebe15c670800000000000000
+      internalID: 8558280468481784135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_115
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 999
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920667266b28dd1a0800000000000000
+      internalID: -6783121743902515159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_116
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 999
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36acd8eb33832b540800000000000000
+      internalID: 5022138329362975331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_117
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1000
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311861aa4d9c13350800000000000000
+      internalID: 5994794494230692115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_118
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1000
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9917e330f2cbe1b10800000000000000
+      internalID: 1954206198429282713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_119
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 941
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3083af66bed9f39f0800000000000000
+      internalID: -486496600362174461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_120
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 941
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca025a108deb5290800000000000000
+      internalID: -7900459986838222137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 942
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421821d90961b7fd0800000000000000
+      internalID: -2343254370749873884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_122
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 942
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9eac3e84771db70800000000000000
+      internalID: 8922043491740740055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_123
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 942
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9efd43e0dbc7a60800000000000000
+      internalID: 7673215733846763938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_124
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 942
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e601fe8015f7fb970800000000000000
+      internalID: 8772870585159979118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_125
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 942
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08dab53e6a698a90800000000000000
+      internalID: -7311195498478905330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_126
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 942
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b590a74f692309b0800000000000000
+      internalID: -5115199193842936395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_127
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 883
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1a9b794d1b35410800000000000000
+      internalID: 1464709830462251465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_128
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 883
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d169b3e3e36b40800000000000000
+      internalID: 5432436142746227837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_129
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 884
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c003c1a329d3af780800000000000000
+      internalID: -8648532436162170868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_130
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 884
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5452723eda507e0b0800000000000000
+      internalID: -5699580559015598779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_131
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 883
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae5aeadd60053660800000000000000
+      internalID: 7364793237458542246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_132
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 883
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc880824bf509730800000000000000
+      internalID: 4003805296102771891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_133
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 883
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af925fdd9124b60800000000000000
+      internalID: 7728768351612828314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_134
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 883
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ecf1ce0d25bc570800000000000000
+      internalID: 8487968979978014234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_135
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 823
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987776dfab2069450800000000000000
+      internalID: 6095062147831134089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_136
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 823
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df994a5c75b0e500800000000000000
+      internalID: 423537910668173267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_137
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 822
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ede5ce1e28f6b4e0800000000000000
+      internalID: -1966111310332170781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_138
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 822
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22d4776953af11d0800000000000000
+      internalID: -3377801591121456595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_139
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 822
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf4b4ff0747b4f50800000000000000
+      internalID: 6866710085524737983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_140
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 822
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af8bbbded43233e0800000000000000
+      internalID: -2075538346490490975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_141
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 821
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beddf1692f65f8d10800000000000000
+      internalID: 2130016748670279147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_142
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 821
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4253638ba43a43bc0800000000000000
+      internalID: -3804236243907758812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_143
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 770
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594aac45906e5f960800000000000000
+      internalID: 7635261671028204693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_144
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 770
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da23e3997dd82fa0800000000000000
+      internalID: -5825162603761816874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 769
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45e4c68feca77d40800000000000000
+      internalID: 5582120407907231052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_146
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 769
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4abfeb1660e7a980800000000000000
+      internalID: -8527600640242763185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_147
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 769
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c70c00a25201f30800000000000000
+      internalID: 4544172886348299351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_148
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 769
+        width: 64
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616ff815daf8beaf0800000000000000
+      internalID: -366040970140060138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_149
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 769
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bb01ea41f8efb50800000000000000
+      internalID: 6628893020518398837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_150
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 769
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3db6f7e9b89730800000000000000
+      internalID: 4006156274474237054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_151
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 711
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077b49125f9368980800000000000000
+      internalID: -8537072318641031312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 711
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2732996cf95b201b0800000000000000
+      internalID: -5691787281206533262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_153
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 710
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ac6318e3b36c5f0800000000000000
+      internalID: -736836349386634639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_154
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 710
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea9b18f5019ff0b0800000000000000
+      internalID: -5692671949149594910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_155
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 712
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986dafce3aeff09c0800000000000000
+      internalID: -3958665567426390391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_156
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 712
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123937b6687b5f90800000000000000
+      internalID: -6963840016242363878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_157
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 712
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038ecaacee0574150800000000000000
+      internalID: 5856738826951387184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_158
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 712
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97446d8d55895c0800000000000000
+      internalID: -4208519461981619787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_159
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 643
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f3c3ea2a670cf0800000000000000
+      internalID: -286143318872296227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_160
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 643
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d73c4d3224593d20800000000000000
+      internalID: 3258728311413290968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_161
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 645
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a156a3be9afab70800000000000000
+      internalID: 8912529015351614087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 645
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168b7d9d112c97f0800000000000000
+      internalID: -604571838894602731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_163
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 647
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a6451bf4cd029e0800000000000000
+      internalID: -1648075228781974954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_164
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 647
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef413ab33f0213780800000000000000
+      internalID: -8705140375680772866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_165
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 639
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49a0c6528a8625e0800000000000000
+      internalID: -1934706697503200948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_166
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 639
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c9d99c2c4683fb0800000000000000
+      internalID: -4667870226000536549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_167
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 641
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aaba7c6f754ef10800000000000000
+      internalID: 2298058427289283091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_168
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 641
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a364a363cfab35e60800000000000000
+      internalID: 7949903359643371066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_169
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 642
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947be36e18b9019e0800000000000000
+      internalID: -1652650081029015735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_170
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 642
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bcd29ee4c082200800000000000000
+      internalID: 155387720203357001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_171
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 571
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7cfe01c051cfa80800000000000000
+      internalID: -8431841260776470609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_172
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 571
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3932a05af23e280800000000000000
+      internalID: -9015309643179387987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_173
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 573
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a127f160d5a2a0800000000000000
+      internalID: -6726741349231384976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_174
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 573
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb643c6042b184130800000000000000
+      internalID: 3551118147727869627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_175
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 576
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da54a0733ff8e8320800000000000000
+      internalID: 2562143512783635885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_176
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 576
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8c4528c45274e0800000000000000
+      internalID: -1985431267121000684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_177
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 583
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aecab6b93d6b4660800000000000000
+      internalID: 7371105309768208033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_178
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 583
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8839c3257ec6ead0800000000000000
+      internalID: -2673222326290925427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_179
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 584
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d566b60699f1c820800000000000000
+      internalID: 2936902854775301591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_180
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 584
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431bf175ca2e74c70800000000000000
+      internalID: 8955375613873467700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_181
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 584
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68004a3052918a540800000000000000
+      internalID: 5019289431469981830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_182
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 584
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ecad79050e0a90800000000000000
+      internalID: -7345928403873372754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_183
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 522
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f92b96e90a90620800000000000000
+      internalID: 2740898450470248332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_184
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 522
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae779305fd141190800000000000000
+      internalID: -7992730500511334737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_185
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 523
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6f71a05a16bcd00800000000000000
+      internalID: 993995504232167087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_186
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 523
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cf1429bedffe340800000000000000
+      internalID: 4895410508187958337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_187
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 523
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fda72be2f4297c0800000000000000
+      internalID: -4066100451580649598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_188
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 523
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f457f012afc270800000000000000
+      internalID: 8273009234255605927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_189
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 457
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56c5d40f83626260800000000000000
+      internalID: 7089338229347173979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_190
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 453
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be44130e2cb29800800000000000000
+      internalID: 617763004709359282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_191
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 455
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82942df0e1037d0800000000000000
+      internalID: -2940817503371581209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_192
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 454
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9540a89f09eb81620800000000000000
+      internalID: 2745153502753457241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_193
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 457
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffb532aaf0263f60800000000000000
+      internalID: 8013628847787720690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_194
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 458
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b020dd6894bed7240800000000000000
+      internalID: 4791244279619846667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_195
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 459
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da934b9e5b23110800000000000000
+      internalID: 1239252862835993944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_196
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 459
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04f50db92d07bac0800000000000000
+      internalID: -3839585684393954292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_197
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 454
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16d190774d9326b0800000000000000
+      internalID: -5322237404464949730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_198
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 454
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965edcae30d08d160800000000000000
+      internalID: 7050399527123936617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_199
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 386
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d68c09467f362fb0800000000000000
+      internalID: -4672977786086062379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_200
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 386
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36371a0f1543aa7d0800000000000000
+      internalID: -2906453082980125853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_201
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 387
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f1a1b92735f0ba0800000000000000
+      internalID: -6120581616879657108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_202
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 387
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21208010e2af63140800000000000000
+      internalID: 4699218336700432914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_203
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 390
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b28ba203f6e6d8c0800000000000000
+      internalID: -3974735689711648076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_204
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 390
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfede1bc813e2a200800000000000000
+      internalID: 189963829929500412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_205
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 390
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b41de118da926e0800000000000000
+      internalID: -1861766200861570244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_206
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 390
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aff9d7946468040800000000000000
+      internalID: 4649480946760809057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_207
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 294
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dc082bc7e445470800000000000000
+      internalID: 8382411103921032602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_208
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 293
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe742b17e07e69aa0800000000000000
+      internalID: -6154477791532136465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_209
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 298
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86f731a6bed985c0800000000000000
+      internalID: -4212591100458174836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_210
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 301
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebdf3850dd7cc780800000000000000
+      internalID: -8661409649553056790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_211
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 296
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dd032a602e296e0800000000000000
+      internalID: -1832153580267578102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_212
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 294
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffce487e1320d0800800000000000000
+      internalID: 580122340361563391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_213
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 297
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd4b794f9f9a5da0800000000000000
+      internalID: -5955272050762625599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_214
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 301
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4694bd287e62d6360800000000000000
+      internalID: 7164425357991037284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_215
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 298
+        width: 28
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2bfd44c714ea870800000000000000
+      internalID: 8695959932486267624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_216
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 313
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3425fde39e15d8a80800000000000000
+      internalID: -8463018062535241149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_217
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 333
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426f1b579de596880800000000000000
+      internalID: -8617252123921222108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_218
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 340
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345b295b5f2d04de0800000000000000
+      internalID: -1350847935456037565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_219
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 298
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51789bd3319fba10800000000000000
+      internalID: 1927418817451422044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_220
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 297
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee59c1013330e2260800000000000000
+      internalID: 7074595582494152174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_221
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 298
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70711c02d7953a0f0800000000000000
+      internalID: -1106942689447700729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_222
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 230
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884faaec5a06d5c80800000000000000
+      internalID: -8332397470312369016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_223
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 226
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22db50855ab3d7c0800000000000000
+      internalID: -4047686763687456209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_224
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 226
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7a74ef9778582a0800000000000000
+      internalID: -6735828709635807233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_225
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 230
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4900386651d5fa300800000000000000
+      internalID: 265533249533706388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_226
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 238
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc7c97b39dc189a0800000000000000
+      internalID: -6232474374979683084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_227
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 233
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25688c96607e85c10800000000000000
+      internalID: 2042636445743089234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_228
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 230
+        width: 108
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54eed579c3478840800000000000000
+      internalID: 5226220425131779166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_229
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 266
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdaf356700ec05d0800000000000000
+      internalID: -3094852521542308354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_230
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 223
+        width: 117
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88071187183a3e860800000000000000
+      internalID: 7558064376118341768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_231
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 223
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e433ce316ccd90f80800000000000000
+      internalID: -8139732108199578802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_232
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 162
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76acb676ddca0acb0800000000000000
+      internalID: -4854690331382527385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_233
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 164
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eadf0ce9b3d8c880800000000000000
+      internalID: -8590383493726348570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_234
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 156
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130e09811d76577c0800000000000000
+      internalID: -4074236140128772047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_235
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 158
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a924a290ce0fcbb30800000000000000
+      internalID: 4304580240416064154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_236
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 161
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a8037ff7b18e910800000000000000
+      internalID: 1866772281967020646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_237
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 161
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a9b5061e42a47c0800000000000000
+      internalID: -4086413161482446252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_238
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 161
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c218b661f466e0800000000000000
+      internalID: -1845084523837863825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_239
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 159
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b942d600e0ad857d0800000000000000
+      internalID: -2929351803932957541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_240
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 102
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1376e1e509da13220800000000000000
+      internalID: 2463941306714318641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_241
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 102
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f6b644646a049e0800000000000000
+      internalID: -1639127443637047418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_242
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 102
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d60209c728118dd0800000000000000
+      internalID: -2485678960176658732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_243
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 102
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b205c4d9a4910cf50800000000000000
+      internalID: 6899542437388898347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_244
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 102
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6886b222ec2aac0800000000000000
+      internalID: -3845284485668501779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_245
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 102
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421242d136ff9260800000000000000
+      internalID: 7106669430855307845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_246
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 102
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19a1b2a2a63464c0800000000000000
+      internalID: -4295248072462456548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_247
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 102
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d61cf5cc84565ea0800000000000000
+      internalID: -5884422899519187244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_248
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 102
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522f3fe3c8df5ce0800000000000000
+      internalID: -1414173421926931880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_249
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 68
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeedf0d750ca906a0800000000000000
+      internalID: -6482461049050112278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_250
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 63
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c8b7bfa45307530800000000000000
+      internalID: 3850636277564804250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_251
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 4
+        width: 55
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6bd295e0d05a50800000000000000
+      internalID: 6507931145980308850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_252
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 72
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3c888512ad27990800000000000000
+      internalID: -7389604201807428646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_253
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 8
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7672954d6c699bd00800000000000000
+      internalID: 988987373894838119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_254
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 14
+        width: 6
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae2183fb2948eb80800000000000000
+      internalID: -8365355854722945375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_255
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 55
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d06c2d47dc1e0a50800000000000000
+      internalID: 6489155824125763792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_256
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4828bed5c4585b2c0800000000000000
+      internalID: -4416477296527179132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_257
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808f8fce36bf5f020800000000000000
+      internalID: 2375080785103878152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_258
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 57
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dfd8c232b7a4f60800000000000000
+      internalID: 8019357477488164126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_259
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 58
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f7e9b7e194cf620800000000000000
+      internalID: 2809200662844178297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_260
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b4f5429972becd0800000000000000
+      internalID: -2527883227144697058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_261
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 4
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ae9cea4d5e5e4e0800000000000000
+      internalID: -1952902161766946154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_262
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 4
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57db4c171b1624b30800000000000000
+      internalID: 4270082811446476149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_263
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 5
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7265f21c1caada270800000000000000
+      internalID: 8263448640441243175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_264
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 2
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b587df10b57e1c9b0800000000000000
+      internalID: -5061510128126298021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_265
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 27
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b25e062cd77ccc20800000000000000
+      internalID: 3228086820332786357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_266
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 45
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b6bf10394845c10800000000000000
+      internalID: 2041402298033990551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_267
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 4
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71f22e7dd3c26c0800000000000000
+      internalID: -4166887557802551306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_268
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 30
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a7675ecc1cd9680800000000000000
+      internalID: -8746621815516399060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_269
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 19
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3791ff01a7c8ba6b0800000000000000
+      internalID: -5283975281890092685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_270
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 32
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d8820a367c1f8e0800000000000000
+      internalID: -1661327556820300432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_271
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a393f130a58a9ec0800000000000000
+      internalID: -3559385632403647577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_272
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 36
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffeb4e7caa99ec0800000000000000
+      internalID: -3559626254946730226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x4sheet3fourthtest_273
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 26
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c39463ee5e5b5d10800000000000000
+      internalID: 2115388211615536069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

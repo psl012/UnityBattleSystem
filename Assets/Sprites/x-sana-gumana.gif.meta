@@ -1,0 +1,6788 @@
+fileFormatVersion: 2
+guid: d1126a75beb67ab4597eb81b0711337b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -698515317218617818
+    second: x-sana-gumana_0
+  - first:
+      213: 4074002788783674126
+    second: x-sana-gumana_1
+  - first:
+      213: 7260299279233384743
+    second: x-sana-gumana_2
+  - first:
+      213: -2475412738533386836
+    second: x-sana-gumana_3
+  - first:
+      213: -1144106808880000722
+    second: x-sana-gumana_4
+  - first:
+      213: 5451259682126922792
+    second: x-sana-gumana_5
+  - first:
+      213: 116749389276519587
+    second: x-sana-gumana_6
+  - first:
+      213: 6688139660214597887
+    second: x-sana-gumana_7
+  - first:
+      213: 6224998846406147933
+    second: x-sana-gumana_8
+  - first:
+      213: 664924890375240480
+    second: x-sana-gumana_9
+  - first:
+      213: -7476945919536819170
+    second: x-sana-gumana_10
+  - first:
+      213: 4653662584636347190
+    second: x-sana-gumana_11
+  - first:
+      213: 5026795026474792851
+    second: x-sana-gumana_12
+  - first:
+      213: -1518776790021925730
+    second: x-sana-gumana_13
+  - first:
+      213: -8704500449302901926
+    second: x-sana-gumana_14
+  - first:
+      213: 972084930044907434
+    second: x-sana-gumana_15
+  - first:
+      213: -7734009994073532084
+    second: x-sana-gumana_16
+  - first:
+      213: -1605135868847019820
+    second: x-sana-gumana_17
+  - first:
+      213: -4798480514125281759
+    second: x-sana-gumana_18
+  - first:
+      213: 1819891529826569245
+    second: x-sana-gumana_19
+  - first:
+      213: 2871333837801377233
+    second: x-sana-gumana_20
+  - first:
+      213: 4763891897913793056
+    second: x-sana-gumana_21
+  - first:
+      213: 2275754226588892453
+    second: x-sana-gumana_22
+  - first:
+      213: 1076298089663517288
+    second: x-sana-gumana_23
+  - first:
+      213: -4679576730561168061
+    second: x-sana-gumana_24
+  - first:
+      213: -43637345159616054
+    second: x-sana-gumana_25
+  - first:
+      213: 6816353972688558101
+    second: x-sana-gumana_26
+  - first:
+      213: 4992262734727645187
+    second: x-sana-gumana_27
+  - first:
+      213: 564256139559499353
+    second: x-sana-gumana_28
+  - first:
+      213: 6343713389622822743
+    second: x-sana-gumana_29
+  - first:
+      213: 1432003807258422449
+    second: x-sana-gumana_30
+  - first:
+      213: 1501964402875022940
+    second: x-sana-gumana_31
+  - first:
+      213: -2561033869400509140
+    second: x-sana-gumana_32
+  - first:
+      213: -166327722828742460
+    second: x-sana-gumana_33
+  - first:
+      213: 243373978152360720
+    second: x-sana-gumana_34
+  - first:
+      213: 7188155989365115610
+    second: x-sana-gumana_35
+  - first:
+      213: -8967970658606716552
+    second: x-sana-gumana_36
+  - first:
+      213: 65631048776894938
+    second: x-sana-gumana_37
+  - first:
+      213: 7221149893406378792
+    second: x-sana-gumana_38
+  - first:
+      213: -7481886616576397285
+    second: x-sana-gumana_39
+  - first:
+      213: -800974653079115779
+    second: x-sana-gumana_40
+  - first:
+      213: -2496211754353030644
+    second: x-sana-gumana_41
+  - first:
+      213: -7937133869889140983
+    second: x-sana-gumana_42
+  - first:
+      213: 3291683466133835017
+    second: x-sana-gumana_43
+  - first:
+      213: 4322142122904973948
+    second: x-sana-gumana_44
+  - first:
+      213: -5934894264245137951
+    second: x-sana-gumana_45
+  - first:
+      213: -7034899300570374229
+    second: x-sana-gumana_46
+  - first:
+      213: 1258403891417547665
+    second: x-sana-gumana_47
+  - first:
+      213: -6445441327168228727
+    second: x-sana-gumana_48
+  - first:
+      213: -44137260575315756
+    second: x-sana-gumana_49
+  - first:
+      213: -4068973992016742488
+    second: x-sana-gumana_50
+  - first:
+      213: -6141852433008363198
+    second: x-sana-gumana_51
+  - first:
+      213: 6419937821478433480
+    second: x-sana-gumana_52
+  - first:
+      213: 8303922713296682787
+    second: x-sana-gumana_53
+  - first:
+      213: 3819874802339103222
+    second: x-sana-gumana_54
+  - first:
+      213: -5989306391301578922
+    second: x-sana-gumana_55
+  - first:
+      213: 3820279032295704659
+    second: x-sana-gumana_56
+  - first:
+      213: 8748870546869278597
+    second: x-sana-gumana_57
+  - first:
+      213: 8142397451276212043
+    second: x-sana-gumana_58
+  - first:
+      213: -5497026591864594571
+    second: x-sana-gumana_59
+  - first:
+      213: -270951181831786745
+    second: x-sana-gumana_60
+  - first:
+      213: -5872602010044321510
+    second: x-sana-gumana_61
+  - first:
+      213: 4217266241120498829
+    second: x-sana-gumana_62
+  - first:
+      213: -7826956978826315304
+    second: x-sana-gumana_63
+  - first:
+      213: 7246914511166556230
+    second: x-sana-gumana_64
+  - first:
+      213: 2996844378948523719
+    second: x-sana-gumana_65
+  - first:
+      213: -954964043228276998
+    second: x-sana-gumana_66
+  - first:
+      213: 502821081481498062
+    second: x-sana-gumana_67
+  - first:
+      213: 4409955485344455623
+    second: x-sana-gumana_68
+  - first:
+      213: -5001757286067399438
+    second: x-sana-gumana_69
+  - first:
+      213: 449517830964180078
+    second: x-sana-gumana_70
+  - first:
+      213: 6084938915777996058
+    second: x-sana-gumana_71
+  - first:
+      213: 1755942612587509341
+    second: x-sana-gumana_72
+  - first:
+      213: 2425281099760578424
+    second: x-sana-gumana_73
+  - first:
+      213: 5723110613792245181
+    second: x-sana-gumana_74
+  - first:
+      213: -1028633370955660700
+    second: x-sana-gumana_75
+  - first:
+      213: -6965725646577157570
+    second: x-sana-gumana_76
+  - first:
+      213: 3569021551920522979
+    second: x-sana-gumana_77
+  - first:
+      213: 6183162916453610762
+    second: x-sana-gumana_78
+  - first:
+      213: -5343545977237020998
+    second: x-sana-gumana_79
+  - first:
+      213: -7106578442411296057
+    second: x-sana-gumana_80
+  - first:
+      213: 1500785860222295151
+    second: x-sana-gumana_81
+  - first:
+      213: 2178296198283717012
+    second: x-sana-gumana_82
+  - first:
+      213: 6787508820992983109
+    second: x-sana-gumana_83
+  - first:
+      213: -6379006549768653680
+    second: x-sana-gumana_84
+  - first:
+      213: -613397265674657188
+    second: x-sana-gumana_85
+  - first:
+      213: -8802162542867136329
+    second: x-sana-gumana_86
+  - first:
+      213: 3386642808501323763
+    second: x-sana-gumana_87
+  - first:
+      213: -171271374448522073
+    second: x-sana-gumana_88
+  - first:
+      213: -1636827203706870994
+    second: x-sana-gumana_89
+  - first:
+      213: -1661918045546261488
+    second: x-sana-gumana_90
+  - first:
+      213: -7539094828961532069
+    second: x-sana-gumana_91
+  - first:
+      213: 314519536113383689
+    second: x-sana-gumana_92
+  - first:
+      213: 6759857636781012445
+    second: x-sana-gumana_93
+  - first:
+      213: 9002984416441928286
+    second: x-sana-gumana_94
+  - first:
+      213: 154815326153692335
+    second: x-sana-gumana_95
+  - first:
+      213: -8609932101429645679
+    second: x-sana-gumana_96
+  - first:
+      213: -8611266379471047912
+    second: x-sana-gumana_97
+  - first:
+      213: -4769937492186960122
+    second: x-sana-gumana_98
+  - first:
+      213: -8267569498037643499
+    second: x-sana-gumana_99
+  - first:
+      213: -8835664455057812056
+    second: x-sana-gumana_100
+  - first:
+      213: 4188487125865434244
+    second: x-sana-gumana_101
+  - first:
+      213: -2232300463489656851
+    second: x-sana-gumana_102
+  - first:
+      213: 3095414504445094791
+    second: x-sana-gumana_103
+  - first:
+      213: -900125785737000155
+    second: x-sana-gumana_104
+  - first:
+      213: 4853556729738440298
+    second: x-sana-gumana_105
+  - first:
+      213: 1694861725870368103
+    second: x-sana-gumana_106
+  - first:
+      213: 5796847611886390996
+    second: x-sana-gumana_107
+  - first:
+      213: 7561364170303057619
+    second: x-sana-gumana_108
+  - first:
+      213: -8924006731743337081
+    second: x-sana-gumana_109
+  - first:
+      213: 7726180966184424420
+    second: x-sana-gumana_110
+  - first:
+      213: -3835889831400537333
+    second: x-sana-gumana_111
+  - first:
+      213: -6977884847064319550
+    second: x-sana-gumana_112
+  - first:
+      213: -1713454204700709347
+    second: x-sana-gumana_113
+  - first:
+      213: -2813155119686315794
+    second: x-sana-gumana_114
+  - first:
+      213: -2752619371189334050
+    second: x-sana-gumana_115
+  - first:
+      213: 1147631492162792867
+    second: x-sana-gumana_116
+  - first:
+      213: 7365037795864838126
+    second: x-sana-gumana_117
+  - first:
+      213: 2470266385687069901
+    second: x-sana-gumana_118
+  - first:
+      213: -6420939028261409315
+    second: x-sana-gumana_119
+  - first:
+      213: -35327848552434628
+    second: x-sana-gumana_120
+  - first:
+      213: 2948591847324580046
+    second: x-sana-gumana_121
+  - first:
+      213: 8319196596335014023
+    second: x-sana-gumana_122
+  - first:
+      213: -3710008559725803346
+    second: x-sana-gumana_123
+  - first:
+      213: -1124646719834496495
+    second: x-sana-gumana_124
+  - first:
+      213: -7618355223137493668
+    second: x-sana-gumana_125
+  - first:
+      213: -4407873962352206686
+    second: x-sana-gumana_126
+  - first:
+      213: -1587337887306884365
+    second: x-sana-gumana_127
+  - first:
+      213: 1961839540222472066
+    second: x-sana-gumana_128
+  - first:
+      213: 378899100203566596
+    second: x-sana-gumana_129
+  - first:
+      213: 2438483348179654072
+    second: x-sana-gumana_130
+  - first:
+      213: -7173019305589027443
+    second: x-sana-gumana_131
+  - first:
+      213: -5312017573621656928
+    second: x-sana-gumana_132
+  - first:
+      213: -4475834759034834467
+    second: x-sana-gumana_133
+  - first:
+      213: -1222833687035199001
+    second: x-sana-gumana_134
+  - first:
+      213: 944054783747925073
+    second: x-sana-gumana_135
+  - first:
+      213: -428065658085578143
+    second: x-sana-gumana_136
+  - first:
+      213: 6088289558162847315
+    second: x-sana-gumana_137
+  - first:
+      213: -330893798194414545
+    second: x-sana-gumana_138
+  - first:
+      213: 5176464535542945516
+    second: x-sana-gumana_139
+  - first:
+      213: -7092183410420528747
+    second: x-sana-gumana_140
+  - first:
+      213: 5495900920608238371
+    second: x-sana-gumana_141
+  - first:
+      213: -7057000245804999997
+    second: x-sana-gumana_142
+  - first:
+      213: 6866620235335683760
+    second: x-sana-gumana_143
+  - first:
+      213: -2259654102415756143
+    second: x-sana-gumana_144
+  - first:
+      213: 9203157318263241663
+    second: x-sana-gumana_145
+  - first:
+      213: -6783052034667641011
+    second: x-sana-gumana_146
+  - first:
+      213: 6188993169514211206
+    second: x-sana-gumana_147
+  - first:
+      213: -4786158726372044591
+    second: x-sana-gumana_148
+  - first:
+      213: 2713869879151201597
+    second: x-sana-gumana_149
+  - first:
+      213: 3422440836005011015
+    second: x-sana-gumana_150
+  - first:
+      213: -5416598131703854235
+    second: x-sana-gumana_151
+  - first:
+      213: 110556574703191756
+    second: x-sana-gumana_152
+  - first:
+      213: -3751435385335567019
+    second: x-sana-gumana_153
+  - first:
+      213: 5101254773043807405
+    second: x-sana-gumana_154
+  - first:
+      213: 6893694877602320575
+    second: x-sana-gumana_155
+  - first:
+      213: 5981377349309673613
+    second: x-sana-gumana_156
+  - first:
+      213: 4771811568262225211
+    second: x-sana-gumana_157
+  - first:
+      213: 9178365248098881008
+    second: x-sana-gumana_158
+  - first:
+      213: 3293447479543174562
+    second: x-sana-gumana_159
+  - first:
+      213: -8281217076689649662
+    second: x-sana-gumana_160
+  - first:
+      213: 447897969192756575
+    second: x-sana-gumana_161
+  - first:
+      213: -1069900460282179611
+    second: x-sana-gumana_162
+  - first:
+      213: 7073863256708614240
+    second: x-sana-gumana_163
+  - first:
+      213: 2228643348535307941
+    second: x-sana-gumana_164
+  - first:
+      213: 3733109465112133249
+    second: x-sana-gumana_165
+  - first:
+      213: 4702173543900031911
+    second: x-sana-gumana_166
+  - first:
+      213: 6222730796945108669
+    second: x-sana-gumana_167
+  - first:
+      213: -3090784192377540983
+    second: x-sana-gumana_168
+  - first:
+      213: 703902098078909899
+    second: x-sana-gumana_169
+  - first:
+      213: 1526879282324257080
+    second: x-sana-gumana_170
+  - first:
+      213: 8562783868762103487
+    second: x-sana-gumana_171
+  - first:
+      213: 8634911087128697942
+    second: x-sana-gumana_172
+  - first:
+      213: 6762154390291903909
+    second: x-sana-gumana_173
+  - first:
+      213: 7395703434742026560
+    second: x-sana-gumana_174
+  - first:
+      213: -5102355473905675973
+    second: x-sana-gumana_175
+  - first:
+      213: 7529574204682647391
+    second: x-sana-gumana_176
+  - first:
+      213: -4825027830764781702
+    second: x-sana-gumana_177
+  - first:
+      213: 8167807928175697160
+    second: x-sana-gumana_178
+  - first:
+      213: 254529948519260960
+    second: x-sana-gumana_179
+  - first:
+      213: -1325610201697780093
+    second: x-sana-gumana_180
+  - first:
+      213: 4292408464650360877
+    second: x-sana-gumana_181
+  - first:
+      213: -7900448286388094822
+    second: x-sana-gumana_182
+  - first:
+      213: 1609735551038249185
+    second: x-sana-gumana_183
+  - first:
+      213: -1621592238408302534
+    second: x-sana-gumana_184
+  - first:
+      213: -295096535383216522
+    second: x-sana-gumana_185
+  - first:
+      213: 3773739055129841254
+    second: x-sana-gumana_186
+  - first:
+      213: -2655421203554809504
+    second: x-sana-gumana_187
+  - first:
+      213: -643612224658138849
+    second: x-sana-gumana_188
+  - first:
+      213: -4447422864554691788
+    second: x-sana-gumana_189
+  - first:
+      213: 6270954878549509336
+    second: x-sana-gumana_190
+  - first:
+      213: -283907676670236934
+    second: x-sana-gumana_191
+  - first:
+      213: 9092501203925070851
+    second: x-sana-gumana_192
+  - first:
+      213: -1753080714828330422
+    second: x-sana-gumana_193
+  - first:
+      213: -8886153938603023338
+    second: x-sana-gumana_194
+  - first:
+      213: -3546271606628171289
+    second: x-sana-gumana_195
+  - first:
+      213: -8171004212816999215
+    second: x-sana-gumana_196
+  - first:
+      213: 6114828506349586712
+    second: x-sana-gumana_197
+  - first:
+      213: -3193511720077745177
+    second: x-sana-gumana_198
+  - first:
+      213: -8732634650081031758
+    second: x-sana-gumana_199
+  - first:
+      213: 9090043168988969736
+    second: x-sana-gumana_200
+  - first:
+      213: 274334687086919648
+    second: x-sana-gumana_201
+  - first:
+      213: 3093411742770570591
+    second: x-sana-gumana_202
+  - first:
+      213: 4879736275607735439
+    second: x-sana-gumana_203
+  - first:
+      213: 3407745894549522638
+    second: x-sana-gumana_204
+  - first:
+      213: -1413363459847499605
+    second: x-sana-gumana_205
+  - first:
+      213: -6171539635588251251
+    second: x-sana-gumana_206
+  - first:
+      213: -1792624075003646369
+    second: x-sana-gumana_207
+  - first:
+      213: -4504642563900765283
+    second: x-sana-gumana_208
+  - first:
+      213: -9044263718741569679
+    second: x-sana-gumana_209
+  - first:
+      213: -989411997003146858
+    second: x-sana-gumana_210
+  - first:
+      213: -3668330174596817001
+    second: x-sana-gumana_211
+  - first:
+      213: 3108919722490035860
+    second: x-sana-gumana_212
+  - first:
+      213: 6791829195006731207
+    second: x-sana-gumana_213
+  - first:
+      213: -4481389643499536255
+    second: x-sana-gumana_214
+  - first:
+      213: 3130071736299276732
+    second: x-sana-gumana_215
+  - first:
+      213: 7628638048899946087
+    second: x-sana-gumana_216
+  - first:
+      213: 1141429911643745394
+    second: x-sana-gumana_217
+  - first:
+      213: 8782163884356112874
+    second: x-sana-gumana_218
+  - first:
+      213: -7999278122576106937
+    second: x-sana-gumana_219
+  - first:
+      213: 2261710891610259288
+    second: x-sana-gumana_220
+  - first:
+      213: 5602588337567438561
+    second: x-sana-gumana_221
+  - first:
+      213: -9212305339592665057
+    second: x-sana-gumana_222
+  - first:
+      213: 6267442261151957810
+    second: x-sana-gumana_223
+  - first:
+      213: 3739397803301785344
+    second: x-sana-gumana_224
+  - first:
+      213: -6093886063721932253
+    second: x-sana-gumana_225
+  - first:
+      213: 3391909691479054918
+    second: x-sana-gumana_226
+  - first:
+      213: 5378092635181497556
+    second: x-sana-gumana_227
+  - first:
+      213: 5949447811212404588
+    second: x-sana-gumana_228
+  - first:
+      213: -8140719160328256253
+    second: x-sana-gumana_229
+  - first:
+      213: 2749443002950581686
+    second: x-sana-gumana_230
+  - first:
+      213: 2775540166723711217
+    second: x-sana-gumana_231
+  - first:
+      213: 9170949217855310318
+    second: x-sana-gumana_232
+  - first:
+      213: 7826381408809421539
+    second: x-sana-gumana_233
+  - first:
+      213: -3092099775044483063
+    second: x-sana-gumana_234
+  - first:
+      213: -5402651147259817619
+    second: x-sana-gumana_235
+  - first:
+      213: 2974516570328378766
+    second: x-sana-gumana_236
+  - first:
+      213: -2644753956966772350
+    second: x-sana-gumana_237
+  - first:
+      213: 7824302628376941000
+    second: x-sana-gumana_238
+  - first:
+      213: -7846722663466755423
+    second: x-sana-gumana_239
+  - first:
+      213: -8364485520737972226
+    second: x-sana-gumana_240
+  - first:
+      213: -7391517145528534531
+    second: x-sana-gumana_241
+  - first:
+      213: -767787890288459613
+    second: x-sana-gumana_242
+  - first:
+      213: 3995047209231355247
+    second: x-sana-gumana_243
+  - first:
+      213: -7621057378387336971
+    second: x-sana-gumana_244
+  - first:
+      213: 2065109243477094251
+    second: x-sana-gumana_245
+  - first:
+      213: 9103351621165085178
+    second: x-sana-gumana_246
+  - first:
+      213: -173946990022917776
+    second: x-sana-gumana_247
+  - first:
+      213: 2709428805152331799
+    second: x-sana-gumana_248
+  - first:
+      213: -3892620631983839548
+    second: x-sana-gumana_249
+  - first:
+      213: -1171204879516032281
+    second: x-sana-gumana_250
+  - first:
+      213: -4689735126949181592
+    second: x-sana-gumana_251
+  - first:
+      213: -1172439265784824228
+    second: x-sana-gumana_252
+  - first:
+      213: -8144912726833349932
+    second: x-sana-gumana_253
+  - first:
+      213: 3415272350278039576
+    second: x-sana-gumana_254
+  - first:
+      213: -2032399711234104463
+    second: x-sana-gumana_255
+  - first:
+      213: 1511240862225754914
+    second: x-sana-gumana_256
+  - first:
+      213: -6733426979252920242
+    second: x-sana-gumana_257
+  - first:
+      213: -7220793330771592605
+    second: x-sana-gumana_258
+  - first:
+      213: -7074421327388458856
+    second: x-sana-gumana_259
+  - first:
+      213: -8238626632845551029
+    second: x-sana-gumana_260
+  - first:
+      213: 505003063380778535
+    second: x-sana-gumana_261
+  - first:
+      213: -1276498787780966329
+    second: x-sana-gumana_262
+  - first:
+      213: -2278802368499897967
+    second: x-sana-gumana_263
+  - first:
+      213: 4969730485024684237
+    second: x-sana-gumana_264
+  - first:
+      213: 2124242875500153894
+    second: x-sana-gumana_265
+  - first:
+      213: 1461174077765081789
+    second: x-sana-gumana_266
+  - first:
+      213: -7106506919640843163
+    second: x-sana-gumana_267
+  - first:
+      213: 2002330264764457803
+    second: x-sana-gumana_268
+  - first:
+      213: -6470841625180092671
+    second: x-sana-gumana_269
+  - first:
+      213: -1330294120052955635
+    second: x-sana-gumana_270
+  - first:
+      213: -6440826351480787077
+    second: x-sana-gumana_271
+  - first:
+      213: 6632645694149198397
+    second: x-sana-gumana_272
+  - first:
+      213: 2355585345495690054
+    second: x-sana-gumana_273
+  - first:
+      213: -7307085919512798043
+    second: x-sana-gumana_274
+  - first:
+      213: -4800947068048246095
+    second: x-sana-gumana_275
+  - first:
+      213: -5861463002810412504
+    second: x-sana-gumana_276
+  - first:
+      213: 8516472512290947544
+    second: x-sana-gumana_277
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: x-sana-gumana_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2396
+        width: 10
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626d30715006e46f0800000000000000
+      internalID: -698515317218617818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2395
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03d66f83f3c98830800000000000000
+      internalID: 4074002788783674126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2392
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7210bbd4ab3c1c460800000000000000
+      internalID: 7260299279233384743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2382
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59d37ca3195add0800000000000000
+      internalID: -2475412738533386836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2379
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e211a974be05f10f0800000000000000
+      internalID: -1144106808880000722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2379
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82485938cc3c6ab40800000000000000
+      internalID: 5451259682126922792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2379
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac129373f6ce9100800000000000000
+      internalID: 116749389276519587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 2382
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8fa4fe59b01dc50800000000000000
+      internalID: 6688139660214597887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_8
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2391
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f31472873a36650800000000000000
+      internalID: 6224998846406147933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_9
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 2391
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bb1253aa94a3900800000000000000
+      internalID: 664924890375240480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_10
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2391
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14933dfc4d8c3890800000000000000
+      internalID: -7476945919536819170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_11
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2391
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63396cde671259040800000000000000
+      internalID: 4653662584636347190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_12
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 2392
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397fab78173c2c540800000000000000
+      internalID: 5026795026474792851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_13
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2392
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9492a96e883ceae0800000000000000
+      internalID: -1518776790021925730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_14
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2391
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b8214b5f6633780800000000000000
+      internalID: -8704500449302901926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_15
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2392
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf46d2f71a8d7d00800000000000000
+      internalID: 972084930044907434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_16
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2392
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c491ded03e64ba490800000000000000
+      internalID: -7734009994073532084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_17
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2321
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a2218e6969b9e0800000000000000
+      internalID: -1605135868847019820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2321
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126cde5556f586db0800000000000000
+      internalID: -4798480514125281759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2321
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0e0544bd814910800000000000000
+      internalID: 1819891529826569245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2321
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddc5b999e609d720800000000000000
+      internalID: 2871333837801377233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2321
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a5383e07ebc1240800000000000000
+      internalID: 4763891897913793056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2342
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dbcef596a159f10800000000000000
+      internalID: 2275754226588892453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2265
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86253daf867cfee00800000000000000
+      internalID: 1076298089663517288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2265
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34db7bbc1cdce0fb0800000000000000
+      internalID: -4679576730561168061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2266
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9e1d6d018f46ff0800000000000000
+      internalID: -43637345159616054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2266
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5189c65d2dd889e50800000000000000
+      internalID: 6816353972688558101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_27
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2267
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088cd0d184184540800000000000000
+      internalID: 4992262734727645187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_28
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2266
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956f6c828f3a4d700800000000000000
+      internalID: 564256139559499353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2266
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578b59a7b5690850800000000000000
+      internalID: 6343713389622822743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_30
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 2266
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc25a820ef7fd310800000000000000
+      internalID: 1432003807258422449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 2266
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eb5aaaaac08d410800000000000000
+      internalID: 1501964402875022940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_32
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 2266
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2573a4c341657cd0800000000000000
+      internalID: -2561033869400509140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_33
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2266
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c04e7c31d511bdf0800000000000000
+      internalID: -166327722828742460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_34
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2267
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b585bf753a06300800000000000000
+      internalID: 243373978152360720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_35
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 2266
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada4430b9c571c360800000000000000
+      internalID: 7188155989365115610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_36
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2266
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879ee99433e5b8380800000000000000
+      internalID: -8967970658606716552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_37
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 2265
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad94594571b29e000800000000000000
+      internalID: 65631048776894938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_38
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 2266
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b465a919da63460800000000000000
+      internalID: 7221149893406378792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_39
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2288
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10f63153cffa2890800000000000000
+      internalID: -7481886616576397285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_40
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2285
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7a029fbcd52e4f0800000000000000
+      internalID: -800974653079115779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2200
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a02a982acab5dd0800000000000000
+      internalID: -2496211754353030644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2203
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907498e4cc2a9d190800000000000000
+      internalID: -7937133869889140983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_43
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2200
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0fef1ca86ead20800000000000000
+      internalID: 3291683466133835017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_44
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 2198
+        width: 24
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72f0807c555bfb30800000000000000
+      internalID: 4322142122904973948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2198
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed4a207c1503ada0800000000000000
+      internalID: -5934894264245137951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_46
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2199
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafdbdecb540f5e90800000000000000
+      internalID: -7034899300570374229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_47
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2202
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19389e30cafb67110800000000000000
+      internalID: 1258403891417547665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_48
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2202
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982f38923413d86a0800000000000000
+      internalID: -6445441327168228727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_49
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2198
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8ac063561336ff0800000000000000
+      internalID: -44137260575315756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_50
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 2198
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7f98d66b91887c0800000000000000
+      internalID: -4068973992016742488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_51
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 2198
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249faabc0c1c3caa0800000000000000
+      internalID: -6141852433008363198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_52
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2222
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c231513f63381950800000000000000
+      internalID: 6419937821478433480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2137
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fb85036b57d3370800000000000000
+      internalID: 8303922713296682787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2137
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f143e7e4ebe20530800000000000000
+      internalID: 3819874802339103222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2137
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f1e7fd195b1eca0800000000000000
+      internalID: -5989306391301578922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_56
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2137
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358cbd60a8b540530800000000000000
+      internalID: 3820279032295704659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_57
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2139
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587550ca86b3a6970800000000000000
+      internalID: 8748870546869278597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_58
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475d57775b9ff070800000000000000
+      internalID: 8142397451276212043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_59
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 2136
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fd80f6073a6b3b0800000000000000
+      internalID: -5497026591864594571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_60
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2136
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fa17fe5536d3cf0800000000000000
+      internalID: -270951181831786745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_61
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2163
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1130141693508ea0800000000000000
+      internalID: -5872602010044321510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_62
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2068
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84fb316d4db68a30800000000000000
+      internalID: 4217266241120498829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_63
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2067
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9fac4c810116390800000000000000
+      internalID: -7826956978826315304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 2073
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648c4b32a56329460800000000000000
+      internalID: 7246914511166556230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_65
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2075
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c65a5ea51ee69920800000000000000
+      internalID: 2996844378948523719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_66
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2071
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af69b1623494fb2f0800000000000000
+      internalID: -954964043228276998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_67
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2068
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd484b0c116af600800000000000000
+      internalID: 502821081481498062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_68
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2072
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbdd33262f433d30800000000000000
+      internalID: 4409955485344455623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2075
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f41b3faf30369ab0800000000000000
+      internalID: -5001757286067399438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_70
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 2073
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64f2dae5120d3600800000000000000
+      internalID: 449517830964180078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_71
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2074
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15e5ea54bb027450800000000000000
+      internalID: 6084938915777996058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_72
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 2080
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56ff35b08c5e5810800000000000000
+      internalID: 1755942612587509341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_73
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 2077
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fa2bf7f4458a120800000000000000
+      internalID: 2425281099760578424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_74
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2096
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5ca59e7c29c6f40800000000000000
+      internalID: 5723110613792245181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_75
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2004
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624318266f89b1f0800000000000000
+      internalID: -1028633370955660700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2005
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ab0f03e65c45f90800000000000000
+      internalID: -6965725646577157570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1999
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6afe52136b78130800000000000000
+      internalID: 3569021551920522979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_78
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2001
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f597a9e10fc550800000000000000
+      internalID: 6183162916453610762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_79
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 2032
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abed1d9be39e7d5b0800000000000000
+      internalID: -5343545977237020998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_80
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 2031
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca30a31f8c506d90800000000000000
+      internalID: -7106578442411296057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_81
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 2029
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c9a72d9ccd3d410800000000000000
+      internalID: 1500785860222295151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1935
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499e84ae9dcda3e10800000000000000
+      internalID: 2178296198283717012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_83
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1935
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5400e199f43123e50800000000000000
+      internalID: 6787508820992983109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1935
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094362527573977a0800000000000000
+      internalID: -6379006549768653680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_85
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1935
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c522441df66cc77f0800000000000000
+      internalID: -613397265674657188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_86
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1948
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0c7299dcf68d580800000000000000
+      internalID: -8802162542867136329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_87
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1948
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f74adde0b5cffe20800000000000000
+      internalID: 3386642808501323763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_88
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1948
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac8dc5a7958f9df0800000000000000
+      internalID: -171271374448522073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_89
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1853
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e232b5c9452d849e0800000000000000
+      internalID: -1636827203706870994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_90
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1853
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0145761c75eafe8e0800000000000000
+      internalID: -1661918045546261488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1853
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5773c76231cf5790800000000000000
+      internalID: -7539094828961532069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_92
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1853
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90975f80ad56d5400800000000000000
+      internalID: 314519536113383689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_93
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1856
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53b8494b6dfcd50800000000000000
+      internalID: 6759857636781012445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_94
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1851
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a066c70a601fc70800000000000000
+      internalID: 9002984416441928286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_95
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1851
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa45d2908b3062200800000000000000
+      internalID: 154815326153692335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_96
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1853
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ead020f50638880800000000000000
+      internalID: -8609932101429645679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_97
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1863
+        width: 8
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8133d513ad2ae7880800000000000000
+      internalID: -8611266379471047912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_98
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1857
+        width: 10
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fe0618f17cdcdb0800000000000000
+      internalID: -4769937492186960122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_99
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1884
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5179c915851b34d80800000000000000
+      internalID: -8267569498037643499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_100
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1794
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5dbb1ddf9616580800000000000000
+      internalID: -8835664455057812056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_101
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1794
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c818379de702a30800000000000000
+      internalID: 4188487125865434244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_102
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1794
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de752c14e864501e0800000000000000
+      internalID: -2232300463489656851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_103
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1794
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78baa02771f15fa20800000000000000
+      internalID: 3095414504445094791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_104
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1794
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b0affed5c1283f0800000000000000
+      internalID: -900125785737000155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_105
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1794
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e2445612c4b5340800000000000000
+      internalID: 4853556729738440298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_106
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1794
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765a8e982cb558710800000000000000
+      internalID: 1694861725870368103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_107
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1794
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4f83a03a827050800000000000000
+      internalID: 5796847611886390996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_108
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1794
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dea74ca6ac5fe860800000000000000
+      internalID: 7561364170303057619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_109
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1817
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7856e3da82f872480800000000000000
+      internalID: -8924006731743337081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_110
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1737
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e39ec757a8e83b60800000000000000
+      internalID: 7726180966184424420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_111
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1733
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0386d1958e24cac0800000000000000
+      internalID: -3835889831400537333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_112
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1733
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c97627b3b2992f90800000000000000
+      internalID: -6977884847064319550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_113
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1737
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e2ae5aa769838e0800000000000000
+      internalID: -1713454204700709347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_114
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1743
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09609c25aa5f8d0800000000000000
+      internalID: -2813155119686315794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_115
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1743
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf8662144bbcc9d0800000000000000
+      internalID: -2752619371189334050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_116
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1741
+        width: 81
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad2a6ff2c43def00800000000000000
+      internalID: 1147631492162792867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_117
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1738
+        width: 96
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef79db8aded53660800000000000000
+      internalID: 7365037795864838126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_118
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 1731
+        width: 106
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc447739036284220800000000000000
+      internalID: 2470266385687069901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_119
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1669
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd690039fd34e6a0800000000000000
+      internalID: -6420939028261409315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_120
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1668
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c347a58428d728ff0800000000000000
+      internalID: -35327848552434628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_121
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1669
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8f46fa9a08be820800000000000000
+      internalID: 2948591847324580046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_122
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1697
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780ff253a39b37370800000000000000
+      internalID: 8319196596335014023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_123
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1698
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea882e31fd6638cc0800000000000000
+      internalID: -3710008559725803346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_124
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1599
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112e47654c37460f0800000000000000
+      internalID: -1124646719834496495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_125
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1600
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dd520d94a264690800000000000000
+      internalID: -7618355223137493668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_126
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1603
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac9d433cf514d2c0800000000000000
+      internalID: -4407873962352206686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_127
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1539
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fadd800a94a8f9e0800000000000000
+      internalID: -1587337887306884365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_128
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1542
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fa645eaaad93b10800000000000000
+      internalID: 1961839540222472066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_129
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1543
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406495169be124500800000000000000
+      internalID: 378899100203566596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_130
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1539
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b514fe7fab37d120800000000000000
+      internalID: 2438483348179654072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_131
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1540
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc85322f0547c90800000000000000
+      internalID: -7173019305589027443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_132
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1543
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a216ab392ce746b0800000000000000
+      internalID: -5312017573621656928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_133
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1470
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1f16a2004a2e1c0800000000000000
+      internalID: -4475834759034834467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_134
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1471
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1c2e09d3f970fe0800000000000000
+      internalID: -1222833687035199001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_135
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1475
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154adc1f2d4f91d00800000000000000
+      internalID: 944054783747925073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1466
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae34d4d843f0af0800000000000000
+      internalID: -428065658085578143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_137
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1468
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35634049813fd7450800000000000000
+      internalID: 6088289558162847315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1470
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cfd3cf7dd686bf0800000000000000
+      internalID: -330893798194414545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_139
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1413
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6d179a11f76d740800000000000000
+      internalID: 5176464535542945516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_140
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1413
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59947f3a3c0839d90800000000000000
+      internalID: -7092183410420528747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_141
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1413
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ba89dc4cc554c40800000000000000
+      internalID: 5495900920608238371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_142
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1413
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad2f08aaf701e90800000000000000
+      internalID: -7057000245804999997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_143
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1413
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be41be19b22b4f50800000000000000
+      internalID: 6866620235335683760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_144
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1413
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1943146e09814a0e0800000000000000
+      internalID: -2259654102415756143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_145
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1434
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbfd1f02de28bf70800000000000000
+      internalID: 9203157318263241663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_146
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1338
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4705a4dc12cdd1a0800000000000000
+      internalID: -6783052034667641011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_147
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1338
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687a63a3f78b3e550800000000000000
+      internalID: 6188993169514211206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_148
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1335
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d055fb1ff5249db0800000000000000
+      internalID: -4786158726372044591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_149
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1333
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8071c64a99a520800000000000000
+      internalID: 2713869879151201597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_150
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1334
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e9ed6bec3fe7f20800000000000000
+      internalID: 3422440836005011015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_151
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1338
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b4fb492b064d4b0800000000000000
+      internalID: -5416598131703854235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_152
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1373
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc684c27e96c88100800000000000000
+      internalID: 110556574703191756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_153
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1266
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d2e3b946930fbc0800000000000000
+      internalID: -3751435385335567019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_154
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1260
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4ca00403c4bc640800000000000000
+      internalID: 5101254773043807405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_155
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1254
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb09a6187f25baf50800000000000000
+      internalID: 6893694877602320575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_156
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1253
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80bb2d220f120350800000000000000
+      internalID: 5981377349309673613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_157
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1311
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d9e55d651e83240800000000000000
+      internalID: 4771811568262225211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_158
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1270
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd49b7609a106f70800000000000000
+      internalID: 9178365248098881008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_159
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1270
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a59390880da4bd20800000000000000
+      internalID: 3293447479543174562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_160
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1260
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c30cc1f4331d80800000000000000
+      internalID: -8281217076689649662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_161
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1270
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f556a5574d0473600800000000000000
+      internalID: 447897969192756575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_162
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1270
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef8adf2333f621f0800000000000000
+      internalID: -1069900460282179611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_163
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1286
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0680ecd27296b2260800000000000000
+      internalID: 7073863256708614240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_164
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1288
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeeb70515bbdee10800000000000000
+      internalID: 2228643348535307941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_165
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1287
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e38a7974baec330800000000000000
+      internalID: 3733109465112133249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_166
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1181
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aba66ccce9714140800000000000000
+      internalID: 4702173543900031911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_167
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1179
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeebccb0b49b5650800000000000000
+      internalID: 6222730796945108669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_168
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1180
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ea1f717245b15d0800000000000000
+      internalID: -3090784192377540983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_169
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1180
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc545a09a33c4c900800000000000000
+      internalID: 703902098078909899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_170
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1181
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83937d51e90903510800000000000000
+      internalID: 1526879282324257080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_171
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1209
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe9202af8e15d670800000000000000
+      internalID: 8562783868762103487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_172
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1209
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c536f42ed55d770800000000000000
+      internalID: 8634911087128697942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_173
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1123
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a572bd279ff7dd50800000000000000
+      internalID: 6762154390291903909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_174
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1121
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0415febf611d2a660800000000000000
+      internalID: 7395703434742026560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_175
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1119
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31151cdabac039b0800000000000000
+      internalID: -5102355473905675973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_176
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1124
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57bd0488db6e7860800000000000000
+      internalID: 7529574204682647391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_177
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1125
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f34e380ce0a0db0800000000000000
+      internalID: -4825027830764781702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_178
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1146
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d18882902e95170800000000000000
+      internalID: 8167807928175697160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1146
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023603eb3a5488300800000000000000
+      internalID: 254529948519260960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_180
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1145
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e7b218b8c7a9de0800000000000000
+      internalID: -1325610201697780093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_181
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1061
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d285d56a1c2b19b30800000000000000
+      internalID: 4292408464650360877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_182
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1061
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a987e735428fb5290800000000000000
+      internalID: -7900448286388094822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_183
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1072
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8d3f574fde65610800000000000000
+      internalID: 1609735551038249185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_184
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1023
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3084236372fe79e0800000000000000
+      internalID: -1621592238408302534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_185
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 970
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee80ab34b97ebf0800000000000000
+      internalID: -295096535383216522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_186
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 970
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e48003da30f5430800000000000000
+      internalID: 3773739055129841254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_187
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 970
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06943110c7c062bd0800000000000000
+      internalID: -2655421203554809504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_188
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 906
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f191728771e6117f0800000000000000
+      internalID: -643612224658138849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_189
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 906
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4337448d7749742c0800000000000000
+      internalID: -4447422864554691788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_190
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 907
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d44272bc38e60750800000000000000
+      internalID: 6270954878549509336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_191
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 846
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af66017e87b5f0cf0800000000000000
+      internalID: -283907676670236934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_192
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 845
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304f3cbbbad0f2e70800000000000000
+      internalID: 9092501203925070851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_193
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 787
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ac11ac06ecba7e0800000000000000
+      internalID: -1753080714828330422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_194
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 786
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614e02ed21a0ea480800000000000000
+      internalID: -8886153938603023338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_195
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 782
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1cfd143cc19cec0800000000000000
+      internalID: -3546271606628171289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_196
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 784
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc82d4d5f2ca9e80800000000000000
+      internalID: -8171004212816999215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_197
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 786
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8194667f02c3cd450800000000000000
+      internalID: 6114828506349586712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_198
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 784
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e328b2b20e5ea3d0800000000000000
+      internalID: -3193511720077745177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_199
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 787
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b907a0ad037fc680800000000000000
+      internalID: -8732634650081031758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_200
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 726
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bbd80e912562e70800000000000000
+      internalID: 9090043168988969736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_201
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 726
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef3265c1f1aec300800000000000000
+      internalID: 274334687086919648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_202
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 726
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55acd727910eea20800000000000000
+      internalID: 3093411742770570591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_203
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 726
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ccf29e94e48b340800000000000000
+      internalID: 4879736275607735439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_204
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 726
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec88b6906deba4f20800000000000000
+      internalID: 3407745894549522638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_205
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 726
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d54deb69b26ce0800000000000000
+      internalID: -1413363459847499605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_206
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 726
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81c48f46694a5aa0800000000000000
+      internalID: -6171539635588251251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_207
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 668
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e2899c6e15f17e0800000000000000
+      internalID: -1792624075003646369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_208
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 667
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b079a647b4c71c0800000000000000
+      internalID: -4504642563900765283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_209
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 663
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f847df0125c7280800000000000000
+      internalID: -9044263718741569679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_210
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 663
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6991e16e707e442f0800000000000000
+      internalID: -989411997003146858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_211
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 611
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f5f405429771dc0800000000000000
+      internalID: -3668330174596817001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_212
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 611
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e793e040a152b20800000000000000
+      internalID: 3108919722490035860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_213
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 611
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3e08f0bac614e50800000000000000
+      internalID: 6791829195006731207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_214
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 610
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1808817dcd7eec1c0800000000000000
+      internalID: -4481389643499536255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_215
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 610
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9cb9b09af307b20800000000000000
+      internalID: 3130071736299276732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_216
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 611
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766d5b023ed5ed960800000000000000
+      internalID: 7628638048899946087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_217
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 611
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ce783057c27df00800000000000000
+      internalID: 1141429911643745394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_218
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 610
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae19f4ed58380e970800000000000000
+      internalID: 8782163884356112874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_219
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 612
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a2c44fdeadcf090800000000000000
+      internalID: -7999278122576106937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_220
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 562
+        width: 37
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fbf07a216336f10800000000000000
+      internalID: 2261710891610259288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_221
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 560
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e61473c86460cd40800000000000000
+      internalID: 5602588337567438561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_222
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 560
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18152f3a11572080800000000000000
+      internalID: -9212305339592665057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_223
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 560
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233cb3ab78d6af650800000000000000
+      internalID: 6267442261151957810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_224
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 480
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fcdab6d7205e330800000000000000
+      internalID: 3739397803301785344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_225
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 480
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a962e69ea2e6ba0800000000000000
+      internalID: -6093886063721932253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_226
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 480
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a50dea4eb721f20800000000000000
+      internalID: 3391909691479054918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_227
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 480
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc3321e1c2d2aa40800000000000000
+      internalID: 5378092635181497556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_228
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 480
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c676a05434fa09250800000000000000
+      internalID: 5949447811212404588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_229
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3050b681e0b560f80800000000000000
+      internalID: -8140719160328256253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_230
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 480
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd7d0118dbf72620800000000000000
+      internalID: 2749443002950581686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_231
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 480
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f035618313b48620800000000000000
+      internalID: 2775540166723711217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_232
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 480
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9896f49b1c54f70800000000000000
+      internalID: 9170949217855310318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_233
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 480
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea8ec4ec64ec9c60800000000000000
+      internalID: 7826381408809421539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_234
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 481
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908886223a7a615d0800000000000000
+      internalID: -3092099775044483063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_235
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 481
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61d832f76de505b0800000000000000
+      internalID: -5402651147259817619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_236
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 480
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dafe0af0b974920800000000000000
+      internalID: 2974516570328378766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_237
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 477
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281dfa4e942fb4bd0800000000000000
+      internalID: -2644753956966772350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_238
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 477
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1109b19c1859c60800000000000000
+      internalID: 7824302628376941000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_239
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 477
+        width: 84
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa9e01bf47da1390800000000000000
+      internalID: -7846722663466755423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_240
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 477
+        width: 81
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effc38f5cb06beb80800000000000000
+      internalID: -8364485520737972226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_241
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 419
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ff8d615e0c6990800000000000000
+      internalID: -7391517145528534531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_242
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 418
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a082805bf44855f0800000000000000
+      internalID: -767787890288459613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_243
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 429
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d86272542417730800000000000000
+      internalID: 3995047209231355247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 434
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f06a5441b09c3690800000000000000
+      internalID: -7621057378387336971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_245
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 433
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fe3df5aedb8ac10800000000000000
+      internalID: 2065109243477094251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_246
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 424
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1750d511a955e70800000000000000
+      internalID: 9103351621165085178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_247
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 419
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0718fe95224069df0800000000000000
+      internalID: -173946990022917776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_248
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 418
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718d053a423d99520800000000000000
+      internalID: 2709428805152331799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_249
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 422
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c62f31c822aaf9c0800000000000000
+      internalID: -3892620631983839548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_250
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 418
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e22e3d0e5b0fbfe0800000000000000
+      internalID: -1171204879516032281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_251
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 418
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867c583dfb6baeeb0800000000000000
+      internalID: -4689735126949181592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_252
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 352
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5efc2a13b8aabfe0800000000000000
+      internalID: -1172439265784824228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_253
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 356
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da3a8e470577fe80800000000000000
+      internalID: -8144912726833349932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_254
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 355
+        width: 22
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81839819b1c756f20800000000000000
+      internalID: 3415272350278039576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_255
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 351
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173e8421b377bc3e0800000000000000
+      internalID: -2032399711234104463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_256
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 305
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b650bae8109f410800000000000000
+      internalID: 1511240862225754914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_257
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 305
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40299c66df0e82a0800000000000000
+      internalID: -6733426979252920242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_258
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 305
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a79da19b69acb90800000000000000
+      internalID: -7220793330771592605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_259
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 270
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890409dd84b92dd90800000000000000
+      internalID: -7074421327388458856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_260
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 270
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a1b204ab48aad80800000000000000
+      internalID: -8238626632845551029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_261
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 270
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e9b4b4c91220700800000000000000
+      internalID: 505003063380778535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_262
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 275
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748491e9d17f84ee0800000000000000
+      internalID: -1276498787780966329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_263
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 288
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ae38c1511060e0800000000000000
+      internalID: -2278802368499897967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_264
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8735d9b8708f440800000000000000
+      internalID: 4969730485024684237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_265
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 275
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c47daf3a3da7d10800000000000000
+      internalID: 2124242875500153894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_266
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 276
+        width: 75
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba52340512274410800000000000000
+      internalID: 1461174077765081789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_267
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 226
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cb3f4cb9d906d90800000000000000
+      internalID: -7106506919640843163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_268
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 214
+        width: 125
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ac4a54c4b9cb10800000000000000
+      internalID: 2002330264764457803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_269
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 157
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107445d63d3f236a0800000000000000
+      internalID: -6470841625180092671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_270
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 157
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e377cb88d98de0800000000000000
+      internalID: -1330294120052955635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_271
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 157
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f230cee869d96a0800000000000000
+      internalID: -6440826351480787077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_272
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 94
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3289c81e14eb0c50800000000000000
+      internalID: 6632645694149198397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_273
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 89
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64be26c2468b0b020800000000000000
+      internalID: 2355585345495690054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_274
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac5e202214089a90800000000000000
+      internalID: -7307085919512798043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_275
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 5
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf78ff31c9f5db0800000000000000
+      internalID: -4800947068048246095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_276
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822146d4476e7aea0800000000000000
+      internalID: -5861463002810412504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x-sana-gumana_277
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d10b72b0a6903670800000000000000
+      internalID: 8516472512290947544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

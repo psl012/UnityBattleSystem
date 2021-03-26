@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 6078287871336762047}
   - component: {fileID: 498168643630046940}
   - component: {fileID: 6137074503301273809}
-  - component: {fileID: 2759484943022183615}
+  - component: {fileID: 2182091856749014705}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -633,7 +633,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2759484943022183615
+--- !u!114 &2182091856749014705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -642,12 +642,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5334330124953785099}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bed4782771fdd4045b0a35e0b39df846, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d10a4dca967cdb4faf167437135694c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLeftBattlePlacement: {x: 0, y: 0, z: 0}
-  currentRightBattlePlacement: {x: 0, y: 0, z: 0}
-  test: {fileID: 0}
 --- !u!1 &6137074503115305030
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +697,7 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
   _targetMark: {fileID: 2759484941268703059}
   _battlePosition: 1
+  _isDead: 0
 --- !u!114 &2759484942042352324
 MonoBehaviour:
   m_ObjectHideFlags: 0

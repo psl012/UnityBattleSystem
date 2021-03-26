@@ -58,6 +58,7 @@ public class CharacterAbilities : MonoBehaviour
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
             (int, GameObject[]) projectileTuple = selectedSkill.GetSkillObject();
+            _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
             _characterBattleAnimator.SetUpInvocation(projectileTuple.Item2, targets, index);
             _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic);         
         }   

@@ -110,6 +110,11 @@ public class CharacterBattleAnimator : MonoBehaviour
         StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
     }
 
+    public virtual void TeleportToRangedBattlePlacement()
+    {
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].rangedBattlePlacement.transform.position, 1000f));     
+    }
+
     public virtual void TeleportBackToInitialPos()
     {
         StartCoroutine(MoveToBattlePlacement(_initialPosition, 1000f));
@@ -129,6 +134,11 @@ public class CharacterBattleAnimator : MonoBehaviour
     public void DealDamage()
     {
         onDealDamage();
+    }
+
+    public void EndTurnTrigger()
+    {
+        _animator.SetTrigger("endTurnTrigger");
     }
 
     public void EndTurn()

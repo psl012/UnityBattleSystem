@@ -84,6 +84,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actionCamera: {fileID: 7807751516098294984}
+  _idleVirtualCam: {fileID: 8079203050034382681}
 --- !u!1 &2219904344563922730
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,15 +490,15 @@ MonoBehaviour:
   - {fileID: 8079203050034382681}
   - {fileID: 1328504249857688802}
   m_Instructions:
-  - m_FullHash: 1432961145
+  - m_FullHash: 154197238
     m_VirtualCamera: {fileID: 8079203050034382681}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -1150012273
+  - m_FullHash: -1570333398
     m_VirtualCamera: {fileID: 1328504249857688802}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -885960378
+  - m_FullHash: -735052646
     m_VirtualCamera: {fileID: 8079203050034382681}
     m_ActivateAfter: 0
     m_MinDuration: 0
@@ -512,15 +513,15 @@ MonoBehaviour:
       m_RotationOrder: 4
   m_CustomBlends: {fileID: 11400000, guid: da4afb28cf80e084ebec34251d5934e7, type: 2}
   m_ParentHash:
-  - m_Hash: -885960378
+  - m_Hash: 154197238
     m_ParentHash: 756556552
-  - m_Hash: 1432961145
+  - m_Hash: 921596706
     m_ParentHash: 756556552
-  - m_Hash: -2105241039
+  - m_Hash: -1570333398
     m_ParentHash: 756556552
-  - m_Hash: -1684833050
+  - m_Hash: -735052646
     m_ParentHash: 756556552
-  - m_Hash: -1150012273
+  - m_Hash: -1095168959
     m_ParentHash: 756556552
 --- !u!1 &8251262118851081087
 GameObject:
@@ -781,8 +782,8 @@ MonoBehaviour:
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.8
+  m_SoftZoneWidth: 0
+  m_SoftZoneHeight: 0
   m_BiasX: 0
   m_BiasY: 0
   m_CenterOnActivate: 1

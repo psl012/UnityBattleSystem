@@ -725,7 +725,7 @@ GameObject:
   - component: {fileID: 2074288957}
   - component: {fileID: 2452601323867258905}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Swordsman
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,3 +796,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actionCamera: {fileID: 2222785405399939344}
+  _idleVirtualCam: {fileID: 188385305895242369}

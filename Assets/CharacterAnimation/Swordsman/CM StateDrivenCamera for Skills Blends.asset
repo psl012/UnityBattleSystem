@@ -13,6 +13,17 @@ MonoBehaviour:
   m_Name: CM StateDrivenCamera for Skills Blends
   m_EditorClassIdentifier: 
   m_CustomBlends:
+  - m_From: Idle Cam
+    m_To: Generic Skill Prep Stance Cam
+    m_Blend:
+      m_Style: 0
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
   - m_From: Generic Skill Prep Stance Cam
     m_To: Idle Cam
     m_Blend:

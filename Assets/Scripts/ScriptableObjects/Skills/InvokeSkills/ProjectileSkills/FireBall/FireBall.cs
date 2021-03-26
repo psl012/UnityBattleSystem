@@ -36,9 +36,4 @@ public class FireBall : Projectile
     {
         base.DamageTarget();
     }
-
-    public override void EndTurn()
-    {
-        base.EndTurn();
-    }
 }

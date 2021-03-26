@@ -31,12 +31,13 @@ public class State_EnemyTurn : IState
             _battleSystem._characterPanelManager.ActivateNeutralPanel();      
             //  _battleSystem._characterUIPanels[0].ActivateDisablePanel();
             _battleSystem._currentCharacter._battleAI.DefaultAttack();
+            _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
         }
     }
 
     public void OnExit()
     {
-        
+            _battleSystem._currentCharacter._characterCamera.SetActionCameraOff();
     }
 
 }

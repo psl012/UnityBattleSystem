@@ -50,8 +50,8 @@ public class Invocation : MonoBehaviour
         Destroy(gameObject,0.1f);
     }
 
-    public virtual void EndTurn()
+    public virtual void TriggerEndTurn()
     {
-        _battleSystem.EndTurn();
+        _user.EndTurnTrigger();
     }
 }

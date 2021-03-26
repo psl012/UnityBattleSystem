@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DefaultAttack
+  m_Name: SwordsmanBlinkSlash
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -43,6 +43,12 @@ AnimationClip:
     - time: 0.4375
       value: {fileID: 7500884938520958770, guid: b95bf21008f0b6748a88ff838a2c7fdf,
         type: 3}
+    - time: 0.5
+      value: {fileID: -3239048022453075965, guid: b95bf21008f0b6748a88ff838a2c7fdf,
+        type: 3}
+    - time: 0.5625
+      value: {fileID: -8371238209860428466, guid: b95bf21008f0b6748a88ff838a2c7fdf,
+        type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -70,12 +76,14 @@ AnimationClip:
     - {fileID: -3387611332625859662, guid: b95bf21008f0b6748a88ff838a2c7fdf, type: 3}
     - {fileID: -5794143986543652257, guid: b95bf21008f0b6748a88ff838a2c7fdf, type: 3}
     - {fileID: 7500884938520958770, guid: b95bf21008f0b6748a88ff838a2c7fdf, type: 3}
+    - {fileID: -3239048022453075965, guid: b95bf21008f0b6748a88ff838a2c7fdf, type: 3}
+    - {fileID: -8371238209860428466, guid: b95bf21008f0b6748a88ff838a2c7fdf, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5
+    m_StopTime: 0.625
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -98,12 +106,11 @@ AnimationClip:
   - time: 0.0625
     functionName: TeleportToBattlePlacement
     data: 
-    objectReferenceParameter: {fileID: 6137074503115305030, guid: b8c80eb49eabed3459dc9bd8f33e7d92,
-      type: 3}
+    objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.1875
+  - time: 0.3125
     functionName: DealDamage
     data: 
     objectReferenceParameter: {fileID: 0}

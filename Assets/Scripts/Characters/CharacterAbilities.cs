@@ -17,7 +17,7 @@ public class CharacterAbilities : MonoBehaviour
 
     protected virtual void Awake()
     {     
-
+        
     }
 
     // Start is called before the first frame update

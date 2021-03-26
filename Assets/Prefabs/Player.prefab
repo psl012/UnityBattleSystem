@@ -712,9 +712,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bed4782771fdd4045b0a35e0b39df846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLeftBattlePlacement: {x: 0, y: 0, z: 0}
-  currentRightBattlePlacement: {x: 0, y: 0, z: 0}
-  test: {fileID: 0}
 --- !u!1 &8313904748932700607
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,9 +761,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17654be9eaac9eb4598168f76e316c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
+  _characterClass: {fileID: 11400000, guid: 83bff0563b66c9a419b385a77de27bdf, type: 2}
   _targetMark: {fileID: 1233534634}
   _battlePosition: 0
+  _isDead: 0
 --- !u!114 &2074288957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -782,8 +780,8 @@ MonoBehaviour:
   _classSkills:
   - {fileID: 11400000, guid: aeac04c28e83ecb4fb5dfd9733aa2f2e, type: 2}
   - {fileID: 11400000, guid: 86dd5ddd273f78740a81b0b45b306fd5, type: 2}
-  - {fileID: 11400000, guid: aadab8214dccf344895bd802675d4d3d, type: 2}
-  - {fileID: 11400000, guid: 610fc31ef43abc745a2e9e11b8b7c57d, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &2452601323867258905
 MonoBehaviour:

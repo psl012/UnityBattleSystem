@@ -343,7 +343,7 @@ MonoBehaviour:
     m_VirtualCamera: {fileID: 6984402139948386618}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -885960378
+  - m_FullHash: -1684833050
     m_VirtualCamera: {fileID: 188385305895242369}
     m_ActivateAfter: 0
     m_MinDuration: 0
@@ -358,16 +358,20 @@ MonoBehaviour:
       m_RotationOrder: 4
   m_CustomBlends: {fileID: 11400000, guid: da4afb28cf80e084ebec34251d5934e7, type: 2}
   m_ParentHash:
-  - m_Hash: -885960378
+  - m_Hash: 1111733714
     m_ParentHash: 756556552
   - m_Hash: 1432961145
-    m_ParentHash: 756556552
-  - m_Hash: -2105241039
     m_ParentHash: 756556552
   - m_Hash: -1684833050
     m_ParentHash: 756556552
   - m_Hash: -1150012273
     m_ParentHash: 756556552
+  - m_Hash: -2105241039
+    m_ParentHash: 756556552
+  - m_Hash: -279231579
+    m_ParentHash: -2105241039
+  - m_Hash: -1856962470
+    m_ParentHash: -2105241039
 --- !u!1 &2413353615365880645
 GameObject:
   m_ObjectHideFlags: 0

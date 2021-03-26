@@ -30,6 +30,7 @@ public class State_PlayerTurn : IState
             _battleSystem._characterPanelManager.ActivateCharacterPanel(_index);
             _battleSystem._characterUIPanels[_index].ActivateMainPanel();
             _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
+            _battleSystem.ResetTargets();
             _battleSystem.PlayerTurn();
         }
     }

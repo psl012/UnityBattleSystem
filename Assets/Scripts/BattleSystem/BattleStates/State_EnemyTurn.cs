@@ -30,6 +30,7 @@ public class State_EnemyTurn : IState
             _battleSystem.EnemyTurn();
             _battleSystem._characterPanelManager.ActivateNeutralPanel();      
             //  _battleSystem._characterUIPanels[0].ActivateDisablePanel();
+            _battleSystem.ResetTargets();
             _battleSystem._currentCharacter._battleAI.DefaultAttack();
             _battleSystem._currentCharacter._characterCamera.SetActionCameraOn();
         }

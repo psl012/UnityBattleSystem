@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Projectile : Invocation
 {
+    [SerializeField] float _moveSpeed;
     protected override void Update()
     {
         base.Update();
@@ -29,6 +30,6 @@ public class Projectile : Invocation
             _isFinishedMoving = true;
         }
 
-         transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, 5f*Time.deltaTime);
+         transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, _moveSpeed*Time.deltaTime);
     }
 }

@@ -47,7 +47,7 @@ public class Invocation : MonoBehaviour
 
     public virtual void DestroyMe()
     {
-        Destroy(gameObject,1f);
+        Destroy(gameObject,0.1f);
     }
 
     public virtual void EndTurn()

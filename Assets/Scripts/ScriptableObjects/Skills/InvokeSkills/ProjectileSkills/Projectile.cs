@@ -8,11 +8,6 @@ public class Projectile : Invocation
     protected override void Update()
     {
         base.Update();
-        if(!_isCasted || _isFinishedMoving) 
-        {
-            return;
-        }
-        MoveToTarget();
     }
 
     public override void Activate(CharacterBattleAnimator user, Character target)

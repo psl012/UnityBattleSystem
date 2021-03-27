@@ -9,7 +9,7 @@ public class CharacterAbilities : MonoBehaviour
     public event Action<string> onUseSkill = delegate{};
     public Dictionary<string, Skill> SkillDictionary = new Dictionary<string, Skill>();
     
-    [SerializeField] Skill[] _classSkills;
+    public Skill[] _classSkills;
     CharacterBattleAnimator _characterBattleAnimator; // i need this to pass onto the Skill Objects
     Character _character;
     DamageDealer _damageDealer;

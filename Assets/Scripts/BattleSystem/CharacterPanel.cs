@@ -15,6 +15,7 @@ public class CharacterPanel : MonoBehaviour
     protected CharacterAbilities _characterAbilities;
     protected TargetIcon _targetIcon;
     protected BattleField _battleField;
+    protected MagicPanelManager _magicPanelManager;
     UIPanelChanger _uiPanelChanger;
 
     protected virtual void Awake()
@@ -43,6 +44,9 @@ public class CharacterPanel : MonoBehaviour
 
         _targetManager = new TargetManager(_battleField._playerBattlePlacement, _battleField._enemyBattlePlacement, _characterAbilities, _targetIcon);
         _uiPanelChanger = GetComponent<UIPanelChanger>();
+
+        _magicPanelManager = GetComponentInChildren<MagicPanelManager>();
+        _magicPanelManager.InitializeMagicPanels(_characterAbilities._classSkills);
 
         _isInitialized = true;
     }

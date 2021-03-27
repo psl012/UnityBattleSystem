@@ -66,8 +66,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _classSkills:
-  - {fileID: 11400000, guid: aadab8214dccf344895bd802675d4d3d, type: 2}
   - {fileID: 11400000, guid: 941d4a2c112d46648b440ef00d6e591a, type: 2}
+  - {fileID: 11400000, guid: aadab8214dccf344895bd802675d4d3d, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

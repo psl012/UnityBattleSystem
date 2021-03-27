@@ -122,7 +122,7 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     public IEnumerator MoveToBattlePlacement(Vector3 target, float speed)
     {
-        while(Vector3.Distance(transform.position, target) > 1f)
+        while(Vector3.Distance(transform.position, target) > 0.1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, target , speed*Time.deltaTime);
             yield return null;

@@ -20,6 +20,11 @@ public class FireBall : Projectile
     protected override void Update()
     {
         base.Update();
+        if(!_isCasted || _isFinishedMoving) 
+        {
+            return;
+        }
+        MoveToTarget();
     }
 
     public override void Activate(CharacterBattleAnimator user, Character target)
@@ -29,7 +34,13 @@ public class FireBall : Projectile
 
     public override void MoveToTarget()
     {
-        base.MoveToTarget();
+        if(Vector2.Distance(transform.position, _target.transform.position) < 0.05f)
+        {
+            Debug.Log("Moving finished");
+            _animator.SetTrigger(DAMAGE_ANIM_TRIG);
+            _isFinishedMoving = true;
+        }
+        transform.position = Vector2.MoveTowards(transform.position, _target.transform.position, _moveSpeed*Time.deltaTime);
     }
 
     public override void DamageTarget()

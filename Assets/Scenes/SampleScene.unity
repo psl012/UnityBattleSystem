@@ -418,7 +418,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _players:
-  - {fileID: 8313904748932700607, guid: e361ee29773204a4594f7cc0249d65b0, type: 3}
   - {fileID: 135868299632596071, guid: e1bf5acc2c5f448459da9c84ea93942e, type: 3}
   _enemies:
   - {fileID: 5877140296111278363, guid: 87bda60e131168a4fb6956c4a861ee08, type: 3}
@@ -708,7 +707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.754031, y: -4.596244, z: -10}
+  m_LocalPosition: {x: 6.52, y: -2.52, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

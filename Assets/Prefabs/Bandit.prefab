@@ -606,6 +606,10 @@ MonoBehaviour:
     m_VirtualCamera: {fileID: 295457291707147484}
     m_ActivateAfter: 0
     m_MinDuration: 0
+  - m_FullHash: -1684833050
+    m_VirtualCamera: {fileID: 6998492256321134012}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
   m_DefaultBlend:
     m_Style: 2
     m_Time: 0.5

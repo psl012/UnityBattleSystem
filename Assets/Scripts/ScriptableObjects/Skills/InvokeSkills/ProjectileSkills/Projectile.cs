@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Projectile : Invocation
 {
-    [SerializeField] float _moveSpeed;
+    [SerializeField] protected float _moveSpeed;
     protected override void Update()
     {
         base.Update();

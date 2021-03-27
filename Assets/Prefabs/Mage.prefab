@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
   _targetMark: {fileID: 8251262118851081074}
-  _battlePosition: 1
+  _battlePosition: 0
   _isDead: 0
 --- !u!114 &8251262119088254693
 MonoBehaviour:
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _classSkills:
   - {fileID: 11400000, guid: aadab8214dccf344895bd802675d4d3d, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 941d4a2c112d46648b440ef00d6e591a, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -498,7 +498,7 @@ MonoBehaviour:
     m_VirtualCamera: {fileID: 1328504249857688802}
     m_ActivateAfter: 0
     m_MinDuration: 0
-  - m_FullHash: -735052646
+  - m_FullHash: 71255112
     m_VirtualCamera: {fileID: 8079203050034382681}
     m_ActivateAfter: 0
     m_MinDuration: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
     m_ParentHash: 756556552
   - m_Hash: -1570333398
     m_ParentHash: 756556552
-  - m_Hash: -735052646
+  - m_Hash: 71255112
     m_ParentHash: 756556552
   - m_Hash: -1095168959
     m_ParentHash: 756556552

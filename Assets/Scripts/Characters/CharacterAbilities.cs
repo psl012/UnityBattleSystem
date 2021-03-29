@@ -48,7 +48,9 @@ public class CharacterAbilities : MonoBehaviour
     public void UseSkill(string skillKey, List<Character> targets, List<int> index, BattlePlacement[] targetPlacements)
     {
         Skill selectedSkill = SkillDictionary[skillKey];
-     
+
+        _character._characterHPMPManager.BurnMana(selectedSkill._manacost);
+
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {           
                 _damageDealer.SetUpTargets(targets, index);

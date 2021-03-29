@@ -52,6 +52,11 @@ public class TargetManager
                 _enemyTargets.Add(_enemyBattlePlacements[i]._mycharacterBattler);
             }
         }
+
+        if (_enemyTargets.Count <= 0)
+        {
+            Debug.Log("BATTLE OVER");
+        }
         Debug.Log(_enemyTargets.Count);
     }
 

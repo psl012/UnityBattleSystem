@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CharacterHPMPManager : MonoBehaviour
 {
-    float _currentHP;
-    float _currentMP;
+    public float _currentHP { get; set; }
+    public float _currentMP { get; set; }
 
+    Character _character;
     UICharacter _UICharacter;
 
 
@@ -16,22 +17,27 @@ public class CharacterHPMPManager : MonoBehaviour
     }
 
 
-    public void InitializeHealth(CharacterStats characterStats)
+    public void InitializeHealth(Character character)
     {
-        _currentHP = characterStats._maxHealth;
-        _currentMP = characterStats._maxMana;
+        _character = character;
+        _currentHP = _character._characterStats._maxHealth;
+        _currentMP = _character._characterStats._maxMana;
     }
 
     public void DamageMe(float damagePoint)
     {
         _currentHP -= damagePoint;
         Debug.Log(_currentHP);
-        _UICharacter.UpdateHPText(_currentHP);
+        _UICharacter?.UpdateHPText(_currentHP);
+        if (_currentHP <= 0)
+        {
+            _character._isDead = true;
+        }
     }
 
     public void BurnMana(float manaBurnPoint)
     {
         _currentMP -= manaBurnPoint;
-        _UICharacter.UpdateMPText(_currentMP);
+        _UICharacter?.UpdateMPText(_currentMP);
     }
 }

@@ -5,6 +5,9 @@ using TMPro;
 public class MagicPanelManager : MonoBehaviour
 {
     TextMeshProUGUI[] _spellTextName;
+    [SerializeField] TextMeshProUGUI _lackManaText;
+
+    bool isCoroutineRunning = false;
     // Start is called before the first frame update
     
     void Awake()
@@ -34,5 +37,28 @@ public class MagicPanelManager : MonoBehaviour
                 _spellTextName[i-1].text = skills[i]._skillName;
             }
         }
+    }
+
+    public void DisplayLackManaText()
+    {
+        if(isCoroutineRunning)
+        {
+            return;
+        }
+        else
+        {
+            isCoroutineRunning = true;
+            StartCoroutine(CoroutineDisplayLackManaText());
+        }
+    }
+
+    public IEnumerator CoroutineDisplayLackManaText()
+    {
+        float timer = 2;
+
+        _lackManaText.text = "Not enough Mana!";    
+         yield return new WaitForSeconds(timer);
+        _lackManaText.text = "";
+        isCoroutineRunning = false;
     }
 }

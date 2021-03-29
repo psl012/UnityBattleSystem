@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FireBall
   m_EditorClassIdentifier: 
   _skillName: FireBall
+  _manacost: 25
   numberOfTargets: 1
   _numberOfInvokes: 1
   _invoke:

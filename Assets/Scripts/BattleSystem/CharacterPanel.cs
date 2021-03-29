@@ -82,8 +82,16 @@ public class CharacterPanel : MonoBehaviour
     }
     public virtual void SkillButton1()
     {
-        _targetManager.SetAbility(DictionarySkillKeys.SKILL_1, BattleEnums.TargetType.Enemy);
-        _battleSystem.TargetMode();
+        Skill selectedSkill = _characterAbilities.SkillDictionary[DictionarySkillKeys.SKILL_1];
+        if (_myCharacter._characterHPMPManager._currentMP < selectedSkill._manacost)
+        {
+            _magicPanelManager.DisplayLackManaText();
+        }
+        else
+        {
+            _targetManager.SetAbility(DictionarySkillKeys.SKILL_1, BattleEnums.TargetType.Enemy);
+            _battleSystem.TargetMode();
+        }
     }
 
     public virtual void SkillButton2()

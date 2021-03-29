@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: BlinkStrike
   m_EditorClassIdentifier: 
   _skillName: BlinkStrike
+  _manacost: 5
   numberOfTargets: 2

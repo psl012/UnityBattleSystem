@@ -42,7 +42,7 @@ public class Invocation : MonoBehaviour
 
     public virtual void DamageTarget()
     {
-        Debug.Log(_target.name);
+        _target._characterHPMPManager.DamageMe(1);
     }
 
     public virtual void DestroyMe()

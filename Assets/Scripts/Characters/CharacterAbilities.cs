@@ -36,7 +36,7 @@ public class CharacterAbilities : MonoBehaviour
         _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
         _characterBattleAnimator.onDealDamage += DealDamage;
         _character = GetComponent<Character>();
-        _damageDealer = new DamageDealer(_character._attackPower);
+        _damageDealer = new DamageDealer(_character._characterStats._attackPower);
     }
 
     // Update is called once per frame
@@ -101,7 +101,8 @@ public class DamageDealer
         if (_listOfTargetIndex.Count > 0)
         {
             int targetIndex = _listOfTargetIndex[0];
-            Debug.Log(_listOfTargets[targetIndex]._health + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _damageHolder);
+            Debug.Log(_listOfTargets[targetIndex]._characterStats._maxHealth + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _damageHolder);
+            _listOfTargets[targetIndex]._characterHPMPManager.DamageMe(_damageHolder);
             _listOfTargetIndex.RemoveAt(0);
         }
         else

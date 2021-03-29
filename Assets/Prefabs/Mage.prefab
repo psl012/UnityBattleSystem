@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 135868299632596065}
   - component: {fileID: 8251262119088254693}
   - component: {fileID: 5803799368104775105}
+  - component: {fileID: 5623123142623432878}
   m_Layer: 0
   m_Name: Mage
   m_TagString: Player
@@ -50,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
+  _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 8251262118851081074}
   _battlePosition: 0
   _isDead: 0
@@ -85,6 +87,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _actionCamera: {fileID: 7807751516098294984}
   _idleVirtualCam: {fileID: 8079203050034382681}
+--- !u!114 &5623123142623432878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135868299632596071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e192610531f3de747ab7ebf139424998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2219904344563922730
 GameObject:
   m_ObjectHideFlags: 0

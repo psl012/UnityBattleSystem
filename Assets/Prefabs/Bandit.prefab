@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 2009345327591673090}
   - component: {fileID: 4445146975052589281}
   - component: {fileID: 8095431361289283960}
+  - component: {fileID: 4120747432803482066}
   m_Layer: 0
   m_Name: Bandit
   m_TagString: Enemy
@@ -305,6 +306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterClass: {fileID: 11400000, guid: ef4c61891c8fcce4385df120b4156ca5, type: 2}
+  _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 4445146974508600419}
   _battlePosition: 1
   _isDead: 0
@@ -352,6 +354,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _actionCamera: {fileID: 7276620170577856029}
   _idleVirtualCam: {fileID: 6998492256321134012}
+--- !u!114 &4120747432803482066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445146975052588828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e192610531f3de747ab7ebf139424998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4445146975302327660
 GameObject:
   m_ObjectHideFlags: 0

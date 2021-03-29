@@ -5,22 +5,11 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     public CharacterClass _characterClass;
+    public CharacterStats _characterStats;
+    public CharacterHPMPManager _characterHPMPManager;
     public TargetMark _targetMark;
     public int _battlePosition;
     public bool _isDead;
-    public float _health { get; private set; }
-    public float _mana { get; private set; }
-    public float _attackPower { get; private set; }
-    public float _defensePower { get; private set; }
-    public float _dexterity { get; private set; }
-    public float _speed { get; private set; }
-
-    public Dictionary<string, float> _characterStats = new Dictionary<string, float>();
-
-    public float _maxHealth{get; set;}
-    public float _maxMana{get; set;}
-
-    public float _specialPoints{get; set;}
 
     public BattleAI _battleAI{get; set;}
 
@@ -30,34 +19,38 @@ public class Character : MonoBehaviour
 
     public virtual void Awake()
     {
-        _health = _characterClass._health;
-        _mana = _characterClass._mana;
-        _attackPower = _characterClass._attackPower;
-        _defensePower = _characterClass._defensePower;
-        _dexterity = _characterClass._dexterity;
-        _speed = _characterClass._speed;
-        _maxHealth = _health;
-        _maxMana = _mana;
-        _specialPoints = 0;
-
-        _characterStats.Add(nameof(_health), _health);
-        _characterStats.Add(nameof(_mana), _mana);
-        _characterStats.Add(nameof(_attackPower), _attackPower);
-        _characterStats.Add(nameof(_defensePower), _defensePower);
-        _characterStats.Add(nameof(_dexterity), _dexterity);
-        _characterStats.Add(nameof(_speed), _speed);
-
+        _characterStats = new CharacterStats(_characterClass);
+        _characterHPMPManager = GetComponent<CharacterHPMPManager>();
+        _characterHPMPManager.InitializeHealth(_characterStats);
         _battleAI = GetComponent<BattleAI>();
-        
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();
-
         _characterCamera = GetComponentInChildren<CharacterCamera>();
     }
 
-    public virtual void TemporaryFixSetBattlePosition(int pos)
+}
+
+public class CharacterStats
+{
+    public float _maxHealth { get; set; }
+    public float _maxMana { get; set; }
+
+    public float _attackPower { get; private set; }
+    public float _defensePower { get; private set; }
+    public float _dexterity { get; private set; }
+    public float _speed { get; private set; }
+
+    public float _specialPoints { get; set; }
+
+    public CharacterStats(CharacterClass characterClass)
     {
-        _battlePosition = pos;
+        _maxHealth = characterClass._health;
+        _maxMana = characterClass._mana;
+        _attackPower = characterClass._attackPower;
+        _defensePower = characterClass._defensePower;
+        _dexterity = characterClass._dexterity;
+        _speed = characterClass._speed;
+        _specialPoints = 0;
     }
 
 }

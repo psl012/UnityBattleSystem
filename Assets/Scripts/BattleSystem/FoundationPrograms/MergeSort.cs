@@ -74,28 +74,28 @@ class MergeSort
                     switch(sortType)
                     {
                         case SortType.Atk:
-                            leftArgument = left[indexLeft]._attackPower; 
-                            rightArgument = right[indexRight]._attackPower; 
+                            leftArgument = left[indexLeft]._characterStats._attackPower; 
+                            rightArgument = right[indexRight]._characterStats._attackPower; 
                             break;
 
                         case SortType.Def:
-                            leftArgument = left[indexLeft]._defensePower; 
-                            rightArgument = right[indexRight]._defensePower; 
+                            leftArgument = left[indexLeft]._characterStats._defensePower; 
+                            rightArgument = right[indexRight]._characterStats._defensePower; 
                             break;
 
                         case SortType.Eva:
-                            leftArgument = left[indexLeft]._dexterity; 
-                            rightArgument = right[indexRight]._dexterity; 
+                            leftArgument = left[indexLeft]._characterStats._dexterity; 
+                            rightArgument = right[indexRight]._characterStats._dexterity; 
                             break;
 
                         case SortType.Health:
-                            leftArgument = left[indexLeft]._health; 
-                            rightArgument = right[indexRight]._health; 
+                            leftArgument = left[indexLeft]._characterStats._maxHealth; 
+                            rightArgument = right[indexRight]._characterStats._maxHealth; 
                             break;
 
                         case SortType.Speed:
-                            leftArgument = left[indexLeft]._speed; 
-                            rightArgument = right[indexRight]._speed; 
+                            leftArgument = left[indexLeft]._characterStats._speed; 
+                            rightArgument = right[indexRight]._characterStats._speed; 
                             break;
                         
                         case SortType.BattlePosition:

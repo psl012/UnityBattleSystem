@@ -38,7 +38,7 @@ public class BattleAI : MonoBehaviour
 
     public void InitializeBattleAI()
     {
-        _attackPower = _character._attackPower;
+        _attackPower = _character._characterStats._attackPower;
         if(_targetManager == null)
         {
             FindTargets();

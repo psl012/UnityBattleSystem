@@ -12,7 +12,7 @@ public class State_Win : IState
 
     public void OnEnter()
     {
-
+        Debug.Log("WINNER WINNER CHICKEN DINNER!");
     }
 
     public void OnExit()

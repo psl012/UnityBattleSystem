@@ -10,7 +10,6 @@ public class CharacterHPMPManager : MonoBehaviour
     Character _character;
     UICharacter _UICharacter;
 
-
     public void InitializeUICharacter(UICharacter UICharacter)
     {
         _UICharacter = UICharacter;

@@ -63,14 +63,6 @@ public class BattleSystem : MonoBehaviour
         _stateMachine.Tick();
     }
 
-    Character[] SetBattleOrder(Player[] players, Enemy[] enemies, MergeSort.SortType sortType)
-    {
-        Character[] sortedPlayers = MergeSort.charactermergeSort(players, false, sortType);
-        Character[] sortedEnemies = MergeSort.charactermergeSort(enemies, false, sortType);
-
-        return MergeSort.charactermerge(sortedPlayers, sortedEnemies, false, sortType); 
-    }
-
     void SetUpStateMachine()
     {
         _currentCharacter = _battleOrder[0];
@@ -93,6 +85,15 @@ public class BattleSystem : MonoBehaviour
         
         At(_statePlayerTurn, _stateWin, IsWin());
         At(_stateEnemyTurn, _stateWin, IsWin());
+
+
+        At(_statePlayerTurn, _stateWin, IsWin());
+        At(_stateEnemyTurn, _stateWin, IsWin());
+        At(_stateEndTurn, _stateWin, IsWin());
+
+        At(_statePlayerTurn, _stateLose, IsLose());
+        At(_stateEnemyTurn, _stateLose, IsLose());
+        At(_stateEndTurn, _stateLose, IsLose());
 
         Debug.Log(_battleOrder[0].name + "TURN");
 
@@ -140,4 +141,43 @@ public class BattleSystem : MonoBehaviour
         _characterPanelManager.ResetCharacterPanelTargets();
     }
  
+    public bool IsBattleOver()
+    {
+        // Check Number of Players
+        int numberOfAlivePlayers = 0;
+        int numberOfAliveEnemies = 0;
+
+        foreach(BattlePlacement playerBattlePlacement in _battleField._playerBattlePlacement)
+        {
+            if(playerBattlePlacement._isOccupied && !playerBattlePlacement._mycharacterBattler._isDead)
+            {
+                numberOfAlivePlayers += 1;
+            }
+        }
+
+        foreach(BattlePlacement enemyBattlePlacement in _battleField._enemyBattlePlacement)
+        {
+            if(enemyBattlePlacement._isOccupied && !enemyBattlePlacement._mycharacterBattler._isDead)
+            {
+                numberOfAliveEnemies += 1;
+            }
+        }
+        
+        if(numberOfAlivePlayers <= 0)
+        {
+            _battleState = BattleState.Lose;
+            return true;
+        }
+
+        else if (numberOfAliveEnemies <= 0)
+        {
+            _battleState = BattleState.Win;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+    }
 }

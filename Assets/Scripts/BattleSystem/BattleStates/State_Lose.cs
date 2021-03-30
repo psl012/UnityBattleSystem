@@ -12,7 +12,7 @@ public class State_Lose : IState
 
     public void OnEnter()
     {
-
+        Debug.Log("LOOOSER");
     }
 
     public void OnExit()

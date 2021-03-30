@@ -18,6 +18,7 @@ public class State_EndTurn : IState
 
     public void OnEnter()
     {
+        if(_battleSystem.IsBattleOver()) return;
         NextCharacter();
     }
 

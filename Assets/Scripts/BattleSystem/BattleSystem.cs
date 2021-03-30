@@ -17,6 +17,7 @@ public class BattleSystem : MonoBehaviour
     public int _currentCharacterIndex{get; set;} = 0;
     public UIPanelChanger[] _characterUIPanels{get; private set;}
     public CharacterPanelManager _characterPanelManager { get; set; }
+    public int _numOfEnemyKilledThisTurn = 0;
 
     StateMachine _stateMachine;
     BattleField _battleField;

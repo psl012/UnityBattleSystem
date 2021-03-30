@@ -86,7 +86,11 @@ public class DamageDealer
 {
     List<Character> _listOfTargets;
     List<int> _listOfTargetIndex;
+    List<float> _listOfDamageInstance;
     float _damageHolder;
+
+    public bool isEnemyDead {get; private set;} = false; 
+    
     public DamageDealer(float atkPower)
     {
         _damageHolder = atkPower;
@@ -97,6 +101,7 @@ public class DamageDealer
         _listOfTargets = lot;
         _listOfTargetIndex = lotIndex;
     }
+
 
     public void DealDamage()
     {

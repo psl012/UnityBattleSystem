@@ -27,13 +27,14 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     Vector3 _initialPosition;
     GameObject[] _arrayOfInvokedObjects;
-
+    Character _myCharacter;
 
     protected virtual void Awake()
     {
         _battleSystem = FindObjectOfType<BattleSystem>();
         _battleField = FindObjectOfType<BattleField>();
         _animator = GetComponent<Animator>();
+        _myCharacter = GetComponentInParent<Character>(); 
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);
         _initialPosition = _animator.transform.position;
@@ -88,7 +89,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         if(_invokeCounter < _listOfTargets.Count)
         {
             GameObject invokedObject = Instantiate(_arrayOfInvokedObjects[invokeObjectCounter], transform.position, Quaternion.identity);
-            invokedObject.GetComponent<Invocation>().Activate(this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
+            invokedObject.GetComponent<Invocation>().Activate(_myCharacter._characterStats, this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
         }
         else
         {
@@ -136,6 +137,12 @@ public class CharacterBattleAnimator : MonoBehaviour
         onDealDamage();
     }
 
+    public void DeathTrigger()
+    {
+        _battleSystem._numOfEnemyKilledThisTurn++;
+        _animator.SetTrigger("deathTrigger");
+    }
+
     public void EndTurnTrigger()
     {
         _animator.SetTrigger("endTurnTrigger");
@@ -146,4 +153,8 @@ public class CharacterBattleAnimator : MonoBehaviour
         _battleSystem.EndTurn();
     }
 
+    public void DecrementBattleSystemNumOfCharKilled()
+    {
+        _battleSystem._numOfEnemyKilledThisTurn--;
+    }
 }

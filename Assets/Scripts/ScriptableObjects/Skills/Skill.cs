@@ -12,6 +12,7 @@ public class Skill : ScriptableObject
     public string _skillName;
     public float _manacost;
     public int numberOfTargets;
+    public int numberOfDamageInstance;
 
 
     public virtual void ActivateSkill(CharacterAbilities user)

@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: SingleSlash
   m_EditorClassIdentifier: 
   _skillName: SingleSlash
+  _manacost: 0
   numberOfTargets: 1
+  numberOfDamageInstance: 1

@@ -6,6 +6,8 @@ public class State_EndTurn : IState
 {
     BattleSystem _battleSystem;
     
+    bool _hasCalledNextCharacter = false;
+
     public State_EndTurn(BattleSystem battleSystem)
     {
         _battleSystem = battleSystem;
@@ -13,13 +15,28 @@ public class State_EndTurn : IState
     // Start is called before the first frame update
     public void Tick()
     {
+        if(_battleSystem._numOfEnemyKilledThisTurn > 0)
+        {
+            Debug.Log("Work on the death animation Pual");
+            return;
+        }
 
+        else if (!_hasCalledNextCharacter)
+        { 
+            _hasCalledNextCharacter = true;
+            if(_battleSystem.IsBattleOver()) return;
+            NextCharacter();
+        }
+        else
+        {
+            Debug.LogWarning("A condition has been caught fix this");
+            return;
+        }
     }
 
     public void OnEnter()
     {
-        if(_battleSystem.IsBattleOver()) return;
-        NextCharacter();
+        _hasCalledNextCharacter = false;
     }
 
     public void OnExit()

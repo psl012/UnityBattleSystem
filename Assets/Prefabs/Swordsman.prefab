@@ -767,8 +767,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterClass: {fileID: 11400000, guid: 83bff0563b66c9a419b385a77de27bdf, type: 2}
+  _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 1233534634}
-  _battlePosition: 0
+  _battlePosition: 1
   _isDead: 0
 --- !u!114 &2074288957
 MonoBehaviour:

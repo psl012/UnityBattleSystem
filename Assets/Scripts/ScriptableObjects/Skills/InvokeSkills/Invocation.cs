@@ -12,7 +12,8 @@ public class Invocation : MonoBehaviour
     protected bool _isCasted = false;
     protected bool _isFinishedMoving = false;
     protected BattleSystem _battleSystem;
-    protected CharacterBattleAnimator _user;
+    protected CharacterStats _userStats;
+    protected CharacterBattleAnimator _userAnimator;
 
     protected virtual void Awake()
     {
@@ -33,16 +34,17 @@ public class Invocation : MonoBehaviour
 
     }
 
-    public virtual void Activate(CharacterBattleAnimator user, Character target)
+    public virtual void Activate(CharacterStats userStats,  CharacterBattleAnimator userAnimator, Character target)
     {
-        _user = user;
+        _userStats = userStats;
+        _userAnimator = userAnimator;
         _target = target;
         _isCasted = true;
     }
 
     public virtual void DamageTarget()
     {
-        _target._characterHPMPManager.DamageMe(1);
+        _target._characterHPMPManager.DamageMe(_userStats._attackPower);
     }
 
     public virtual void DestroyMe()
@@ -52,6 +54,11 @@ public class Invocation : MonoBehaviour
 
     public virtual void TriggerEndTurn()
     {
-        _user.EndTurnTrigger();
+        _userAnimator.EndTurnTrigger();
+    }
+
+    public virtual void PlayDeathAnimationIfDead()
+    {
+        _target._characterHPMPManager.PlayDeathAnimationIfDead();
     }
 }

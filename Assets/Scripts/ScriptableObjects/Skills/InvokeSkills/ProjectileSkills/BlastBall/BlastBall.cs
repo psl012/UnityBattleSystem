@@ -31,9 +31,9 @@ public class BlastBall : Projectile
         MoveToTarget();
     }
 
-    public override void Activate(CharacterBattleAnimator user, Character target)
+    public override void Activate(CharacterStats userStats, CharacterBattleAnimator userAnimator, Character target)
     {
-        base.Activate(user, target);
+        base.Activate(userStats, userAnimator, target);
         _initialDistance = transform.position.x - target.transform.position.x;
 
     }
@@ -44,6 +44,7 @@ public class BlastBall : Projectile
         {
             DamageTarget();
             _hasProcDamage = true;
+            PlayDeathAnimationIfDead();
             TriggerEndTurn();
             StartCoroutine(EndTurnTimer());
         }

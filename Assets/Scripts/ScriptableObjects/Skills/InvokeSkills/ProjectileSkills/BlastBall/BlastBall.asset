@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: BlastBall
   m_EditorClassIdentifier: 
   _skillName: BlastBall
+  _manacost: 0
   numberOfTargets: 1
+  numberOfDamageInstance: 1
   _numberOfInvokes: 1
   _invoke:
   - {fileID: 3263584069723832024, guid: eb322a891285ed441a141c47e20679b4, type: 3}

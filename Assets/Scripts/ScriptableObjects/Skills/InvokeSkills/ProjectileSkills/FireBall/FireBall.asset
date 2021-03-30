@@ -15,6 +15,7 @@ MonoBehaviour:
   _skillName: FireBall
   _manacost: 25
   numberOfTargets: 1
+  numberOfDamageInstance: 3
   _numberOfInvokes: 1
   _invoke:
   - {fileID: 7589500508959117891, guid: 3ba83b7ceccf7b346ac07e3391ba6ca5, type: 3}

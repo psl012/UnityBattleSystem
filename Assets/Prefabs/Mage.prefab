@@ -53,8 +53,9 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
   _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 8251262118851081074}
-  _battlePosition: 0
+  _battlePosition: 1
   _isDead: 0
+  _characterAbilities: {fileID: 0}
 --- !u!114 &8251262119088254693
 MonoBehaviour:
   m_ObjectHideFlags: 0

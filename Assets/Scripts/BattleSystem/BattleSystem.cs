@@ -30,17 +30,23 @@ public class BattleSystem : MonoBehaviour
     State_Lose _stateLose;
     State_EndTurn _stateEndTurn;
 
+    Character[] _enemies;
+
     void Awake()
     { 
         _battleField = FindObjectOfType<BattleField>();
         _battleEnterer = FindObjectOfType<BattleEnterer>();
         _battleEnterer.Initialize();
 
+        _enemies = FindObjectsOfType<Enemy>();
+
         _characterPanelManager = GetComponent<CharacterPanelManager>();
         _characterPanelManager.InitializeCharacterPanels();
         
         _characterUIPanels = GetComponentsInChildren<UIPanelChanger>();
         _battleOrder = FindObjectsOfType<Character>();
+
+        Debug.Log(_enemies[0].name + "Hello");
     }
 
     // Start is called before the first frame update
@@ -140,6 +146,10 @@ public class BattleSystem : MonoBehaviour
     public void ResetTargets()
     {
         _characterPanelManager.ResetCharacterPanelTargets();
+        foreach(Character enemy in _enemies)
+        {
+            enemy._battleAI.ResetTargets();
+        }
     }
  
     public bool IsBattleOver()

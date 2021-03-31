@@ -72,6 +72,10 @@ public class BattleAI : MonoBehaviour
             _enemyTargets = FindObjectsOfType<EnemyBattlePlacement>();    
         }
     }
+    public virtual void ResetTargets()
+    {
+        _targetManager.ResetTargets();
+    }
 
     public virtual void FightButton()
     {

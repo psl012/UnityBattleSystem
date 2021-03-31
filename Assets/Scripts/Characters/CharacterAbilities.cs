@@ -37,8 +37,7 @@ public class CharacterAbilities : MonoBehaviour
         _characterBattleAnimator.onDealDamage += DealDamage;
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._characterStats._attackPower);
-        if(SkillDictionary[DictionarySkillKeys.SKILL_2] != null)
-        Debug.Log("jello: " + SkillDictionary[DictionarySkillKeys.SKILL_2]);
+    
     }
 
     // Update is called once per frame

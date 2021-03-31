@@ -96,6 +96,7 @@ public class CharacterPanel : MonoBehaviour
 
     public virtual void SkillButton2()
     {
+
         _targetManager.SetAbility(DictionarySkillKeys.SKILL_2, BattleEnums.TargetType.Enemy);
         _battleSystem.TargetMode();       
     }

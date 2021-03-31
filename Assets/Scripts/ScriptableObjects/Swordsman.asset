@@ -16,11 +16,11 @@ MonoBehaviour:
   _description: Swords Specialist
   _health: 25
   _mana: 10
-  _attackPower: 3
+  _attackPower: 300
   _magicPower: 1
   _defensePower: 3
   _magicDefensePower: 2
   _strenght: 7
   _dexterity: 5
   _intelligence: 3
-  _speed: 5
+  _speed: 500

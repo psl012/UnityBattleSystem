@@ -12,7 +12,7 @@ public class CharacterAbilities : MonoBehaviour
     public Skill[] _classSkills;
     CharacterBattleAnimator _characterBattleAnimator; // i need this to pass onto the Skill Objects
     Character _character;
-    DamageDealer _damageDealer;
+    public DamageDealer _damageDealer;
 
 
     protected virtual void Awake()
@@ -37,6 +37,8 @@ public class CharacterAbilities : MonoBehaviour
         _characterBattleAnimator.onDealDamage += DealDamage;
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._characterStats._attackPower);
+        if(SkillDictionary[DictionarySkillKeys.SKILL_2] != null)
+        Debug.Log("jello: " + SkillDictionary[DictionarySkillKeys.SKILL_2]);
     }
 
     // Update is called once per frame
@@ -54,13 +56,13 @@ public class CharacterAbilities : MonoBehaviour
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {           
                 _damageDealer.SetUpTargets(targets, index);
-                _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
+                _characterBattleAnimator.SetBattlePlacements(index, targetPlacements, targets);
                 _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic); // !!! Replace me
         }
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
             (int, GameObject[]) projectileTuple = selectedSkill.GetSkillObject();
-            _characterBattleAnimator.SetBattlePlacements(index, targetPlacements);
+            _characterBattleAnimator.SetBattlePlacements(index, targetPlacements, targets);
             _characterBattleAnimator.SetUpInvocation(projectileTuple.Item2, targets, index);
             _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic);         
         }   
@@ -110,11 +112,16 @@ public class DamageDealer
             int targetIndex = _listOfTargetIndex[0];
             Debug.Log(_listOfTargets[targetIndex]._characterStats._maxHealth + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _damageHolder);
             _listOfTargets[targetIndex]._characterHPMPManager.DamageMe(_damageHolder);
-            _listOfTargetIndex.RemoveAt(0);
         }
         else
         {
             Debug.Log("No Targets left");
         }
+    }
+
+    public void NextTarget()
+    {
+        Debug.Log("Hello: " + _listOfTargetIndex[0]);
+        _listOfTargetIndex.RemoveAt(0);
     }
 }

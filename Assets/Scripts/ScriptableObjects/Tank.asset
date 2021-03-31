@@ -16,11 +16,11 @@ MonoBehaviour:
   _description: 
   _health: 3
   _mana: 1
-  _attackPower: 1
+  _attackPower: 200
   _magicPower: 1
   _defensePower: 1
   _magicDefensePower: 1
   _strenght: 25
   _dexterity: 1
   _intelligence: 1
-  _speed: 5
+  _speed: 200

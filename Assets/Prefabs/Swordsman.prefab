@@ -769,8 +769,9 @@ MonoBehaviour:
   _characterClass: {fileID: 11400000, guid: 83bff0563b66c9a419b385a77de27bdf, type: 2}
   _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 1233534634}
-  _battlePosition: 1
+  _battlePosition: 0
   _isDead: 0
+  _characterAbilities: {fileID: 0}
 --- !u!114 &2074288957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,7 +787,7 @@ MonoBehaviour:
   _classSkills:
   - {fileID: 11400000, guid: aeac04c28e83ecb4fb5dfd9733aa2f2e, type: 2}
   - {fileID: 11400000, guid: 86dd5ddd273f78740a81b0b45b306fd5, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 32e456e613464bb42b223e3787c4573d, type: 2}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!114 &2452601323867258905

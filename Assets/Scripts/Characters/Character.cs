@@ -15,7 +15,7 @@ public class Character : MonoBehaviour
 
     public CharacterCamera _characterCamera{get; set;}
 
-    CharacterAbilities _characterAbilities;
+    public CharacterAbilities _characterAbilities;
 
     public virtual void Awake()
     {

@@ -28,6 +28,7 @@ public class CharacterBattleAnimator : MonoBehaviour
     Vector3 _initialPosition;
     GameObject[] _arrayOfInvokedObjects;
     Character _myCharacter;
+    Character _currentTarget;
 
     protected virtual void Awake()
     {
@@ -37,6 +38,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         _myCharacter = GetComponentInParent<Character>(); 
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);
+        _animationDictionary.Add(DictionarySkillKeys.SKILL_2, DictionaryAnimationTriggers.SKILL_2);
         _initialPosition = _animator.transform.position;
     }
     protected virtual void Start()
@@ -100,8 +102,9 @@ public class CharacterBattleAnimator : MonoBehaviour
         return 0;
     }
 
-    public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements)
+    public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements, List<Character> listOfTargets)
     {
+            _listOfTargets = listOfTargets;
             _indexRef = index;
             _targetBattlePlacements = targetBattlePlacements;
     }
@@ -130,10 +133,16 @@ public class CharacterBattleAnimator : MonoBehaviour
         }
     }
 
-    
+
+    public void PlayTargetDeathAnimation()
+    {
+        _currentTarget._characterHPMPManager.PlayDeathAnimationIfDead();
+        _myCharacter._characterAbilities._damageDealer.NextTarget();
+    }    
 
     public void DealDamage()
     {
+        _currentTarget = _listOfTargets[_indexRef[0]];
         onDealDamage();
     }
 

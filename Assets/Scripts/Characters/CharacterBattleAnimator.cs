@@ -17,8 +17,6 @@ public class CharacterBattleAnimator : MonoBehaviour
     List<Character> _listOfTargets = new List<Character>();
     List <int> _listOfTargetIndex = new List<int>(); 
 
-    List<int> _indexRef;
-
     int _invokeCounter = 0;
 
     protected BattleField _battleField;
@@ -103,21 +101,27 @@ public class CharacterBattleAnimator : MonoBehaviour
         return 0;
     }
 
+    public virtual void SetBattleAnimator(List<Character> listOfTargets, List<int> index)
+    {
+        _listOfTargets = listOfTargets;
+        _listOfTargetIndex = index;
+    }
+/**
     public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements, List<Character> listOfTargets)
     {
             _listOfTargets = listOfTargets;
-            _indexRef = index;
+            _listOfTargetIndex = index;
             _targetBattlePlacements = targetBattlePlacements;
     }
 
     public virtual void TeleportToBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].frontBattlePlacement.transform.position, 1000f));
     }
 
     public virtual void TeleportToRangedBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].rangedBattlePlacement.transform.position, 1000f));     
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].rangedBattlePlacement.transform.position, 1000f));     
     }
 
     public virtual void TeleportBackToInitialPos()
@@ -133,7 +137,7 @@ public class CharacterBattleAnimator : MonoBehaviour
             yield return null;
         }
     }
-
+*/
 
     public void PlayTargetDeathAnimation()
     {
@@ -147,7 +151,7 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     public void DealDamage()
     {
-        _currentTarget = _listOfTargets[_indexRef[0]];
+        _currentTarget = _listOfTargets[_listOfTargetIndex[0]];
         onDealDamage();
     }
 

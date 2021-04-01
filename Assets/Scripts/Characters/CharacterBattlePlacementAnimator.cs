@@ -11,6 +11,10 @@ public class CharacterBattlePlacementAnimator : MonoBehaviour
     Vector3 _initialPosition;
     
     // Start is called before the first frame update
+    void Awake()
+    {
+        _initialPosition = transform.position;
+    }
     void Start()
     {
         

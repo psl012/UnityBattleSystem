@@ -57,14 +57,16 @@ public class CharacterAbilities : MonoBehaviour
         if (selectedSkill.GetSkillType() == Skill.SkillType.Melee)
         {           
                 _damageDealer.SetUpTargets(targets, index);
-                _characterBattleAnimator.SetBattlePlacements(index, targetPlacements, targets);
+                _characterBattleAnimator.SetBattleAnimator(targets, index);
+                _characterBattlePlacementAnimator.SetBattlePlacements(index, targetPlacements, targets);
                 _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic); // !!! Replace me
         }
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
             (int, GameObject[]) projectileTuple = selectedSkill.GetSkillObject();
             _damageDealer.SetUpTargets(targets,index);
-            _characterBattleAnimator.SetBattlePlacements(index, targetPlacements, targets);
+            _characterBattleAnimator.SetBattleAnimator(targets, index);
+            _characterBattlePlacementAnimator.SetBattlePlacements(index, targetPlacements, targets);
             _characterBattleAnimator.SetUpInvocation(projectileTuple.Item2, targets, index);
             _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic);         
         }   

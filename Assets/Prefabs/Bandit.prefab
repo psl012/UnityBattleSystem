@@ -311,6 +311,7 @@ MonoBehaviour:
   _battlePosition: 1
   _isDead: 0
   _characterAbilities: {fileID: 0}
+  _characterBattleAnimator: {fileID: 0}
 --- !u!114 &2009345327591673090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -379,6 +380,7 @@ GameObject:
   - component: {fileID: 4445146975302327664}
   - component: {fileID: 4445146975302327665}
   - component: {fileID: 5055845791525671827}
+  - component: {fileID: 8065384441605366660}
   m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
@@ -480,6 +482,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d10a4dca967cdb4faf167437135694c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8065384441605366660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4445146975302327660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4ddf3d689163f47a7d5c1bd9dce869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6313154401124935249

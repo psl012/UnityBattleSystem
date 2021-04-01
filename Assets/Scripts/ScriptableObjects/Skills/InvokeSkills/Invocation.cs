@@ -62,6 +62,7 @@ public class Invocation : MonoBehaviour
 
     public virtual void PlayDeathAnimationIfDead()
     {
-        _target._characterHPMPManager.PlayDeathAnimationIfDead();
+        _user._characterBattleAnimator.PlayTargetDeathAnimation();
+       // _target._characterHPMPManager.PlayDeathAnimationIfDead();
     }
 }

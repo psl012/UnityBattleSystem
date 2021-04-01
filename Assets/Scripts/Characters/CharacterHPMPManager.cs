@@ -37,13 +37,6 @@ public class CharacterHPMPManager : MonoBehaviour
             _character._isDead = true;
         }
     }
-    public void PlayDeathAnimationIfDead()
-    {
-        if(_character._isDead)
-        {
-            _characterBattleAnimator.DeathTrigger();
-        }
-    }
 
     public void BurnMana(float manaBurnPoint)
     {

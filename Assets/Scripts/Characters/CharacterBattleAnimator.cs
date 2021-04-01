@@ -91,7 +91,8 @@ public class CharacterBattleAnimator : MonoBehaviour
         if(_invokeCounter < _listOfTargets.Count)
         {
             GameObject invokedObject = Instantiate(_arrayOfInvokedObjects[invokeObjectCounter], transform.position, Quaternion.identity);
-            invokedObject.GetComponent<Invocation>().Activate(_myCharacter, this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
+            _currentTarget = _listOfTargets[_listOfTargetIndex[_invokeCounter]];
+            invokedObject.GetComponent<Invocation>().Activate(_myCharacter, this, _currentTarget);
         }
         else
         {
@@ -136,7 +137,11 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     public void PlayTargetDeathAnimation()
     {
-        _currentTarget._characterHPMPManager.PlayDeathAnimationIfDead();
+        if(_currentTarget._isDead)
+        {
+            _battleSystem._numOfEnemyKilledThisTurn++;
+            _currentTarget._characterBattleAnimator._animator.SetTrigger("deathTrigger");
+        }
         _myCharacter._characterAbilities._damageDealer.NextTarget();
     }    
 
@@ -144,12 +149,6 @@ public class CharacterBattleAnimator : MonoBehaviour
     {
         _currentTarget = _listOfTargets[_indexRef[0]];
         onDealDamage();
-    }
-
-    public void DeathTrigger()
-    {
-        _battleSystem._numOfEnemyKilledThisTurn++;
-        _animator.SetTrigger("deathTrigger");
     }
 
     public void EndTurnTrigger()

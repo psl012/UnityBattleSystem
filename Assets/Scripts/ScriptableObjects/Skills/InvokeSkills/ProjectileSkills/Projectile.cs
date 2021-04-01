@@ -10,9 +10,9 @@ public class Projectile : Invocation
         base.Update();
     }
 
-    public override void Activate(CharacterStats userStats, CharacterBattleAnimator userAnimator, Character target)
+    public override void Activate(Character user, CharacterBattleAnimator userAnimator, Character target)
     {
-        base.Activate(userStats ,userAnimator, target);
+        base.Activate(user, userAnimator, target);
         transform.position = userAnimator.transform.position;
     }
 

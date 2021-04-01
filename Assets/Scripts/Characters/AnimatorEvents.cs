@@ -19,10 +19,6 @@ public class AnimatorEvents : MonoBehaviour
         
     }
 
-    public void DealDamage()
-    {
-        _characterAbilities.DealDamage();
-    }
 
     public void EndTurn()
     {

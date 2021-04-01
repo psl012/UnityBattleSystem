@@ -31,9 +31,9 @@ public class BlastBall : Projectile
         MoveToTarget();
     }
 
-    public override void Activate(CharacterStats userStats, CharacterBattleAnimator userAnimator, Character target)
+    public override void Activate(Character user, CharacterBattleAnimator userAnimator, Character target)
     {
-        base.Activate(userStats, userAnimator, target);
+        base.Activate(user, userAnimator, target);
         _initialDistance = transform.position.x - target.transform.position.x;
 
     }

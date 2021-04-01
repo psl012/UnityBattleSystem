@@ -34,10 +34,10 @@ public class CharacterAbilities : MonoBehaviour
         if (_classSkills[2] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_2, _classSkills[2]);
         if (_classSkills[3] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_3, _classSkills[3]);
         _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
-        _characterBattleAnimator.onDealDamage += DealDamage;
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._characterStats._attackPower);
-    
+        _characterBattleAnimator.onDealDamage += _damageDealer.DealDamage;
+
     }
 
     // Update is called once per frame
@@ -61,25 +61,16 @@ public class CharacterAbilities : MonoBehaviour
         else if (selectedSkill.GetSkillType() == Skill.SkillType.Invocation)
         {
             (int, GameObject[]) projectileTuple = selectedSkill.GetSkillObject();
+            _damageDealer.SetUpTargets(targets,index);
             _characterBattleAnimator.SetBattlePlacements(index, targetPlacements, targets);
             _characterBattleAnimator.SetUpInvocation(projectileTuple.Item2, targets, index);
             _characterBattleAnimator.SkillAnimation(skillKey, targets.Count, CharacterBattleAnimator.SkillAnimationType.Generic);         
         }   
     }
     
-    public virtual void DealDamage() // Will deal damage using animator event 
-    {
-        _damageDealer.DealDamage();
-    }
-
-    public virtual void HealDamage()
-    {
-        Debug.Log("heal damage");
-    }
-
     void onDestroy()
     {
-        _characterBattleAnimator.onDealDamage -= DealDamage;
+        _characterBattleAnimator.onDealDamage -= _damageDealer.DealDamage;
     }
 }
 

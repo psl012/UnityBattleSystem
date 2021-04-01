@@ -13,6 +13,7 @@ public class Invocation : MonoBehaviour
     protected bool _isFinishedMoving = false;
     protected BattleSystem _battleSystem;
     protected CharacterStats _userStats;
+    protected Character _user;
     protected CharacterBattleAnimator _userAnimator;
 
     protected virtual void Awake()
@@ -34,9 +35,10 @@ public class Invocation : MonoBehaviour
 
     }
 
-    public virtual void Activate(CharacterStats userStats,  CharacterBattleAnimator userAnimator, Character target)
+    public virtual void Activate(Character user,  CharacterBattleAnimator userAnimator, Character target)
     {
-        _userStats = userStats;
+        _user = user;
+        _userStats = user._characterStats;
         _userAnimator = userAnimator;
         _target = target;
         _isCasted = true;
@@ -44,7 +46,8 @@ public class Invocation : MonoBehaviour
 
     public virtual void DamageTarget()
     {
-        _target._characterHPMPManager.DamageMe(_userStats._attackPower);
+        _user._characterAbilities._damageDealer.DealDamage();
+      //  _target._characterHPMPManager.DamageMe(_userStats._attackPower);
     }
 
     public virtual void DestroyMe()

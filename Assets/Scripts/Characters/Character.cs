@@ -17,6 +17,8 @@ public class Character : MonoBehaviour
 
     public CharacterAbilities _characterAbilities;
 
+    public CharacterBattleAnimator _characterBattleAnimator;
+
     public virtual void Awake()
     {
         _characterStats = new CharacterStats(_characterClass);
@@ -26,6 +28,7 @@ public class Character : MonoBehaviour
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();
         _characterCamera = GetComponentInChildren<CharacterCamera>();
+        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();
     }
 
 }

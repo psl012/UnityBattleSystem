@@ -91,7 +91,7 @@ public class CharacterBattleAnimator : MonoBehaviour
         if(_invokeCounter < _listOfTargets.Count)
         {
             GameObject invokedObject = Instantiate(_arrayOfInvokedObjects[invokeObjectCounter], transform.position, Quaternion.identity);
-            invokedObject.GetComponent<Invocation>().Activate(_myCharacter._characterStats, this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
+            invokedObject.GetComponent<Invocation>().Activate(_myCharacter, this, _listOfTargets[_listOfTargetIndex[_invokeCounter]]);
         }
         else
         {

@@ -6,7 +6,6 @@ public class CharacterBattlePlacementAnimator : MonoBehaviour
 {
     List<Character> _listOfTargets = new List<Character>();
     List <int> _listOfTargetIndex = new List<int>(); 
-    List<int> _indexRef;
     BattlePlacement[] _targetBattlePlacements;
     Vector3 _initialPosition;
     
@@ -31,18 +30,18 @@ public class CharacterBattlePlacementAnimator : MonoBehaviour
      public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements, List<Character> listOfTargets)
     {
             _listOfTargets = listOfTargets;
-            _indexRef = index;
+            _listOfTargetIndex = index;
             _targetBattlePlacements = targetBattlePlacements;
     }
 
     public virtual void TeleportToBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].frontBattlePlacement.transform.position, 1000f));
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].frontBattlePlacement.transform.position, 1000f));
     }
 
     public virtual void TeleportToRangedBattlePlacement()
     {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_indexRef[0]].rangedBattlePlacement.transform.position, 1000f));     
+        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].rangedBattlePlacement.transform.position, 1000f));     
     }
 
     public virtual void TeleportBackToInitialPos()

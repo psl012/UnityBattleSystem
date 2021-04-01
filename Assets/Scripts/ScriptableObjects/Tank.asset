@@ -16,7 +16,7 @@ MonoBehaviour:
   _description: 
   _health: 3
   _mana: 1
-  _attackPower: 200
+  _attackPower: 1
   _magicPower: 1
   _defensePower: 1
   _magicDefensePower: 1

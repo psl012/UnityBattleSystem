@@ -8,18 +8,18 @@ public class CharacterBattleAnimator : MonoBehaviour
     public event Action onDealDamage = delegate{};
     
     public enum SkillAnimationType{Generic, Unique}
-
-    
     public Dictionary<string, string> _animationDictionary = new Dictionary<string, string>();
+    
     protected Animator _animator;
     protected BattleSystem _battleSystem;
-
-    List<Character> _listOfTargets = new List<Character>();
-    List <int> _listOfTargetIndex = new List<int>(); 
-    int _invokeCounter = 0;
-    GameObject[] _arrayOfInvokedObjects;
     Character _myCharacter;
     Character _currentTarget;
+    List<Character> _listOfTargets = new List<Character>();
+    List <int> _listOfTargetIndex = new List<int>(); 
+    
+    int _invokeCounter = 0;
+    GameObject[] _arrayOfInvokedObjects;
+
 
     protected virtual void Awake()
     {

@@ -47,7 +47,6 @@ public class Invocation : MonoBehaviour
     public virtual void DamageTarget()
     {
         _user._characterAbilities._damageDealer.DealDamage();
-      //  _target._characterHPMPManager.DamageMe(_userStats._attackPower);
     }
 
     public virtual void DestroyMe()
@@ -63,6 +62,5 @@ public class Invocation : MonoBehaviour
     public virtual void PlayDeathAnimationIfDead()
     {
         _user._characterBattleAnimator.PlayTargetDeathAnimation();
-       // _target._characterHPMPManager.PlayDeathAnimationIfDead();
     }
 }

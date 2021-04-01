@@ -166,3 +166,12 @@ public class CharacterBattleAnimator : MonoBehaviour
         _battleSystem._numOfEnemyKilledThisTurn--;
     }
 }
+
+
+public class Testers
+{
+    public void Meteor()
+    {
+        Debug.Log("MeteorStrike!");
+    }
+}

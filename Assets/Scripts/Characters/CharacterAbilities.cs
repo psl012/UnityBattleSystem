@@ -11,6 +11,7 @@ public class CharacterAbilities : MonoBehaviour
     
     public Skill[] _classSkills;
     CharacterBattleAnimator _characterBattleAnimator; // i need this to pass onto the Skill Objects
+    CharacterBattlePlacementAnimator _characterBattlePlacementAnimator;
     Character _character;
     public DamageDealer _damageDealer;
 
@@ -33,7 +34,8 @@ public class CharacterAbilities : MonoBehaviour
         if (_classSkills[1] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_1, _classSkills[1]);
         if (_classSkills[2] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_2, _classSkills[2]);
         if (_classSkills[3] != null) SkillDictionary.Add(DictionarySkillKeys.SKILL_3, _classSkills[3]);
-        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();       
+        _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();  
+        _characterBattlePlacementAnimator = GetComponentInChildren<CharacterBattlePlacementAnimator>();     
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._characterStats._attackPower);
         _characterBattleAnimator.onDealDamage += _damageDealer.DealDamage;
@@ -111,7 +113,6 @@ public class DamageDealer
 
     public void NextTarget()
     {
-        Debug.Log("Hello: " + _listOfTargetIndex[0]);
         _listOfTargetIndex.RemoveAt(0);
     }
 }

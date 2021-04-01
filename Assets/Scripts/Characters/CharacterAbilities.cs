@@ -38,8 +38,6 @@ public class CharacterAbilities : MonoBehaviour
         _characterBattlePlacementAnimator = GetComponentInChildren<CharacterBattlePlacementAnimator>();     
         _character = GetComponent<Character>();
         _damageDealer = new DamageDealer(_character._characterStats._attackPower);
-        _characterBattleAnimator.onDealDamage += _damageDealer.DealDamage;
-
     }
 
     // Update is called once per frame
@@ -72,10 +70,6 @@ public class CharacterAbilities : MonoBehaviour
         }   
     }
     
-    void onDestroy()
-    {
-        _characterBattleAnimator.onDealDamage -= _damageDealer.DealDamage;
-    }
 }
 
 public class DamageDealer

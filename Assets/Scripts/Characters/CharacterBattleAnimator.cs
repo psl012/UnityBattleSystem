@@ -16,14 +16,7 @@ public class CharacterBattleAnimator : MonoBehaviour
 
     List<Character> _listOfTargets = new List<Character>();
     List <int> _listOfTargetIndex = new List<int>(); 
-
     int _invokeCounter = 0;
-
-    protected BattleField _battleField;
-
-    BattlePlacement[] _targetBattlePlacements;
-
-    Vector3 _initialPosition;
     GameObject[] _arrayOfInvokedObjects;
     Character _myCharacter;
     Character _currentTarget;
@@ -31,13 +24,11 @@ public class CharacterBattleAnimator : MonoBehaviour
     protected virtual void Awake()
     {
         _battleSystem = FindObjectOfType<BattleSystem>();
-        _battleField = FindObjectOfType<BattleField>();
         _animator = GetComponent<Animator>();
         _myCharacter = GetComponentInParent<Character>(); 
         _animationDictionary.Add(DictionarySkillKeys.SKILL_0, DictionaryAnimationTriggers.SKILL_0);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_1, DictionaryAnimationTriggers.SKILL_1);
         _animationDictionary.Add(DictionarySkillKeys.SKILL_2, DictionaryAnimationTriggers.SKILL_2);
-        _initialPosition = _animator.transform.position;
     }
     protected virtual void Start()
     {
@@ -106,38 +97,6 @@ public class CharacterBattleAnimator : MonoBehaviour
         _listOfTargets = listOfTargets;
         _listOfTargetIndex = index;
     }
-/**
-    public virtual void SetBattlePlacements(List<int> index, BattlePlacement[] targetBattlePlacements, List<Character> listOfTargets)
-    {
-            _listOfTargets = listOfTargets;
-            _listOfTargetIndex = index;
-            _targetBattlePlacements = targetBattlePlacements;
-    }
-
-    public virtual void TeleportToBattlePlacement()
-    {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].frontBattlePlacement.transform.position, 1000f));
-    }
-
-    public virtual void TeleportToRangedBattlePlacement()
-    {
-        StartCoroutine(MoveToBattlePlacement(_targetBattlePlacements[_listOfTargetIndex[0]].rangedBattlePlacement.transform.position, 1000f));     
-    }
-
-    public virtual void TeleportBackToInitialPos()
-    {
-        StartCoroutine(MoveToBattlePlacement(_initialPosition, 1000f));
-    }
-
-    public IEnumerator MoveToBattlePlacement(Vector3 target, float speed)
-    {
-        while(Vector3.Distance(transform.position, target) > 0.1f)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, target , speed*Time.deltaTime);
-            yield return null;
-        }
-    }
-*/
 
     public void PlayTargetDeathAnimation()
     {
@@ -152,6 +111,7 @@ public class CharacterBattleAnimator : MonoBehaviour
     public void DealDamage()
     {
         _currentTarget = _listOfTargets[_listOfTargetIndex[0]];
+        _myCharacter._characterAbilities._damageDealer.DealDamage();
         onDealDamage();
     }
 
@@ -168,14 +128,5 @@ public class CharacterBattleAnimator : MonoBehaviour
     public void DecrementBattleSystemNumOfCharKilled()
     {
         _battleSystem._numOfEnemyKilledThisTurn--;
-    }
-}
-
-
-public class Testers
-{
-    public void Meteor()
-    {
-        Debug.Log("MeteorStrike!");
     }
 }

@@ -112,6 +112,7 @@ public class CharacterBattleAnimator : MonoBehaviour
     {
         _currentTarget = _listOfTargets[_listOfTargetIndex[0]];
         _myCharacter._characterAbilities._damageDealer.DealDamage();
+        _currentTarget._characterBattleAnimator._animator.SetTrigger("damageTrigger");
         onDealDamage();
     }
 

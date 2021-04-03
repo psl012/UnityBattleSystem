@@ -16,7 +16,7 @@ MonoBehaviour:
   _description: Swords Specialist
   _health: 25
   _mana: 10
-  _attackPower: 300
+  _attackPower: 5
   _magicPower: 1
   _defensePower: 3
   _magicDefensePower: 2

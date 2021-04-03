@@ -46,7 +46,7 @@ public class Invocation : MonoBehaviour
 
     public virtual void DamageTarget()
     {
-        _user._characterAbilities._damageDealer.DealDamage();
+        _user._characterBattleAnimator.DealDamage();
     }
 
     public virtual void DestroyMe()

@@ -40,6 +40,7 @@ public class CharacterPanelManager : MonoBehaviour
         foreach(CharacterPanel panel in _characterPanels)
         {
             panel.InitializeCharacterPanel();
+            panel.GetComponent<UICharacter>().InitializeUI();
         }
     }
 

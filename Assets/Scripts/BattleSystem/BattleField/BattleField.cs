@@ -7,6 +7,8 @@ public class BattleField : MonoBehaviour
     public PlayerBattlePlacement[] _playerBattlePlacement;
     public EnemyBattlePlacement[] _enemyBattlePlacement;
 
+    public Character[] _playerCharacters;
+
     [SerializeField] Transform _centerCamera;
 
     int _fieldPlayerSize;
@@ -46,13 +48,16 @@ public class BattleField : MonoBehaviour
     {
         for(int i = 0; i < _fieldPlayerSize; i++)
         {
-            _playerBattlePlacement[i].CreateBattler(_centerCamera);  
+            _playerBattlePlacement[i].CreateBattler(_centerCamera);      
         }
 
         for(int i = 0; i < _fieldEnemySize; i++)
         {
             _enemyBattlePlacement[i].CreateBattler(_centerCamera); 
         }
+
+        _playerCharacters = GetComponentsInChildren<Player>();
+        GameManager.instance._characterDatabase.UpdatePartyCharacters(_playerCharacters);
     }
 
 

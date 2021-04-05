@@ -36,8 +36,9 @@ public class Character : MonoBehaviour
 public class CharacterStats
 {
     public float _maxHealth { get; set; }
+    public float _currentHealth;
     public float _maxMana { get; set; }
-
+    public float _currentMana;
     public float _attackPower { get; private set; }
     public float _defensePower { get; private set; }
     public float _dexterity { get; private set; }
@@ -48,7 +49,10 @@ public class CharacterStats
     public CharacterStats(CharacterClass characterClass)
     {
         _maxHealth = characterClass._health;
+        _currentHealth = _maxHealth;
         _maxMana = characterClass._mana;
+        _currentMana = _maxMana;
+        
         _attackPower = characterClass._attackPower;
         _defensePower = characterClass._defensePower;
         _dexterity = characterClass._dexterity;

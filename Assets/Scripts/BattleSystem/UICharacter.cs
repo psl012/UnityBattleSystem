@@ -27,6 +27,11 @@ public class UICharacter : MonoBehaviour
 
     void Start()
     {
+
+    }
+
+    public void InitializeUI()
+    {
         _characterPanel = GetComponent<CharacterPanel>();
         _characterPanelNumber = _characterPanel._characterPanelNumber;
         if (_characterPanel._myCharacter == null) return;

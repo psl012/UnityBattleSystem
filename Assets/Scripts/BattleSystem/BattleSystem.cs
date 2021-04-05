@@ -34,6 +34,11 @@ public class BattleSystem : MonoBehaviour
 
     void Awake()
     { 
+
+    }
+
+    public void InitializeBattleSystem()
+    {
         _battleField = FindObjectOfType<BattleField>();
         _battleEnterer = FindObjectOfType<BattleEnterer>();
         _battleEnterer.Initialize();

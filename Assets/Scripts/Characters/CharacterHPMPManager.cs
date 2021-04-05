@@ -21,8 +21,8 @@ public class CharacterHPMPManager : MonoBehaviour
     public void InitializeHealth(Character character)
     {
         _character = character;
-        _currentHP = _character._characterStats._maxHealth;
-        _currentMP = _character._characterStats._maxMana;
+        _currentHP = _character._characterStats._currentHealth;
+        _currentMP = _character._characterStats._currentMana;
         _battleSystem = FindObjectOfType<BattleSystem>();
         _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();
     }
@@ -30,6 +30,7 @@ public class CharacterHPMPManager : MonoBehaviour
     public void DamageMe(float damagePoint)
     {
         _currentHP -= damagePoint;
+        _character._characterStats._currentHealth -= damagePoint;
         Debug.Log(_currentHP);
         _UICharacter?.UpdateHPText(_currentHP);
         if (_currentHP <= 0 && !_character._isDead)
@@ -41,6 +42,14 @@ public class CharacterHPMPManager : MonoBehaviour
     public void BurnMana(float manaBurnPoint)
     {
         _currentMP -= manaBurnPoint;
+        _character._characterStats._currentMana -= manaBurnPoint;
+        _UICharacter?.UpdateMPText(_currentMP);
+    }
+
+    public void UpdateMana(float dataMana)
+    {
+        _currentMP = dataMana;
+        _character._characterStats._currentMana = _currentMP;
         _UICharacter?.UpdateMPText(_currentMP);
     }
 }

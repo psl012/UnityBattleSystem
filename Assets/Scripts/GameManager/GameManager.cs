@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance {get; private set;}
-
+    public CharacterDatabase _characterDatabase;
+    BattleSystem _battleSystem;
     int currentSceneIndex;
     int numberOfScenesInTheBuild;
 
@@ -18,6 +19,7 @@ public class GameManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             numberOfScenesInTheBuild = SceneManager.sceneCountInBuildSettings;
+            _characterDatabase = GetComponentInChildren<CharacterDatabase>();
         }
         else
         {
@@ -33,12 +35,18 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        _battleSystem = FindObjectOfType<BattleSystem>();
+        _battleSystem.InitializeBattleSystem();
+        _characterDatabase.ReadStat1();
+      //  Debug.Log(_characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterStats._attackPower);
+    //    Debug.Log("Let see: " + _characterDatabase._partyMembersObjects[0].name);
+     //   Debug.Log("Lets see: " + _characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterHPMPManager._currentHP);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -49,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     public void ChangeScene()
     {
-        if(currentSceneIndex <= numberOfScenesInTheBuild)
+        if(currentSceneIndex < numberOfScenesInTheBuild - 1)
         {
             SceneManager.LoadScene(currentSceneIndex + 1);
         }

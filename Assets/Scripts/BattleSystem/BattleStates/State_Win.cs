@@ -13,7 +13,7 @@ public class State_Win : IState
     public void OnEnter()
     {
         Debug.Log("WINNER WINNER CHICKEN DINNER!");
-        GameManager.instance._characterDatabase.UpdateCharacterStats();
+        GameManager.instance._characterDatabase.UpdateDatabaseCharacterStats();
         GameManager.instance.ChangeScene();
     }
 

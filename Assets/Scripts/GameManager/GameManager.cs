@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         _battleSystem = FindObjectOfType<BattleSystem>();
         _battleSystem.InitializeBattleSystem();
-        _characterDatabase.ReadStat1();
+        _characterDatabase.UpdateBattlerCharacterStats();
       //  Debug.Log(_characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterStats._attackPower);
     //    Debug.Log("Let see: " + _characterDatabase._partyMembersObjects[0].name);
      //   Debug.Log("Lets see: " + _characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterHPMPManager._currentHP);

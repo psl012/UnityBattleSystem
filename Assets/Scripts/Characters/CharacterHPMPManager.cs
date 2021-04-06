@@ -14,7 +14,7 @@ public class CharacterHPMPManager : MonoBehaviour
     }
 
 
-    public void InitializeHealth(Character character)
+    public void InitializeLinkCharacter(Character character)
     {
         _character = character;
         _battleSystem = FindObjectOfType<BattleSystem>();
@@ -24,8 +24,8 @@ public class CharacterHPMPManager : MonoBehaviour
     {
 
         _character._characterStats._currentHealth -= damagePoint;
-        Debug.Log(_character._characterStats._currentHealth);
         _UICharacter?.UpdateHPText(_character._characterStats._currentHealth);
+        
         if (_character._characterStats._currentHealth <= 0 && !_character._isDead)
         {
             _character._isDead = true;
@@ -38,9 +38,12 @@ public class CharacterHPMPManager : MonoBehaviour
         _UICharacter?.UpdateMPText(_character._characterStats._currentMana);
     }
 
-    public void UpdateMana(float dataMana)
+    public void UpdateStats(CharacterStats dataBaseStats)
     {
-        _character._characterStats._currentMana = dataMana;
+        _character._characterStats._currentHealth = dataBaseStats._currentHealth;
+        _UICharacter?.UpdateHPText(_character._characterStats._currentHealth);
+
+        _character._characterStats._currentMana = dataBaseStats._currentMana;
         _UICharacter?.UpdateMPText(_character._characterStats._currentMana);
     }
 }

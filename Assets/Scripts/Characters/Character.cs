@@ -23,7 +23,7 @@ public class Character : MonoBehaviour
     {
         _characterStats = new CharacterStats(_characterClass);
         _characterHPMPManager = GetComponent<CharacterHPMPManager>();
-        _characterHPMPManager.InitializeHealth(this);
+        _characterHPMPManager.InitializeLinkCharacter(this);
         _battleAI = GetComponent<BattleAI>();
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();

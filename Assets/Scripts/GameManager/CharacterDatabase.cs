@@ -7,7 +7,9 @@ public class CharacterDatabase : MonoBehaviour
 {
     public GameObject[] _partyMembersObjects;
     public Character[] _partyCharacters;
-    public CharacterStats[] _characterStats = new CharacterStats[2];
+    public CharacterStats[] _characterStats = new CharacterStats[4];
+    bool _isPartyCharactersInitialized = false;
+
 
     void Awake()
     {
@@ -31,28 +33,34 @@ public class CharacterDatabase : MonoBehaviour
 
         _partyCharacters = partyCharacter;
         
-        if(_characterStats[0] == null)
+        if(!_isPartyCharactersInitialized)
         {
-        for(int i = 0; i < _partyCharacters.Length; i++)
-        {
-             _characterStats[i] = new CharacterStats(_partyCharacters[0]._characterClass);
+            for(int i = 0; i < _partyCharacters.Length; i++)
+            {
+                _characterStats[i] = new CharacterStats(_partyCharacters[i]._characterClass);
+            }
+            _isPartyCharactersInitialized = true;
         }
-        }
-        Debug.Log("DAPAT 10: " + partyCharacter[0]._characterStats._currentMana);
-
     }
 
     public void UpdateCharacterStats()
     {
         if(_characterStats == null) return;
-        _characterStats[0]._currentMana = _partyCharacters[0]._characterStats._currentMana;
-        Debug.Log("tessss: " + _characterStats[0]._currentMana);
+
+        for(int i=0; i < _partyCharacters.Length; i++)
+        {
+            _characterStats[i]._currentMana = _partyCharacters[i]._characterStats._currentMana;
+        }
     }
 
     public void ReadStat1()
     {
         if(_partyCharacters.Length < 1) return;
-        _partyCharacters[0]._characterHPMPManager.UpdateMana(_characterStats[0]._currentMana);
+
+        for (int i=0; i < _partyCharacters.Length; i++)
+        {
+            _partyCharacters[i]._characterHPMPManager.UpdateMana(_characterStats[i]._currentMana);
+        }
         Debug.Log("OGMOMO" + _partyCharacters[0]._characterStats._currentMana);
         Debug.Log("MOMO" + _characterStats[0]?._currentMana);
     }

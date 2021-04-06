@@ -23,6 +23,15 @@ public class BattleEnterer : MonoBehaviour
     {
         _battleField = FindObjectOfType<BattleField>();  
 
+        GameObject[] partyRefChar = GameManager.instance._characterDatabase._partyMembersObjects;
+        int playerBattleLimit = Mathf.Min(partyRefChar.Length, _battleField._playerBattlePlacement.Length);
+        
+        for(int i = 0; i < playerBattleLimit; i++)
+        {
+            _players[i] = partyRefChar[i];
+            _players[i].GetComponent<Character>()._battlePosition = i;
+        }
+
         for(int i = 0; i < _enemies.Length; i++)
         {
             _enemies[i].GetComponent<Character>()._battlePosition = i;

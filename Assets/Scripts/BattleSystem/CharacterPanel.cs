@@ -83,7 +83,7 @@ public class CharacterPanel : MonoBehaviour
     public virtual void SkillButton1()
     {
         Skill selectedSkill = _characterAbilities.SkillDictionary[DictionarySkillKeys.SKILL_1];
-        if (_myCharacter._characterHPMPManager._currentMP < selectedSkill._manacost)
+        if (_myCharacter._characterStats._currentMana < selectedSkill._manacost)
         {
             _magicPanelManager.DisplayLackManaText();
         }
@@ -97,7 +97,7 @@ public class CharacterPanel : MonoBehaviour
     public virtual void SkillButton2()
     {
         Skill selectedSkill = _characterAbilities.SkillDictionary[DictionarySkillKeys.SKILL_2];
-        if (_myCharacter._characterHPMPManager._currentMP < selectedSkill._manacost)
+        if (_myCharacter._characterStats._currentMana < selectedSkill._manacost)
         {
             _magicPanelManager.DisplayLackManaText();
         }

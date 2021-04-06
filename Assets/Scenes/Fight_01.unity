@@ -494,6 +494,16 @@ PrefabInstance:
       propertyPath: _enemies.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8591903924161948413, guid: 49480e168cdd97f449b8d827689b2680,
+        type: 3}
+      propertyPath: _players.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591903924161948413, guid: 49480e168cdd97f449b8d827689b2680,
+        type: 3}
+      propertyPath: _players.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8591903924161948414, guid: 49480e168cdd97f449b8d827689b2680,
         type: 3}
       propertyPath: m_Name
@@ -609,7 +619,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _partyMembersObjects.Array.data[1]
       value: 
-      objectReference: {fileID: 135868299632596071, guid: e1bf5acc2c5f448459da9c84ea93942e,
+      objectReference: {fileID: 8313904748932700607, guid: e361ee29773204a4594f7cc0249d65b0,
         type: 3}
     - target: {fileID: 7256333739999648893, guid: 6c474352c3cd0d1489c726b5ca607b0f,
         type: 3}

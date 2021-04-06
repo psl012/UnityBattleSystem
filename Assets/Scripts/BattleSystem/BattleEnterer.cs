@@ -29,7 +29,6 @@ public class BattleEnterer : MonoBehaviour
         for(int i = 0; i < playerBattleLimit; i++)
         {
             _players[i] = partyRefChar[i];
-            _players[i].GetComponent<Character>()._battlePosition = i;
         }
 
         for(int i = 0; i < _enemies.Length; i++)

@@ -31,11 +31,12 @@ public class BattlePlacement : MonoBehaviour
         
     }
 
-    public virtual void CreateBattler(Transform centerCamera)
+    public virtual void CreateBattler(Transform centerCamera, int battlePosition)
     {
         _isOccupied = true;
         if(_placedCharacterObject == null) return;
         _mycharacterBattler = Instantiate(_placedCharacterObject, transform.position, Quaternion.identity, this.transform).GetComponent<Character>();
+        _mycharacterBattler._battlePosition = battlePosition;
         _mycharacterBattler._characterCamera?.SetActionCameraOff();
         _mycharacterBattler._battleAI?.InitializeBattleAI();
         _mycharacterBattler._characterCamera?.SetIdleCamFollow(centerCamera);

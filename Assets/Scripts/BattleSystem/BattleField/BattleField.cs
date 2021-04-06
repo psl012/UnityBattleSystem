@@ -48,12 +48,12 @@ public class BattleField : MonoBehaviour
     {
         for(int i = 0; i < _fieldPlayerSize; i++)
         {
-            _playerBattlePlacement[i].CreateBattler(_centerCamera);      
+            _playerBattlePlacement[i].CreateBattler(_centerCamera, i);      
         }
 
         for(int i = 0; i < _fieldEnemySize; i++)
         {
-            _enemyBattlePlacement[i].CreateBattler(_centerCamera); 
+            _enemyBattlePlacement[i].CreateBattler(_centerCamera, i); 
         }
 
         _playerCharacters = GetComponentsInChildren<Player>();

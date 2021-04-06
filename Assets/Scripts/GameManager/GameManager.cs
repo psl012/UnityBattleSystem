@@ -38,9 +38,6 @@ public class GameManager : MonoBehaviour
         _battleSystem = FindObjectOfType<BattleSystem>();
         _battleSystem.InitializeBattleSystem();
         _characterDatabase.UpdateBattlerCharacterStats();
-      //  Debug.Log(_characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterStats._attackPower);
-    //    Debug.Log("Let see: " + _characterDatabase._partyMembersObjects[0].name);
-     //   Debug.Log("Lets see: " + _characterDatabase._partyMembersObjects[0].GetComponent<Character>()._characterHPMPManager._currentHP);
     }
 
     // Start is called before the first frame update

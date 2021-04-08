@@ -9,6 +9,7 @@ public class CharacterClass : ScriptableObject
     public string _description;
 
     [Header("Basic Stats")]
+    public float _characterLevel;
     public float _health;
     public float _mana;
     public float _attackPower;
@@ -21,4 +22,20 @@ public class CharacterClass : ScriptableObject
     public float _dexterity;
     public float _intelligence;
     public float _speed;
+
+    [Header("StatLevelUpIncrements")]
+    public float _healthUp;
+    public float _manaUp;
+    public float _attackPowerUp;
+    public float _magicPowerUp;
+    public float _defensePowerUp;
+    public float _magicDefensePowerUp;
+    public float _strenghtUp;
+    public float _dexterityUp;
+    public float _intelligenceUp;
+    public float _speedUp;
+
+    [Header("Others")]
+    public float _expGivenOnDeath;
+
 }

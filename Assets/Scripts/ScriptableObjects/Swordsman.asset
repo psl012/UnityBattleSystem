@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _className: Swordsman
   _description: Swords Specialist
+  _characterLevel: 1
   _health: 100
   _mana: 10
   _attackPower: 5
@@ -24,3 +25,13 @@ MonoBehaviour:
   _dexterity: 5
   _intelligence: 3
   _speed: 25
+  _healthUp: 2
+  _manaUp: 1
+  _attackPowerUp: 3
+  _magicPowerUp: 1
+  _defensePowerUp: 1
+  _magicDefensePowerUp: 1
+  _strenghtUp: 2
+  _dexterityUp: 2
+  _intelligenceUp: 1
+  _speedUp: 2

@@ -37,7 +37,7 @@ public class UICharacter : MonoBehaviour
         if (_characterPanel._myCharacter == null) return;
         _characterStats = _characterPanel._myCharacter._characterStats;
         _characterPanel._myCharacter.GetComponent<CharacterHPMPManager>()?.InitializeUICharacter(this);
-        
+        _characterPanel._myCharacter._characterLevelManager?.InitializeUICharacter(this);
         UpdateHPText(_characterStats._maxHealth);  // Cannot put in Awake (It is where we assing max health) 
         UpdateMPText(_characterStats._maxMana);
         UpdateSpecialText();

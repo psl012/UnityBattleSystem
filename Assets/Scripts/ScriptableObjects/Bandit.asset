@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _className: Bandit
   _description: A common baddie
+  _characterLevel: 1
   _health: 10
   _mana: 0
   _attackPower: 3
@@ -24,3 +25,13 @@ MonoBehaviour:
   _dexterity: 5
   _intelligence: 3
   _speed: 50
+  _healthUp: 2
+  _manaUp: 1
+  _attackPowerUp: 2
+  _magicPowerUp: 0
+  _defensePowerUp: 1
+  _magicDefensePowerUp: 1
+  _strenghtUp: 1
+  _dexterityUp: 2
+  _intelligenceUp: 1
+  _speedUp: 2

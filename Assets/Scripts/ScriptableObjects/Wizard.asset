@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _className: Wizard
   _description: A magic specialist
+  _characterLevel: 1
   _health: 100
   _mana: 45
   _attackPower: 5
@@ -24,3 +25,13 @@ MonoBehaviour:
   _dexterity: 13
   _intelligence: 20
   _speed: 7
+  _healthUp: 1
+  _manaUp: 2
+  _attackPowerUp: 1
+  _magicPowerUp: 2
+  _defensePowerUp: 1
+  _magicDefensePowerUp: 2
+  _strenghtUp: 1
+  _dexterityUp: 1
+  _intelligenceUp: 3
+  _speedUp: 1

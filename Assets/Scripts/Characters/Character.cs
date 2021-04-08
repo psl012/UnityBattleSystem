@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
 {
     public CharacterClass _characterClass;
     public CharacterStats _characterStats;
+    public CharacterLevelManager _characterLevelManager;
     public CharacterHPMPManager _characterHPMPManager;
     public TargetMark _targetMark;
     public int _battlePosition;
@@ -24,6 +25,7 @@ public class Character : MonoBehaviour
         _characterStats = new CharacterStats(_characterClass);
         _characterHPMPManager = GetComponent<CharacterHPMPManager>();
         _characterHPMPManager.InitializeLinkCharacter(this);
+        _characterLevelManager = GetComponent<CharacterLevelManager>();
         _battleAI = GetComponent<BattleAI>();
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();
@@ -39,15 +41,21 @@ public class CharacterStats
     public float _currentHealth;
     public float _maxMana { get; set; }
     public float _currentMana;
-    public float _attackPower { get; private set; }
-    public float _defensePower { get; private set; }
-    public float _dexterity { get; private set; }
-    public float _speed { get; private set; }
+    public float _attackPower { get; set; }
+    public float _defensePower { get;  set; }
+    public float _magicDefensePower {get;  set;}
+    public float _dexterity { get; set; }
+    public float _speed { get; set; }
 
     public float _specialPoints { get; set; }
+    public float _expPoints{get; set;}
+    public float _characterLevel {get; set;}
+    CharacterClass _characterClass;
 
     public CharacterStats(CharacterClass characterClass)
     {
+        _characterClass = characterClass;
+
         _maxHealth = characterClass._health;
         _currentHealth = _maxHealth;
         _maxMana = characterClass._mana;
@@ -55,9 +63,11 @@ public class CharacterStats
         
         _attackPower = characterClass._attackPower;
         _defensePower = characterClass._defensePower;
+        _magicDefensePower = characterClass._defensePower;
         _dexterity = characterClass._dexterity;
         _speed = characterClass._speed;
+        
         _specialPoints = 0;
+        _expPoints = 0;
     }
-
 }

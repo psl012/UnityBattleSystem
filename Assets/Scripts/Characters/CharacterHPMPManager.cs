@@ -42,6 +42,7 @@ public class CharacterHPMPManager : MonoBehaviour
     {
         _character._characterStats._currentHealth = dataBaseStats._currentHealth;
         _UICharacter?.UpdateHPText(_character._characterStats._currentHealth);
+        Debug.Log("gello" + _character._characterStats._maxHealth);
 
         _character._characterStats._currentMana = dataBaseStats._currentMana;
         _UICharacter?.UpdateMPText(_character._characterStats._currentMana);

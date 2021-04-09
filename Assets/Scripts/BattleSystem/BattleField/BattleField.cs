@@ -8,6 +8,7 @@ public class BattleField : MonoBehaviour
     public EnemyBattlePlacement[] _enemyBattlePlacement;
 
     public Character[] _playerCharacters;
+    public Character[] _enemyCharacters;
 
     [SerializeField] Transform _centerCamera;
 
@@ -57,7 +58,7 @@ public class BattleField : MonoBehaviour
         }
 
         _playerCharacters = GetComponentsInChildren<Player>();
-        GameManager.instance._characterDatabase.UpdatePartyCharacters(_playerCharacters);
+        _enemyCharacters = GetComponentsInChildren<Enemy>();
     }
 
 

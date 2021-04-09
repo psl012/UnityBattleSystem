@@ -31,7 +31,7 @@ public class CharacterLevelManager : MonoBehaviour
         _uiCharacter = uiCharacter;
     }
 
-    public void InitializePlayer()
+    public void InitializePlayerOnLevel()
     {
         for(int i=0; i < _characterLevel; i++)
         {
@@ -63,5 +63,7 @@ public class CharacterLevelManager : MonoBehaviour
         _characterStats._magicDefensePower += _magicDefensePowerUp;
         _characterStats._dexterity += _dexterityUp;
         _characterStats._speed += _speedUp;
+
+       // _uiCharacter.UpdateHPText(_characterStats._currentHealth);
     }
 }

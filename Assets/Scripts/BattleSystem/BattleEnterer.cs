@@ -36,7 +36,7 @@ public class BattleEnterer : MonoBehaviour
             _enemies[i].GetComponent<Character>()._battlePosition = i;
         }
 
-        SetUpBattleField();
+      //  SetUpBattleField();
     }
 
     public void SetUpBattleField()

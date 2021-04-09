@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance {get; private set;}
     public CharacterDatabase _characterDatabase;
+    BattleField _battleField;
     BattleSystem _battleSystem;
     int currentSceneIndex;
     int numberOfScenesInTheBuild;
@@ -35,8 +36,13 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        _battleField = FindObjectOfType<BattleField>();
         _battleSystem = FindObjectOfType<BattleSystem>();
+
+        _battleField.SetupBattleField(_characterDatabase._partyMembersObjects, _characterDatabase._enemyObjects);
+        _characterDatabase.UpdatePartyCharacters(_battleField._playerCharacters);
         _battleSystem.InitializeBattleSystem();
+        
         _characterDatabase.UpdateBattlerCharacterStats();
     }
 

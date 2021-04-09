@@ -22,7 +22,8 @@ public class Character : MonoBehaviour
 
     public virtual void Awake()
     {
-        _characterStats = new CharacterStats(_characterClass);
+        _characterStats = new CharacterStats();
+        _characterStats.GetDataFromCharacterClass(_characterClass);
         _characterHPMPManager = GetComponent<CharacterHPMPManager>();
         _characterHPMPManager.InitializeLinkCharacter(this);
         _characterLevelManager = GetComponent<CharacterLevelManager>();
@@ -52,7 +53,7 @@ public class CharacterStats
     public float _characterLevel {get; set;}
     CharacterClass _characterClass;
 
-    public CharacterStats(CharacterClass characterClass)
+    public void GetDataFromCharacterClass(CharacterClass characterClass)
     {
         _characterClass = characterClass;
 
@@ -67,6 +68,23 @@ public class CharacterStats
         _dexterity = characterClass._dexterity;
         _speed = characterClass._speed;
         
+        _specialPoints = 0;
+        _expPoints = 0;
+    }
+
+    public void GetDataFromOtherCharacterStats(CharacterStats characterStats)
+    {
+        _maxHealth = characterStats._maxHealth;
+        _currentHealth = characterStats._currentHealth;
+        _maxMana = characterStats._maxMana;
+        _currentMana = characterStats._currentMana;
+
+        _attackPower = characterStats._attackPower;
+        _defensePower = characterStats._defensePower;
+        _magicDefensePower = characterStats._defensePower;
+        _dexterity = characterStats._dexterity;
+        _speed = characterStats._speed;
+
         _specialPoints = 0;
         _expPoints = 0;
     }

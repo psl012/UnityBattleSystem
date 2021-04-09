@@ -22,7 +22,6 @@ public class BattleSystem : MonoBehaviour
     StateMachine _stateMachine;
     BattleField _battleField;
     public BattlePlacement[] _battlePlacementOrder;
-    BattleEnterer _battleEnterer;
 
     State_PlayerTurn _statePlayerTurn;
     State_EnemyTurn _stateEnemyTurn;
@@ -40,9 +39,6 @@ public class BattleSystem : MonoBehaviour
     public void InitializeBattleSystem()
     {
         _battleField = FindObjectOfType<BattleField>();
-        _battleEnterer = FindObjectOfType<BattleEnterer>();
-        _battleEnterer.Initialize();
-
         _enemies = FindObjectsOfType<Enemy>();
 
         _characterPanelManager = GetComponent<CharacterPanelManager>();

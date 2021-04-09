@@ -6,8 +6,11 @@ using UnityEngine;
 public class CharacterDatabase : MonoBehaviour
 {
     public GameObject[] _partyMembersObjects;
+    public GameObject[] _enemyObjects;
+
     public Character[] _partyCharacters;
-    public CharacterStats[] _characterStats = new CharacterStats[4];
+
+    public (CharacterStats, bool)[] _characterStats = new (CharacterStats, bool)[4];
     bool _isPartyCharactersInitialized = false;
 
 
@@ -35,9 +38,12 @@ public class CharacterDatabase : MonoBehaviour
         
         if(!_isPartyCharactersInitialized)
         {
-            for(int i = 0; i < _partyCharacters.Length; i++)
+            _partyCharacters[0]._characterLevelManager.InitializePlayerOnLevel();
+            for (int i = 0; i < _partyCharacters.Length; i++)
             {
-                _characterStats[i] = new CharacterStats(_partyCharacters[i]._characterClass);
+                _characterStats[i].Item1 = new CharacterStats();
+                _characterStats[i].Item1.GetDataFromOtherCharacterStats(partyCharacter[i]._characterStats);
+
             }
             _isPartyCharactersInitialized = true;
         }
@@ -49,8 +55,8 @@ public class CharacterDatabase : MonoBehaviour
 
         for(int i=0; i < _partyCharacters.Length; i++)
         {
-            _characterStats[i]._currentHealth = _partyCharacters[i]._characterStats._currentHealth;
-            _characterStats[i]._currentMana = _partyCharacters[i]._characterStats._currentMana;
+            _characterStats[i].Item1.GetDataFromOtherCharacterStats(_partyCharacters[i]._characterStats);
+          //  _characterStats[i].Item1._currentMana = _partyCharacters[i]._characterStats._currentMana;
         }
     }
 
@@ -60,7 +66,15 @@ public class CharacterDatabase : MonoBehaviour
 
         for (int i=0; i < _partyCharacters.Length; i++)
         {
-            _partyCharacters[i]._characterHPMPManager.UpdateStats(_characterStats[i]);
+            _partyCharacters[i]._characterStats.GetDataFromOtherCharacterStats(_characterStats[i].Item1);
+            _partyCharacters[i]._characterHPMPManager.UpdateStats(_characterStats[i].Item1);
         }
     }
 }
+
+
+
+
+
+   
+

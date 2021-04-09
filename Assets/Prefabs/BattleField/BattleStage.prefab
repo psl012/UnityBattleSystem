@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8591903924161948412}
   - component: {fileID: 8591903924161948413}
   m_Layer: 0
-  m_Name: BattleEnterer
+  m_Name: BattleStage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

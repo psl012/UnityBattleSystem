@@ -70,7 +70,7 @@ public class CharacterStats
         _speed = characterClass._speed;
         
         _specialPoints = 0;
-        _expPoints = 0;
+      //  _expPoints = 0;
     }
 
     public void GetDataFromOtherCharacterStats(CharacterStats characterStats)

@@ -10,6 +10,7 @@ public class UICharacter : MonoBehaviour
     const string HP_TXT = "HP: ";
     const string MP_TXT = "MP: ";
     const string SP_TXT = "SP: ";
+    const string EXP_TXT = "Exp: ";
 
     CharacterPanel _characterPanel;
     CharacterStats _characterStats;
@@ -18,6 +19,7 @@ public class UICharacter : MonoBehaviour
     [SerializeField] TextMeshProUGUI _hpText;
     [SerializeField] TextMeshProUGUI _mpText;
     [SerializeField] TextMeshProUGUI _specialText;
+    [SerializeField] TextMeshProUGUI _expText;
     
     void Awake()
     {
@@ -56,6 +58,11 @@ public class UICharacter : MonoBehaviour
     public void UpdateSpecialText()
     {
         _specialText.text = UpdateCharacterTextUI(SP_TXT, _characterStats._specialPoints, 100);
+    }
+
+    public void UpdateExpText()
+    {
+        _expText.text = UpdateCharacterTextUI(EXP_TXT, _characterStats._expPoints, 100);
     }
 
     public string UpdateCharacterTextUI(string txt1, float currentValue, float maxValue)

@@ -48,6 +48,7 @@ public class CharacterDatabase : MonoBehaviour
         {
             _partyCharactersRef[i]._characterStats.GetDataFromOtherCharacterStats(_databaseCharacterStats[i].Item1);
             _partyCharactersRef[i]._characterHPMPManager.UpdateStats(_databaseCharacterStats[i].Item1);
+            _partyCharactersRef[i]._characterLevelManager.UpdateLevelStats(_databaseCharacterStats[i].Item1);
         }
     }
 

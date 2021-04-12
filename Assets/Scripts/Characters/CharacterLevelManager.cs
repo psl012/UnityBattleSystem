@@ -36,7 +36,7 @@ public class CharacterLevelManager : MonoBehaviour
     {
         for(int i=0; i < _characterLevel; i++)
         {
-            LevelUp();
+            LevelUp(false);
         }
     }
 
@@ -48,12 +48,17 @@ public class CharacterLevelManager : MonoBehaviour
             _characterStats._expPoints -= 100;
             LevelUp();
         }
+        Debug.Log("My ExpPoints: " + _characterStats._expPoints);
+        _uiCharacter.UpdateExpText();
 
     }
 
-    public void LevelUp()
+    public void LevelUp(bool initialized = true)
     {
-        _characterStats._level += 1;
+        if (initialized)
+        {
+            _characterStats._level += 1;
+        }
 
         _characterStats._maxHealth += _healthUp;
         _characterStats._currentHealth = _characterStats._maxHealth;
@@ -69,5 +74,11 @@ public class CharacterLevelManager : MonoBehaviour
 
         Debug.Log("This is my Level: " + name + _characterStats._level);
        // _uiCharacter.UpdateHPText(_characterStats._currentHealth);
+    }
+
+    public void UpdateLevelStats(CharacterStats dataStats)
+    {
+        _characterStats._expPoints = dataStats._expPoints;
+        _uiCharacter?.UpdateExpText();
     }
 }

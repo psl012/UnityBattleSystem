@@ -7,6 +7,7 @@ public class CharacterHPMPManager : MonoBehaviour
     Character _character;
     UICharacter _UICharacter;
     BattleSystem _battleSystem;
+    LootExpManager _lootExpManager;
 
     public void InitializeUICharacter(UICharacter UICharacter)
     {
@@ -18,6 +19,7 @@ public class CharacterHPMPManager : MonoBehaviour
     {
         _character = character;
         _battleSystem = FindObjectOfType<BattleSystem>();
+        _lootExpManager = GetComponent<LootExpManager>();
     }
 
     public void DamageMe(float damagePoint)
@@ -28,6 +30,9 @@ public class CharacterHPMPManager : MonoBehaviour
         
         if (_character._characterStats._currentHealth <= 0 && !_character._isDead)
         {
+            // if there is a lootExpManagerLinked
+            _lootExpManager?.DropExpLoot();
+
             _character._isDead = true;
         }
     }

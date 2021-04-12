@@ -38,6 +38,7 @@ public class Character : MonoBehaviour
 
 public class CharacterStats
 {
+    public float _level {get; set;}
     public float _maxHealth { get; set; }
     public float _currentHealth;
     public float _maxMana { get; set; }
@@ -74,6 +75,7 @@ public class CharacterStats
 
     public void GetDataFromOtherCharacterStats(CharacterStats characterStats)
     {
+        _level = characterStats._level;
         _maxHealth = characterStats._maxHealth;
         _currentHealth = characterStats._currentHealth;
         _maxMana = characterStats._maxMana;
@@ -84,8 +86,9 @@ public class CharacterStats
         _magicDefensePower = characterStats._defensePower;
         _dexterity = characterStats._dexterity;
         _speed = characterStats._speed;
+        _expPoints = characterStats._expPoints;
 
         _specialPoints = 0;
-        _expPoints = 0;
+ 
     }
 }

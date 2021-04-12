@@ -50,6 +50,16 @@ public class CharacterDatabase : MonoBehaviour
             _partyCharactersRef[i]._characterHPMPManager.UpdateStats(_databaseCharacterStats[i].Item1);
         }
     }
+
+    public void IncreasePartyExpPoints(float points)
+    {
+        for (int i = 0; i < _partyCharactersRef.Length; i++)
+        {
+            _partyCharactersRef[i]._characterLevelManager.IncreaseExp(points);
+        }
+        Debug.Log("current Exp: " + _partyCharactersRef[0]._characterStats._expPoints);
+    }
+
 }
 
 

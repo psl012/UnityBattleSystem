@@ -24,6 +24,7 @@ public class CharacterLevelManager : MonoBehaviour
     void Awake()
     {
         _characterStats = GetComponent<Character>()._characterStats;
+        _characterStats._level = _characterLevel;
     }
     
     public void InitializeUICharacter(UICharacter uiCharacter)
@@ -52,6 +53,8 @@ public class CharacterLevelManager : MonoBehaviour
 
     public void LevelUp()
     {
+        _characterStats._level += 1;
+
         _characterStats._maxHealth += _healthUp;
         _characterStats._currentHealth = _characterStats._maxHealth;
         
@@ -64,6 +67,7 @@ public class CharacterLevelManager : MonoBehaviour
         _characterStats._dexterity += _dexterityUp;
         _characterStats._speed += _speedUp;
 
+        Debug.Log("This is my Level: " + name + _characterStats._level);
        // _uiCharacter.UpdateHPText(_characterStats._currentHealth);
     }
 }

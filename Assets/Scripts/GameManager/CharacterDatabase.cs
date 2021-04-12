@@ -7,43 +7,26 @@ public class CharacterDatabase : MonoBehaviour
 {
     public GameObject[] _partyMembersObjects;
     public GameObject[] _enemyObjects;
-
-    public Character[] _partyCharacters;
-
-    public (CharacterStats, bool)[] _characterStats = new (CharacterStats, bool)[4];
+    public Character[] _partyCharactersRef;
+    public (CharacterStats, bool)[] _databaseCharacterStats = new (CharacterStats, bool)[4];
     bool _isPartyCharactersInitialized = false;
 
 
-    void Awake()
+    public void InitializeCharacterDatabase(Character[] partyCharacters)
     {
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void UpdatePartyCharacters(Character[] partyCharacter)
-    {
-
-        _partyCharacters = partyCharacter;
+        _partyCharactersRef = partyCharacters;
         
         if(!_isPartyCharactersInitialized)
         {
-            _partyCharacters[0]._characterLevelManager.InitializePlayerOnLevel();
-            for (int i = 0; i < _partyCharacters.Length; i++)
+            for (int i = 0; i < _partyCharactersRef.Length; i++)
             {
-                _characterStats[i].Item1 = new CharacterStats();
-                _characterStats[i].Item1.GetDataFromOtherCharacterStats(partyCharacter[i]._characterStats);
-
+                if(!_databaseCharacterStats[i].Item2)
+                {
+                    _partyCharactersRef[i]._characterLevelManager.InitializePlayerOnLevel();
+                    _databaseCharacterStats[i].Item1 = new CharacterStats();
+                    _databaseCharacterStats[i].Item1.GetDataFromOtherCharacterStats(partyCharacters[i]._characterStats);
+                    _databaseCharacterStats[i].Item2 = true;
+                }
             }
             _isPartyCharactersInitialized = true;
         }
@@ -51,23 +34,20 @@ public class CharacterDatabase : MonoBehaviour
 
     public void UpdateDatabaseCharacterStats()
     {
-        if(_characterStats == null) return;
+        if(_databaseCharacterStats == null) return;
 
-        for(int i=0; i < _partyCharacters.Length; i++)
+        for(int i=0; i < _partyCharactersRef.Length; i++)
         {
-            _characterStats[i].Item1.GetDataFromOtherCharacterStats(_partyCharacters[i]._characterStats);
-          //  _characterStats[i].Item1._currentMana = _partyCharacters[i]._characterStats._currentMana;
+            _databaseCharacterStats[i].Item1.GetDataFromOtherCharacterStats(_partyCharactersRef[i]._characterStats);
         }
     }
 
     public void UpdateBattlerCharacterStats()
     {
-        if(_partyCharacters.Length < 1) return;
-
-        for (int i=0; i < _partyCharacters.Length; i++)
+        for (int i=0; i < _partyCharactersRef.Length; i++)
         {
-            _partyCharacters[i]._characterStats.GetDataFromOtherCharacterStats(_characterStats[i].Item1);
-            _partyCharacters[i]._characterHPMPManager.UpdateStats(_characterStats[i].Item1);
+            _partyCharactersRef[i]._characterStats.GetDataFromOtherCharacterStats(_databaseCharacterStats[i].Item1);
+            _partyCharactersRef[i]._characterHPMPManager.UpdateStats(_databaseCharacterStats[i].Item1);
         }
     }
 }

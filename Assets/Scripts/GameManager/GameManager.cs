@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         _battleSystem = FindObjectOfType<BattleSystem>();
 
         _battleField.SetupBattleField(_characterDatabase._partyMembersObjects, _characterDatabase._enemyObjects);
-        _characterDatabase.UpdatePartyCharacters(_battleField._playerCharacters);
+        _characterDatabase.InitializeCharacterDatabase(_battleField._playerCharacters);
         _battleSystem.InitializeBattleSystem();
         
         _characterDatabase.UpdateBattlerCharacterStats();

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135868299632596070}
   - component: {fileID: 135868299632596065}
+  - component: {fileID: 5193853520810067302}
   - component: {fileID: 8251262119088254693}
   - component: {fileID: 5803799368104775105}
   - component: {fileID: 5623123142623432878}
@@ -51,12 +52,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _characterClass: {fileID: 11400000, guid: ccb474ac5429d2c409c0367dd9393e2d, type: 2}
+  _characterLevelManager: {fileID: 0}
   _characterHPMPManager: {fileID: 0}
   _targetMark: {fileID: 8251262118851081074}
   _battlePosition: 1
   _isDead: 0
   _characterAbilities: {fileID: 0}
   _characterBattleAnimator: {fileID: 0}
+--- !u!114 &5193853520810067302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135868299632596071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec62ded9e15eb44a9f216664b365944, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _characterLevel: 2
+  _healthUp: 1
+  _manaUp: 1
+  _attackPowerUp: 1
+  _magicPowerUp: 1
+  _defensePowerUp: 1
+  _magicDefensePowerUp: 1
+  _strenghtUp: 1
+  _dexterityUp: 1
+  _intelligenceUp: 1
+  _speedUp: 1
 --- !u!114 &8251262119088254693
 MonoBehaviour:
   m_ObjectHideFlags: 0

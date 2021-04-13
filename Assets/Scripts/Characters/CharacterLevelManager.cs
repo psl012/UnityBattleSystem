@@ -18,18 +18,39 @@ public class CharacterLevelManager : MonoBehaviour
     public float _intelligenceUp;
     public float _speedUp;
   
+    Character _character;
     CharacterStats _characterStats;
     UICharacter _uiCharacter;
 
     void Awake()
     {
-        _characterStats = GetComponent<Character>()._characterStats;
-        _characterStats._level = _characterLevel;
+
     }
     
     public void InitializeUICharacter(UICharacter uiCharacter)
     {
         _uiCharacter = uiCharacter;
+    }
+
+    public void Initialize(Character character)
+    {
+        _character = character;
+        _characterStats = _character._characterStats;
+        _characterStats._level = _characterLevel;
+
+        _healthUp =  _character._characterClass._healthUp;
+        _manaUp =  _character._characterClass._manaUp;
+        
+        _attackPowerUp =  _character._characterClass._attackPowerUp;
+        _magicPowerUp =  _character._characterClass._magicPowerUp;
+        
+        _defensePowerUp =  _character._characterClass._defensePowerUp;
+        _magicDefensePowerUp =  _character._characterClass._magicDefensePowerUp;
+
+        _strenghtUp =  _character._characterClass._strenghtUp;
+        _dexterityUp =  _character._characterClass._dexterityUp;
+        _intelligenceUp =  _character._characterClass._intelligenceUp;
+        _speedUp =  _character._characterClass._speedUp;
     }
 
     public void InitializePlayerOnLevel()
@@ -73,7 +94,6 @@ public class CharacterLevelManager : MonoBehaviour
         _characterStats._speed += _speedUp;
 
         Debug.Log("This is my Level: " + name + _characterStats._level);
-       // _uiCharacter.UpdateHPText(_characterStats._currentHealth);
     }
 
     public void UpdateLevelStats(CharacterStats dataStats)

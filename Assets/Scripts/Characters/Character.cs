@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
 {
     public CharacterClass _characterClass;
     public CharacterStats _characterStats;
+
     public CharacterLevelManager _characterLevelManager;
     public CharacterHPMPManager _characterHPMPManager;
     public TargetMark _targetMark;
@@ -22,11 +23,16 @@ public class Character : MonoBehaviour
 
     public virtual void Awake()
     {
+        // must be on Awake because of Initialization Timing
         _characterStats = new CharacterStats();
         _characterStats.GetDataFromCharacterClass(_characterClass);
+   
         _characterHPMPManager = GetComponent<CharacterHPMPManager>();
         _characterHPMPManager.InitializeLinkCharacter(this);
+       
         _characterLevelManager = GetComponent<CharacterLevelManager>();
+        _characterLevelManager?.Initialize(this);
+       
         _battleAI = GetComponent<BattleAI>();
         _characterAbilities = GetComponent<CharacterAbilities>();
         _characterAbilities?.InitializeCharacterAbilities();
@@ -44,9 +50,12 @@ public class CharacterStats
     public float _maxMana { get; set; }
     public float _currentMana;
     public float _attackPower { get; set; }
+    public float _magicPower {get; set;}
     public float _defensePower { get;  set; }
     public float _magicDefensePower {get;  set;}
-    public float _dexterity { get; set; }
+    public float _strenght {get; set;}
+    public float _dexterity { get; set;}
+    public float _intelligence {get; set;}
     public float _speed { get; set; }
 
     public float _specialPoints { get; set; }
@@ -64,13 +73,18 @@ public class CharacterStats
         _currentMana = _maxMana;
         
         _attackPower = characterClass._attackPower;
+        _magicPower = characterClass._magicPower;
+
         _defensePower = characterClass._defensePower;
         _magicDefensePower = characterClass._defensePower;
+        
+        _strenght = characterClass._strenght;
         _dexterity = characterClass._dexterity;
+        _intelligence = characterClass._intelligence;
         _speed = characterClass._speed;
         
         _specialPoints = 0;
-      //  _expPoints = 0;
+  
     }
 
     public void GetDataFromOtherCharacterStats(CharacterStats characterStats)
@@ -84,11 +98,14 @@ public class CharacterStats
         _attackPower = characterStats._attackPower;
         _defensePower = characterStats._defensePower;
         _magicDefensePower = characterStats._defensePower;
+        _strenght = characterStats._strenght;
         _dexterity = characterStats._dexterity;
+        _intelligence = characterStats._intelligence;
         _speed = characterStats._speed;
+
         _expPoints = characterStats._expPoints;
 
         _specialPoints = 0;
- 
     }
 }
+

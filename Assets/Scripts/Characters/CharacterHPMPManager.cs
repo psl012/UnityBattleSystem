@@ -14,7 +14,6 @@ public class CharacterHPMPManager : MonoBehaviour
         _UICharacter = UICharacter;
     }
 
-
     public void InitializeLinkCharacter(Character character)
     {
         _character = character;
@@ -24,7 +23,6 @@ public class CharacterHPMPManager : MonoBehaviour
 
     public void DamageMe(float damagePoint)
     {
-
         _character._characterStats._currentHealth -= damagePoint;
         _UICharacter?.UpdateHPText(_character._characterStats._currentHealth);
         
@@ -47,7 +45,6 @@ public class CharacterHPMPManager : MonoBehaviour
     {
         _character._characterStats._currentHealth = dataBaseStats._currentHealth;
         _UICharacter?.UpdateHPText(_character._characterStats._currentHealth);
-        Debug.Log("gello" + _character._characterStats._maxHealth);
 
         _character._characterStats._currentMana = dataBaseStats._currentMana;
         _UICharacter?.UpdateMPText(_character._characterStats._currentMana);

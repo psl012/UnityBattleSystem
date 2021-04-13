@@ -37,7 +37,7 @@ public class CharacterAbilities : MonoBehaviour
         _characterBattleAnimator = GetComponentInChildren<CharacterBattleAnimator>();  
         _characterBattlePlacementAnimator = GetComponentInChildren<CharacterBattlePlacementAnimator>();     
         _character = GetComponent<Character>();
-        _damageDealer = new DamageDealer(_character._characterStats._attackPower);
+        _damageDealer = new DamageDealer(_character);
     }
 
     // Update is called once per frame
@@ -76,14 +76,11 @@ public class DamageDealer
 {
     List<Character> _listOfTargets;
     List<int> _listOfTargetIndex;
-    List<float> _listOfDamageInstance;
-    float _damageHolder;
-
-    public bool isEnemyDead {get; private set;} = false; 
+    Character _character;
     
-    public DamageDealer(float atkPower)
+    public DamageDealer(Character character)
     {
-        _damageHolder = atkPower;
+        _character = character;
     }
 
     public void SetUpTargets(List<Character> lot, List<int> lotIndex)
@@ -98,8 +95,8 @@ public class DamageDealer
         if (_listOfTargetIndex.Count > 0)
         {
             int targetIndex = _listOfTargetIndex[0];
-            Debug.Log(_listOfTargets[targetIndex]._characterStats._maxHealth + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _damageHolder);
-            _listOfTargets[targetIndex]._characterHPMPManager.DamageMe(_damageHolder);
+            Debug.Log(_listOfTargets[targetIndex]._characterStats._maxHealth + "<- health" + " I hit " + _listOfTargets[targetIndex].name + " for " + _character._characterStats._attackPower);
+            _listOfTargets[targetIndex]._characterHPMPManager.DamageMe(_character._characterStats._attackPower);
         }
         else
         {

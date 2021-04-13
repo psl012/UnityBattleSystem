@@ -15,7 +15,7 @@ MonoBehaviour:
   _className: Bandit
   _description: A common baddie
   _characterLevel: 1
-  _health: 10
+  _health: 6
   _mana: 0
   _attackPower: 3
   _magicPower: 0
@@ -35,3 +35,4 @@ MonoBehaviour:
   _dexterityUp: 2
   _intelligenceUp: 1
   _speedUp: 2
+  _expGivenOnDeath: 0

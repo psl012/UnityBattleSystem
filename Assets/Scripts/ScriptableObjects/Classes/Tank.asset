@@ -15,7 +15,7 @@ MonoBehaviour:
   _className: 
   _description: 
   _characterLevel: 1
-  _health: 15
+  _health: 6
   _mana: 1
   _attackPower: 1
   _magicPower: 1
@@ -35,3 +35,4 @@ MonoBehaviour:
   _dexterityUp: 1
   _intelligenceUp: 1
   _speedUp: 1
+  _expGivenOnDeath: 0
